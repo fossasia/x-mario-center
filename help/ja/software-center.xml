@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="ja">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Ubuntuソフトウェアセンター</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Ubuntu ドキュメンテーションプロジェクト</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Ubuntuでソフトウェアのインストールおよび削除をするには</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Ubuntuソフトウェアセンターとは？</title>
+    <para>
+      Ubuntuソフトウェアセンターは、Ubuntuで手に入る何千ものフリーアプリケーションや、コンピュータをより使いやすくするその他のソフトウェアのバーチャル･カタログです。
+    </para>
+    <para>
+      カテゴリーや検索によってアプリケーションを探すことができ、クリック1つでインストールすることができます。
+    </para>
+    <para>
+      ソフトウェアがすでにコンピュータにインストールされているか調べたり、必要がなくなったソフトウェアを削除したりすることも可能です。
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>ソフトウェアのインストール</title>
+    <para>
+      ソフトウェアセンターでインストールを行うには、管理者権限とインターネット接続が必要です。（自分でUbuntuをコンピューターにインストールしたのであれば、自動的に管理者権限を持っています。）
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          <guilabel>ソフトウェアを取得</guilabel>
+セクションでは、インストールしたいものを検索できます。すでにプログラムの名称を知っている場合は、検索ボックスに名前を入力してください。あるいはプログラムの種類(例えば
+&#8220;spreadsheet&#8221;)を検索しても良いでしょう。そうでない場合は、分類毎のリストを閲覧してプログラムを探します。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          リストにあるアイテムを選択し、<guilabel>詳細情報</guilabel> を選びます。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          <guilabel>インストール</guilabel> をクリックします。インストールを始める前にパスワードの入力が必要になるかもしれません。
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      インストールにかかる時間は、インストールするファイルのサイズやコンピュータの性能やインターネットの速さによって変わります。
+    </para>
+    <para>
+      画面に &#8220;インストール済み&#8221;と表示されたら、そのソフトウェアは利用することができます。
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >インストールされたプログラムを使用する</title>
+    <para>
+      多くのプログラムはインストールすると、<guimenu>アプリケーション</guimenu>メニューから起動することができます。 
+(設定を変更するためのユーティリティは <menuchoice><guimenu>システム</guimenu>
+<guisubmenu>設定</guisubmenu></menuchoice> か
+<menuchoice><guimenu>システム</guimenu>
+<guisubmenu>システム管理</guisubmenu></menuchoice> に表示されることもあります。)
+    </para>
+    <para>
+      まだプログラムが表示されていない場合に、新しいプログラムがどこで起動するか探すには、Ubuntuソフトウェアセンターの探したいプログラムのページへ移動します。メニューの中でアプリケーションがある場所は、その画面の色のついたバーの下に表示されます。
+    </para>
+    <para>
+      Ubuntu Netbook Edition を使用している場合は、アプリケーションはホームスクリーンの対応するカテゴリーに表示されます。
+    </para>
+    <para>
+      メディアコーデックやウェブブラウザのプラグインなどメニューに表示されないものもあります。それらはUbuntuが必要とするときに自動的に使用されます。ウェブブラウザのプラグインを有効化するには、ウェブブラウザを一旦再起動する必要があります。
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">ソフトウェアを削除する</title>
+    <para>
+      ソフトウェアを削除するには管理者権限が必要です（自分でUbuntuをこのコンピュータにセットアップしたのであれば、管理者権限を持っています）。
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          <guilabel>インストール済みソフトウェア</guilabel> セクションで削除したいアイテムを探します。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          リストにあるアイテムを選択し、<guilabel>削除</guilabel> を選びます。Ubuntuのパスワードの入力が必要になるかもしれません。
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      削除するプログラムを開いている場合、削除後でも開かれたままのことが多いでしょう。一度閉じてしまうと、プログラムを使うことができなくなります。
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >なぜ複数のプログラムを同時に削除するのか聞かれるのですか？</title>
+    <para>
+      1つのアイテムを削除しようとしたときに、Ubuntuソフトウェアセンターが他のアイテムも削除されると警告することがあります。これには主に2つの原因があります。
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          アプリケーションを削除すると、アプリケーションのアドオンやプラグインも通常すべて削除されます。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          複数のアプリケーションが時として一つのパッケージとして提供されることがあります。そのうちの1つをインストールすると、他もすべてインストールされます。そしてそのうちの1つを削除すると、他もすべて削除されます。それらをどう分離していいか分からないため、Ubuntu
+ソフトウェアセンターは個別にアプリケーションを削除することができません。
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      コンピューターから削除せずに不要なアイテムを隠すには、<guilabel>メインメニュー</guilabel>
+設定を使うことができます。Ubuntuでは、 <menuchoice><guimenu>システム</guimenu>
+<guisubmenu>設定</guisubmenu></menuchoice> の中に <guilabel>メインメニュー</guilabel>
+があります。 Ubuntu Netbook Editionでは、<menuchoice><guimenu>システム</guimenu> の
+<guisubmenu>設定</guisubmenu></menuchoice>にあります。
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >メニューバーのカスタマイズ</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>&#8220;Canonical のメンテナンスするソフトウェア&#8221; とは？</title>
+    <para>
+      Ubuntu で利用できるソフトウェアの中には Canonical によってメンテナンスされているものがあります。Canonical
+のエンジニアはこれらのプログラムにセキュリティ修正や重大なアップデートが提供されることを保証します。
+    </para>
+    <para>
+      それ以外のソフトウェアはUbuntuコミュニティによってメンテナンスされています。すべてのアップデートは「ベストエフォート」で提供されています。
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>&#8220;Canonical のパートナー&#8221; とは？</title>
+    <para>
+      <guilabel>Canonical のパートナー</guilabel>
+ではCanonicalとともにソフトウェアをUbuntuでも使えるように取り組んでいるベンダーによるソフトウェアを表示します。
+    </para>
+    <para>
+      このようなソフトウェアはUbuntuソフトウェアセンターの他のソフトウェアと同じようにインストールすることができます。
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">有料のものはありますか?</title>
+    <para>
+      Ubuntuソフトウェアセンターにあるソフトウェアのほとんどは無料です。
+    </para>
+    <para>
+      ソフトウェアが有料の場合、<guilabel>インストール</guilabel>ボタンが<guilabel>購入</guilabel>ボタンになっており、そのアイテムのページに価格が表示されています。
+    </para>
+    <para>
+      有料ソフトウェアを購入するには、インターネット接続と Ubuntu Single Sign On アカウントまたは Launchpad
+アカウントが必要です。アカウントを持っていないときは、Ubuntuソフトウェアセンターで登録することができます。
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      購入したソフトウェアを消去してしまったときは?
+    </title>
+    <para>
+      誤って購入したソフトウェアを削除してしまい、再インストールしたいときは、<menuchoice><guimenu>ファイル</guimenu><guimenuitem>以前購入したものを再インストール</guimenuitem></menuchoice>
+を選択します。
+    </para>
+    <para>
+      ソフトウェアの購入に使用したアカウントでサインインすれば、Ubuntuソフトウェアセンターは購入したソフトウェアの再インストール画面を表示します。
+    </para>
+    <para>
+      これは Ubuntu をコンピュータに再インストールしたときでも有効です。
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >インストールしたいプログラムが見つからない場合は?</title>
+    <para>
+      まず、 <menuchoice><guimenu>表示</guimenu>
+<guimenuitem>すべてのプリケーション</guimenuitem></menuchoice> が選択されているか確認します。
+    </para>
+    <para>
+      Ubuntuで動作するソフトウェアなのに、Ubuntuソフトウェアセンターにない場合は、プログラムを作った開発者にソフトウェアセンターで入手できるようにならないか問い合わせてください。
+    </para>
+    <para>
+      他のオペレーティングシステムで提供されているソフトウェアがUbuntuにない場合は、Ubuntuで動かしたい旨を開発者に知らせてください。
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >プログラムが動かなかった場合は?</title>
+    <para>
+      ソフトウェアセンターには何万ものプログラムがあるため、そのうちのいくつかがあなたのコンピュータで正しく機能しない可能性は常にあります。
+    </para>
+    <para>
+      ソフトウェアのバグレポートに慣れている場合は、問題を報告することでUbuntu開発者の手助けができます。多くのプログラムでは
+<guimenu>ヘルプ</guimenu> メニューに <guimenuitem>問題を報告する</guimenuitem> という項目があります。
+    </para>
+    <para>
+      Ubuntuソフトウェアセンターでやりたいことができる他のプログラムを探すという手もあります。
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

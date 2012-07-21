@@ -1,0 +1,19 @@
+<Menu>
+  <Menu>
+    <_Name>What’s New</_Name>
+    <SCIcon>gtk-about</SCIcon>
+    <Flags>
+      <Flag>available-only</Flag>
+      <Flag>carousel-only</Flag>
+      <Flag>not-installed-only</Flag>
+    </Flags>
+    <SCSortMode>3</SCSortMode>
+    <SCItemLimit>20</SCItemLimit>
+    <Include>
+      <And>
+        <SCType>Application</SCType>
+<!--        <SCOrigin>LP-PPA-app-review-board</SCOrigin> -->
+      </And>
+    </Include>
+  </Menu>
+</Menu>

@@ -1,0 +1,411 @@
+# Russian translation for software-store
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-store\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-09-25 17:10+0200\n"
+"PO-Revision-Date: 2009-09-28 05:09+0000\n"
+"Last-Translator: Alexander Semyonov <Unknown>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2009-09-30 06:47+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../softwarecenter/app.py:349 ../softwarecenter/view/appdetailsview.py:404
+msgid "ERROR"
+msgstr "ОШИБКА"
+
+#: ../softwarecenter/apt/aptcache.py:173 ../softwarecenter/apt/aptcache.py:185
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+"Компания Canonical больше не предоставляет обновлений для %s в Ubuntu %s. "
+"Обновления могут быть доступны в новой версии Ubuntu."
+
+#: ../softwarecenter/apt/aptcache.py:178
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical предоставляет критические обновления для %(appname)s до "
+"%(support_end_month_str)s %(support_end_year)s."
+
+#: ../softwarecenter/apt/aptcache.py:190
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical предоставляет критические обновления, предоставленные "
+"разработчиками %(appname)s, до %(support_end_month_str)s "
+"%(support_end_year)s."
+
+#: ../softwarecenter/apt/aptcache.py:200
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+"Компания Canonical не предоставляет обновлений для %s. Некоторые обновления "
+"могут предоставляться третьими лицами."
+
+#: ../softwarecenter/apt/aptcache.py:204
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr "Компания Canonical предоставляет критические обновления для %s."
+
+#: ../softwarecenter/apt/aptcache.py:206
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr ""
+"Компания Canonical предоставляет критические обновления, написанные "
+"разработчиками %s."
+
+#: ../softwarecenter/apt/aptcache.py:209
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+"Компания Canonical не предоставляет обновлений для %s. Некоторые обновления "
+"могут предоставляться сообществом Ubuntu."
+
+#: ../softwarecenter/apt/aptcache.py:212
+#, python-format
+msgid "Application %s has a unkown maintenance status."
+msgstr "Статус поддержки приложения %s неизвестен."
+
+#: ../softwarecenter/view/appdetailsview.py:89
+msgid "Description"
+msgstr "Описание"
+
+#: ../softwarecenter/view/appdetailsview.py:181
+#: ../softwarecenter/view/appdetailsview.py:186
+msgid "Not available in the current data"
+msgstr "Нет данных"
+
+#: ../softwarecenter/view/appdetailsview.py:184
+msgid "Not available for your hardware architecture."
+msgstr "Недоступно для вашей архитектуры"
+
+#: ../softwarecenter/view/appdetailsview.py:211
+#: ../softwarecenter/view/appdetailsview.py:215
+msgid "Application Screenshot"
+msgstr "Снимок окна приложения"
+
+#: ../softwarecenter/view/appdetailsview.py:239
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "Версия: %s (%s)"
+
+#. generic message
+#: ../softwarecenter/view/appdetailsview.py:257
+#, python-format
+msgid "%s is installed on this computer."
+msgstr "Приложение %s установлено."
+
+#: ../softwarecenter/view/appdetailsview.py:269
+#, python-format
+msgid "It is used by %s piece of installed software."
+msgid_plural "It is used by %s pieces of installed software."
+msgstr[0] "Используется %s приложением."
+msgstr[1] "Используется %s приложениями."
+msgstr[2] "Используется %s приложениями."
+
+#: ../softwarecenter/view/appdetailsview.py:274
+msgid "Website"
+msgstr "Сайт"
+
+#: ../softwarecenter/view/appdetailsview.py:277
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: ../softwarecenter/view/appdetailsview.py:279
+msgid "Open Source"
+msgstr "Open Source"
+
+#: ../softwarecenter/view/appdetailsview.py:281
+msgid "Proprietary"
+msgstr "Проприетарная"
+
+#: ../softwarecenter/view/appdetailsview.py:282
+#, python-format
+msgid "License: %s"
+msgstr "Лицензия: %s"
+
+#. TRANSLATORS: This text will be showed as price of the software
+#: ../softwarecenter/view/appdetailsview.py:286
+msgid "Free"
+msgstr "Бесплатно"
+
+#: ../softwarecenter/view/appdetailsview.py:287
+#, python-format
+msgid "Price: %s"
+msgstr "Стоимость: %s"
+
+#: ../softwarecenter/view/appdetailsview.py:327
+#, python-format
+msgid "%s - Screenshot"
+msgstr "%s — Снимок экрана"
+
+#. generic removal text
+#. FIXME: this text is not accurate, we look at recommends as
+#. well as part of the rdepends, but those do not need to
+#. be removed, they just may be limited in functionatlity
+#: ../softwarecenter/view/appdetailsview.py:346
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr "Удаление %s затронет также следующие программы:"
+
+#: ../softwarecenter/view/appdetailsview.py:348
+msgid "Remove All"
+msgstr "Удалить всё"
+
+#: ../softwarecenter/view/appdetailsview.py:354
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+"Если вы удалите %s, то будущие обновления не будут включать новые элементы в "
+"наборе <b>%s</b>. Продолжить?"
+
+#: ../softwarecenter/view/appdetailsview.py:357
+#: ../softwarecenter/view/appdetailsview.py:368
+msgid "Remove Anyway"
+msgstr "Всё равно удалить"
+
+#: ../softwarecenter/view/appdetailsview.py:364
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s является базовым приложением Ubuntu. В случае его удаления могут "
+"возникнуть проблемы с последующим обновлением системы. Удалить приложение?"
+
+#: ../softwarecenter/view/appdetailsview.py:427
+msgid "Upgrade"
+msgstr "Обновить"
+
+#: ../softwarecenter/view/appdetailsview.py:430
+msgid "Remove"
+msgstr "Удалить"
+
+#: ../softwarecenter/view/appdetailsview.py:433
+msgid "Install"
+msgstr "Установить"
+
+#. FIXME: deal with the EULA stuff
+#: ../softwarecenter/view/appdetailsview.py:442
+msgid "Enable channel"
+msgstr "Включить канал"
+
+#: ../softwarecenter/view/appdetailsview.py:469
+msgid "_Keep"
+msgstr "_Оставить"
+
+#: ../softwarecenter/view/appdetailsview.py:470
+msgid "_Replace"
+msgstr "_Заменить"
+
+#: ../softwarecenter/view/appdetailsview.py:472
+#, python-format
+msgid "Configuration file '%s' changed"
+msgstr "Файл настройки «%s» изменён"
+
+#: ../softwarecenter/view/appdetailsview.py:473
+msgid "Do you want to use the new version?"
+msgstr "Хотите использовать новую версию?"
+
+#. home button
+#: ../softwarecenter/view/availablepane.py:88
+#: ../softwarecenter/view/viewswitcher.py:128
+msgid "Get Free Software"
+msgstr "Получить свободное ПО"
+
+#: ../softwarecenter/view/availablepane.py:138
+#: ../softwarecenter/view/installedpane.py:127
+#, python-format
+msgid "%s matching item"
+msgid_plural "%s matching items"
+msgstr[0] "%s подходящий элемент"
+msgstr[1] "%s подходящих элемента"
+msgstr[2] "%s подходящих элементов"
+
+#: ../softwarecenter/view/availablepane.py:142
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] "%s элемент доступен"
+msgstr[1] "%s элемента доступны"
+msgstr[2] "%s элементов доступны"
+
+#: ../softwarecenter/view/catview.py:71 ../softwarecenter/view/catview.py:106
+msgid "Departments"
+msgstr "Разделы"
+
+#: ../softwarecenter/view/dialogs.py:45
+msgid "Details"
+msgstr "Подробности"
+
+#: ../softwarecenter/view/dialogs.py:80
+msgid "Cancel"
+msgstr "Отменить"
+
+#. FIXME: make this a generic pkgview widget
+#: ../softwarecenter/view/dialogs.py:88
+msgid "Dependency"
+msgstr "Зависимость"
+
+#: ../softwarecenter/view/installedpane.py:74
+#: ../softwarecenter/view/viewswitcher.py:130
+msgid "Installed Software"
+msgstr "Установленные программы"
+
+#: ../softwarecenter/view/installedpane.py:131
+#, python-format
+msgid "%s installed item"
+msgid_plural "%s installed items"
+msgstr[0] "%s элемент установлен"
+msgstr[1] "%s элемента установлены"
+msgstr[2] "%s элементов установлены"
+
+#: ../softwarecenter/view/viewswitcher.py:160
+#: ../softwarecenter/view/viewswitcher.py:165
+#, python-format
+msgid "In Progress (%i)"
+msgstr "В процессе (%i)"
+
+#: ../data/ui/SoftwareCenter.ui.h:1
+msgid "&#xA9;2009 Canonical"
+msgstr "© Canonical, 2009"
+
+#: ../data/ui/SoftwareCenter.ui.h:2
+msgid "Copy _Web Link"
+msgstr "Копировать сс_ылку на сайт"
+
+#: ../data/ui/SoftwareCenter.ui.h:3
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr "Предоставляет вам выбор из тысяч бесплатных программ для Ubuntu."
+
+#: ../data/ui/SoftwareCenter.ui.h:4
+msgid "Rebuilding application catalog..."
+msgstr "Перестройка каталога приложений..."
+
+#: ../data/ui/SoftwareCenter.ui.h:5
+msgid "Search..."
+msgstr "Идет поиск..."
+
+#: ../data/ui/SoftwareCenter.ui.h:6
+msgid "Software Center _Help"
+msgstr "_Справка центра приложений"
+
+#: ../data/ui/SoftwareCenter.ui.h:7
+#: ../data/ubuntu-software-center.desktop.in.h:3
+msgid "Ubuntu Software Center"
+msgstr "Центр приложений Ubuntu"
+
+#: ../data/ui/SoftwareCenter.ui.h:8
+msgid "_All Applications"
+msgstr "_Все приложения"
+
+#: ../data/ui/SoftwareCenter.ui.h:9
+msgid "_Canonical-Maintained Applications"
+msgstr "С _поддержкой Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:10
+msgid "_Edit"
+msgstr "_Правка"
+
+#: ../data/ui/SoftwareCenter.ui.h:11
+msgid "_File"
+msgstr "_Файл"
+
+#: ../data/ui/SoftwareCenter.ui.h:12
+msgid "_Help"
+msgstr "_Справка"
+
+#: ../data/ui/SoftwareCenter.ui.h:13
+msgid "_Install"
+msgstr "_Установить"
+
+#: ../data/ui/SoftwareCenter.ui.h:14
+msgid "_Software Sources..."
+msgstr "_Источники приложений..."
+
+#: ../data/ui/SoftwareCenter.ui.h:15
+msgid "_View"
+msgstr "_Вид"
+
+#: ../data/ui/SoftwareCenter.ui.h:16
+msgid "available"
+msgstr "доступно"
+
+#: ../data/ui/SoftwareCenter.ui.h:17
+msgid "installed"
+msgstr "установлено"
+
+#: ../data/ui/SoftwareCenter.ui.h:18
+msgid "pending"
+msgstr "в очереди"
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr "Предоставляет вам выбор из тысяч бесплатных программ для Ubuntu"
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+msgid "Software Center"
+msgstr "Центр приложений"
+
+#~ msgid "Search"
+#~ msgstr "Поиск"
+
+#~ msgid "Homepage"
+#~ msgstr "Домашняя страница"
+
+#~ msgid "Categories"
+#~ msgstr "Категории"
+
+#, python-format
+#~ msgid "%s items available"
+#~ msgstr "%s приложений доступно"
+
+#~ msgid "Software Store"
+#~ msgstr "Software Store"
+
+#, python-format
+#~ msgid "Pending (%i)"
+#~ msgstr "В очереди (%i)"
+
+#~ msgid "Ubuntu Software Store"
+#~ msgstr "Ubuntu Software Store"
+
+#, python-format
+#~ msgid "Search in %s"
+#~ msgstr "Поиск в %s"
+
+#~ msgid "All"
+#~ msgstr "Все"
+
+#~ msgid "Get Free software"
+#~ msgstr "Получить свободное ПО"
+
+#~ msgid "Install and remove software"
+#~ msgstr "Установка и удаление программ"
+
+#~ msgid "Installed software"
+#~ msgstr "Установленные приложения"

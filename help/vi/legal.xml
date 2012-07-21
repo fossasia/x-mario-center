@@ -1,0 +1,55 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  Cho phép sao chép, phân phối và/hoặc sửa đổi tài liệu này dưới những điều
+khoản của Giấy phép tài liệu tự do GNU (GFDL), Phiên bản 1.1 hay các phiên
+bản mới hơn được phát hành bởi Tổ chức Phần mềm Tự do mà không bao gồm phần
+thay đổi, không có Front-Cover Texts và Back-Cover Texts. Bạn có thể tìm
+thấy bản sao của GFDL tại <ulink type="help" url="ghelp:fdl">link</ulink>
+hay trong tập tin COPYING-DOCS phân phối cùng hướng dẫn này.
+         </para>
+         <para> Hướng dẫn này là một phần của tài liệu hướng dẫn GNOME phân phối dưới giấy
+phép GFDL. Nếu bạn muốn phân phối riêng tài liệu này từ tập hợp trên, bạn có
+thể thêm giấy phép vào phần hướng dẫn, như mô tả trong phần 6 của giấy phép.
+	</para>
+
+	<para>
+	  Nhiều cái tên được dùng bởi các công ty để nhận ra các sản phẩm của họ và
+các dịch vụ được tuyên bố là nhãn hiệu. Trường hợp tên của chúng xuất hiện
+trong tài liệu GNOME, và các thành viên của Dự án Tài liệu GNOME nhận ra đó
+là các nhãn hiệu, các tên được viết hoa hay viết hoa chữ cái ở đầu từ.
+	</para>
+
+	<para>
+	  Tài liệu này và các bản sửa đổi của tài liệu này được cung cấp nhờ những
+điều khoản của giấy phép phát hành tài liệu tự do GNU mở rộng: <orderedlist>
+		<listitem>
+		  <para>Đây là một tài liệu có giá trị cơ sở, không có sự bảo đảm về bất cứ mặt nào
+một cách rõ ràng hay không rõ ràng cả bao gồm sự bất hạn định, hoặc đảm bảo
+rằng tài liệu này hoặc bản sửa đổi của tài liệu này không bị ràng buộc khi
+có vấn đề về tính thương mại của nó, phù hợp với mục đích cá nhân. Bạn có
+thể gặp các rủi ro về chất lượng, tính chính xác cũng như hiệu quả của tài
+liệu này hay các phiên bản sửa chữa của tài liệu này. Bạn cần tôn trọng
+những chứng cớ về các khuyết điểm của tài liệu này hay các phiên bản sửa đổi
+của nó, bạn (không phải tác giả, quyền tác giả hay quyền cộng tác viên) có
+thể phải trả một chi phí cho các dịch vụ cần thiết hay việc sửa chữa. Không
+có sự đảm bảo cho bất cứ phần nào của giấy phép này. không cho phép sử dụng
+bất cứ tài liệu hay bản sửa đổi của tài liệu có bản quyền này, trừ khi được
+sự cho phép của tác giả, quyền tác giả hay cộng tác viên.
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>Hơn nữa, trong trường hợp nào, theo lý thuyết luật nào, dù do làm lỗi (gồm
+do cẩu thả), hay theo hợp đồng hay bằng cách nào, tác giả (tác giả, người
+viết đầu tiên, người đóng góp nào, hay nhà nào phát hành tài liệu này, hay
+nhà nào cung cấp người nào như thế) sẽ KHÔNG có trách nhiệm về pháp lý bồi
+thường kiểu nào trực tiếp, gián tiếp, đặc biệt, ngẫu nhiên hay do hậu quả
+cho ai, gồm, vô hạn, bồi thường về đặc quyền kế nghiệp, việc làm bị dừng,
+máy tính thất bại hay không chạy được, hay mọi bồi thường, bồi thường nào
+hay sự mất do hoặc liên quan đến sử dụng tài liệu này và phiên bản đã sửa
+đổi nào, thậm chí nếu người ấy đã biết có khả năng thiệt hại như thế.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+

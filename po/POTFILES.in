@@ -1,0 +1,74 @@
+[encoding: UTF-8]
+software-center
+utils/update-software-center
+data/ubuntu-software-center.desktop.in
+data/unbranded-software-center.desktop.in
+[type: gettext/xml] data/featured.menu.in
+[type: gettext/xml] data/whats_new.menu.in
+[type: gettext/xml] data/software-center.menu.in
+softwarecenter/backend/channel.py
+softwarecenter/backend/login_sso.py
+softwarecenter/backend/reviews/__init__.py
+softwarecenter/backend/reviews/rnr.py
+softwarecenter/backend/oneconfhandler/__init__.py
+softwarecenter/backend/oneconfhandler/core.py
+softwarecenter/backend/installbackend_impl/aptd.py
+softwarecenter/backend/installbackend_impl/packagekitd.py
+softwarecenter/db/application.py
+softwarecenter/db/categories.py
+softwarecenter/db/database.py
+softwarecenter/db/update.py
+softwarecenter/db/pkginfo_impl/aptcache.py
+softwarecenter/db/pkginfo_impl/packagekit.py
+softwarecenter/distro/Debian.py
+softwarecenter/distro/Fedora.py
+softwarecenter/distro/__init__.py
+softwarecenter/distro/Ubuntu.py
+softwarecenter/enums.py
+softwarecenter/hw.py
+softwarecenter/region.py
+softwarecenter/utils.py
+[type: gettext/glade]data/ui/gtk3/SoftwareCenter.ui
+[type: gettext/glade]data/ui/gtk3/dialogs.ui
+[type: gettext/glade]data/ui/gtk3/report_abuse.ui
+[type: gettext/glade]data/ui/gtk3/submit_review.ui
+[type: gettext/glade]data/ui/gtk3/submit_usefulness.ui
+softwarecenter/db/debfile.py
+softwarecenter/distro/SUSELINUX.py
+softwarecenter/ui/gtk3/app.py
+softwarecenter/ui/gtk3/review_gui_helper.py
+softwarecenter/ui/gtk3/dialogs/__init__.py
+softwarecenter/ui/gtk3/dialogs/dialog_tos.py
+softwarecenter/ui/gtk3/dialogs/deauthorize_dialog.py
+softwarecenter/ui/gtk3/dialogs/dependency_dialogs.py
+softwarecenter/ui/gtk3/models/appstore2.py
+softwarecenter/ui/gtk3/models/pendingstore.py
+softwarecenter/ui/gtk3/panes/availablepane.py
+softwarecenter/ui/gtk3/panes/historypane.py
+softwarecenter/ui/gtk3/panes/installedpane.py
+softwarecenter/ui/gtk3/panes/pendingpane.py
+softwarecenter/ui/gtk3/panes/softwarepane.py
+softwarecenter/ui/gtk3/panes/viewswitcher.py
+softwarecenter/ui/gtk3/views/appdetailsview.py
+softwarecenter/ui/gtk3/views/appview.py
+softwarecenter/ui/gtk3/views/catview_gtk.py
+softwarecenter/ui/gtk3/views/purchaseview.py
+softwarecenter/ui/gtk3/views/webkit.py
+softwarecenter/ui/gtk3/widgets/apptreeview.py
+softwarecenter/ui/gtk3/widgets/backforward.py
+softwarecenter/ui/gtk3/widgets/buttons.py
+softwarecenter/ui/gtk3/widgets/exhibits.py
+softwarecenter/ui/gtk3/widgets/labels.py
+softwarecenter/ui/gtk3/widgets/reviews.py
+softwarecenter/ui/gtk3/widgets/searchaid.py
+softwarecenter/ui/gtk3/widgets/searchentry.py
+softwarecenter/ui/gtk3/widgets/stars.py
+softwarecenter/ui/gtk3/widgets/thumbnail.py
+softwarecenter/ui/gtk3/widgets/videoplayer.py
+softwarecenter/ui/gtk3/widgets/weblivedialog.py
+softwarecenter/ui/gtk3/widgets/recommendations.py
+utils/delete_review_gtk3.py
+utils/modify_review_gtk3.py
+utils/report_review_gtk3.py
+utils/submit_review_gtk3.py
+utils/submit_usefulness_gtk3.py

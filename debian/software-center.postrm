@@ -1,0 +1,19 @@
+#!/bin/sh
+
+set -e
+
+# remove database files from the old location 
+# (it was named software-store for some weeks)
+if [ -d /var/cache/software-store/xapian/ ]; then
+    rm -f /var/cache/software-store/xapian/*
+    rmdir /var/cache/software-store/xapian/ || true
+fi
+
+if [ "$1" = "purge" ]; then
+    # remove the cached application data
+    rm -f /var/cache/software-center/xapian/*
+    rmdir /var/cache/software-center/xapian/
+fi
+
+
+#DEBHELPER#

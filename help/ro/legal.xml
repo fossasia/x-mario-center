@@ -1,0 +1,62 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  Permission is granted to copy, distribute and/or modify this document under
+the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any
+later version published by the Free Software Foundation with no Invariant
+Sections, no Front-Cover Texts, and no Back-Cover Texts.  You can find a
+copy of the GFDL at this <ulink type="help" url="ghelp:fdl">link</ulink> or
+in the file COPYING-DOCS distributed with this manual.
+         </para>
+         <para> This manual is part of a collection of GNOME manuals distributed under the
+GFDL.  If you want to distribute this manual separately from the collection,
+you can do so by adding a copy of the license to the manual, as described in
+section 6 of the license.
+	</para>
+
+	<para>
+	  Multe dintre numele folosite de către companii pentru a-și distinge
+produsele și serviciile sunt revendicate ca mărci comerciale. Când aceste
+nume apar in orice documentație GNOME, și membrii Proiectului de
+Documentație GNOME au cunoștință despre aceste mărci comerciale, atunci
+aceste nume sunt scrise cu literă mare sau cu inițiala literă mare.
+	</para>
+
+	<para>
+	  ACEST DOCUMENT ȘI VERSIUNILE MODIFICATE ALE ACESTUI DOCUMENT SUNT OFERITE
+SUB TERMENII LICENȚEI GNU PENTRU DOCUMENTAȚIA LIBERĂ, PRESUPUNÂND
+ÎNȚELEGEREA CĂ: <orderedlist>
+		<listitem>
+		  <para>DOCUMENTUL ESTE PUS LA DISPOZIȚIE PE BAZA „AȘA CUM ESTE”, FĂRĂ GARANȚII DE
+NICI UN FEL, EXPRESE SAU IMPLICITE, INCLUZÂND, FĂRĂ RESTRICȚII, GARANȚII
+PRIN CARE DOCUMENTUL SAU VERSIUNI MODIFICATE ALE DOCUMENTULUI ESTE LIPSIT DE
+DEFECTE COMERCIALE, POTRIVIT UNUI SCOP SPECIFIC SAU NU ÎNCALCĂ NICI UN
+DREPT. VĂ APARȚIN ÎN TOTALITATE RISCURILE  REFERITOARE LA CALITATE,
+ACURATEȚE ȘI PERFORMANȚA DOCUMENTULUI SAU A VERSIUNILOR  ACESTUIA. DACĂ
+ORICE DOCUMENT SAU VERSIUNE MODIFICATĂ SE DOVEDEȘTE DEFECTUOS ÎN ORICE
+PRIVINȚĂ, DUMNEAVOASTRĂ (NU INIȚIATORUL, AUTORUL SAU ORICARE ALT
+COLABORATOR) VĂ ASUMAȚI COSTURILE ORICĂRUI SERVICE NECESAR, REPARAȚIE SAU
+MODIFICARE.ACEASTĂ DECLARAȚIE DE NEASUMARE A RESPONSABILITĂȚII CONSTITUIE O
+PARTE ESENȚIALĂ A ACESTEI LICENȚE. NU ESTE AUTORIZATĂ FOLOSIREA VREUNUI
+DOCUMENT SAU A VREUNEI VERSIUNI MODIFICATE A DOCUMENTULUI DE AICI ÎNCOLO CU
+EXCEPȚIA CAZULUI ÎN CARE URMEAZĂ ACEASTĂ DECLARAȚIE DE NEASUMARE A
+RESPONSABILITĂȚII; ȘI
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>ÎN NICI UN CAZ ȘI ÎN NICI O TEORIE LEGISLATIVĂ, FIE ÎN PREJUDICIU (INCLUZÂND
+NEGLIJENȚA), PRIN CONTRACT, SAU ALTFEL, AUTORUL, INIȚIATORUL, ORICE
+COLABORATOR, SAU ORICARE DISTRIBUITOR AL DOCUMENTULUI SAU A VERSIUNILOR
+MODIFICATE ALE DOCUMENTULUI,SAU ORICARE FURNIZOR AL ORICĂREI PĂRȚI, NU SUNT
+RESPONSABILI IN FAȚA NIMĂNUI PENTRU ORICE PREJUDICIU DIRECT, INDIRECT,
+SPECIAL SAU CONSECUTIV DE ORICE FEL INCLUZÂND, FĂRĂ RESTRICȚII, PREJUDICII
+PENTRU PIERDEREA POSESIUNILOR, OPRIREA LUCRULUI, RATEURI IN LUCRUL CU
+CALCULATORUL SAU FUNCȚIONARE DEFECTUOASĂ, SAU ORICARE ȘI TOATE CELELALTE
+DAUNE SAU PIERDERI REZULTATE SAU RELAȚIONATE UTILIZĂRII DOCUMENTULUI ȘI
+VERSIUNILOR MODIFICATE ALE DOCUMENTULUI, CHIAR DACĂ PĂRȚILE TEBUIAU SĂ FI
+FOST INFORMATE DESPRE POSIBILITATEA UNOR ASTFEL DE DAUNE
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+

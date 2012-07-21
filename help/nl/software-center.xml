@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="nl">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Ubuntu softwarecentrum</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Ubuntu documentatieproject</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Hoe u software kunt installeren en verwijderen in Ubuntu.</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Wat is Ubuntu softwarecentrum?</title>
+    <para>
+      Ubuntu softwarecentrum is een virtuele verzameling van duizenden gratis
+beschikbare toepassingen en andere software waarmee u de functionaliteit van
+Ubuntu kunt uitbreiden.
+    </para>
+    <para>
+      Software is ingedeeld in categorieën, en u kunt een zoekveld gebruiken om
+software te vinden. Een gewenst item kan eenvoudig geïnstalleerd worden door
+op de installatieknop te drukken.
+    </para>
+    <para>
+      U kunt hier ook uitzoeken welke software reeds geïnstalleerd is op uw
+computer en u kunt er software verwijderen die u niet langer nodig heeft.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Software installeren</title>
+    <para>
+      Om software met het Ubuntu softwarecentrum te installeren, heeft u
+beheerderstoegang en een werkende internetverbinding nodig. (Als u Ubuntu
+eigenhandig op de computer heeft geïnstalleerd, beschikt u reeds over
+beheerderstoegang.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Zoek in het onderdeel <guilabel>Software verkrijgen</guilabel> de gewenste
+software. Als u de naam ervan weet, kunt u deze invoeren in het
+zoekveld. Tevens kunt u zoeken naar het type programma dat u zoekt
+(bijvoorbeeld &#8220;tekstverwerker&#8221;). U kunt ook simpelweg door de
+lijst met categorieën bladeren.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Selecteer het item in de lijst, en kies <guilabel>Meer
+informatie</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Kies <guilabel>Installeren</guilabel>.  Het kan zijn dat u uw
+Ubuntu-wachtwoord moet invoeren voordat de installatie kan beginnen.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      De duur van het installeren hangt af van de grootte, en de snelheid van uw
+computer en internetverbinding.
+    </para>
+    <para>
+      Wanneer op het scherm &#8220;Geïnstalleerd&#8221 getoond wordt;, is de
+software klaar om te gebruiken.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Een programma gebruiken na de installatie</title>
+    <para>
+      De meeste toepassingen kunt u, nadat ze geïnstalleerd zijn, openen via het
+menu <guimenu>Toepassingen</guimenu>. (Hulpmiddelen om instellingen van uw
+computer aan te passen kunt u vinden via het menu
+<menuchoice><guimenu>Systeem</guimenu>
+<guisubmenu>Voorkeuren</guisubmenu></menuchoice> of via
+<menuchoice><guimenu>Systeem</guimenu>
+<guisubmenu>Beheer</guisubmenu></menuchoice>).
+    </para>
+    <para>
+      Indien niet meer aangegeven wordt onder welk menu u de nieuwe toepassing
+kunt vinden, zoekt u de vermelding op voor deze toepassing in het Ubuntu
+softwarecentrum. De locatie van het menu zou hier aangegeven moeten zijn,
+onder de gekleurde balk.
+    </para>
+    <para>
+      Wanneer u de Ubuntu Netbook Edition gebruikt, zal een toepassing verschijnen
+in de overeenkomende categorie op het startscherm.
+    </para>
+    <para>
+      Sommige items, zoals ondersteuning voor sommige multimediaformaten of
+plug-ins voor webbrowsers, verschijnen niet in de menu's. Ze worden
+automatisch geladen wanneer Ubuntu ze nodig heeft. Mogelijk moet u uw
+browser herstarten na de installatie van een plug-in om de plug-in te kunnen
+gebruiken.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Software verwijderen</title>
+    <para>
+      Om software te verwijderen, heeft u beheerderstoegang nodig. (Als u Ubuntu
+eigenhandig op de computer heeft geïnstalleerd, beschikt u reeds over
+beheerderstoegang.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Ga in de sectie <guilabel>Geïnstalleerde software</guilabel> naar het item
+dat u wilt verwijderen.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Selecteer het item in de lijst en kies <guilabel>Verwijderen</guilabel>. Het
+kan zijn dat u uw Ubuntu-wachtwoord moet invoeren.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Als een programma geopend is terwijl u het verwijdert, zal het gewoonlijk
+geopend blijven zelfs nadat het verwijderd is. Nadat u het heeft afgesloten
+zal het niet meer beschikbaar zijn.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Waarom wordt mij gevraagd of ik meerdere programma's tegelijk wil
+verwijderen?</title>
+    <para>
+      Wanneer u een item verwijdert, zal het Ubuntu softwarecentrum u mogelijk
+waarschuwen dat er ook andere items verwijderd zullen worden. Er zijn twee
+redenen waarom dit gebeurt.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Wanneer u een toepassing verwijdert, zullen alle uitbreidingen en plug-ins
+voor deze toepassing ook verwijderd worden.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Verschillende toepassingen worden soms geleverd als één enkel pakket. Als
+één daarvan geïnstalleerd wordt, zullen ze allemaal geïnstalleerd worden. En
+als één ervan verwijderd wordt, zullen ze allemaal verwijderd worden. Ubuntu
+softwarecentrum kan ze niet individueel verwijderen, omdat het geen
+instructies heeft om ze op te splitsen.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      U kunt de  <guilabel>Hoofdmenu</guilabel>-instellingen gebruiken om
+ongewenste items te verbergen zonder ze te verwijderen van de computer. In
+Ubuntu vindt u het<guilabel>Hoofdmenu</guilabel> bij
+<menuchoice><guimenu>Systeem</guimenu>
+<guisubmenu>Voorkeuren</guisubmenu></menuchoice>.  In Ubuntu netbook-editie
+staat het in <menuchoice><guimenu>Instellingen</guimenu>
+<guisubmenu>Voorkeuren</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >De menubalk aanpassen</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Wat is &#8220;Canonical-ondersteund&#8221;?</title>
+    <para>
+      Sommige beschikbare software voor Ubuntu wordt onderhouden door
+Canonical. Canonical-ontwikkelaars zorgen ervoor dat er veiligheids- en
+andere kritieke updates beschikbaar worden gesteld voor deze toepassingen.
+    </para>
+    <para>
+      Andere software wordt onderhouden door de Ubuntu-gemeenschap. Updates worden
+op vrijwillige basis verstrekt.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Wat is &#8220;Partners van Canonical&#8221;?</title>
+    <para>
+      <guilabel>Partners van Canonical</guilabel> toont software van bedrijven die
+samenwerkten met Canonical om hun software beschikbaar te maken in Ubuntu.
+    </para>
+    <para>
+      U kunt deze software op dezelfde manier installeren als elke andere software
+in Ubuntu softwarecentrum.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Moet ik iets betalen?</title>
+    <para>
+      De meeste software in het Ubuntu softwarecentrum is gratis.
+    </para>
+    <para>
+      Als iets geld kost zal er een knop <guilabel>Kopen</guilabel> zichtbaar zijn
+in plaats van een knop <guilabel>Installeren</guilabel> en zal er een prijs,
+voor dit individuele item, op het scherm getoond worden.
+    </para>
+    <para>
+      Om voor commerciële software te betalen heeft u een internetverbinding en
+een Ubuntu Single Sign On-account of Launchpad-account nodig. Indien u nog
+geen account heeft, kunt u zich registreren via het Ubuntu softwarecentrum.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      Wat als ik voor software betaald heb en het kwijt ben?
+    </title>
+    <para>
+      Als u per ongeluk software hebt verwijderd die u gekocht heeft en u wilt
+deze terug, dan kiest u <menuchoice><guimenu>Bestand</guimenu>
+<guimenuitem>Eerder aankopen herinstalleren</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Wanneer u zich heeft aangemeld bij het account waarmee u de software heeft
+gekocht, zal het Ubuntu softwarecentrum u aankopen weergeven voor
+herinstallatie.
+    </para>
+    <para>
+      Dit werkt zelfs wanneer u Ubuntu opnieuw op uw computer geïnstalleerd heeft.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Wat als een programma dat ik wil niet beschikbaar is?</title>
+    <para>
+      Controleer eerst of <menuchoice><guimenu>Beeld</guimenu> <guimenuitem>Alle
+software</guimenuitem></menuchoice> geselecteerd is.
+    </para>
+    <para>
+      Als de software die u wilt, nog steeds niet te vinden is, maar u weet dat
+het werkt in Ubuntu, probeer dan de originele ontwikkelaars van het
+programma te contacteren en vraag of ze kunnen helpen om het beschikbaar te
+maken.
+    </para>
+    <para>
+      Als een programma beschikbaar is voor andere besturingssystemen maar niet
+voor Ubuntu, kunt u de ontwikkelaars laten weten dat u het programma graag
+wilt gebruiken op Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Wat te doen als een programma niet werkt?</title>
+    <para>
+      Met tienduizenden programma's in Ubuntu softwarecentrum is er altijd de kans
+dat een aantal ervan niet correct zal werken op uw computer.
+    </para>
+    <para>
+      Als u bekend bent met het rapporteren van programmafouten, kunt u meehelpen
+door problemen te melden aan de Ubuntu-ontwikkelaars. De meeste toepassingen
+hebben een item <guimenuitem>Een programmafout melden</guimenuitem> in het
+menu <guimenu>Help</guimenu>.
+    </para>
+    <para>
+      Anders kunt u ook in het Ubuntu softwarecentrum zoeken naar een andere
+toepassing die voldoet aan uw wensen.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

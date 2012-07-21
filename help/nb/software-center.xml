@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="en">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Ubuntus programvaresenter</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Ubuntus dokumentasjonsprosjekt</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Hvordan installére og fjerne programvare i Ubuntu.</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Hva er Ubuntus programvaresenter?</title>
+    <para>
+      Ubuntus programvaresenter er en virtuell katalog med tusenvis av åpne
+programmer som gjør datamaskinen din med Ubuntu mer nyttig.
+    </para>
+    <para>
+      Du kan finne programmer ved å undersøke kategoriene eller ved å søke, og du
+kan installére programmene ved et enkelt trykk.
+    </para>
+    <para>
+      Du kan også undersøke hvilken programvare som allerede er installert på
+datamaskinen, og fjerne det du ikke lenger har bruk for.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Installére programvare</title>
+    <para>
+      For å installére noe med Ubuntus programvaresenter trenger du
+administratortilgang og tilgang til Internett. (Hvis du har satt opp Ubuntu
+på denne maskinen selv, så har du automatisk administratortilgang.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Finn programvaren som du ønsker i <guilabel>Skaff
+programvare</guilabel>-kategorien. Skriv navnet til programmet i søkefeltet
+om du vet hva programmet heter. Alternativt du kan søke etter en type
+programmer (for eksempel «regneark»). Ellers bla gjennom de ulike
+kategoriene.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Velg oppføringen i listen, og velg deretter <guilabel>Mer
+informasjon</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Trykk <guilabel>Installér</guilabel>. Du må kanskje skrive inn
+Ubuntu-passordet ditt før installasjonen kan begynne.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Hvor lang tid det tar å installére programvaren er avhengig av hvor store
+filene er, hvor rask datamaskinen din er og hastigheten til
+Internett-tilkoblingen.
+    </para>
+    <para>
+      Når skjermbildet endres til å vise «installert» er programvaren klar til
+bruk.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Bruke et program straks det er installert</title>
+    <para>
+      For most programs, once they are installed, you can launch them from the
+<guimenu>Applications</guimenu> menu.  (Utilities for changing settings may
+appear inside <menuchoice><guimenu>System</guimenu>
+<guisubmenu>Preferences</guisubmenu></menuchoice> or
+<menuchoice><guimenu>System</guimenu>
+<guisubmenu>Administration</guisubmenu></menuchoice> instead).
+    </para>
+    <para>
+      For å finne ut hvordan du starter et program, finn fram til programmets side
+i Ubuntus programvaresenter, hvis den ikke allerede er åpen. Under den
+fargede linjen står det hvor i hovedmenyen du starter programmet.
+    </para>
+    <para>
+      Hvis du bruker Ubuntu Netbook Edition, dukker programmet opp i den riktige
+kategorien på hjemmeskjermen.
+    </para>
+    <para>
+      Enkelte elementer vises ikke i menyene, for eksempel programtillegg for
+medieavspilling eller nettlesere. Disse brukes automatisk når Ubuntu trenger
+de. For å ta i bruk et programtillegg for en nettleser må du sannsynligvis
+starte nettleseren på nytt.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Fjerning av programvare</title>
+    <para>
+      Du trenger administratortilgang for å fjerne programvare. (Hvis du har satt
+opp Ubuntu på denne maskinen selv, så har du automatisk
+administratortilgang.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Finn programvaren du vil fjerne i kategorien <guilabel>Installert
+programvare</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Velg programmet i listen og trykk <guilabel>Fjern</guilabel>. Du vil trenge
+passordet ditt for å gjøre dette.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Hvis et program kjører når du fjerner det vil det vanligvis fortsette med å
+kjøre selv etter at det er fjernet. Det vil ikke være tilgjengelig lenger
+straks du lukker det.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Hvorfor spør det meg om å fjerne flere programmer samtidig?</title>
+    <para>
+      Noen ganger når du prøver å fjerne et program, vil Ubuntus programvaresenter
+advare deg om at andre programmer også vil bli fjernet. Det er hovedsakelig
+to grunner til at dette skjer.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Når du fjerner et program, vil eventuelle tillegg eller plugins for det
+programmet vanligvis også bli fjernet.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Flere programmer er av og til samlet til én pakke. Hvis noen av programmene
+fra pakken er installert er hele pakken installert. Og hvis noen av
+programmene fjernes blir alle programmene i pakken fjernet. Ubuntus
+programvaresenter kan ikke fjerne programmene enkeltvis, siden det ikke er i
+stand til å adskille programmene.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Du kan bruke verktøyet <guilabel>Hovedmeny</guilabel> for å skjule uønskede
+programmer uten å fjerne de fra maskinen. I Ubuntu finner du
+<guilabel>Hovedmeny</guilabel> under <menuchoice><guimenu>System</guimenu>
+<guisubmenu>Innstillinger</guisubmenu></menuchoice>.  I Ubuntu Netbook
+Edition finner du det under <menuchoice><guimenu>Innstillinger</guimenu>
+<guisubmenu>Brukervalg</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >Tilpasse hovedmenyen</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Hva betyr «Vedlikeholdt av Canonical»?</title>
+    <para>
+      En del av programvaren som er tilgjengelig for Ubuntu blir vedlikeholdt av
+Canonical. Canonicals ingeniører sørger for at sikkerhetsfikser og andre
+kritiske oppdateringer for disse programmene gjøres tilgjengelige.
+    </para>
+    <para>
+      Annen programvare blir vedlikeholdt av utviklermiljøet til
+Ubuntu. Eventuelle oppdateringer blir gitt etter beste evne.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Hva er «Canonical-partnere»?</title>
+    <para>
+      <guilabel>Canonical-partnere</ guilabel> viser programvare fra leverandører
+som har samarbeidet med Canonical for å gjøre sin programvare tilgjengelig
+for Ubuntu.
+    </para>
+    <para>
+      Du kan installére denne programvaren på samme måte som all annen programvare
+i Ubuntus programvaresenter.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Må jeg betale noe?</title>
+    <para>
+      Det meste av programvaren i Ubuntus programvaresenter er fullstendig gratis.
+    </para>
+    <para>
+      Hvis noe koster penger, har det en<guilabel>Kjøp</guilabel>-knapp istedet
+for en <guilabel>Installer</guilabel>-knapp, og prisen vises ved siden av
+det aktuelle programmet.
+    </para>
+    <para>
+      For å betale for kommersiell programvare, må du være tilkoblet Internett, og
+ha en Ubuntu Single Sign On-konto eller en Launchpad-konto. Hvis du ikke har
+en konto, vil Ubuntu Programvaresenter hjelpe deg å lage en.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      Hva skjer hvis jeg betaler for et program og så mister det?
+    </title>
+    <para>
+      Hvis du fjerner et betalt program ved en feil og vil ha det tilbake, velg
+<menuchoice><guimenu>Fil</guimenu> <guimenuitem>Installer tidligere kjøp på
+nytt</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Når du logger inn med kontoen du brukte for å kjøpe programvaren, vil Ubuntu
+Programvaresenter vise dine tidligere kjøp, slik at du kan installere dem på
+nytt.
+    </para>
+    <para>
+      Dette fungerer selv om du har installert Ubuntu på nytt på datamaskinen.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Hva om et program jeg ønsker ikke er tilgjengelig?</title>
+    <para>
+      Sjekk først at <menuchoice><guimenu>Vis</ guimenu> <guimenuitem>All
+programvare</ guimenuitem></ menuchoice> er valgt.
+    </para>
+    <para>
+      Hvis programvaren du ønsker fremdeles ikke er der, men du vet at den kjører
+på Ubuntu kan du kontakte utviklerne av programvaren og spørre om de kan
+hjelpe med å gjøre den tilgjengelig.
+    </para>
+    <para>
+      Hvis et program er tilgjengelig for andre operativsystemer men ikke for
+Ubuntu, bør du la utviklerne få vite at du er interessert i å kjøre det i
+Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Hva om et program ikke fungerer?</title>
+    <para>
+      Med titusenvis av programmer i Ubuntus programvaresenter er det alltid en
+mulighet for at noen av de ikke vil fungere på din datamaskin.
+    </para>
+    <para>
+      Hvis du er kjent med å melde ifra om feil i programvare, kan du hjelpe
+Ubuntu-utviklerne med å sende en feilrapport. De fleste programmer har et
+valg som heter <guimenuitem>Rapportér feil</guimenuitem> i sin hjelpemeny.
+    </para>
+    <para>
+      Hvis ikke, se gjennom Ubuntu Programvaresenter etter et annet program som
+gjør det du vil.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

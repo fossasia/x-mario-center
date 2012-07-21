@@ -1,0 +1,6 @@
+This package should be build using bzr-buildpackage to ensure
+that the pre-build hooks are executed. This includes running
+the internal tests. If you don't want to do this, use:
+ DEB_BUILD_OPTIONS=nocheck bzr-buildpackage 
+
+ -- Michael Vogt <michael.vogt@ubuntu.com>, Fri, 27 Jan 2012 11:42:27 +0100

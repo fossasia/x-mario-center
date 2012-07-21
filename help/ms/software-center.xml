@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="en">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Pusat Perisian Ubuntu</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Projek Pendokumentasian Ubuntu</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Cara memasang dan membuang perisian di dalam Ubuntu</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Apa itu Pusat Perisian Ubuntu?</title>
+    <para>
+      Pusat Perisian Ubuntu ialah katalog maya yang mengandungi beribu-ribu
+perisian bebas atau percuma dan lain-lain perisian  untuk menjadikan
+komputer Ubuntu anda lebih berguna.
+    </para>
+    <para>
+      Anda dapat mencari perisian mengikut kategori atau dengan cara menggelintar,
+dan juga anda boleh memasang item dengan mengklik butang.
+    </para>
+    <para>
+      Anda juga boleh memeriksa perisian yang manakah sudah dipasang didalam
+komputer, dan buang apa-apa yang anda tidak perlukan.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Memasang perisian</title>
+    <para>
+      Untuk memasang perisian dengan menggunakan Pusat Perisian Ubuntu, anda
+memerlukan capaian pentadbir dan sambungan internet. (Jika anda memasang
+Ubuntu di komputer sendiri, anda mempunyai capaian pentadbir secara
+automatik.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Pada bahagian <guilabel>Dapatkan Perisian</guilabel>, cari perisian anda
+ingin memasang. Jika anda sudah mengetahui namanya, cuba taip nama pada
+ruangan gelintar. Atau cuba gelintar jenis program yang anda inginkan
+(seperti &#8220;spreadsheet&#8221;). Jika tidak, lungsur pada senarai
+kategori.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Pilih item di dalam senarai, dan pilih <guilabel> Maklumat lanjutan
+</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Pilih<guilabel> pasang</guilabel>. Anda mungkin perlu masukkan kata laluan
+Ubuntu anda sebelum pemasangan dapat dijalankan.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Berapa lamakah diperlukan untuk memasang bergantung pada saiz perisian
+tersebut, kelajuan komputer anda dan sambungan internet.
+    </para>
+    <para>
+      Apabila paparan skrin berubah mengatakan &#8220;Dipasang&#8221;, perisian
+sedia digunakan.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Buka program selepas ia dipasang</title>
+    <para>
+      Bagi kebanyakan program, bilamana ia dipasang, anda boleh lancarkannya dari
+<guimenu>Aplikasi</guimenu> menu. (Utiliti untuk menukar tetapan mungkin
+muncul didalam <menuchoice><guimenu>Sistem</guimenu>
+<guisubmenu>Keutamaan</guisubmenu></menuchoice> atau
+<menuchoice><guimenu>Sistem</guimenu>
+<guisubmenu>Pentadbiran</guisubmenu></menuchoice>).
+    </para>
+    <para>
+      Untuk mencari dimana hendak lancarkan program baru, navigasi ke skrin untuk
+program tersebut didalam Pusat Perisian Ubuntu, jika ia tidak dapat
+dipaparkan. Lokasi menu patut dipaparkan pada skrin tersebut, dibawah palang
+berwarna.
+    </para>
+    <para>
+      Jika anda menggunakan Ubuntu Edisi Netbook, sebuah aplikasi akan muncul pada
+kategori yang sesuai di skrin rumah.
+    </para>
+    <para>
+      Beberapa item, seperti main balik media atau pemalam pelungsur sesawang,
+tidak akan muncul dalam menu. Ia digunakan secara automatik apabila Ubuntu
+memerlukannya. Untuk pemalam pelungsur sesawang, anda perlu menutup
+pelungsur tersebut dan membukanya semula sebelum pemalam digunakan.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Membuang perisian</title>
+    <para>
+      Untuk membuang perisian, anda memerlukan capaian pentadbir. (Jika anda
+memasang Ubuntu di komputer anda sendiri, anda mempunyai capaian pentadbir
+secara automatik.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Dalam  bahagian <guilabel>Perisian Dipasang </guilabel>, cari item yang anda
+ingin buang.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Pilih item dalam senarai, dan pilih <guilabel> Buang </ guilabel>. Anda
+perlu memasukkan kata laluan Ubuntu anda.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Jika sebuah perisian masih akftif ketika anda membuangnya, biasanya perisian
+tersebut akan tetap terbuka walaupun telah dibuang. Apabila anda menutupnya,
+ia tidak boleh digunakan.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Mengapa ia meminta saya memadam beberapa perisian serentak?</title>
+    <para>
+      Kadangkala, jika anda cuba membuang satu item, Pusat Perisian Ubuntu akan
+memberi amaran yang mana item lain akan dibuang. Terdapat dua sebab kenapa
+ini berlaku.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Jika anda buang aplikasi, sebarang tambahan atau pemalam untuk aplikasi
+tersebut biasanya akan dibuang juga.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Beberapa aplikasi kadang-kala disediakan di dalam satu pakej. Jika salah
+satu aplikasi dipasang, semua aplikasi dalam pakej yang sama akan
+dipasang.Sebaliknya jika salah satu aplikasi tersebut akan dibuang, semuanya
+dibuang. Pusat Perisian Ubuntu tidak akan membuangnya secara individu, Ini
+kerana ia tidak mempunyai arahan seperti itu.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Anda boleh menggunakan tetapan <guilabel> Menu Utama </guilabel> untuk
+menyembunyikan item yang tidak diingini tanpa membuangnya dari
+komputer. Pada Ubuntu, anda boleh dapatkan <guilabel>Menu Utama</guilabel>
+melalui <menuchoice><guimenu>Sistem</guimenu>
+<guisubmenu>Keutamaan</guisubmenu></menuchoice>. Manakala Ubuntu edisi
+Netbook, boleh diperoleh di dalam <menuchoice><guimenu>Tetapan</guimenu>
+<guisubmenu>Keutamaan</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >Mengubahsuai palang menu</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Apakah &#8220;Canonical-maintained&#8221;?</title>
+    <para>
+      Beberapa perisian yang tersedia untuk Ubuntu diselenggara oleh
+Canonical. Jurutera perisian Canonical memastikan pembaikan keselamatan dan
+kemaskini kritikal lain-lain yang disediakan untuk program ini.
+    </para>
+    <para>
+      Perisian lain akan dikendalikan oleh komuniti pembangunan Ubuntu. Setiap
+kemaskini disediakan atas dasar usaha terbaik masing-masing.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Apa itu &#8220;Canonical Partners&#8221;?</title>
+    <para>
+      <guilabel>Canonical Patner</guilabel> merupakan perisian dari vendor yang
+telah bekerjasama dengan Canonical untuk memastikan perisian mereka sedia
+ada untuk Ubuntu.
+    </para>
+    <para>
+      Anda boleh memasang perisian ini dengan cara yang sama seperti perisian lain
+di Pusat Perisian Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Adakah saya perlu membayar apa-apa?</title>
+    <para>
+      Kebanyakan perisian di Pusat Perisian Ubuntu adalah percuma dari segi kos.
+    </para>
+    <para>
+      Jika ada perisian yang memerlukan pembelian, ia akan paparkan butang
+<guilabel>Beli</guilabel> selain dari butang <guilabel>Pasang</guilabel>,
+dan harganya akan dipaparkan pada skrin untuk item secara individu.
+    </para>
+    <para>
+      Untuk membayar perisian komersial, anda perlukan talian Internet dan sebuah
+akaun 'Ubuntu Single Sign On' atau akaun Launchpad. Jika anda tidak
+mempunyai kedua-dua akaun tersebut, anda boleh mendaftar di Pusat Perisian
+Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      Bagaimana sekiranya saya membayar sesebuah perisian kemudian kehilangannya?
+    </title>
+    <para>
+      Jika anda buang perisian yang dibeli secara tidak sengaja, dan anda ingin
+gunakannya semula, pilih <menuchoice><guimenu>Fail</guimenu>
+<guimenuitem>Pasang Semula Pembelian Terdahulu</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Setelah anda mendaftar masuk ke dalam akaun yang telah digunakan untuk
+membeli sesebuah perisian, Pusat Perisian Ubuntu akan memaparkan pembelian
+anda untuk pemasangan semula.
+    </para>
+    <para>
+      Ia berkesan walaupun anda telah memasang semula Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Bagaimana jika program yang saya inginkan tidak disediakan?</title>
+    <para>
+      Pertama, lihat <menuchoice><guimenu>Papar</guimenu> <guimenuitem>Semua
+Perisian</guimenuitem></menuchoice> telah ditanda.
+    </para>
+    <para>
+      Jika perisian yang anda inginkan tiada, tetapi anda tahu perisian tersebut
+disediakan untuk Ubuntu, cuba menghubungi para pembangunan asal program
+tersebut dan mohon mereka sediakannya.
+    </para>
+    <para>
+      Jika sebuah program disediakan untuk sistem operasi selain daripada Ubuntu,
+beritahu para pembangun perisian tersebut bahawa anda berminat
+menggunakannya pada Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Bagaimana jika program tidak berfungsi?</title>
+    <para>
+      Dengan puluhan ribu program di Pusat Perisian Ubuntu, memang ada kemungkinan
+beberapa perisian tidak akan berfungsi seperti yang diharapkan di komputer
+anda.
+    </para>
+    <para>
+      Jika anda sudah biasa membuat laporan pepijat sesebuah perisian, anda juga
+boleh membantu dengan melaporkan masalah tersebut kepada para pembangun
+Ubuntu. Kebanyakan program mempunyai item guimenuitem>Lapor
+Masalah</guimenuitem> di dalam menu <guimenu>Bantuan</guimenu>
+masing-masing.
+    </para>
+    <para>
+      Jika tidak, cari di Pusat Perisian Ubuntu program lain yang anda ingini.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

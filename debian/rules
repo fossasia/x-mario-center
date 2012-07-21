@@ -1,0 +1,44 @@
+#!/usr/bin/make -f
+share:=usr/share/software-center
+
+%:
+	dh $@ --with=python2,scour
+
+# Install the modules in a private directory, as our applications are the
+# only ones using them.
+override_dh_auto_install:
+	dh_auto_install -- --install-lib /usr/share/software-center
+	rm -r debian/software-center/usr/share/software-center/*.egg-info
+	# Move the scripts to $(SHARE) and relink them again later.
+	mv debian/software-center/usr/*bin/* debian/software-center/$(share)
+	rmdir debian/software-center/usr/*bin
+
+
+override_dh_install:
+	dh_install --fail-missing
+
+	dh_installmime -i
+
+	dh_link $(share)/software-center usr/bin/software-center \
+	        $(share)/update-software-center usr/sbin/update-software-center
+
+	# Drop Ubuntu stuff if not on Ubuntu
+	# TODO: We should do this on the 'upstream' level, e.g. in setup.py.
+	set -e; if ! dpkg-vendor --derives-from Ubuntu; then \
+		cd debian/software-center; \
+		cd usr/share/applications; \
+		mv ubuntu-software-center.desktop software-center.desktop; \
+		cd ../icons/; \
+		rm hicolor/*/apps/softwarecenter.*; \
+		for size in 16x16 24x24 32x32; do \
+			ln -sf ../../../gnome/$$size/apps/system-software-install.png \
+			       hicolor/$$size/apps/softwarecenter.png; \
+		done; \
+		ln -sf ../../../gnome/scalable/apps/system-software-install.svg \
+		       hicolor/scalable/apps/softwarecenter.svg; \
+	fi;
+
+	# Remove empty directories.
+	find debian/*/usr -type d -empty -delete
+
+.PHONY: override_dh_auto_install

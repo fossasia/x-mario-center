@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="ast">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Centru de software d'Ubuntu</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Proyeutu de documentación
+d'Ubuntu</publishername> </publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Cómo instalar y desaniciar software n'Ubuntu</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>¿Qué ye'l Centru de software d'Ubuntu?</title>
+    <para>
+      El Centru de software d'Ubuntu ye un catálogu virtual de miles
+d'aplicaciones llibres y otru software pa facer Ubuntu más útil.
+    </para>
+    <para>
+      Puedes alcontrar software por categoríes o buscando, y puedes instalar un
+elementu calcando un botón.
+    </para>
+    <para>
+      Tamién puedes desaminar el software instaláu nel equipu actualmente, y
+desaniciar tolo que nun necesites yá.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Instalando software</title>
+    <para>
+      Pa instalar dalgo col Centru de software d'Ubuntu, necesites accesu
+d'alministrador y una conexón activa a Internet. (Si configures Ubuntu nesti
+equipu, tienes accesu d'alministrador de mou automáticu.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Na seición <guilabel>Obtener software</guilabel>, busca lo que quieras
+instalar. Si conoces el nome, intenta escribilo nel campu de gueta. O
+intenta guetar pol tipu de programa que quies (por exemplu «Fueya de
+cálculu»). En casu contrariu, restola na llista de departamentos.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Seleiciona l'elementu na llista y escueyi <guilabel>Más
+información</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Escueyi <guilabel>Instalar</guilabel>.  Pue que necesites la contraseña
+d'Ubuntu enantes d'entamar la instalación.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      El tiempu que lleva una instalación depende de lo grande que ye, la velocidá
+del equipu y la conexón a Internet.
+    </para>
+    <para>
+      Cuando la pantalla camuda a «instaláu», el software ta llistu pal so usu.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Usar un programa una vegada instaláu</title>
+    <para>
+      La mayoría de los programes, una vez instalaos, puedes executalos dende'l
+menú d'<guimenu>Aplicaciones</guimenu>. (Les utilidaes pa cambiar les
+opciones pueden apaecer dientro de <menuchoice><guimenu>Sistema</guimenu>
+<guisubmenu>Preferencies</guisubmenu></menuchoice> o
+<menuchoice><guimenu>Sistema</guimenu>
+<guisubmenu>Alministración</guisubmenu></menuchoice> ).
+    </para>
+    <para>
+      P'alcontrar ónde s'executa un programa nuevu, vete hasta la pantalla pa esi
+programa nel Centru de software d'Ubuntu, si entá nun s'amosó. La
+llocalización nel menú tendría d'amosase nesa pantalla, debaxo de la barra
+colloreada.
+    </para>
+    <para>
+      Si tas usando Ubuntu Netbook Edition, l'aplicación tien d'apaecer na
+categoría correspondiente de la pantalla d'aniciu.
+    </para>
+    <para>
+      Dalgunos elementos, como los medios de reproducción o los complementos del
+restolador web, nun apaecen nos menús. Úsense n'Ubuntu automáticamente
+cuando se necesiten. Pa un complementu del restolador Web, pue que tengas
+que zarrar el restolador y volver a abrilu enantes de que se pueda usar el
+complementu.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Quitando software</title>
+    <para>
+      Pa desaniciar software, necesites accesu d'alministrador. (Si configures
+Ubuntu nesti equipu, tienes accesu d'alministrador de mou automáticu.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Na seición <guilabel>Software instalador</guilabel> busca l'elementu que
+quies desaniciar.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Seleiciona l'elementu na llista y esbilla
+<guilabel>Desaniciar</guilabel>. Pue ser que necesites introducir la
+contraseña d'Ubuntu.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Si un programa taba abiertu cuando lu desinstallasti, normalmente
+permanecerá abiertu inclusu dempués de desinstalalu. Namás que lu zarres, yá
+nun va tar más disponible.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >¿Por qué ta entrugándoseme desaniciar dellos programes xuntos?</title>
+    <para>
+      A vegaes al intentar desaniciar un elementu, el Centru de software d'Ubuntu
+va alvertite de qu'hai que desaniciar tamién otros elementos. Hai dos
+razones principales poles qu'asocede esto.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Si desanicies una aplicación, normalmente cualquier complementu o anexu a
+esa aplicación va desaniciase tamién.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Dalgunes vegaes, delles aplicaciones distribúinse nun únicu paquete. Si
+s'instala dalguna d'elles, instálense toes. Y si dalguna d'elles se
+desinstala, desinstálense toes. El Centru de software d'Ubuntu nun pue
+desinstalales individualmente porque nun se tienen instrucciones sobre cómo
+separtales.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Pues usar los axustes del <guilabel>Menú principal</guilabel> p'anubrir
+elementos non deseyaos ensin desanicialos del to equipu. N'Ubuntu, pues
+alcontrar el <guilabel>Menú principal</guilabel> dientro de
+<menuchoice><guimenu>Sistema</guimenu>
+<guisubmenu>Preferencies</guisubmenu></menuchoice>. N'Ubuntu Netbook
+Edition, alcuéntrase en <menuchoice><guimenu>Axustes</guimenu>
+<guisubmenu>Preferencies</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >Personalizar la barra de
+menú</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>¿Qué ye &#8220;Calteníu por Canonical&#8221;?</title>
+    <para>
+      Parte del software disponible pa Ubuntu caltiénlu Canonical. Los inxenieros
+de Canonical asegúrense de que se proporcionen les igües de seguridá y otros
+anovamientos críticos pa estos programes.
+    </para>
+    <para>
+      Hai otru software que se caltién pola comunidá de desendolcadores
+d'Ubuntu. Cualesquier anovamientu proporciónase con base nos meyores
+esfuerzos posibles.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>¿Qué ye &#8220;Sociu de Canonical&#8221;?</title>
+    <para>
+      <guilabel>Socios de Canonical</guilabel> amuesa'l software de los fornidores
+que trabayaron con Canonical pa facer que'l so software pueda usase
+n'Ubuntu.
+    </para>
+    <para>
+      Puedes instalar esti software del mesmu mou que cualesquier otru software
+nel Centru de software d'Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">¿Necesito pagar dalgo?</title>
+    <para>
+      La mayoría del software del Centru de software d'Ubuntu ye de baldre.
+    </para>
+    <para>
+      Si daqué cuesta dinero, tienes un botón de <guilabel>Mercar</guilabel> en
+llugar de <guilabel>Instalar</guilabel>, y el preciu amuésase na pantalla
+del elementu individual.
+    </para>
+    <para>
+      Pa pagar por software comercial, necesites una conexón a Internet, y una
+cuenta d'Ubuntu Single Sign On o Launchpad. Si nun tienes una cuenta, El
+Centru de software de Ubuntu va ayudate a facer una.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      ¿Qué pasa si pago por un programa y llueu lu pierdo?
+    </title>
+    <para>
+      Si accidentalmente desanicies software que mercasti, y lu quies otra vez,
+escueyi <menuchoice><guimenu>Ficheru</guimenu> <guimenuitem>Reinstalar
+compres previes</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Una vegada qu'anicies sesión nuna dende la que se mercó software, El Centru
+de software d'Ubuntu amosaráte les compres pa reinstalales.
+    </para>
+    <para>
+      Esto funciona inclusu si reinstalasti Ubuntu nel equipu.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >¿Qué pasa si un programa que quiero nun ta disponible?</title>
+    <para>
+      Primero comprueba que <menuchoice><guimenu>Ver</guimenu> <guimenuitem>Tol
+software</guimenuitem></menuchoice> ta seleicionáu.
+    </para>
+    <para>
+      Si'l software que quies aínda nun ta, pero sabes que funciona n'Ubuntu,
+intenta ponete en contautu colos desendolcadores orixinales del programa pa
+entrugar si puen ayudar a facer que tea disponible.
+    </para>
+    <para>
+      Si un programa ta disponible pa otros sistemes operativos, pero non pa
+Ubuntu, fai saber a los desendolcadores que tas interesáu en facelu
+funcionar n'Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >¿Qué facer si un programa nun furrula?</title>
+    <para>
+      Con decenes de miles de programes nel Centru de software d'Ubuntu, siempre
+hai posibilidaes de qu'unos pocos programes nun funcionen afayadizamente nel
+to equipu.
+    </para>
+    <para>
+      Si tas familiarizáu con cómo informar d'errores nel mundu del software, pues
+ayudar informando del problema a los desendolcadores d'Ubuntu. La mayoría de
+los programes tienen un elementu <guimenuitem>Informar d'un
+problema</guimenuitem> nel so menú d'<guimenu>Ayuda</guimenu>.
+    </para>
+    <para>
+      En casu contrariu, busca nel Centru de software d'Ubuntu por otru programa
+que s'axuste a les tos necesidaes.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

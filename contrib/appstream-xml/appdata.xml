@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<applications version="0.1">
+  <application>
+    <id type="desktop">firefox.desktop</id>
+    <pkgname>firefox</pkgname>
+    <name>Firefox</name>
+    <name lang="en_GB">Firefoux</name>
+    <summary>Web browser</summary>
+    <summary lang="fr_FR">Navigateur web</summary>
+    <keywords>
+      <keyword>internet</keyword>
+      <keyword>web</keyword>
+      <keyword>browser</keyword>
+      <keyword lang="fr_FR">navigateur</keyword>
+    </keywords>
+    <icon type="stock">web-browser</icon>
+    <appcategories>
+      <appcategory>network</appcategory>
+      <appcategory>web</appcategory>
+    </appcategories>
+    <mimetypes>
+      <mimetype>text/html</mimetype>
+      <mimetype>text/xml</mimetype>
+      <mimetype>application/xhtml+xml</mimetype>
+      <mimetype>application/vnd.mozilla.xul+xml</mimetype>
+      <mimetype>text/mml</mimetype>
+      <mimetype>application/x-xpinstall</mimetype>
+      <mimetype>x-scheme-handler/http</mimetype>
+      <mimetype>x-scheme-handler/https</mimetype>
+    </mimetypes>
+    <url type="homepage">http://www.mozilla.com</url>
+  </application>
+  <application>
+    <id type="desktop">cheese.desktop</id>
+    <pkgname>cheese</pkgname>
+    <name>Cheese</name>
+    <summary>Take photos and videos with your webcam, with fun graphical effects</summary>
+    <icon type="local">cheese</icon>
+    <appcategories>
+      <appcategory>GNOME</appcategory>
+      <appcategory>AudioVideo</appcategory>
+    </appcategories>
+  </application>
+  <!-- more applications here! -->
+</applications>

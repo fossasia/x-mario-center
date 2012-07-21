@@ -1,0 +1,37 @@
+#featured-star {
+    border-color: #ED0000;  /* darkish red */
+    color: #ED0000;         /* darkish red */
+}
+
+.section-sel-bg {
+    background-color: pink;
+}
+
+GtkArrow:hover,
+.section-sel:hover,
+.symbolic-icon:hover,
+.label-tile:hover,
+.category-tile:hover {
+    color: blue;
+}
+
+.cellrenderer-button {
+    border-radius: 0;
+}
+
+.more-link {
+    -GtkButton-inner-border: 0;
+    -GtkButton-default-border: 0;
+    -GtkButton-default-outside-border: 0;
+    background-color: #FF8888;  /* pinkish */
+}
+
+.subtle,
+#subtle-label {
+    background-color: pink; /* link hover bg color */
+}
+
+GtkViewport {
+    border-width: 0;
+    padding: 0;
+}

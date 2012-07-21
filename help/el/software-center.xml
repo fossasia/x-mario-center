@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="en">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Κέντρο λογισμικού Ubuntu</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Έργο τεκμηρίωσης του Ubuntu</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Πως να εγκαταστήσετε και να απεγκαταστήσετε λογισμικό στο Ubuntu.</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Τι είναι το Κέντρο Λογισμικού Ubuntu;</title>
+    <para>
+      Το Κέντρο λογισμικού Ubuntu είναι ένας εικονικός κατάλογος από εκατοντάδες
+δωρεάν εφαρμογές και άλλο λογισμικό που κάνουν τον υπολογιστή σας πιο
+εύχρηστο.
+    </para>
+    <para>
+      Μπορείτε να βρείτε το λογισμικό ανά κατηγορία ή αναζητώντας το όνομα της
+εφαρμογής, και μπορείτε να εγκαταστήσετε ένα πακέτο λογισμικού με το πάτημα
+ενός κουμπιού.
+    </para>
+    <para>
+      Μπορείτε επίσης να εξετάσετε ποιο λογισμικό είναι εγκατεστημένο ήδη στον
+υπολογιστή σας και να αφαιρέσετε οτιδήποτε δεν χρειάζεστε πλέον.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Εγκατάσταση λογισμικού</title>
+    <para>
+      Για να εγκαταστήσετε κάτι με το Κέντρο λογισμικού Ubuntu, θα χρειαστείτε
+δικαιώματα διαχειριστή και μια γρήγορη σύνδεση στο διαδίκτυο. (Αν
+χρησιμοποιείτε το λογαριασμό που δημιουργήθηκε κατά την εγκατάσταση του
+Ubuntu, έχετε δικαιώματα διαχειριστή.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Στην ενότητα <guilabel>Λήψη Λογισμικού</guilabel> μπορείτε να βρείτε το
+πρόγραμμα που θέλετε να εγκαταστήσετε. Αν ξέρετε ήδη το όνομα του,
+πληκτρολογήστε το στο πεδίο αναζήτησης. Αλλιώς δοκιμάστε να ψάξετε για τον
+είδος του προγράμματος που θέλετε (όπως &#8220;λογιστικά
+φύλλα&#8221;). Διαφορετικά, περιηγηθείτε στη λίστα των  κατηγοριών.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Επιλέξτε το αντικείμενο από τη λίστα και πατήστε <guilabel>Περισσότερες
+πληροφορίες</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Επιλέξτε <guilabel>Εγκατάσταση</guilabel>. Μπορεί να χρειαστεί να εισάγετε
+το συνθηματικό σας του Ubuntu πριν αρχίσει η εγκατάσταση.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Ο χρόνος που χρειάζεται για να εγκατασταθεί κάτι εξαρτάται από το μέγεθός
+του, από την ταχύτητα του υπολογιστή και της σύνδεσης στο διαδίκτυο.
+    </para>
+    <para>
+      Όταν η οθόνη αλλάξει και λέει &#8220;Installed&#8221;, τότε το λογισμικό
+είναι έτοιμο για χρήση.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Χρήση ενός προγράμματος μετά την εγκατάσταση</title>
+    <para>
+      Για την πλειοψηφία των προγραμμάτων, αφού εγκατασταθούν, μπορείτε να τα
+εκκινήσετε από το μενού <guimenu>Εφαρμογές</guimenu>. (Εφαρμογές αλλαγής
+ρυθμίσεων μπορεί να εμφανίζονται μέσα στα μενού
+<menuchoice><guimenu>Σύστημα</guimenu>
+<guisubmenu>Προτιμήσεις</guisubmenu></menuchoice> ή
+<menuchoice><guimenu>Σύστημα</guimenu>
+<guisubmenu>Διαχείριση</guisubmenu></menuchoice>).
+    </para>
+    <para>
+      Για να δείτε από που θα εκκινήσετε ένα καινούριο πρόγραμμα, πηγαίνετε στην
+οθόνη αυτού του προγράμματος στο Κέντρο λογισμικού του Ubuntu, αν δεν
+εμφανίζεται ήδη. Η τοποθεσία του μενού θα πρέπει να εμφανίζεται σε αυτή την
+οθόνη κάτω από την έγχρωμη μπάρα.
+    </para>
+    <para>
+      Αν χρησιμοποιείτε το Ubuntu Netbook Edition, οι εφαρμογές εμφανίζονται στην
+αντίστοιχη κατηγορία στην κεντρική οθόνη.
+    </para>
+    <para>
+      Μερικά αντικείμενα, όπως τα πρόσθετα αναπαραγωγής πολυμέσων ή τα πρόσθετα
+των περιηγητών ιστού δεν εμφανίζονται στα μενού. Χρησιμοποιούνται αυτόματα
+μόλις τα χρειαστεί το Ubuntu. Για ένα πρόσθετο ενός περιηγητή ιστού, μπορεί
+να χρειαστεί να επανεκκινήσετε τον περιηγητή προτού μπορείτε να
+χρησιμοποιήσετε το πρόσθετο.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Αφαίρεση λογισμικού</title>
+    <para>
+      Για να αφαιρέσετε λογισμικό, χρειάζεστε δικαιώματα διαχειριστή. (Αν
+εγκαταστήσατε το Ubuntu οι ίδιοι, αυτόματα θα έχετε δικαιώματα διαχειριστή.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Στο τμήμα <guilabel>Εγκατεστημένο λογισμικό</guilabel>, βρείτε το
+αντικείμενο που θέλετε να αφαιρέσετε.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Επιλέξτε το αντικείμενο από τη λίστα και πατήστε
+<guilabel>Απομάκρυνση</guilabel>. Μπορεί να χρειαστεί να εισάγετε το
+συνθηματικό σας για το Ubuntu.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Αν ένα πρόγραμμα είναι ανοικτό ενώ το αφαιρείτε, συνήθως θα παραμείνει
+ανοικτό ακόμα και μετά που θα έχει αφαιρεθεί. Μόλις το κλείσετε και μετά, δε
+θα είναι πια διαθέσιμο.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Γιατί μου ζητάει να αφαιρέσω μαζί μερικά προγράμματα;</title>
+    <para>
+      Μερικές φορές αν προσπαθήσετε να αφαιρέσετε ένα αντικείμενο, το Ubuntu
+Software Center θα σας προειδοποιήσει ότι θα αφαιρεθούν και άλλα αντικείμενα
+επίσης. Αυτό συμβαίνει για δύο κυρίως λόγους.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Αν αφαιρέσετε μια εφαρμογή, οποιαδήποτε πρόσθετα ή επεκτάσεις για αυτή,
+συνήθως αφαιρούνται.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Πολλαπλές εφαρμογές μερικές φορές προσφέρονται ως ένα πακέτο. Αν
+εγκατασταθεί μία από αυτές, εγκαθίστανται όλες. Και αν κάποια από αυτές
+αφαιρεθεί, θα αφαιρεθούν όλες. Το Κέντρο λογισμικού Ubuntu δεν μπορεί να τις
+αφαιρέσει μεμονωμένα, επειδή δεν έχει οδηγίες πως να τις διαχωρίσει.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Μπορείτε να χρησιμοποιήσετε τις ρυθμίσεις του <guilabel>Κεντρικού
+μενού</guilabel> για την απόκρυψη μη επιθυμητών αντικειμένων χωρίς να τα
+αφαιρέσετε από τον υπολογιστή. Στο Ubuntu, μπορείτε να βρείτε το
+<guilabel>Κεντρικό μενού</guilabel> στο
+<menuchoice><guimenu>Σύστημα</guimenu>
+<guisubmenu>Προτιμήσεις</guisubmenu></menuchoice>. Στο Ubuntu Netbook
+Edition, βρίσκεται στο <menuchoice><guimenu>Ρυθμίσεις</guimenu>
+<guisubmenu>Προτιμήσεις</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >Τροποποίηση της γραμμής
+μενού</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Τι είναι το &#8220;Συντηρούνται από την Canonical&#8221;;</title>
+    <para>
+      Κάποιο από το λογισμικό που είναι διαθέσιμο για το Ubuntu συντηρείται από
+την Canonical. Οι τεχνικοί της Canonical διασφαλίζουν ότι παρέχονται
+διορθώσεις ασφαλείας και άλλες κρίσιμες ενημερώσεις για αυτά τα προγράμματα.
+    </para>
+    <para>
+      Άλλο λογισμικό συντηρείται από την κοινότητα προγραμματιστών του
+Ubuntu. Οποιεσδήποτε ενημερώσεις παρέχονται στη βάση των προσπαθειών τους.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Τι είναι οι &#8220;Συνεργάτες της Canonical&#8221;;</title>
+    <para>
+      <guilabel>Συνεργάτες της Canonical</guilabel> δείχνει λογισμικό από
+εταιρείες που έχουν εργαστεί με την Canonical για να φέρουν το λογισμικό
+τους στο Ubuntu.
+    </para>
+    <para>
+      Μπορείτε να εγκαταστήσετε αυτό το λογισμικό με τον ίδιο τρόπο όπως και
+οποιοδήποτε άλλο λογισμικό στο Κέντρο λογισμικού του Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Χρειάζεται να πληρώσω;</title>
+    <para>
+      Το περισσότερο λογισμικό στο Κέντρο λογισμικού του Ubuntu παρέχεται δωρεάν.
+    </para>
+    <para>
+      Αν κάτι κοστίζει χρήματα, έχει ένα κουμπί <guilabel>Αγορά</guilabel> αντί
+για <guilabel>Εγκατάσταση</guilabel> και η τιμή του εμφανίζεται στην οθόνη
+του αντικειμένου.
+    </para>
+    <para>
+      Για να πληρώσετε για εμπορικό λογισμικό, χρειάζεστε σύνδεση με το διαδίκτυο
+και ένα λογαριασμό Ubuntu Single Sign On ή Launchpad. Αν δεν έχετε
+λογαριασμό, το Κέντρο λογισμικού του Ubuntu θα σας βοηθήσει να
+δημιουργήσετε.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      Τι θα συμβεί αν πληρώσω για λογισμικό και μετά το χάσω;
+    </title>
+    <para>
+      Αν κατά λάθος αφαιρέσατε λογισμικό που αγοράσατε και το θέλετε πίσω,
+επιλέξτε <menuchoice><guimenu>Αρχείο</guimenu> <guimenuitem>Επανεγκατάσταση
+προηγούμενων αγορών</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Μόλις συνδεθείτε στο λογαριασμό που χρησιμοποιήσατε για να αγοράσετε το
+λογισμικό, το Κέντρο λογισμικού του Ubuntu θα σας εμφανίσει τη λίστα με τις
+αγορές σας για επανεγκατάσταση.
+    </para>
+    <para>
+      Αυτό ισχύει ακόμα και αν έχετε επανεγκαταστήσει το Ubuntu στον υπολογιστή
+σας.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Τι γίνεται αν ένα πρόγραμμα δεν είναι διαθέσιμο;</title>
+    <para>
+      Πρώτα, βεβαιωθείτε ότι το <menuchoice><guimenu>Προβολή</guimenu>
+<guimenuitem>Όλο το λογισμικό</guimenuitem></menuchoice> είναι επιλεγμένο.
+    </para>
+    <para>
+      Αν το λογισιμικό που επιθυμείτε δεν υπάρχει ακόμα εκεί αλλά γνωρίζετε ότι
+δουλεύει στο Ubuntu, δοκιμάστε να επικοινωνήσετε με τους προγραμματιστές για
+να τους ρωτήσετε αν μπορούν να βοηθήσουν να γίνει διαθέσιμο.
+    </para>
+    <para>
+      Αν ένα πρόγραμμα είναι διαθέσιμο για άλλα λειτουργικά συστήματα αλλά όχι για
+το Ubuntu, κάντε το γνωστό στους προγραμματιστές ότι ενδιαφέρεστε να υπάρχει
+και στο Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Τι θα συμβεί αν ένα πρόγραμμα δεν δουλεύει;</title>
+    <para>
+      Με δεκάδες χιλιάδες προγράμματα στο Κέντρο λογισμικού του Ubuntu, υπάρχει
+πάντα η πιθανότητα μερικά από αυτά να μη δουλεύουν σωστά στον υπολογιστή
+σας.
+    </para>
+    <para>
+      Αν είστε εξοικειωμένος με την αναφορά σφαλμάτων στο λογισμικό, μπορείτε να
+βοηθήσετε αναφέροντας το πρόβλημα στους προγραμματιστές του Ubuntu. Τα
+περισσότερα προγράμματα έχουν μια καταχώρηση <guimenuitem>Αναφορά
+προβλήματος</guimenuitem> στο μενού <guimenu>Βοήθεια</guimenu>.
+    </para>
+    <para>
+      Αλλιώς, ψάξτε στο Κέντρο λογισμικού του Ubuntu για κάποιο άλλο πρόγραμμα για
+να κάνετε αυτό που θέλετε.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

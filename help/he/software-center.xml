@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="he">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>מרכז התכנה של אובונטו</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>מיזם התיעוד של אובונטו</publishername>
+</publisher> &legal;<copyright> <year>2010</year> <holder>Yaron
+Shahrabani</holder> </copyright>
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>כיצד להתקין ולהסיר תוכנות באובונטו.</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>מהו מרכז התכנה של אובונטו?</title>
+    <para>
+      מרכז התכנה של אובונטו הנו קטלוג וירטואלי המכיל אלפי יישומים חופשיים ומגוון
+תוכנות נוספות כדי להפוך את מערכת האובונטו שלך לשימושית יותר.
+    </para>
+    <para>
+      ניתן למצוא תכנה לפי קטגוריה או על ידי חיפוש וניתן להתקין פריט בלחיצת כפתור.
+    </para>
+    <para>
+      ניתן לסקור אילו תוכנות כבר מותקנות במחשב ולהסיר כל תכנית שאינה נחוצה עוד.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>התקנת תוכנות</title>
+    <para>
+      כדי להתקין פריטים ממרכז התכנה של אובונטו עליך להצטייד בגישת מנהל ובחיבור
+פעיל לאינטרנט. (אם מחשב זה הותקן על ידיך, יש לך גישת מנהל באופן אוטומטי).
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          באגף <guilabel>השגת תכנה</guilabel>, ניתן למצוא את הפריט שברצונך להתקין. אם
+שם הפריט כבר ידוע לך, אפשר לנסות להקליד את שמו בשדה החיפוש. או שאפשר לנסות
+לחפש אחר סוג התכנה המבוקשת (&#8220;spreadsheet&#8221; לדוגמה). אחרת ניתן
+לעיין ברשימת המחלקות.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          יש לבחור פריט מהרשימה ולבחור ב<guilabel>מידע נוסף</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          יש לבחור ב<guilabel>התקנה</guilabel>. יתכן שיהיה עליך להזין את הססמה שלך
+לשימוש באובונטו בטרם התחלת ההתקנה.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      זמן ההתקנה הנחוץ תלוי בגודל התכנית, במהירות המחשב ובמהירות חיבור האינטרנט
+שלך.
+    </para>
+    <para>
+      כאשר המסך משתנה כך שכתוב &#8221;מותקן&#8220;, פריט התכנה מוכן לשימוש.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >שימוש בתכנית לאחר שהותקנה</title>
+    <para>
+      עבור רב התכניות, לאחר שהן מותקנות ניתן לטעון אותן דרך התפריט
+<guimenu>יישומים</guimenu>. (כלים לשינוי הגדרות עשויים להופיע תחת
+<menuchoice><guimenu>מערכת</guimenu>
+<guisubmenu>העדפות</guisubmenu></menuchoice> או תחת
+<menuchoice><guimenu>מערכת</guimenu>
+<guisubmenu>ניהול</guisubmenu></menuchoice> במקום).
+    </para>
+    <para>
+      כדי למצוא היכן לטעון תכנית חדשה, יש לנווט אל המסך של תכנית זו במרכז התכנה של
+אובונטו, אם היא עדיין מופיעה. המיקום בתפריט אמור להופיע במסך זה מתחת לפס
+הצבעוני.
+    </para>
+    <para>
+      אם ברשותך אובונטו בגרסה לנטבוקים (UNE) יופיע יישום בקטגוריה המתאימה במסך
+הבית.
+    </para>
+    <para>
+      מספר פריטים, כגון השמעת מדיה או תוספים לדפדפן, לא יופיעו בתפריטים. אובונטו
+תשתמש בהם אוטומטית כשיהיה בהם צורך. כאשר מדובר בתוסף לדפדפן, יתכן שיהיה עליך
+לסגור את הדפדפן ולפתוח אותו שוב לפני שהתוסף יהיה בשימוש.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">הסרת תוכנות</title>
+    <para>
+      כדי להסיר תוכנות, יש צורך בגישת ניהול. (אם התקנת אובונטו במחשב זה הוגדרה על
+ידיך, יש לך גישת ניהול אוטומטית.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          באגף <guilabel>תוכנות מותקנת</guilabel>, ניתן למצוא את הפריטים שברצונך
+להסיר.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          יש לבחור את הפריט מהרשימה ואז לבחור ב<guilabel>הסרה</guilabel>. יתכן שיהיה
+עליך להזין את ססמת השימוש שלך באובונטו.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      אם תכנית פועלת בזמן הסרתה, לרוב היא תישאר פתוחה גם לאחר הסרתה. ברגע שתיסגר
+היא לא תהיה זמינה עוד.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >מדוע מופיעה שאלה להסרת מספר תכניות יחד?</title>
+    <para>
+      לפעמים בעת הניסיון להסרת פריט אחד, מרכז התכנה של אובונטו יזהיר אותך מפני
+הסרת פריטים אחרים גם כן. ישנן שתי סיבות עיקריות לתופעה זו.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          בעת הסרת יישום, כל תוסף או תוספת עבור יישום זה לרוב יוסרו גם כן.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          לעתים מספר יישומים ארוזים כחבילה בודדת. אם יישום כלשהו מהחבילה מותקן, כולם
+יותקנו. ואם אחד מהם מוסר, כולם יוסרו. מרכז התכנה של אובונטו לא יכול להסיר
+אותם באופן פרטני, כיוון שאין לו שום הנחיות כיצד להפריד אותם.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      ניתן להשתמש בהגדרות <guilabel>תפריט ראשי</guilabel> כדי להסתיר פריטים בלתי
+רצויים מבלי להסיר אותם מהמחשב.  באובונטו, ניתן למצוא את הפריט
+<guilabel>תפריט ראשי</guilabel> תחת <menuchoice><guimenu>מערכת</guimenu>
+<guisubmenu>העדפות</guisubmenu></menuchoice>.  בגרסת הנטבוקים של אובונטו
+(UNE), הוא יופיע תחת <menuchoice><guimenu>הגדרות</guimenu>
+<guisubmenu>העדפות</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >התאמת סרגל התפריטים</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>מה זאת אומרת &#8221;מתוחזק על ידי Canonical&#8220;?</title>
+    <para>
+      חלק מהתוכנות הזמינות באובונטו מסופקות על ידי קנוניקל. מהנדסי קנוניקל מוודאים
+שיסופקו תיקוני אבטחה ועדכונים קריטיים אחרים עבור תכניות אלה.
+    </para>
+    <para>
+      שאר התוכנות מתוחזקות על ידי קהילת המפתחים של אובונטו. עדכונים מסופקים על
+בסיס מיטב יכולותיהם של המתחזקים.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>מי הם &#8220;השותפים של קנוניקל&#8221;?</title>
+    <para>
+      <guilabel>השותפים של קנוניקל</guilabel> מציג תוכנות מספקים שעבדו מול קנוניקל
+כדי שהתוכנה שלהם תהיה זמינה באובונטו.
+    </para>
+    <para>
+      ניתן להתקין תכנית זו באותה הדרך כמו כל שאר התכניות שמרכז התכנה של אובונטו.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">האם עלי לשלם משהו?</title>
+    <para>
+      רוב התוכנות במרכז התכנה של אובונטו פטורות מתשלום.
+    </para>
+    <para>
+      אם משהו עולה כסף, יופיע לצדו לחצן <guilabel>רכישה</guilabel> במקום לחצן
+<guilabel>התקנה</guilabel> ומחירו יופיע במסך עבור אותו הפריט.
+    </para>
+    <para>
+      כדי לשלם בעבור תוכנות מסחריות יהיה לך צורך בחיבור לאינטרנט וחשבון Ubuntu
+Single Sign On או חשבון Launchpad. אם עוד אין לך חשבון מרכז התכנה של אובונטו
+יסייע לך להירשם לאחד כזה.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      מה אם שילמתי על תוכנות ואז איבדתי אותן?
+    </title>
+    <para>
+      אם בטעות הסרת תוכנות כלשהן אותן רכשת וברצונך לקבל אותן בחזרה, יש לבחור
+ב<menuchoice><guimenu>קובץ</guimenu> <guimenuitem>התקנה מחדש של הרכישות
+האחרונות</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      לאחר הכניסה לחשבון בו השתמשת לרכישת התכנה, מרכז התכנה של אובונטו יציג את
+הרכישות שלך לצורך התקנה מחדש.
+    </para>
+    <para>
+      פעולה זו תתבצע אפילו אם התקנת את אובונטו מחדש במחשב.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >מה אם ישנה תכנית בה אני מעוניין ואיננה זמינה?</title>
+    <para>
+      ראשית יש לבדוק שבחרת ב<menuchoice><guimenu>תצוגה</guimenu> <guimenuitem>כל
+התוכנות</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      אם התכנית בה אתה מעוניין עדיין איננה נמצאת אך ידוע לך שהיא פועלת על גבי
+אובונטו, יש לנסות ליצור קשר עם המפתחים המקוריים של התכנית ולשאול אותם האם
+ביכולתם לסייע להתאים אותה.
+    </para>
+    <para>
+      אם ישנה תכנית הזמינה למערכות הפעלה אחרות אך לא לאובונטו, באפשרותך ליידע את
+המפתחים שיש לך עניין בהרצתה באובונטו.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >ומה אם תכנית אינה עובדת?</title>
+    <para>
+      עם עשרות אלפי תכניות במרכז התכנה של אובונטו, תמיד יש סיכוי שחלקן לא יעבדו על
+מחשבך.
+    </para>
+    <para>
+      אם ידוע לך כיצד לדווח על באגים בתכנה, ניתן לסייע על ידי דיווח הבעיה למפתחי
+אובונטו. לרוב התוכנות יש את הפריט <guimenuitem>דיווח על תקלה</guimenuitem>
+בתפריט ה<guimenu>עזרה</guimenu> שלהן.
+    </para>
+    <para>
+      בנוסף ניתן לחפש במרכז התכנה של אובונטו תכנית אחרת שתבצע את מבוקשך.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

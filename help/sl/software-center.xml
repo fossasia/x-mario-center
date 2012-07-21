@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="en">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Programsko središče Ubuntu</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Dokumentacijski projekt Ubuntu</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Kako namestiti in odstraniti program v Ubuntuju.</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Kaj je Programsko središče Ubuntu?</title>
+    <para>
+      Programsko središče Ubuntu je navidezni katalog tisočih brezplačnih
+programov in druge programske opreme, in naredi vaš računalnik z Ubuntujem
+bolj uporaben.
+    </para>
+    <para>
+      Programsko opremo lahko najdete po kategorijah ali z iskanjem, namestite pa
+jo s pritiskom na gumb.
+    </para>
+    <para>
+      Lahko preučite tudi kateri programi so na računalniku že nameščeni in
+odstranite karkoli, česar ne potrebujete.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Nameščanje programske opreme</title>
+    <para>
+      Če želite namestiti nekaj s Programskim središčem Ubuntu, potrebujete
+skrbniški odstop in delujoču internetno povezavo. (Če Ubuntu na tem
+računalniku nastavite sami, imate skrbniški dostop samodejno.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          V <guilabel>Prejmi Programsko opremo</guilabel> oddelku najdite stvari, ki
+jih želite namestiti. Če že poznate ime programa poskusite z iskalnim
+poljem. Lahko tudi poskusite iskati vrsto programa, katerega želite
+(naprimer &#8220;preglednica&#8221;). V nasprotnem primeru prebrskajte
+seznam oddelkov.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Izberite predmet na seznamu, in izberite <guilabel>Več informacij</guilable>
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Izberite <guilable>Namestitev</guilable>. Morda boste morali vnesti vaše
+geslo, preden Ubuntu prične z namestitvijo.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Koliko časa traja, da se nekaj namesti je odvisno od velikosti, hitrosti
+računalnika in internetne povezave.
+    </para>
+    <para>
+      Ko, se zaslon spremeni v &#8229;Nameščen&#8221;, je program pripravljen za
+uporabo.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Uporaba programa enkrat ko je nameščen</title>
+    <para>
+      Večino programov lahko po njihovi namestitvi odstranite meni
+<guimenu>Programi</guimenu>. (Pripomočki za spreminjanje nastavitev  se
+morda lahko pojavijo v <menuchoice><guimenu>Sistem</guimenu>
+<guisubmenu>Možnosti</guisubmenu></menuchoice> or
+<menuchoice><guimenu>Sistem</guimenu>
+<guisubmenu>Skrbništvo</guisubmenu></menuchoice>).
+    </para>
+    <para>
+      Če želite izvedeti, kje naj namesite program, krmarite do zaslona za ta
+program v Programskem središču Ubuntu, će še ni prikazano. Mesto v meniju bi
+moralo biti prikazano na tem zaslonu pod obarvano vrstico.
+    </para>
+    <para>
+      Če uporabljate Ubuntu netbook različico, se lahko program pojavi v primerni
+kategoriji na domačem zaslonu.
+    </para>
+    <para>
+      Nekateri predmeti, kot so medijsko predvajanje ali vstavki spletnega
+brskalnika, se ne pojavijo v menijih. Oni so samodejno uporabljeni, ko jih
+Ubuntu potrebuje. Za vstavke spletnega brskalnika, boste mogoče morali
+zapreti brskalnik in ga ponovno zagnati preden bodo vstavki uporabljeni.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Odstranjevanje programske opreme</title>
+    <para>
+      Če želite odstraniti programsko opremo, morate imeti skrbniški dostop.(Če
+Ubuntu na tem računalniku nastavite sami, imate skrbniški dostop samodejno.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          V oddelku <guilabel>Nameščena programska opremma</guilavle>, najdite
+predmet, ki ga želite odstraniti.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Izberite predmet na seznamu in izberite<guilable>Odstrani</guilable>. Mogoče
+boste morali vnesti vaše Ubuntu geslo.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Če je program odprt, medtem ko ga odstranjujete,bo ponavadi ostal odprt tudi
+po tem, ko ga boste odstranili. Takoj, ko ga zaprete ne bo več na voljo.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Zakaj me sprašuje o odstranitvi več programov hkrati?</title>
+    <para>
+      Včasih vas bo v primeru poskusa odstranitve enega predmeta Programsko
+središče Ubuntu opozorilo, da bodo odstranjeni tudi drugi
+predmeti. Obstajata dva glavna razloga za to.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Če odstranite program, bodo običajno odstranjeni tudi dodatki ali vstavki za
+ta program.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Včasih je več programov posredovanih v enem paketu. Če je kateri koli od
+njih nameščen bodo vsi nameščeni. Če odstranimo enega od izmed njih bodo vsi
+odstranjeni. Programsko središče Ubuntu jih ne more odstraniti posamezno,
+zato ker nima navodil, kako jih ločiti.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Lahko uporabite <guilabel> Glavni Meni </ guilabel> nastavitev za skrivanje
+nezaželenih predmetov, ne da bi jih odstranili iz računalnika. V Ubuntu
+lahko najdete <guilabel>Glavni Meni</ guilabel> znotraj <menuchoice>
+<guimenu>Sistem</ guimenu> <guisubmenu>Nastavitve </ guisubmenu> </
+menuchoice>. V Ubuntu Netbook izdaji, je v <menuchoice> <guimenu>Nastavitve
+</ guimenu> <guisubmenu>Možnosti </ guisubmenu> </ menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >Prilagoditev vrstice
+menija</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Kaj je &#8220;Vzdrževanje-Canonical&#8221;?</title>
+    <para>
+      Nekatere programe za Ubuntu vzdržuje Canonical. Canonicalovi inžinirji
+zagotavljajo, da so za te programe na voljo varnostni popravki in druge
+kritične posodobitve.
+    </para>
+    <para>
+      Drugo programsko opremo vzdržuje skupnost razvijalcev Ubuntu. Morebitne
+posodobitve so na voljo po najboljših močeh.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Kaj je &#8220;Canonical Partnerji&#8221;?</title>
+    <para>
+      <guilable>Canonical Partnerji</guilabel> prikazujen programsko opremo od
+proizvajalcev, ki so delali z Canonical, da bi bila njihova programska
+oprema na voljo za Ubuntu.
+    </para>
+    <para>
+      To programsko opremo lahko namestite na enak način kot katerokoli drugo
+programsko opremo znotraj Programskega središča Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Ali moram kaj plačati?</title>
+    <para>
+      Večina programov v Programskem središču Ubuntu je brezplačnih.
+    </para>
+    <para>
+      Če program ni brezplačen, je poleg njega gumb <guilabel>Kupi</guilabel>
+namesto gumba <guilabel>Namesti</guilabel> in njegova cena je prikazana na
+zaslonu za posamezen predmet.
+    </para>
+    <para>
+      Za plačilo komercialnih programov morate imeti internetno povezavo in račun
+Ubuntu Single Sign On ali Launchpad. Če tega računa nimate, vam bo
+Programsko središče Ubuntu pomagalo pri vpisu.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      Kaj če sem plačal za program in ga nato izgubil?
+    </title>
+    <para>
+      Če ste po nesreči odstranili kupljene programe in jih želite nazaj, izberite
+<menuchoice><guimenu>Datoteka</guimenu> <guimenuitem>Znova namesti predhodne
+nakupe</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Ko boste vpisani v račun, ki ste ga uporabili za nakup programov, bo
+Programsko središče Ubuntu prikazalo vaše nakupe za ponovno namestitev.
+    </para>
+    <para>
+      To deluje tudi, če ste Ubuntu znova namestili na računalnik.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Kaj, če program, katerega želim ni na voljo?</title>
+    <para>
+      Prvo, preverite, da <menuchoice><guimenu>Pogled</guimenu><guimenuitem>Vsa
+Programska Oprema</guimenuitem></menuchoice> je izbrano.
+    </para>
+    <para>
+      Če programska oprema, ki jo želite še vedno ni na voljo, toda vi veste, da
+teče na Ubuntuju, poskusite stopiti v stik z izvornimi razvijalci programa
+ter jih vprašajte, če vam lahko pomagajo.
+    </para>
+    <para>
+      Če je program na voljo za druge operacijske sisteme toda ne za Ubuntu,
+sporočite razvijalcem, da ste zainteresirani za poganjanje programa na
+Ubuntuju.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Kaj če program ne deluje?</title>
+    <para>
+      Z več deset tisoč programov v Programskem središču Ubuntu je vedno možno, da
+nekaj od njih ne bo delovalo pravilno na vašem računalniku.
+    </para>
+    <para>
+      Če ste seznanjeni s prijavo hroščev v programski opremi, lahko pomagate
+tako, da sporočate probleme Ubuntu razvijalcem. Večina programov ima na
+voljo izbiro <guimenuitem>Poročilo o težavi</guimenuitem> v njihovem
+meniju<guimenu>Pomoč</guimenu> .
+    </para>
+    <para>
+      V nasprotnem primeru v Programskem središču Ubuntu najdite drug program, ki
+bo imel željene zmožnosti.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

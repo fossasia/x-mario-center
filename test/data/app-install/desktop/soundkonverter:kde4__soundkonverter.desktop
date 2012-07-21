@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=soundkonverter
+X-AppInstall-Popcon=731
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=soundKonverter
+Exec=soundkonverter %i -caption "%c"
+Icon=soundkonverter
+Type=Application
+DocPath=soundkonverter/soundkonverter.html
+GenericName=An audio file converter
+Terminal=false
+Categories=AudioVideo;AudioVideoEditing;CD;
+X-Ubuntu-Gettext-Domain=app-install-data

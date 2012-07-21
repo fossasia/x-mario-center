@@ -1,0 +1,5 @@
+#!/bin/sh
+
+export QT_GRAPHICSSYSTEM=raster
+
+PYTHONPATH=.  python softwarecenter/ui/qml/app.py

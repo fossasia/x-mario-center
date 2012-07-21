@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="sk">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Centrum softvéru Ubuntu</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Dokumentačný projekt Ubuntu</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Ako inštalovať a odstraňovať softvér v Ubuntu</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Čo je Centrum softvéru Ubuntu</title>
+    <para>
+      Centrum softvéru Ubuntu je virtuálny katalóg tisícov slobodných aplikácií a
+iného softvéru, ktorý robí užitočné veci na vašom počítači s Ubuntu.
+    </para>
+    <para>
+      Softvér môžete vyhľadať podľa kategórie alebo hľadaním a položku môžete
+nainštalovať kliknutím tlačidla.
+    </para>
+    <para>
+      You can also examine which software is installed on the computer already,
+and remove anything you no longer need.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Inštalácia softvéru</title>
+    <para>
+      Ak chcete niečo nainštalovať pomocou Centra softvéru Ubuntu, potrebujete
+oprávnenie správcu a fungujúce pripojenie k internetu. (Ak ste na tomto
+počítači nainštalovali Ubuntu sami, automaticky máte oprávnenie správcu.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          V časti <guilabel>Získať softvér</guilabel> nájdite to, čo chcete
+nainštalovať. Ak už viete ako sa to volá, skúste tento názov napísať do
+vyhľadávača. Alebo skúste vyhľadať program podľa typu
+(napr. &#8220;kalkulačka&#8221;). Inak prehliadajte zoznam po jenotlivých
+častiach.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Vyberte položku zo zoznamu a zvoľte <guilabel>Ďalšie informácie</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Zvoľte <guilabel>Nainštalovať</guilabel>. Pred začiatkom inštalácie vás
+možno systém požiada o heslo.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Ako dlho trvá nainštalovať balík závisí od jeho veľkosti a rýchlosti vášho
+počítača a pripojenia k internetu.
+    </para>
+    <para>
+      Keď sa obrazovka zmení na &#8220;Nainštalované&#8221;, softvér je pripravený
+na použitie.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Používanie programu po jeho nainštalovaní</title>
+    <para>
+      For most programs, once they are installed, you can launch them from the
+<guimenu>Applications</guimenu> menu.  (Utilities for changing settings may
+appear inside <menuchoice><guimenu>System</guimenu>
+<guisubmenu>Preferences</guisubmenu></menuchoice> or
+<menuchoice><guimenu>System</guimenu>
+<guisubmenu>Administration</guisubmenu></menuchoice> instead).
+    </para>
+    <para>
+      To find out where to launch a new program, navigate to the screen for that
+program in Ubuntu Software Center, if it is not still being displayed.  The
+menu location should be displayed on that screen, below the colored bar.
+    </para>
+    <para>
+      If you are using Ubuntu Netbook Edition, an application appears in the
+appropriate category on the home screen.
+    </para>
+    <para>
+      Niektoré položky ako prehrávanie multimédií alebo zásuvné moduly webového
+prehliadača sa neobjavujú v menu. Automaticky sa použijú, keď ich Ubuntu
+potrebuje. V prípade zásuvného modulu webového prehliadača bude možno
+potrebné zatvoriť prehliadač a znova ho otvoriť, než bude možné zásuvný
+modul použiť.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Odstraňovanie softvéru</title>
+    <para>
+      Ak chcete odstrániť softvér, potrebujete oprávnenie správcu. (Ak ste na
+tomto počítači nainštalovali Ubuntu sami, automaticky máte oprávnenie
+správcu.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          V časti <guilabel>Nainštalovaný softvér</guilabel> nájdite položku, ktorú
+chcete odstrániť.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Vyberte položku v zozname a zvoľte <guilabel>Odstrániť</guilabel>. Ubuntu
+vás môže požiadať o zadanie vášho používateľského hesla.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Ak sa pokúsite program odstrániť, zatiaľ čo program beží, zvyčajne zostane
+bežať aj potom ako ho odstránite. Akonáhle ho zatvoríte, už nebude dostupný.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Prečo ma to žiada o odstránenie niekoľkých programov súčasne?</title>
+    <para>
+      Sometimes if you try to remove one item, Ubuntu Software Center will warn
+you that other items will be removed too.  There are two main reasons this
+happens.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          If you remove an application, any add-ons or plugins for that application
+usually will be removed too.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Viaceré aplikácie sa niekedy poskytujú v jenom balíku. Ak nainštalujete
+jednu z nich, nainštalujú sa všetky. Ak ktorúkoľvek z nich odstránite,
+odstránia sa všetky. Centrum softvéru Ubuntu ich nedokáže odstrániť
+jednotlivo, pretože nemá inštrukcie ako ich oddeliť.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Môžete použiť nastavenia <guilabel>Hlavného menu</guilabel>, kde sa dajú
+skryť nechcené položky bez toho, aby ste ich museli odstrániť z počítača. V
+Ubuntu nájdete <guilabel>Hlavné menu</guilabel> v menu
+<menuchoice><guimenu>Systém</guimenu>
+<guisubmenu>Predvoľby</guisubmenu></menuchoice>. V Ubuntu Netbook Edition sa
+nachádza v ponuke <menuchoice><guimenu>Nastavenia</guimenu>
+<guisubmenu>Predvoľby</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor">Prispôsobenie panelu s
+menu</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Čo znamená „Softvér, ktorý spravuje Canonical“?</title>
+    <para>
+      Some of the software available for Ubuntu is maintained by Canonical.
+Canonical engineers ensure that security fixes and other critical updates
+are provided for these programs.
+    </para>
+    <para>
+      O ostatný softvér sa stará komunita vývojárov Ubuntu. Tí sa snažia dodať
+všetky aktualizácie, ale nie je to zaručené.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Čo znamená „Partneri Canonicalu“?</title>
+    <para>
+      <guilabel>Partneri Canonicalu</guilabel> zobrazuje softvér od dodávateľov,
+ktorí spolupracujú s Canonicalom na sprístupnení svojho softvéru pre Ubuntu.
+    </para>
+    <para>
+      Tento softvér môžete nainštalovať rovnakým spôsobom ako akýkoľvek iný
+softvér v Centre softvéru Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Do I need to pay anything?</title>
+    <para>
+      Most software in Ubuntu Software Center is free of charge.
+    </para>
+    <para>
+      If something costs money, it has a <guilabel>Buy</guilabel> button instead
+of an <guilabel>Install</guilabel> button, and its price is shown on the
+screen for the individual item.
+    </para>
+    <para>
+      To pay for commercial software, you need an Internet connection, and an
+Ubuntu Single Sign On account or Launchpad account.  If you do not have an
+account, Ubuntu Software Center will help you register one.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      What if I paid for software and then lost it?
+    </title>
+    <para>
+      If you accidentally removed software that you purchased, and you want it
+back, choose <menuchoice><guimenu>File</guimenu> <guimenuitem>Reinstall
+Previous Purchases</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Once you sign in to the account that you used to buy the software, Ubuntu
+Software Center will display your purchases for reinstalling.
+    </para>
+    <para>
+      This works even if you have reinstalled Ubuntu on the computer.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Čo ak program, ktorý chcem nie je dostupný?</title>
+    <para>
+      Najprv skontrolujte, že máte povolenú voľbu
+<menuchoice><guimenu>Zobraziť</guimenu> <guimenuitem>Všetok
+softvér</guimenuitem></menuchoice>
+    </para>
+    <para>
+      Ak sa softvér, ktorý chcete napriek tomu v zozname nenachádza, ale viete, že
+na Ubuntu funguje, skúste kontaktovať pôvodných vývojárov programu a
+požiadajte ich, či by ho pomohli sprístupniť.
+    </para>
+    <para>
+      Ak program je dostupný pre iné operačné systémy, ale nie pre Ubuntu, dajte
+vývojárom vedieť, že máte záujem spúšťať ho na Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Čo ak program nefunguje?</title>
+    <para>
+      Pri desiatkach tisíc programov v Centre softvéru Ubuntu existuje vždy istá
+pravdepodobnosť, že niekoľko z nich nebude na vašom počítači správne
+fungovať.
+    </para>
+    <para>
+      Ak viete ako oznamovať chyby v softvéri, môžete pomôcť oznámením problému
+vývojárom Ubuntu. Väčšina programov má položku <guimenuitem>Nahlásiť
+problém</guimenuitem> vo svojom menu <guimenu>Pomocník</guimenu>.
+    </para>
+    <para>
+      Otherwise, look through Ubuntu Software Center for another program to do
+what you want.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

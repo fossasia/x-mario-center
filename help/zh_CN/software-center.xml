@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="英语">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Ubuntu 软件中心</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Ubuntu Documentation Project</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>如何在 Ubuntu 中安装和卸载软件。</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>什么是 Ubuntu 软件中心？</title>
+    <para>
+      Ubuntu 软件中心是一个包含数以千计的自由软件和其他应用程序的虚拟目录，它能为您的计算机增加更多实用的功能。
+    </para>
+    <para>
+      您可以通过类别或搜索查找软件，并且点击一次按钮就可以安装某一项目。
+    </para>
+    <para>
+      您还可以查看这台计算机上已经安装了哪些软件，并卸载不再需要的软件。
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>安装软件</title>
+    <para>
+      要通过 Ubuntu 软件中心安装软件，您必须有管理员权限和一个可用的网络连接。(如果这台计算机上的 Ubuntu
+系统是您自己安装的，那么您已自动拥有了管理员权限。)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          在 <guilabel>获取自由软件</guilabel> 中，找到您想安装的的东西。如果您已经知道软件名，可以在搜索框中输入名称(例如
+&#8220;工作表&#8221;)或者，按类型浏览软件。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          选择列表中的项目，然后选择 <guilabel>更多信息</guilabel>。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          选择 <guilabel>安装</guilabel>。在安装开始前您可能需要输入您的 Ubuntu 密码。
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      安装需要的时间依其大小、计算机和网络的速度而定。
+    </para>
+    <para>
+      当屏幕上显示“已安装“时，这款软件就可以用了。
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >马上使用安装好的软件</title>
+    <para>
+      For most programs, once they are installed, you can launch them from the
+<guimenu>Applications</guimenu> menu.  (Utilities for changing settings may
+appear inside <menuchoice><guimenu>System</guimenu>
+<guisubmenu>Preferences</guisubmenu></menuchoice> or
+<menuchoice><guimenu>System</guimenu>
+<guisubmenu>Administration</guisubmenu></menuchoice> instead).
+    </para>
+    <para>
+      To find out where to launch a new program, navigate to the screen for that
+program in Ubuntu Software Center, if it is not still being displayed.  The
+menu location should be displayed on that screen, below the colored bar.
+    </para>
+    <para>
+      If you are using Ubuntu Netbook Edition, an application appears in the
+appropriate category on the home screen.
+    </para>
+    <para>
+      某些程序，比如媒体录音或网络浏览器插件，并不会在这些菜单中出现。Ubuntu
+会自动运行它们。对于网络浏览器插件，您需要先关闭浏览器并重新打开它，才能使插件正常工作。
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">移除软件</title>
+    <para>
+      要移除软件，您必须有管理员权限。(如果这台计算机上的 Ubuntu 系统是您自己安装的，那么您已自动拥有了管理员权限。)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          在 <guilabel>已安装的软件</guilabel> 部分，找到您想卸载的项目。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          在列表中选择项目，选择 <guilabel>移除</guilabel>。您可能要输入自己的 Ubuntu 密码。
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      如果某个程序在您移除它时已经打开，一般情况下在移除后它还会保持打开状态。一旦您关闭它，程序就不能再用了。
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >为什么让我同时卸载一些其他的软件？</title>
+    <para>
+      Sometimes if you try to remove one item, Ubuntu Software Center will warn
+you that other items will be removed too.  There are two main reasons this
+happens.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          If you remove an application, any add-ons or plugins for that application
+usually will be removed too.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          多个应用程序有时会以一个单独的安装包提供。安装时将会它们一起安装，移除时也会一起移除。Ubuntu
+软件中心不能单独的卸载它们，因为没有如何将它们分开的说明。
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      您可以使用 <guilabel>主菜单</guilabel> 设置来隐藏不想显示的项目，而不必从计算机中移除它们。在 Ubuntu 中，您可以在
+<menuchoice><guimenu>系统</guimenu> <guisubmenu>首选项</guisubmenu></menuchoice>
+中找到 <guilabel>主菜单</guilabel> 。在 Ubuntu 上网本版中，它位于
+<menuchoice><guimenu>设置</guimenu> <guisubmenu>首选项</guisubmenu></menuchoice>
+菜单中。
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >定制的菜单栏</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>什么是“Canonical 公司维护的”软件？</title>
+    <para>
+      Some of the software available for Ubuntu is maintained by Canonical.
+Canonical engineers ensure that security fixes and other critical updates
+are provided for these programs.
+    </para>
+    <para>
+      其他软件则由Ubuntu开发社区维护。任何升级都是尽力完善提供的。
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>什么是“Canonical 公司合作伙伴”？</title>
+    <para>
+      <guilabel>Canonical 合作伙伴</guilabel> 显示来自 Canonical 合作厂商的软件，这些厂商与 Canonical
+公司合作使自己的软件能够用在 Ubuntu 上。
+    </para>
+    <para>
+      您可以用像安装 Ubuntu 软件中心中其他软件一样的方式安装这些软件。
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">需要付费吗？</title>
+    <para>
+      Ubuntu 软件中心中绝大多数软件是免费提供的。
+    </para>
+    <para>
+      如果有收费项目，则将显示<guilabel>购买</guilabel>按钮而非<guilabel>安装</guilabel>按钮。同时在屏幕上会显示该项目的价格。
+    </para>
+    <para>
+      购买商业软件需要联网并拥有一个 Ubuntu SSO 或 Launchpad 账号。如果您没有该账号，Ubuntu 软件中心会帮您注册一个。
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      What if I paid for software and then lost it?
+    </title>
+    <para>
+      If you accidentally removed software that you purchased, and you want it
+back, choose <menuchoice><guimenu>File</guimenu> <guimenuitem>Reinstall
+Previous Purchases</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Once you sign in to the account that you used to buy the software, Ubuntu
+Software Center will display your purchases for reinstalling.
+    </para>
+    <para>
+      This works even if you have reinstalled Ubuntu on the computer.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >如果在Ubuntu 软件中心中找不到我需要的软件怎么办？</title>
+    <para>
+      首先，检查 <menuchoice><guimenu>视图</guimenu>
+<guimenuitem>所有软件</guimenuitem></menuchoice> 选项已选中。
+    </para>
+    <para>
+      如果仍然找不到您需要的软件，但您知道它能在Ubuntu中运行，请尝试联系软件的原开发者并询问他们能否提供 Ubuntu 能用的版本。
+    </para>
+    <para>
+      如果某个软件在其他操作系统中能运行除了 ubuntu ，请通知软件开发人员您希望在Ubuntu里运行该软件。
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >如果程序不能运行怎么办？</title>
+    <para>
+      Ubuntu 软件中心中有数以千计的程序，因此总能找到一些能在您的计算机上正常工作的程序。
+    </para>
+    <para>
+      如果您熟悉如何提交软件错误，您可以向 Ubuntu 开发人员提交。大多数软件在其 <guimenu>帮助</guimenu> 菜单里有
+<guimenuitem>提交错误报告</guimenuitem> 的选项。
+    </para>
+    <para>
+      Otherwise, look through Ubuntu Software Center for another program to do
+what you want.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

@@ -1,0 +1,12 @@
+[Desktop Entry]
+X-AppInstall-Package=pay-app
+X-AppInstall-PPA=pay-owner/pay-ppa-name
+X-AppInstall-Price=99$
+
+Name=Pay App Example
+Comment=This is a example for a pay app from a PPA
+Exec=/usr/bin/software-center
+Icon=softwarecenter
+Terminal=false
+Type=Application
+Categories=Application;AudioVideo

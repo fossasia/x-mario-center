@@ -1,0 +1,55 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  Bu belgenin kopyalanmasına, dağıtımına ve/veya düzenlenmesine, GNU Özgür
+Dökümantasyon Lisansı (GFDL), Sürüm 1.1 veya daha sonraki herhangi bir sürüm
+altında, Hiçbir Bölümü, Ön Kapak ve Arka Kapak Yazılarını değiştirmeden,
+Özgür Yazılım Kuruluşu tarafından yayımlanmasına izin verilmiştir. GFDL'nin
+bir kopyasını bu <ulink type="help" url="ghelp:fdl">bağlantıda</ulink> veya
+bu kılavuz ile dağıtılan COPYING-DOCS dosyasında bulabilirsin.
+         </para>
+         <para> Bu kılavuz, GFDL altında dağıtılan GNOME kılavuzlarının bir koleksiyonunun
+parçasıdır. Eğer bu kılavuzu koleksiyondan ayrı olarak dağıtmak istiyorsan,
+lisansın 6. bölümünde açıklandığı gibi, kılavuza lisansın bir kopyasını
+ekleyerek bunu yapabilirsin.
+	</para>
+
+	<para>
+	  Şirketlerin kendi ürünlerini ve sunumlarını ayırt etmek için kullandıkları
+isimlerin çoğu tescilli marka olarak kabul edilirler. Bu isimlerin geçtiği
+GNOME belgelemeleri ve GNOME Belgeleme Tasarısı üyeleri bu tescilli markalar
+hakkında bilinçlendirilirler, sonra bu isimler tamamı ya da sadece ilk harfi
+büyük olacak şekilde yazılırlar.
+	</para>
+
+	<para>
+	  BELGE VE BELGENİN DÜZENLENEN SÜRÜMLERİ, GNU ÖZGÜR DÖKÜMANTASYON LİSANSININ
+KOŞULLARI ALTINDA BUNU DAHA İYİ ANLAYARAK SAĞLANIR: <orderedlist>
+		<listitem>
+		  <para>BELGE "OLDUĞU GİBİ" İLKESİNE BAĞLIDIR. İMA YOLUYLA VEYA SÖZLÜ OLARAK BİLE
+HERHANGİ BİR GARANTİ VERMEZ. BELGENİN VEYA BELGENİN DÜZENLENEN SÜRÜMÜNÜN
+TİCARİ AMAÇLARININ EKSİKLİĞİNİ SINIRLAYAN, BELİRLİ BİR AMACA YÖNELİK VEYA
+HAK İHLALİ OLMAYAN GARANTİLER OLMAKSIZIN. BELGENİN VEYA BELGENİN DÜZENLENEN
+SÜRÜMÜNÜN KALİTE, HATASIZLIK VE BAŞARIMI SİZE BAĞLIDIR. HERHANGİ BİR
+BELGENİN VEYA DÜZENLENEN SÜRÜMÜNÜN HERHANGİ DURUMDAKİ KUSURUNU GÖRDÜĞÜNÜZDE,
+(İLK YAZAR VEYA DAĞITIMCI DEĞİL) SİZİN GEREKEN SERVİSİN, DÜZENLEMENİN VEYA
+DOĞRULAMANIN MALİYETİNİ KABUL ETTİĞİNİZ VARSAYILIR. GARANTİNİN BU VAZGEÇME
+BELGESİ, BU LİSANSIN ASIL PARÇASINI MEYDANA GETİRİR. HERHANGİ BİR BELGE VEYA
+BELGENİN DÜZENLENEN SÜRÜMÜNÜN KULLANIMI BURADA, BU İTİRAZ BELGESİ HARİÇ,
+YETKİLENMİŞTİR.
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>HİÇBİR DURUM VE HİÇBİR YASAL KURAM ALTINDA, HAKSIZLIKTA (SAYGISIZLIK DAHİL),
+SÖZLEŞMEDE, VEYA HERHANGİ BİR DURUMDA; YAZARI, HERHANGİ BİR DAĞITIMCI VEYA
+BELGENİN YA DA BELGENİN DÜZENLENEN SÜRÜMÜNÜN HERHANGİ BİR DAĞITIMCISI,
+TEKBİR VEYA ÇOĞU PARÇANIN HERHANGİ BİR SAĞLAYICISI SİZE
+SESLENİYORUM. HERHANGİ BİR KİŞİYE, DOĞRUDAN, DOLAYLI OLARAK, ÖZEL,
+TESADÜFEN; SINIRLAMA, İYİ NİYETİ SUİSTİMAL ETME, İŞİ DURDURMA, BİLGİSAYAR
+HATASI VEYA ARIZASI, AZ VEYA ÇOK DİĞER ZARARLARDA YA DA BELGENİN VEYA
+BELGENİN DÜZENLENEN SÜRÜMÜNÜN GÜNCELLENMESİNİN GECİKMESİNDE DUYARLI OLUN.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+

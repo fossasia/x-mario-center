@@ -1,0 +1,372 @@
+# Romanian translation for software-store
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-store\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-09-25 17:10+0200\n"
+"PO-Revision-Date: 2009-10-09 19:23+0000\n"
+"Last-Translator: Alex Eftimie <alexeftimie@gmail.com>\n"
+"Language-Team: Romanian <ro@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1 ? 0: (((n % 100 > 19) || ((n % 100 "
+"== 0) && (n != 0))) ? 2: 1));\n"
+"X-Launchpad-Export-Date: 2009-10-10 08:15+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../softwarecenter/app.py:349 ../softwarecenter/view/appdetailsview.py:404
+msgid "ERROR"
+msgstr "EROARE"
+
+#: ../softwarecenter/apt/aptcache.py:173 ../softwarecenter/apt/aptcache.py:185
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+"Canonical nu mai asigură actualizări pentru %s în Ubuntu %s. Actualizări pot "
+"fi disponibile într-o versiune nouă de Ubuntu."
+
+#: ../softwarecenter/apt/aptcache.py:178
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical asigură actualizări critice pentru %(appname)s până în  "
+"%(support_end_month_str)s %(support_end_year)s."
+
+#: ../softwarecenter/apt/aptcache.py:190
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical asigură actualizări critice furnizate de dezvoltatorii aplicației "
+"%(appname)s până în %(support_end_month_str)s %(support_end_year)s."
+
+#: ../softwarecenter/apt/aptcache.py:200
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+"Canonical nu oferă actualizări pentru %s. Unele actualizări pot fi oferite "
+"de terțe părți."
+
+#: ../softwarecenter/apt/aptcache.py:204
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr "Canonical oferă actualizări critice pentru %s."
+
+#: ../softwarecenter/apt/aptcache.py:206
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr ""
+"Canonical oferă actualizări critice puse la dispoziție de dezvoltatorii %s."
+
+#: ../softwarecenter/apt/aptcache.py:209
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+"Canonical nu oferă actualizări pentru %s. Unele actualizări pot fi oferite "
+"de către comunitatea Ubuntu."
+
+#: ../softwarecenter/apt/aptcache.py:212
+#, python-format
+msgid "Application %s has a unkown maintenance status."
+msgstr "Aplicația %s are o stare de întreținere necunoscută."
+
+#: ../softwarecenter/view/appdetailsview.py:89
+msgid "Description"
+msgstr "Descriere"
+
+#: ../softwarecenter/view/appdetailsview.py:181
+#: ../softwarecenter/view/appdetailsview.py:186
+msgid "Not available in the current data"
+msgstr "Indisponibil în datele curente"
+
+#: ../softwarecenter/view/appdetailsview.py:184
+msgid "Not available for your hardware architecture."
+msgstr "Nu este disponibil pentru arhitectura dumneavoastră hardware."
+
+#: ../softwarecenter/view/appdetailsview.py:211
+#: ../softwarecenter/view/appdetailsview.py:215
+msgid "Application Screenshot"
+msgstr "Captură de ecran"
+
+#: ../softwarecenter/view/appdetailsview.py:239
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "Versiune: %s (%s)"
+
+#. generic message
+#: ../softwarecenter/view/appdetailsview.py:257
+#, python-format
+msgid "%s is installed on this computer."
+msgstr "%s este instalat pe acest computer."
+
+#: ../softwarecenter/view/appdetailsview.py:269
+#, python-format
+msgid "It is used by %s piece of installed software."
+msgid_plural "It is used by %s pieces of installed software."
+msgstr[0] "Este folosit de %s piesă software instalată."
+msgstr[1] "Este folosit de %s piese software instalate."
+msgstr[2] "Este folosit de %s de piese software instalate."
+
+#: ../softwarecenter/view/appdetailsview.py:274
+msgid "Website"
+msgstr "Sit web"
+
+#: ../softwarecenter/view/appdetailsview.py:277
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: ../softwarecenter/view/appdetailsview.py:279
+msgid "Open Source"
+msgstr "Sursă deschisă"
+
+#: ../softwarecenter/view/appdetailsview.py:281
+msgid "Proprietary"
+msgstr "Proprietar"
+
+#: ../softwarecenter/view/appdetailsview.py:282
+#, python-format
+msgid "License: %s"
+msgstr "Licență: %s"
+
+#. TRANSLATORS: This text will be showed as price of the software
+#: ../softwarecenter/view/appdetailsview.py:286
+msgid "Free"
+msgstr "Gratuit"
+
+#: ../softwarecenter/view/appdetailsview.py:287
+#, python-format
+msgid "Price: %s"
+msgstr "Cost: %s"
+
+#: ../softwarecenter/view/appdetailsview.py:327
+#, python-format
+msgid "%s - Screenshot"
+msgstr "%s - captură de ecran"
+
+#. generic removal text
+#. FIXME: this text is not accurate, we look at recommends as
+#. well as part of the rdepends, but those do not need to
+#. be removed, they just may be limited in functionatlity
+#: ../softwarecenter/view/appdetailsview.py:346
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr "Eliminând %s, următoarele articole vor fi de asemenea eliminate:"
+
+#: ../softwarecenter/view/appdetailsview.py:348
+msgid "Remove All"
+msgstr "Înlătură tot"
+
+#: ../softwarecenter/view/appdetailsview.py:354
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+"Dacă dezinstalați %s, viitoarele actualizări nu vor include articole noi din "
+"suita <b>%s</b>. Sigur doriți să continuați?"
+
+#: ../softwarecenter/view/appdetailsview.py:357
+#: ../softwarecenter/view/appdetailsview.py:368
+msgid "Remove Anyway"
+msgstr "Înlătură oricum"
+
+#: ../softwarecenter/view/appdetailsview.py:364
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s este o aplicație de bază în Ubuntu. Dezinstalarea ei poate face ca "
+"viitoarele actualizări majore să fie incomplete. Sigur doriți să continuați?"
+
+#: ../softwarecenter/view/appdetailsview.py:427
+msgid "Upgrade"
+msgstr "Actualizează"
+
+#: ../softwarecenter/view/appdetailsview.py:430
+msgid "Remove"
+msgstr "Elimină"
+
+#: ../softwarecenter/view/appdetailsview.py:433
+msgid "Install"
+msgstr "Instalează"
+
+#. FIXME: deal with the EULA stuff
+#: ../softwarecenter/view/appdetailsview.py:442
+msgid "Enable channel"
+msgstr "Activează canal"
+
+#: ../softwarecenter/view/appdetailsview.py:469
+msgid "_Keep"
+msgstr "_Păstrează"
+
+#: ../softwarecenter/view/appdetailsview.py:470
+msgid "_Replace"
+msgstr "În_locuiește"
+
+#: ../softwarecenter/view/appdetailsview.py:472
+#, python-format
+msgid "Configuration file '%s' changed"
+msgstr "Fișierul de configuare '%s' a fost modificat"
+
+#: ../softwarecenter/view/appdetailsview.py:473
+msgid "Do you want to use the new version?"
+msgstr "Doriți să folosiți versiunea nouă?"
+
+#. home button
+#: ../softwarecenter/view/availablepane.py:88
+#: ../softwarecenter/view/viewswitcher.py:128
+msgid "Get Free Software"
+msgstr "Obține software liber"
+
+#: ../softwarecenter/view/availablepane.py:138
+#: ../softwarecenter/view/installedpane.py:127
+#, python-format
+msgid "%s matching item"
+msgid_plural "%s matching items"
+msgstr[0] "%s articol care se potrivește"
+msgstr[1] "%s articole care se potrivesc"
+msgstr[2] "%s de articole care se potrivesc"
+
+#: ../softwarecenter/view/availablepane.py:142
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] "%s articol disponibil"
+msgstr[1] "%s articole disponibile"
+msgstr[2] "%s de articole disponibile"
+
+#: ../softwarecenter/view/catview.py:71 ../softwarecenter/view/catview.py:106
+msgid "Departments"
+msgstr "Departamente"
+
+#: ../softwarecenter/view/dialogs.py:45
+msgid "Details"
+msgstr "Detalii"
+
+#: ../softwarecenter/view/dialogs.py:80
+msgid "Cancel"
+msgstr "Anulează"
+
+#. FIXME: make this a generic pkgview widget
+#: ../softwarecenter/view/dialogs.py:88
+msgid "Dependency"
+msgstr "Dependență"
+
+#: ../softwarecenter/view/installedpane.py:74
+#: ../softwarecenter/view/viewswitcher.py:130
+msgid "Installed Software"
+msgstr "Software instalat"
+
+#: ../softwarecenter/view/installedpane.py:131
+#, python-format
+msgid "%s installed item"
+msgid_plural "%s installed items"
+msgstr[0] "%s articol instalat"
+msgstr[1] "%s articole instalate"
+msgstr[2] "%s de articole instalate"
+
+#: ../softwarecenter/view/viewswitcher.py:160
+#: ../softwarecenter/view/viewswitcher.py:165
+#, python-format
+msgid "In Progress (%i)"
+msgstr "În desfășurare (%i)"
+
+#: ../data/ui/SoftwareCenter.ui.h:1
+msgid "&#xA9;2009 Canonical"
+msgstr "&#xA9;2009 Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:2
+msgid "Copy _Web Link"
+msgstr "Copiază legătura web"
+
+#: ../data/ui/SoftwareCenter.ui.h:3
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr ""
+"Oferă posibilitatea de a alege din mii de aplicații libere disponibile "
+"pentru Ubuntu."
+
+#: ../data/ui/SoftwareCenter.ui.h:4
+msgid "Rebuilding application catalog..."
+msgstr "Se reconstruiește catalogul..."
+
+#: ../data/ui/SoftwareCenter.ui.h:5
+msgid "Search..."
+msgstr "Caută..."
+
+#: ../data/ui/SoftwareCenter.ui.h:6
+msgid "Software Center _Help"
+msgstr "A_jutor Centru Software"
+
+#: ../data/ui/SoftwareCenter.ui.h:7
+#: ../data/ubuntu-software-center.desktop.in.h:3
+msgid "Ubuntu Software Center"
+msgstr "Centru Software Ubuntu"
+
+#: ../data/ui/SoftwareCenter.ui.h:8
+msgid "_All Applications"
+msgstr "To_ate aplicațiile"
+
+#: ../data/ui/SoftwareCenter.ui.h:9
+msgid "_Canonical-Maintained Applications"
+msgstr "Aplicațiile întreținute de _Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:10
+msgid "_Edit"
+msgstr "_Editare"
+
+#: ../data/ui/SoftwareCenter.ui.h:11
+msgid "_File"
+msgstr "_Fișier"
+
+#: ../data/ui/SoftwareCenter.ui.h:12
+msgid "_Help"
+msgstr "A_jutor"
+
+#: ../data/ui/SoftwareCenter.ui.h:13
+msgid "_Install"
+msgstr "_Instalează"
+
+#: ../data/ui/SoftwareCenter.ui.h:14
+msgid "_Software Sources..."
+msgstr "_Surse software..."
+
+#: ../data/ui/SoftwareCenter.ui.h:15
+msgid "_View"
+msgstr "_Afișare"
+
+#: ../data/ui/SoftwareCenter.ui.h:16
+msgid "available"
+msgstr "disponibil"
+
+#: ../data/ui/SoftwareCenter.ui.h:17
+msgid "installed"
+msgstr "instalat"
+
+#: ../data/ui/SoftwareCenter.ui.h:18
+msgid "pending"
+msgstr "în aşteptare"
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr "Puteți alege din mii de aplicații libere disponibile pentru Ubuntu"
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+msgid "Software Center"
+msgstr "Centru software"

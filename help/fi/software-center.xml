@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="en">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Ubuntun sovellusvalikoima</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Ubuntun dokumentaatioprojekti</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Kuinka Ubuntussa asennetaan ja poistetaan sovelluksia.</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Mikä on Ubuntun sovellusvalikoima?</title>
+    <para>
+      Ubuntun sovellusvalikoima on virtuaalinen luettelo tuhansista vapaista
+sovelluksista ja muista ohjelmistoista, joilla voit tehdä
+Ubuntu-tietokoneesi entistä hyödyllisemmäksi.
+    </para>
+    <para>
+      Ohjelman voi löytää kategorian perusteella tai etsimällä. Sovelluksen
+asennus onnistuu vain muutamalla napsautuksella.
+    </para>
+    <para>
+      Voit myös tutkia, mitä ohjelmistoja on jo asennettu tietokoneeseen, ja
+poistaa ne, joita et enää tarvitse.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Sovellusten asentaminen</title>
+    <para>
+      Asentaaksesi jotain Ubuntun sovellusvalikoimalla, tarvitset
+järjestelmänvalvojan (root) oikeudet ja Internet-yhteyden. (Jos asennus on
+tehty tällä käyttäjätilillä, sinulla on järjestelmänvalvojan oikeudet
+automaattisesti.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Etsi <guilabel>Hae ohjelmistoja</guilabel> -osiosta sovellus, jonka haluat
+asentaa. Jos tiedät jo sen nimen, kokeile kirjoittamalla sen nimeä
+hakukenttään tai voit myös yrittää etsiä samankaltaista ohjelmaa jollakin
+yleisellä hakusanalla (kuten &#8220;taulukkolaskenta&#8220;). Voit myös
+käyttää ryhmiä.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Valitse kohde luettelosta ja valitse <guilabel>Lisätietoja</ guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Valitse <guilabel>Asenna</ guilabel>. Saatat tarvita salasanasi, ennen kuin
+asennus voidaan aloittaa.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Asennuksen kesto riippuu asennettavan kohteen koosta, sekä tietokoneesi ja
+Internet-yhteytesi nopeudesta.
+    </para>
+    <para>
+      Kun näytöllä lukee &#8220;Asennettu&#8221;, ohjelmisto on käyttövalmis.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Ohjelman käyttäminen asentamisen jälkeen</title>
+    <para>
+      Useimmat sovellukset käynnistetään asennuksen jälkeen perinteisellä
+Gnome-työpöydällä <guimenu>Sovellukset</guimenu>-valikosta
+(järjestelmäasetuksia muokkaavat sovellukset saattavat löytyä myös
+<menuchoice><guimenu>Järjestelmä</guimenu>
+<guisubmenu>Asetukset</guisubmenu></menuchoice> tai
+<menuchoice><guimenu>Järjestelmä</guimenu>
+<guisubmenu>Ylläpito</guisubmenu></menuchoice>). Uudella Unity-työpöydällä
+kannattaa alkaa kirjoittamaan sovelluksen nimeä <gui>Dashin</gui> hakuun.
+    </para>
+    <para>
+      Sovelluksen käynnistysohjeet ovat luultavasti sovelluksen sivuilla
+Sovellusvalikoimassa.
+    </para>
+    <para>
+      Ubuntu Netbook Editionissa sovellus ilmestyy sille parhaiten sopivaan
+luokkaan kotinäytölläsi.
+    </para>
+    <para>
+      Jotkut ohjelmat, esimerkiksi mediasoittimet ja selainten liitännäiset, eivät
+ilmesty valikoihin. Ne otetaan käyttöön automaattisesti kun Ubuntu käyttää
+niitä. Selainliitännäisten käyttöönotto saattaa vaatia selaimen
+uudelleenkäynnistyksen.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Sovellusten poistaminen</title>
+    <para>
+      Poistaaksesi ohjelmistoja, tarvitset ylläpitäjän oikeudet ja
+Internet-yhteyden. (Jos asennus on tehty käyttämälläsi käyttäjätilillä,
+sinulla on ylläpitäjän oikeudet automaattisesti.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Etsi poistettava kohde <guilabel>Asennetut ohjelmistot</ guilabel> -osiosta.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Valitse kohde luettelosta ja valitse <guilabel>Poista</ guilabel>. Saatat
+tarvita salasanaasi.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Jos ohjelma on auki poistettaessasi sitä, se yleensä pysyy auki vaikka se on
+poistettu. Heti kun suljet sen, se ei ole enää saatavilla.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Miksi Ubuntun sovellusvalikoima haluaa poistaa useita ohjelmia kerralla?</title>
+    <para>
+      Joskus kun yrität poistaa yhden kohteen, Ubuntun Sovellusvalikoima varoittaa
+sinua, että muut kohteet poistetaan myös. On olemassa kaksi syytä, miksi
+näin tapahtuu.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Jos poistat sovelluksen, kaikki lisäosat ja laajennukset, jotka liittyvät
+sovellukseen yleensä poistetaan.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Useita sovelluksia toimitetaan joskus samassa paketissa. Jos jokin niistä
+asennetaan, kaikki asennetaan. Ja jos jokin niistä poistetaan niin kaikki
+poistetaan. Ubuntun sovellusvalikoima ei voi poistaa niitä yksitellen, koska
+sillä ei ole ohjeita siitä miten erottaa ne.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Voit poistaa vanhalla Gnome-työpöydällä ei-toivotun sovelluksen näkyvistä
+päävalikosta kuitenkaan poistamatta sovellusta <guilabel>Päävalikon
+asetusten</guilabel> avulla. Löydät sen nimellä
+<guilabel>Päävalikko</guilabel> sijainnista
+<menuchoice><guimenu>Järjestelmä</guimenu>
+<guisubmenu>Asetukset</guisubmenu></menuchoice> tai Ubuntu Netbook
+Editionissa <menuchoice><guimenu>Järjestelmä</guimenu>
+<guisubmenu>Asetukset</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >Valikon muokkaaminen</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Mitä tarkoittaa &#8220;Canonicalin ylläpitämät&#8221;?</title>
+    <para>
+      Jotkut Ubuntulle saatavilla olevat ohjelmistot ovat Canonicalin
+ylläpitämiä. Canonicalin insinöörit takaavat tietoturva- ja muut kriittiset
+päivitykset näille ohjelmille.
+    </para>
+    <para>
+      Muita ohjelmia ylläpitää Ubuntun kehittäjäyhteisö. Tällöin päivityksistä
+huolehtivat vapaaehtoiset kehittäjät.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Keitä ovat &#8220;Canonicalin kumppanit&#8221;?</title>
+    <para>
+      <guilabel>Canonicalin kumppanit</guilabel> -osio näyttää sinulle vain
+sellaisia ohjelmistoja, jotka on tehty Canonicalin valvonnassa varta vasten
+Ubuntulle.
+    </para>
+    <para>
+      Voit asentaa tämän ohjelmiston samalla tavalla kuin minkä tahansa
+ohjelmiston Ubuntun sovellusvalikoimassa.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Pitääkö minun maksaa mistään?</title>
+    <para>
+      Suurin osa Ubuntun Sovellusvalikoiman sovelluksista on ilmaisia.
+    </para>
+    <para>
+      Jos jokin sovellus maksaa, painikkeen <guilabel>Asenna</guilabel> tilalla
+lukee <guilabel>Osta</guilabel>, ja sen hinta näkyy sovelluskohtaisesti.
+    </para>
+    <para>
+      Maksullisten ohjelmien lataaminen edellyttää internet-yhteyttä ja Ubuntu
+SSO- tai Launcpad-tilin. Jos sinulla ei ole vielä tiliä, voit helposti luoda
+sellaisen Ubuntun Sovellusvalikoiman avulla.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      Mitkä jos olen maksanut sovelluksesta ja kadotin sen?
+    </title>
+    <para>
+      Jos olet vahingossa poistanut sovelluksen, jonka ostit, ja haluat sen
+takaisin, valitse <menuchoice><guimenu>Tiedosto</guimenu>
+<guimenuitem>Asenna uudelleen aiemmat ostokset</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Kun olet kirjautunut sisään tilille, jota käytit sovelluksen ostamiseen,
+Ubuntun Sovellusvalikoima kertoo sinulle miten voit asentaa maksulliset
+sovellukset uudelleen.
+    </para>
+    <para>
+      Tämä toimii myös silloin, kun asennat Ubuntun uudelleen tietokoneeseesi tai
+toiseen tietokoneeseen.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Mitä jos haluamani ohjelma ei ole saatavilla?</title>
+    <para>
+      Ensimmäiseksi tarkista, että <menuchoice><guimenu>Näytä</guimenu>
+<guimenuitem>Kaikki ohjelmistot</guimenuitem></menuchoice> on valittuna.
+    </para>
+    <para>
+      Jos haluamasi ohjelmisto ei ole siellä, mutta tiedät sen toimivan Ubuntulla,
+yritä ottaa yhteyttä ohjelman alkuperäisiin kehittäjiin kysyäksesi, jos he
+voisivat yrittää laittaa sen saataville.
+    </para>
+    <para>
+      Jos ohjelma on saatavilla muille käyttöjärjestelmille mutta ei Ubuntulle,
+kerro kehittäjälle, että haluaisit käyttää sitä Ubuntussa.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Entä jos ohjelma ei toimi?</title>
+    <para>
+      Kymmenillä tuhansilla ohjelmilla Ubuntun sovellusvalikoimassa, on aina
+olemassa mahdollisuus, että jotkut niistä ei toimi kunnolla tietokoneessasi.
+    </para>
+    <para>
+      Jos virheraporttien tekeminen on tuttua, voit auttaa Ubuntun kehittäjiä
+selvittämään ongelman tekemällä ongelmasta vikailmoituksen. Useimpien
+ohjelmien <guimenu>Ohje</guimenu>-valikosta löytyy <guimenuitem>Raportoi
+ongelmasta</guimenuitem> -toiminto.
+    </para>
+    <para>
+      Muussa tapauksessa selaile Ubuntun Sovellusvalikoimaa, ja etsi jokin toinen
+sovellus jolla voit tehdä haluamasi asiat.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

@@ -1,0 +1,68 @@
+Source: software-center
+Section: gnome
+Priority: optional
+Maintainer: Michael Vogt <mvo@ubuntu.com>
+Build-Depends: debhelper (>= 7.0.50),
+               dpkg-dev (>= 1.15.1~),
+               lsb-release,
+               gettext,
+               intltool,
+               po4a,
+               python,
+               python-distutils-extra,
+               python-setuptools,
+               python-scour
+Standards-Version: 3.8.4
+X-Python-Version: >= 2.7
+Vcs-Bzr: https://code.launchpad.net/~software-store-developers/software-center/trunk
+Homepage: https://launchpad.net/software-center
+
+Package: software-center
+Architecture: all
+Depends: ${python:Depends},
+         ${misc:Depends},
+         iso-codes,
+         app-install-data (>= 0.4.0),
+         aptdaemon (>= 0.40),
+         software-center-aptdaemon-plugins,
+         humanity-icon-theme,
+         gir1.2-glib-2.0 (>= 1.31),
+         gir1.2-gtk-3.0,
+         gir1.2-gmenu-3.0 (>= 3.1.5),
+         gir1.2-webkit-3.0,
+         python-gi,
+         python-gi-cairo,
+         python-xapian,
+         python-apt (>= 0.8.3ubuntu4),
+         python-aptdaemon (>= 0.40),
+         python-aptdaemon.gtk3widgets,
+         python-dbus,
+         python-defer,
+         policykit-1,
+         policykit-1-gnome | policykit-1-kde,
+         python-xdg,
+         ubuntu-sso-client-gtk,
+         python-piston-mini-client (>= 0.1+bzr29),
+         oneconf (>= 0.2.6),
+         python-debtagshw,
+         ubuntu-extras-keyring
+Recommends: lsb-release, 
+            gir1.2-launchpad-integration-3.0, 
+            apt-xapian-index (>= 0.38ubuntu1), 
+            update-notifier, 
+            software-properties-gtk,
+            sessioninstaller, 
+            xz-lzma
+Conflicts: gnome-app-install (<< 1), oneconf (<< 0.2.6.1)
+Replaces: gnome-app-install
+Provides: gnome-app-install
+Description: Utility for browsing, installing, and removing software
+ Ubuntu Software Center lets you browse and install thousands of 
+ free and paid applications available for Ubuntu. You can view available 
+ software by category, or search quickly by name or description. 
+ You can also examine the software already installed, and remove items
+ you no longer need.
+ .
+ To install or remove software using USC, you need administrator access
+ on the computer.
+

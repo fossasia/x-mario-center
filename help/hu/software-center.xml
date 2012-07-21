@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="hu">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Ubuntu szoftverközpont</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Ubuntu dokumentációs projekt</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Szoftverek telepítése és eltávolítása Ubuntun</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Mi az az Ubuntu szoftverközpont?</title>
+    <para>
+      Az Ubuntu szoftverközpont ingyenes alkalmazások és egyéb szoftverek ezreinek
+gyűjteménye, amelyek segítségével az Ubuntut futtató számítógépe még több
+tevékenységre válik használhatóvá.
+    </para>
+    <para>
+      A szoftvereket elérheti részlegek szerinti csoportosításban, vagy meg is
+keresheti azokat. A telepítés pedig mindössze egy kattintás a megfelelő
+gombon.
+    </para>
+    <para>
+      Végignézheti a számítógépre már telepített programokat, és eltávolíthatja
+közülük azt, amire már nincs szüksége.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Szoftver telepítése</title>
+    <para>
+      Ha szeretne egy alkalmazást telepíteni az Ubuntu szoftverközpont
+használatával, akkor szüksége lesz rendszergazdai jogosultságra és működő
+internetkapcsolatra. (Ha ön telepítette az Ubuntut erre a számítógépre,
+akkor automatikusan rendelkezik rendszergazdai jogosultsággal.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Keresse meg a telepíteni kívánt alkalmazást a
+<guilabel>Szoftvertelepítés</guilabel> lapon. Ha tudja a telepíteni kívánt
+alkalmazás nevét, akkor gépelje be a nevét a keresőmezőbe, vagy pedig
+próbáljon a szoftver típusa alapján (például &#8222;táblázatkezelő&#8221; )
+keresni. Ezenkívül böngészheti a részlegek alkalmazáslistáit is.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Válassza ki a kívánt alkalmazást a listában, majd kattintson a
+<guilabel>További információk</guilabel> gombra.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Kattintson a <guilabel>Telepítés</guilabel> gombra. A telepítés megkezdése
+előtt lehet, hogy meg kell adnia a jelszavát a hitelesítéshez.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      A telepítés időtartama a telepítendő csomagok nagyságától, valamint a
+számítógép és az internetkapcsolat sebességétől függ.
+    </para>
+    <para>
+      Amint a képernyőn megjelenik a <guilabel>Telepítve</guilabel> felirat, a
+szoftver használatra kész.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >A telepített program használata</title>
+    <para>
+      A legtöbb programot telepítés után az <guimenu>Alkalmazások</guimenu>
+menüből indíthatja el.  (A beállítások módosítására szolgáló segédprogramok
+a <menuchoice><guimenu>Rendszer</guimenu>
+<guisubmenu>Beállítások</guisubmenu></menuchoice> vagy a
+<menuchoice><guimenu>Rendszer</guimenu>
+<guisubmenu>Adminisztráció</guisubmenu></menuchoice> menüben jelenhetnek
+meg).
+    </para>
+    <para>
+      A programok indításához használható hely meghatározásához nyissa meg az
+Ubuntu szoftverközpontban a programhoz tartozó képernyőt, ha nem az van
+megnyitva. A program menüben elfoglalt helye a színes sáv alatt jelenik meg
+a képernyőn.
+    </para>
+    <para>
+      Ha az Ubuntu Netbook változatát használja, akkor az alkalmazás a
+kezdőképernyő megfelelő kategóriájában jelenik meg.
+    </para>
+    <para>
+      Néhány eszköz, például a médialejátszáshoz, illetve a webböngészéshez
+szükséges bővítmények, nem jelennek meg a menükben, viszont az Ubuntu
+automatikusan használja ezeket, amikor szükség van rájuk. Egy
+webböngésző-bővítmény használatának megkezdése előtt előfordulhat, hogy
+szükség van a webböngésző bezárására, illetve újraindítására.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Szoftverek eltávolítása</title>
+    <para>
+      Szoftverek eltávolításához rendszergazdai jogosultságok szükségesek. (Ha ön
+telepítette az Ubuntut erre a számítógépre, akkor automatikusan rendelkezik
+rendszergazdai jogosultságokkal.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Keresse meg az eltávolítani kívánt szoftvert a <guilabel>Telepített
+szoftverek</guilabel> oldalon.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Válassza ki az eltávolítani kívánt szoftvert, majd kattintson az
+<guilabel>Eltávolítás</guilabel> gombra. Előfordulhat, hogy meg kell adnia a
+jelszavát.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Ha az alkalmazás fut az eltávolítás megkezdésekor, akkor mindaddig futni fog
+az eltávolítás befejezése után is, amíg nem zárja be. Ezután viszont többé
+már nem lesz elérhető.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Miért akar a szoftverközpont több programot is eltávolítani?</title>
+    <para>
+      Egyes elemek eltávolításakor az Ubuntu szoftverközpont figyelmezteti, hogy
+más elemek is eltávolításra kerülnek. Ennek két fő oka van.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Az alkalmazások eltávolításakor az azokhoz tartozó kiegészítők vagy
+bővítmények is eltávolításra kerülnek.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Néha több alkalmazás tartozik egy csomagba. Ilyenkor, ha az alkalmazások
+egyikét telepíti, akkor az összes többi is települ. Ha bármelyiket
+eltávolítja, akkor pedig az összes is többi eltávolításra kerül. Az Ubuntu
+szoftverközpont nem tudja ezeket önmagukban eltávolítani, mert nem tudja
+elkülöníteni egymástól az alkalmazásokat.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      A <guilabel>Főmenü</guilabel> megfelelő beállításával elrejtheti a nem
+kívánt alkalmazásokat, így azok a Főmenüben már nem jelennek meg, még sincs
+szükség az eltávolításukra. A <guilabel>Fő menü</guilabel> beállításait az
+Ubuntuban a <menuchoice><guimenu>Rendszer</guimenu>
+<guisubmenu>Beállítások</guisubmenu></menuchoice> menüben találhatja meg. Az
+Ubuntu Netbook Edition rendszeren pedig a
+<menuchoice><guimenu>Settings</guimenu>
+<guisubmenu>Beállítások</guisubmenu></menuchoice> menüben..
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >A menüsor testreszabása</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Mit jelent a &#8222;Canonical által karbantartott&#8221;?</title>
+    <para>
+      Az Ubuntuhoz elérhető egyes szoftvereket a Canonical tartja karban. A
+Canonical mérnökei biztosítják a biztonsági javítások és más fontos
+frissítések elérhetőségét ezekhez a programokhoz.
+    </para>
+    <para>
+      A többi szoftvert az Ubuntu fejlesztői közössége tartja karban, akik minden
+frissítést igyekeznek a lehető legjobb tudásuk szerint biztosítani.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Mit jelent a &#8222;Canonical partner&#8221;?</title>
+    <para>
+      A <guilabel>Canonical partnerek</guilabel> opció azokat a szoftvereket
+mutatja, amelyeknek a készítői együttműködtek a Canonicallal, hogy a
+szoftver elérhető legyen Ubuntura is.
+    </para>
+    <para>
+      Ezeket a szoftvereket ugyanúgy telepítheti, mint az Ubuntu
+szoftverközpontban található más szoftvereket.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Kell fizetnem?</title>
+    <para>
+      Az Ubuntu szoftverközpont legtöbb szoftvere ingyenes.
+    </para>
+    <para>
+      Ha valami pénzbe kerül, akkor a <guilabel>Telepítés</guilabel> gomb helyett
+a <guilabel>Megvásárlás</guilabel> gomb jelenik meg, az ár pedig az adott
+elem mellett látható.
+    </para>
+    <para>
+      Kereskedelmi szoftverek megvásárlásához internetkapcsolatra és Ubuntu Single
+Sign On fiókra vagy Launchpad fiókra van szükség. Ha nincs fiókja, az Ubuntu
+szoftverközpont segít a regisztrációban.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      Mi történik, ha kifizettem egy szoftvert, majd elvesztettem?
+    </title>
+    <para>
+      A véletlenül letörölt egy megvásárolt szoftvert, de újra használni szeretné,
+válassza a <menuchoice><guimenu>Fájl</guimenu> <guimenuitem>Korábbi
+vásárlások újratelepítése</guimenuitem></menuchoice> menüpontot.
+    </para>
+    <para>
+      Miután bejelentkezett a szoftver megvásárlásához használt fiókba, az Ubuntu
+szoftverközpont megjeleníti a korábbi vásárlásokat, és felajánlja
+újratelepítésüket.
+    </para>
+    <para>
+      Ez akkor is működik, ha újratelepítette az Ubuntut a számítógépre.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Mit tegyek, ha egy általam telepíteni kívánt program nem elérhető?</title>
+    <para>
+      Először is ellenőrizze, hogy a <menuchoice><guimenu>Nézet</guimenu>
+<guimenuitem>Minden szoftver</guimenuitem></menuchoice> opció be van-e
+jelölve.
+    </para>
+    <para>
+      Ha a telepíteni kívánt program még mindig nem elérhető, de biztosan tudja,
+hogy a program futtatható Ubuntun, akkor próbáljon meg a program eredeti
+fejlesztőjével kapcsolatba lépni, és megkérni, hogy tegye a programot
+elérhetővé.
+    </para>
+    <para>
+      Ha a program más operációs rendszereken elérhető, de Ubuntun nem, akkor
+jelezze a fejlesztők felé a program Ubuntun való futtatásának igényét.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Mit tegyek, ha a program nem működik?</title>
+    <para>
+      Figyelembe véve, hogy az Ubuntu szoftverközpontban programok tízezrei
+érhetők el, előfordulhat, hogy ezek közül pár nem működik megfelelően a
+számítógépén.
+    </para>
+    <para>
+      Ha ismeri a hibajelentés módját, akkor jelentheti a hibát az Ubuntu
+fejlesztői felé. A legtöbb alkalmazás <guimenu>Súgó</guimenu> menüjében
+megtalálható a <guimenuitem>Hiba jelentése</guimenuitem> menüpont.
+    </para>
+    <para>
+      Egyébként keressen másik programot az Ubuntu szoftverközpontban a feladat
+elvégzéséhez.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

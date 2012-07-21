@@ -1,0 +1,54 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  Ta dokument lahko razmnožujete, razširjate in/ali spreminjate pod pogoji
+Dovoljenje za prosto dokumentacijo GNU (GFDL), različice 1.1 ali katerekoli
+poznejše različice, ki jo je izdala ustanova Free Software Foundation; brez
+Nespremenljivih razdelkov, brez besedila na naslovnici in brez besedila na
+zadnji strani. Kopijo dokumenta GFDL je mogoče najti v dokumentu <ulink
+type="help" url="ghelp:fdl">GFDL</ulink> ali v dokumentu COPYING-DOCS, ki je
+izdan skupaj s priročnikom.
+         </para>
+         <para> Priročnik je del zbirke GNOME priročnikov objavljenega v skladu s GFDL. V
+kolikor bi želeli priročnik objaviti samostojno, ločeno od zbirke, mu je
+treba priložiti kopijo dovoljenja, kot je to opisano pod 6. točko.
+	</para>
+
+	<para>
+	  Podjetja uporabljajo različna imena za označevanje izdelkov in storitev z
+lastnimi blagovnimi znamkami. Tam, kjer se ta imena pojavijo v dokumentih
+GNOME ali drugih sorodnih projektih GNOME, jih je treba ustrezno označiti z
+velikimi črkami ali z velikimi začetnicami.
+	</para>
+
+	<para>
+	  DOKUMENT IN SPREMENJENE RAZLIČICE DOKUMENTA SO OBJAVLJENE POD POGOJI
+DOVOLJENJA ZA PROSTO DOKUMENTACIJO GNU, Z RAZUMEVANJEM DA: <orderedlist>
+		<listitem>
+		  <para>DOKUMENT JE OBJAVLJEN "KOT JE", BREZ KAKRŠNIHKOLI ZAGOTOVIL, ALI KAKRŠNEGA
+KOLI IZRAŽANJA ALI VKLJUČEVANJA, VKLJUČNO BREZ OMEJITEV ZAGOTOVIL, DA JE
+DOKUMENT ALI SPREMENJENA RAZLIČICA DOKUMENTA BREZ NAPAK, PRILAGOJEN
+DOLOČENEMU NAMENU ALI BREZ KRŠENJA. PREOSTALO TVEGANJE O KAKOVOSTI,
+NATANČNOSTI IN UČINKOVITOSTI DOKUMENTA ALI SPREMENJENE RAZLIČICE DOKUMENTA,
+JE NA VAS. ČE SE IZKAŽE DOKUMENT ALI SPREMENJENA RAZLIČICA DOKUMENTA ZA
+NAPAČNO PREVZAMETE (NE ZAČETNI PISEC, AVTOR ALI SODELAVEC) STROŠKE
+POTREBNEGA SERVISA ALI POPRAVILA. OBVESTILO O GARANCIJI JE EDEN IZMED
+BISTVENIH DELOV DOVOLJENJA. PREPOVEDANA JE UPORABA DOKUMENTA ALI SPREMENJENE
+RAZLIČICE DOKUMENTA V DRUGE NAMENE; IN
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>POD NOBENIM POGOJEM IN BREZ PRAVNE TEORIJE NITI ŠKODLJIVIM (TUDI MALOMARNIM)
+PO POGODBI ALI KAKO DRUGAČE, NE BI SMEL BITI AVTOR, PISATELJ, SODELAVEC ALI
+KATERIKOLI DISTRIBUTER DOKUMENTA ALI SPREMENJENE RAZLIČICE DOKUMENTA ALI
+KATERIKOLI DOBAVITELJ KATEREKOLI OSEBE, ODGOVOREN ZA KATEROKOLI OSEBO ZA
+KATEROKOLI DIREKTNO, INDIREKTNO, POSEBNO, INCIDENTNO ALI POSLEDIČNO ŠKODO
+KATEREKOLI LASTNOSTI, VKLJUČNO BREZ OMEJITEV, ŠKODE ZARADI IZGUBE POSLOVNE
+VREDNOSTI, ZASTOJA DELA, RAČUNALNIŠKIH NAPAK ALI OKVAR IN VSEH OSTALIH OKVAR
+ALI ŠKODLJIVIH IZSTOPANJ IN PODOBNO, UPORABE DOKUMENTA IN SPREMENJENE
+RAZLIČICE DOKUMENTA, ČETUDI JE OSEBA OBVESTILA O MOŽNOSTI TAKŠNE NAPAKE.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+

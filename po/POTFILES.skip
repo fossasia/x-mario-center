@@ -1,0 +1,9 @@
+data/delete_review_gtk3.py
+data/modify_review_gtk3.py
+data/report_review_gtk3.py
+data/submit_review_gtk3.py
+data/submit_usefulness_gtk3.py
+doc/example_plugin.py
+test/gtk3/test_appdetailsview.py
+test/gtk3/test_reviews.py
+test/gtk3/test_widgets.py

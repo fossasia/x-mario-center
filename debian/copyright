@@ -1,0 +1,38 @@
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?rev=59
+Source: https://edge.launchpad.net/software-center
+        http://bazaar.launchpad.net/~software-store-developers/software-center/trunk/
+        http://bazaar.launchpad.net/~juliank/software-center/jak/
+
+Files: *
+Copyright: © 2009 Canonical
+           © 2006 Sebastian Heinlein <glatzor@ubuntu.com>
+License: GPL-3
+
+Files: softwarecenter/* softwarecenter/view/*
+Copyright: Copyright (c) 2009 Canonical
+License: GPL-3
+
+Files: softwarecenter/SimpleGtkbuilderApp.py
+Copyright: (c) 2009 Michael Vogt
+License: LGPL-3
+
+Files: softwarecenter/view/urltextview.py
+Copyright: Copyright (c) 2006 Sebastian Heinlein
+License: GPL-3
+
+License: GPL-3
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 3.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-3
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; version 3.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/LGPL-3'.
+

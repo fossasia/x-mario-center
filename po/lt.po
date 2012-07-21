@@ -1,0 +1,384 @@
+# Lithuanian translation for software-store
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-store\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-09-25 17:10+0200\n"
+"PO-Revision-Date: 2009-09-29 07:16+0000\n"
+"Last-Translator: Aurimas Fišeras <Unknown>\n"
+"Language-Team: Lithuanian <lt@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"(n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2009-09-30 06:47+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../softwarecenter/app.py:349 ../softwarecenter/view/appdetailsview.py:404
+msgid "ERROR"
+msgstr "KLAIDA"
+
+#: ../softwarecenter/apt/aptcache.py:173 ../softwarecenter/apt/aptcache.py:185
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+"Canonical daugiau netiekia %s atnaujinimų Ubuntu %s versijai. Atnaujinimai "
+"gali būti prieinami naujesnėje Ubuntu versijoje."
+
+#: ../softwarecenter/apt/aptcache.py:178
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical tiekia kritinius %(appname)s atnaujinimus iki %(support_end_year)s "
+"%(support_end_month_str)s."
+
+#: ../softwarecenter/apt/aptcache.py:190
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical tiekia kritinius %(appname)s atnaujinimus pateiktus programos "
+"kūrėjų iki %(support_end_year)s %(support_end_month_str)s."
+
+#: ../softwarecenter/apt/aptcache.py:200
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+"Canonical netiekia %s atnaujinimų. Kai kurie atnaujinimai gali būti pateikti "
+"trečiųjų šalių."
+
+#: ../softwarecenter/apt/aptcache.py:204
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr "Canonical tiekia kritinius %s atnaujinimus."
+
+#: ../softwarecenter/apt/aptcache.py:206
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr ""
+"Canonical tiekia kritinius %s atnaujinimus pateiktus programos kūrėjų."
+
+#: ../softwarecenter/apt/aptcache.py:209
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+"Canonical netiekia %s atnaujinimų. Kai kurie atnaujinimai gali būti pateikti "
+"Ubuntu bendruomenės."
+
+#: ../softwarecenter/apt/aptcache.py:212
+#, python-format
+msgid "Application %s has a unkown maintenance status."
+msgstr "Programa %s turi nežinomą priežiūros būseną."
+
+#: ../softwarecenter/view/appdetailsview.py:89
+msgid "Description"
+msgstr "Aprašas"
+
+#: ../softwarecenter/view/appdetailsview.py:181
+#: ../softwarecenter/view/appdetailsview.py:186
+msgid "Not available in the current data"
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:184
+msgid "Not available for your hardware architecture."
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:211
+#: ../softwarecenter/view/appdetailsview.py:215
+msgid "Application Screenshot"
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:239
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "Versija: %s (%s)"
+
+#. generic message
+#: ../softwarecenter/view/appdetailsview.py:257
+#, python-format
+msgid "%s is installed on this computer."
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:269
+#, python-format
+msgid "It is used by %s piece of installed software."
+msgid_plural "It is used by %s pieces of installed software."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/view/appdetailsview.py:274
+msgid "Website"
+msgstr "Svetainė"
+
+#: ../softwarecenter/view/appdetailsview.py:277
+msgid "Unknown"
+msgstr "Nežinoma"
+
+#: ../softwarecenter/view/appdetailsview.py:279
+msgid "Open Source"
+msgstr "Atvirosios programinės įrangos"
+
+#: ../softwarecenter/view/appdetailsview.py:281
+msgid "Proprietary"
+msgstr "Nuosavybinė"
+
+#: ../softwarecenter/view/appdetailsview.py:282
+#, python-format
+msgid "License: %s"
+msgstr "Licencija: %s"
+
+#. TRANSLATORS: This text will be showed as price of the software
+#: ../softwarecenter/view/appdetailsview.py:286
+msgid "Free"
+msgstr "Nemokama"
+
+#: ../softwarecenter/view/appdetailsview.py:287
+#, python-format
+msgid "Price: %s"
+msgstr "Kaina: %s"
+
+#: ../softwarecenter/view/appdetailsview.py:327
+#, python-format
+msgid "%s - Screenshot"
+msgstr ""
+
+#. generic removal text
+#. FIXME: this text is not accurate, we look at recommends as
+#. well as part of the rdepends, but those do not need to
+#. be removed, they just may be limited in functionatlity
+#: ../softwarecenter/view/appdetailsview.py:346
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:348
+msgid "Remove All"
+msgstr "Pašalinti viską"
+
+#: ../softwarecenter/view/appdetailsview.py:354
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:357
+#: ../softwarecenter/view/appdetailsview.py:368
+msgid "Remove Anyway"
+msgstr "Vis tiek pašalinti"
+
+#: ../softwarecenter/view/appdetailsview.py:364
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:427
+msgid "Upgrade"
+msgstr "Atnaujinti"
+
+#: ../softwarecenter/view/appdetailsview.py:430
+msgid "Remove"
+msgstr "Pašalinti"
+
+#: ../softwarecenter/view/appdetailsview.py:433
+msgid "Install"
+msgstr "Įdiegti"
+
+#. FIXME: deal with the EULA stuff
+#: ../softwarecenter/view/appdetailsview.py:442
+msgid "Enable channel"
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:469
+msgid "_Keep"
+msgstr "_Palikti"
+
+#: ../softwarecenter/view/appdetailsview.py:470
+msgid "_Replace"
+msgstr "Pa_keisti"
+
+#: ../softwarecenter/view/appdetailsview.py:472
+#, python-format
+msgid "Configuration file '%s' changed"
+msgstr "Konfigūracijos failas '%s' pakeistas"
+
+#: ../softwarecenter/view/appdetailsview.py:473
+msgid "Do you want to use the new version?"
+msgstr "Ar norite naudoti naują versiją?"
+
+#. home button
+#: ../softwarecenter/view/availablepane.py:88
+#: ../softwarecenter/view/viewswitcher.py:128
+msgid "Get Free Software"
+msgstr ""
+
+#: ../softwarecenter/view/availablepane.py:138
+#: ../softwarecenter/view/installedpane.py:127
+#, python-format
+msgid "%s matching item"
+msgid_plural "%s matching items"
+msgstr[0] "%s atitinkantis elementas"
+msgstr[1] "%s atitinkantys elementai"
+msgstr[2] "%s atitinkančių elementų"
+
+#: ../softwarecenter/view/availablepane.py:142
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/view/catview.py:71 ../softwarecenter/view/catview.py:106
+msgid "Departments"
+msgstr "Skyriai"
+
+#: ../softwarecenter/view/dialogs.py:45
+msgid "Details"
+msgstr "Išsamiau"
+
+#: ../softwarecenter/view/dialogs.py:80
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+#. FIXME: make this a generic pkgview widget
+#: ../softwarecenter/view/dialogs.py:88
+msgid "Dependency"
+msgstr "Priklausomybė"
+
+#: ../softwarecenter/view/installedpane.py:74
+#: ../softwarecenter/view/viewswitcher.py:130
+msgid "Installed Software"
+msgstr "Įdiegta programinė įranga"
+
+#: ../softwarecenter/view/installedpane.py:131
+#, python-format
+msgid "%s installed item"
+msgid_plural "%s installed items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/view/viewswitcher.py:160
+#: ../softwarecenter/view/viewswitcher.py:165
+#, python-format
+msgid "In Progress (%i)"
+msgstr "Progresas (%i)"
+
+#: ../data/ui/SoftwareCenter.ui.h:1
+msgid "&#xA9;2009 Canonical"
+msgstr "&#xA9;2009 Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:2
+msgid "Copy _Web Link"
+msgstr "Kopijuoti tinklalapio saitą"
+
+#: ../data/ui/SoftwareCenter.ui.h:3
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr ""
+"Leidžia jums pasirinkti iš tūkstančių Ubuntu prieinamų nemokamų programų."
+
+#: ../data/ui/SoftwareCenter.ui.h:4
+msgid "Rebuilding application catalog..."
+msgstr ""
+
+#: ../data/ui/SoftwareCenter.ui.h:5
+msgid "Search..."
+msgstr "Ieškoti..."
+
+#: ../data/ui/SoftwareCenter.ui.h:6
+msgid "Software Center _Help"
+msgstr "Programinės įrangos centro _žinynas"
+
+#: ../data/ui/SoftwareCenter.ui.h:7
+#: ../data/ubuntu-software-center.desktop.in.h:3
+msgid "Ubuntu Software Center"
+msgstr "Ubuntu programinės įrangos centras"
+
+#: ../data/ui/SoftwareCenter.ui.h:8
+msgid "_All Applications"
+msgstr "Visos programos"
+
+#: ../data/ui/SoftwareCenter.ui.h:9
+msgid "_Canonical-Maintained Applications"
+msgstr "_Canonical prižiūrimos programos"
+
+#: ../data/ui/SoftwareCenter.ui.h:10
+msgid "_Edit"
+msgstr "_Taisa"
+
+#: ../data/ui/SoftwareCenter.ui.h:11
+msgid "_File"
+msgstr "_Failas"
+
+#: ../data/ui/SoftwareCenter.ui.h:12
+msgid "_Help"
+msgstr "_Žinynas"
+
+#: ../data/ui/SoftwareCenter.ui.h:13
+msgid "_Install"
+msgstr "Į_diegti"
+
+#: ../data/ui/SoftwareCenter.ui.h:14
+msgid "_Software Sources..."
+msgstr "_Programinės įrangos saugyklos..."
+
+#: ../data/ui/SoftwareCenter.ui.h:15
+msgid "_View"
+msgstr "_Rodymas"
+
+#: ../data/ui/SoftwareCenter.ui.h:16
+msgid "available"
+msgstr "prieinama"
+
+#: ../data/ui/SoftwareCenter.ui.h:17
+msgid "installed"
+msgstr "įdiegta"
+
+#: ../data/ui/SoftwareCenter.ui.h:18
+msgid "pending"
+msgstr ""
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr ""
+"Leidžia jums pasirinkti iš tūkstančių Ubuntu prieinamų nemokamų programų"
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+msgid "Software Center"
+msgstr "Programinės įrangos centras"
+
+#~ msgid "Install and remove software"
+#~ msgstr "Įdiegti ar pašalinti programas"
+
+#~ msgid "Software Store"
+#~ msgstr "Programų įdiegimas ir priežiūra"
+
+#~ msgid "Installed software"
+#~ msgstr "Jau įdiegtos programos"
+
+#~ msgid "Get Free software"
+#~ msgstr "Įdiegti laisvas programas"
+
+#~ msgid "Ubuntu Software Store"
+#~ msgstr "Programų įdiegimas ir priežiūra"
+
+#, python-format
+#~ msgid "%s items available"
+#~ msgstr "rasta %s programų (-os)"

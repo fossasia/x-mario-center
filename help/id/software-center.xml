@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="en">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Pusat Perangkat Lunak Ubuntu</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Proyek Dokumentasi Ubuntu</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Bagaimana menginstal dan menghapus perangkat lunak di Ubuntu.</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Apa itu Pusat Perangkat Lunak Ubuntu?</title>
+    <para>
+      Pusat Perangkat Lunak Ubuntu adalah katalog virtual yang berisi ribuan
+aplikasi dan perangkat lunak lainnya yang membuat komputer Ubuntu anda lebih
+bermanfaat.
+    </para>
+    <para>
+      Anda bisa menemukan perangkat lunak berdasarkan kategori atau pencarian, dan
+Anda bisa memasangnya hanya dengan sekali menekan tombol.
+    </para>
+    <para>
+      Anda juga bisa mengecek perangkat lunak mana saja yang telah terinstal di
+komputer anda, dan menghapus yang tidak lagi dibutuhkan.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Menginstal perangkat lunak.</title>
+    <para>
+      Untuk menginstal sesuatu dengan Ubuntu Software Center, anda memerlukan hak
+akses sebagai administrator dan terhubung dengan koneksi internet. (Jika
+anda sendiri yang menginstall Ubuntu di komputer anda, maka anda telah
+memiliki hak akses sebagai administrator secara otomatis.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Di bagian <guilabel>Dapatkan Perangkat Lunak</guilabel>, untuk menemukan
+perangkat lunak yang ingin anda instal. Jika sudah mengetahu namanya,
+masukkan nama dalam kolom pencarian. Atau mencoba mencari jenis program yang
+anda inginkan (seperti &#8220;spreadsheet&#8221;). Kalau tidak, lihat daftar
+departemen.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Pilih item dari daftar, dan pilih <guilabel>Info Lebih Lanjut</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Pilih <guilabel>Instal</guilabel>. Anda mungkin diminta memasukkan sandi
+Ubuntu terlebih dulu sebelum proses instalasi berjalan.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Berapa lama sebuah program diinstal tergantung berapa besar ukurannya, dan
+juga kecepatan komputer serta koneksi internet anda.
+    </para>
+    <para>
+      Ketika layar menampilkan kata &#8220;Terpasang&#8221;, perangkat lunak siap
+digunakan.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Menggunakan program setelah terinstal</title>
+    <para>
+      Pada kebanyakan program, setelah program terinstal, Anda dapat menjalankan
+program dari menu <guimenu>Aplikasi</guimenu>. (Untuk keperluan pengaturan
+program mungkin akan muncul di <guimenu>Sistem</guimenu>
+<guisubmenu>Pilihan</guisubmenu></menuchoice> atau
+mungkin<menuchoice><guimenu>Sistem</guimenu>
+<guisubmenu>Administrasi</guisubmenu></menuchoice>).
+    </para>
+    <para>
+      Untuk mengetahui cara menjalankan program baru, arahkan di atas program
+tersebut pada Ubuntu Software Center, jika masih belum ditampilkan. Lokasi
+menu seharusnya ditampilkan di bawah bar berwarna.
+    </para>
+    <para>
+      Jika Anda menggunakan Ubuntu Netbook Edition, aplikasi akan muncul pada
+kategori yang sesuai  di layar awal.
+    </para>
+    <para>
+      Beberapa item, seperti pemutar media atau plugin perambah Web, tidak muncul
+dalam menu. Mereka digunakan secara otomatis bila Ubuntu
+membutuhkannya. Untuk plugin perambah Web, Anda mungkin harus menutup
+browser dan membuka kembali sebelum plugin akan digunakan.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Menghapus perangkat lunak</title>
+    <para>
+      Untuk menghapus perangkat lunak, Anda membutuhkan akses administrator. (Jika
+Anda mengatur Ubuntu pada komputer sendiri, Anda memiliki akses
+administrator secara otomatis.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Pada bagian <guilabel>Perangat Lunak Terpasang</guilabel>, Anda akan
+mendapatkan item yang ingin dihapus.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Pilih item dalam daftar, lalu pilih <guilabel>Hapus</guilabel>. Anda mungkin
+perlu memasukkan sandi Ubuntu.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Jika sebuah program dalam keadaan terbuka saat anda menghapusnya, biasanya
+akan tetap terbuka meskipun sudah dihapus. Setelah anda menutupnya, program
+tidak akan lagi tersedia lagi.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Kenapa meminta saya untuk menghapus beberapa program bersama?</title>
+    <para>
+      jika Anda mencoba untuk menghapus satu item, Terkadang Ubuntu Software
+Center akan memperingatkan Anda bahwa item-item lainnya yang berkaitan akan
+ikut terhapus juga. Ada dua alasan utama ini terjadi.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Jika anda menghapus salah satu aplikasi, setiap add-ons atau plugin yang
+berkaitan dengan aplikasi tersebut biasanya akan dihapus juga.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Beberapa aplikasi terkadang diberikan sebagai satu paket. Jika salah satu
+dari mereka telah terinstal, semuanya akan terinstal. Dan jika salah satu
+dari mereka dihapus, semuanya akan ikut terhapus. Ubuntu Software Center
+tidak dapat menghapusnya secara mandiri, karena tidak memiliki petunjuk
+bagaimana cara untuk memisahkannya.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Anda dapat menggunakan <guilabel>Menu Utama</guilabel> untuk menyembunyikan
+item yang tidak diinginkan tanpa menghapusnya dari komputer. Di Ubuntu, Anda
+dapat menemukan pada <guilabel>Menu Utama</guilabel> di
+<menuchoice><guimenu>Sistem</guimenu>
+<guisubmenu>Pilihan</guisubmenu></menuchoice>. Dalam Edisi Ubuntu Netbook,
+terdapat pada <menuchoice><guimenu>Pengaturan</guimenu>
+<guisubmenu>Pilihan</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >Menyesuaikan menu bar</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Apa itu &#8220;Pengelola Canonical&#8221;?</title>
+    <para>
+      Beberapa perangkat lunak yang tersedia untuk Ubuntu dikelola oleh
+Canonical. Insinyur Canonical memastikan bahwa perbaikan keamanan  dan
+pembaruan kritis lainnya tersediakan untuk program ini.
+    </para>
+    <para>
+      Perangkat Lunak lainnya dikelola oleh komunitas pengembang Ubuntu. Setiap
+pemutakhiran diberikan berdasar pada usaha terbaik.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Apa itu &#8220;Mitra Canonical&#8221;?</title>
+    <para>
+      <guilabel>Mitra Canonical</guilabel> menunjukkan perangkat lunak dari vendor
+yang bekerjasama dengan Canonical untuk membuat perangkat lunak yang
+tersedia untuk Ubuntu.
+    </para>
+    <para>
+      Anda dapat menginstal software ini dengan cara yang sama seperti perangkat
+lunak lainnya di Ubuntu Software Center.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Apakah saya perlu membayar sesuatu?</title>
+    <para>
+      Kebanyakan perangkat lunak yang tersedia di Ubuntu Software Center bersifat
+gratis.
+    </para>
+    <para>
+      Jika sesuatu memerlukan biaya, yang terlihat tombol
+<guilabel>Beli</guilabel> bukannya tombol <guilabel>Instal</guilabel>, dan
+harganya akan ditampilkan pada item tersendiri.
+    </para>
+    <para>
+      Untuk membeli perangkat lunak komersial, anda memerlukan koneksi internet,
+dan account Ubuntu Single Sign On atau account Launchpad. Jika Anda tidak
+memiliki account, Ubuntu Software Center akan membantu mendaftar Anda.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      Bagaimana jika saya membeli perangkat lunak dan kemudian hilang?
+    </title>
+    <para>
+      If you accidentally removed software that you purchased, and you want it
+back, choose <menuchoice><guimenu>File</guimenu> <guimenuitem>Reinstall
+Previous Purchases</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Setelah Anda sign in ke account yang Anda gunakan untuk membeli perangkat
+lunak, Ubuntu Software Center akan menampilkan kepada anda pembelian untuk
+menginstal ulang.
+    </para>
+    <para>
+      Ini dapat bekerja meskipun Anda telah menginstal ulang Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Bagaimana jika program yang saya inginkan tidak tersedia?</title>
+    <para>
+      Pertama, periksa apakah <menuchoice><guimenu>Lihat</guimenu>
+<guimenuitem>Semua Software</guimenuitem></menuchoice>  terpilih.
+    </para>
+    <para>
+      If the software you want still isn&#8217;t there, but you know that it runs
+on Ubuntu, try contacting the original developers of the program to ask if
+they can help make it available.
+    </para>
+    <para>
+      Bila program tersebut tersedia untuk sistem operasi lain namun tidak untuk
+ubuntu, beritahu pihak pengembangnya bahwa anda tertarik untuk
+menjalankannya di Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Bagaimana bila program tidak dapat bekerja?</title>
+    <para>
+      Terdapat puluhan ribu program di Ubuntu Software Center, ada kemungkinan
+beberapa program tidak dapat bekerja dengan baik pada komputer Anda.
+    </para>
+    <para>
+      Bila anda terbiasa melaporkan kutu pada perangkat lunak, anda dapat membantu
+dengan melaporkan masalahnya kepada pengembang Ubuntu. Kebanyakan program
+memiliki <guimenuitem>Laporkan Masalah</guimenuitem> pada menu
+<guimenu>Bantuan</guimenu>.
+    </para>
+    <para>
+      Lebih bijaksana, silahkan lihat di Pusat Perangkat Lunak Ubuntu adakah
+program lainnya sesuai dengan yang anda harapkan.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

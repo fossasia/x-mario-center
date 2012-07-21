@@ -1,0 +1,4 @@
+# update the database when new stuff gets added to the app-install data
+interest /usr/share/app-install/desktop
+# update when langpack updates are comming/new languages are added
+interest /usr/share/locale-langpack

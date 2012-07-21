@@ -1,0 +1,44 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  변경불가부분(變更不可部分, invariant section), 표지구절(表紙句節, cover texts, 문서가 본 사용 허가서에 의해서
+배포된다는 사실이 문서의 앞 표지나 뒷 표지에 언급되는 짧은 문장을 의미)을 포함하지 않는, 자유 소프트웨어 재단이 공표한 GNU 자유
+문서 허가서 (GFDL) 버전 1.1 또는 이후 버전의 약정하에 이 문서를 복사, 배포, 변경할 수 있음을 승인합니다.  GFDL의
+복사본은 이 <ulink type="help" url="ghelp:fdl">link</ulink> 또는 이 설명서와 함께 배포한
+COPYING-DOCS에 있습니다.
+         </para>
+         <para> 이 설명서는 GFDL의 약정하에서 배포하는 그놈 설명서 모음집의 일부입니다. 모음집과 따로 분리하여 배포하고 싶다면 6절에 서술되어는대로
+설명서에 허가서의 복사본을 추가함으로써 가능합니다.
+	</para>
+
+	<para>
+	  기업의 제품과 서비스를 식별하기 위해 사용된 많은 이름은 상표로 간주됩니다. 그놈 문서에 사용된 이름과 그놈 문서 프로젝트의 구성원은
+해당 상표로, 모두 대문자로 표시되거나 첫 글자가 대문자로 표시되어 있습니다.
+	</para>
+
+	<para>
+	  문서와 수정한 버전의 문서는 GNU 자유 문서 허가서의 약정하에서 제공합니다. 더 자세한 사항은 다음에 있습니다.:
+<orderedlist>
+		<listitem>
+		  <para>문서는 "있는 그대로"로 제공되며 상품성, 특정 목적에의 적합성 또는 준수에 대한 보증을 비롯한 일체의 명시적 또는 암시적인 보증을 제한
+없이 부인합니다. 문서 및 수정판의 품질, 정확성 및 성능에 대한 책임은 전적으로 사용자에게 있습니다. 문서 또는 수정판에 대한 오류를
+입증하려면 사용자(원저작자, 저작자 또는 배포자 아님)는 필요한 서비스, 수리 및 수정 비용을 부담해야 합니다. 본 보증 부인은
+라이센스의 필수 부분에 해당합니다. 본 보증 부인을 따르지 않는 모든 문서나 수정판은 사용할 수 없습니다.
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING
+NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY
+CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE
+DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON
+FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF
+ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL,
+WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES
+OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED
+VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+

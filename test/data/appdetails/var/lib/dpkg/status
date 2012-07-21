@@ -1,0 +1,25 @@
+Package: software-center
+Status: install ok installed
+Priority: optional
+Section: gnome
+Installed-Size: 1840
+Maintainer: Michael Vogt <mvo@ubuntu.com>
+Architecture: all
+Version: 2.1.4
+Replaces: gnome-app-install, software-store
+Provides: gnome-app-install, software-store
+Recommends: lsb-release, python-launchpad-integration, apt-xapian-index, update-notifier, software-properties-gtk
+Conflicts: gnome-app-install (<< 1), software-store
+Conffiles:
+ /etc/dbus-1/system.d/com.ubuntu.SoftwareCenter.conf d5c450e6bccfcb8177943516e8beb673
+Description: Utility for browsing, installing, and removing applications
+ The Ubuntu Software Center lets you browse and install thousands of
+ applications available for Ubuntu. You can view available
+ applications by category, or search quickly by name or description.
+ You can also examine the applications already installed, and remove
+ those you no longer need.
+ .
+ To install or remove software using the Center, you need administrator
+ access on the computer.
+Python-Version: current
+

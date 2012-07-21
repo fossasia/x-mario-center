@@ -1,0 +1,116 @@
+#!/usr/bin/python
+# Copyright (C) 2010 Canonical
+#
+# Authors:
+#  Michael Vogt
+#
+# This program is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; version 3.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+
+
+import apt
+import locale
+import logging
+import os
+import os.path
+import shutil
+import string
+import sys
+import xapian
+
+from optparse import OptionParser
+
+if os.path.exists("./softwarecenter/enums.py"):
+    sys.path.insert(0, ".")
+
+import softwarecenter.log
+import softwarecenter.paths
+from softwarecenter.paths import XAPIAN_BASE_PATH_SOFTWARE_CENTER_AGENT
+from softwarecenter.db.update import update_from_software_center_agent
+
+if __name__ == "__main__":
+
+    try:
+        locale.setlocale(locale.LC_ALL, "")
+    except Exception, e:
+        logging.warn("setlocale failed with '%s'" % e) 
+
+    # parser
+    parser = OptionParser()
+    parser.add_option("--debug", "", action="store_true", default=False,
+                      help="show debug output")
+    parser.add_option("--ignore-cache", "", action="store_true", default=False,
+                      help="ignore the local cache when updating")
+    parser.add_option("--datadir", "", default=None)
+    parser.add_option("--pretend-distro", "", default=None)
+    (options, args) = parser.parse_args()
+
+    logging.basicConfig(level=logging.INFO)
+    if options.debug:
+        logging.basicConfig(level=logging.DEBUG)
+        softwarecenter.log.root.setLevel(level=logging.DEBUG)
+    if options.datadir:
+        softwarecenter.paths.datadir = options.datadir
+    if options.pretend_distro:
+        os.environ["SOFTWARE_CENTER_DISTRO_CODENAME"] = options.pretend_distro
+
+    # support global disable
+    if "SOFTWARE_CENTER_NO_SC_AGENT" in os.environ:
+        logging.warn("SOFTWARE_CENTER_NO_SC_AGENT in environ disabled the agent")
+        sys.exit(1)
+
+    # get a cache
+    cache = apt.Cache(memonly=True)
+
+    # setup path
+    pathname = XAPIAN_BASE_PATH_SOFTWARE_CENTER_AGENT+".tmp"
+    if not os.path.exists(pathname):
+        try:
+            os.makedirs(pathname)
+        except OSError as e:
+            logging.warn("Could not create agent dir '%s' (%s)'" % (
+                    pathname, e))
+
+    # check that we can write
+    if not os.access(pathname, os.W_OK):
+        logging.warn("Cannot write to '%s'." % pathname)
+        logging.warn("Please check you have the relevant permissions.")
+        sys.exit(1)
+
+    # get a writable DB
+    try:
+        db = xapian.WritableDatabase(pathname, xapian.DB_CREATE_OR_OVERWRITE)
+    except xapian.DatabaseLockError:
+        # Ref: http://launchpad.net/bugs/625189
+        logging.warn("Another instance of the update agent already holds "
+                     "a write lock on %s" % pathname)
+        sys.exit(1)
+
+    # the following requires a http connection, so we do it in a 
+    # seperate database
+    include_sca_qa = "SOFTWARE_CENTER_AGENT_INCLUDE_QA" in os.environ
+
+    if not update_from_software_center_agent(db, cache, options.ignore_cache, include_sca_qa):
+        logging.debug("no updates from update-software-center-agent")
+        sys.exit(1)
+
+    # flush ...
+    db.flush()
+    del db
+
+    # and move into place
+    final_pathname = string.rsplit(pathname, ".tmp", 1)[0]
+    if os.path.exists(final_pathname):
+        shutil.rmtree(final_pathname)
+    os.rename(pathname, final_pathname)
+    

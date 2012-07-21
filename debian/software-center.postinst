@@ -1,0 +1,22 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+if [ "$1" = "triggered" ] || [ "$1" = "configure" ]; then
+
+    # update the application data
+    update-software-center --triggered "$2" || true
+    exit 0
+fi
+
+# make sure we update the index so that on first install
+# we have something to show (LP: #617397)
+if [ "$1" = "configure" ];then
+    update-apt-xapian-index -u || true
+fi
+
+
+
+

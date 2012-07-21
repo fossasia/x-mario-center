@@ -1,0 +1,59 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  Jelen dokumentum szabadon másolható, terjeszthető és/vagy módosítható a GNU
+Free Documentation License (GFDL) 1.1-es verziója vagy a Free Software
+Foundation által kiadott ennél frissebb verziója alatt, a „Nem változtatható
+szakaszok”, „Címlapszövegek” és a „Hátlapszövegek” kivételével. A GFDL
+leírása <ulink type="help" url="ghelp:fdl">ezen az oldalon</ulink> érhető
+el, vagy a jelen dokumentációban található COPYING-DOCS fájlban.
+         </para>
+         <para> Ez a kézikönyv része a GFDL alatt megjelenő GNOME dokumentációk
+gyűjteményének. A kézikönyv a gyűjteménytől függetlenül szabadon
+terjeszthető, a licenc másolatát mellékelve a 6. fejezetben leírtaknak
+megfelelően.
+	</para>
+
+	<para>
+	  A cégek különböző, védjegy alá tartozó elnevezéseket használnak termékeik és
+szolgáltatásuk megkülönböztetéséhez. Ahol ezek a nevek megjelennek bármelyik
+GNOME dokumentációban és a GNOME dokumentációs projekt tagjainak tudomásuk
+van a védjegyről, abban az esetben ezek az elnevezések teljes egészében vagy
+kezdőbetűik nagybetűsek.
+	</para>
+
+	<para>
+	  A DOKUMENTUM ÉS A DOKUMENTUM MÓDOSÍTOTT VERZIÓJA A GNU FREE DOCUMENTATION
+LICENSE (GFDL) ALATT JELENIK MEG AZ ALÁBBI ÉRTELMEZÉSSEL: <orderedlist>
+		<listitem>
+		  <para>A DOKUMENTUM „JELEN ÁLLAPOTÁBAN” KERÜL KIADÁSRA MINDENFÉLE GARANCIAVÁLLALÁS
+NÉLKÜL, LEGYEN AZ KIFEJEZETT VAGY BELEÉRTETT, BELEÉRTVE, DE NEM
+KIZÁRÓLAGOSAN A FORGALOMBA HOZHATÓSÁGRA VAGY ALKALMAZHATÓSÁGRA, A JELEN
+DOKUMENTUMNAK VAGY ANNAK MÓDOSÍTOTT VERZIÓJÁNAK HIBAMENTESSÉGÉRE VONATKOZÓ
+GARANCIÁKAT. A DOKUMENTUM VAGY ANNAK MÓDOSÍTOTT VÁLTOZATÁNAK MINŐSÉGÉBŐL ÉS
+FELHASZNÁLHATÓSÁGÁBÓL FAKADÓ ÖSSZES KOCKÁZAT A FELHASZNÁLÓT TERHELI. HA A
+DOKUMENTUM BIZONYÍTOTTAN HIBÁS, A FELHASZNÁLÓNAK MAGÁNAK (NEM A DOKUMENTUM
+ÍRÓJÁNAK, KIADÓJÁNAK VAGY BÁRMELY KÖZREMŰKÖDŐNEK) KELL VÁLLALNIA A
+JAVÍTÁSHOZ SZÜKSÉGES MINDEN KÖLTSÉGET. A JELEN GARANCIAELUTASÍTÁS A JELEN
+LICENC LÉNYEGI RÉSZE. A LEFEDETT DOKUMENTUM VAGY ANNAK MÓDOSÍTOTT
+VERZIÓJÁNAK HASZNÁLATA CSAK A JELEN ELUTASÍTÁSSAL EGYÜTT ENGEDÉLYEZETT, ÉS
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>SEMMILYEN KÖRÜLMÉNYEK KÖZÖTT ÉS SEMMILYEN JOGI MEGFONTOLÁSBÓL, LEGYEN AZ
+MAGÁNJOGI VÉTKES CSELEKMÉNY (BELEÉRTVE A HANYAGSÁGOT), SZERZŐDÉS VAGY
+BÁRMELY MÁS DOLOG, NEM FELELŐS ÖN, A LEFEDETT KÓD ELSŐ FEJLESZTŐJE ÉS TÖBBI
+KÖZREMŰKÖDŐJE VAGY EZEK BÁRMELY SZÁLLÍTÓJA SEMMILYEN MÁS SZEMÉLY FELÉ
+SEMMILYEN FAJTA KÖZVETLEN, SPECIÁLIS, VÉLETLEN VAGY KÖVETKEZMÉNYES KÁRÉRT,
+BELEÉRTVE DE NEM KIZÁRÓLAG A HÍRNÉV ELVESZTÉSÉBŐL, MUNKA LEÁLLÁSÁBÓL,
+SZÁMÍTÓGÉP MEGHIBÁSODÁSÁBÓL VAGY HELYTELEN MŰKÖDÉSÉBŐL SZÁRMAZÓ, VAGY
+BÁRMELY EGYÉB KERESKEDELMI KÁROKAT ÉS VESZTESÉGEKET, MÉG AKKOR IS, HA AZ
+ILYEN FÉL INFORMÁLVA LETT AZ ILYEN KÁROK ELŐFORDULÁSÁNAK LEHETŐSÉGÉRŐL. A
+FELELŐSSÉG EZEN KORLÁTOZÁSA NEM ALKALMAZHATÓ ABBAN AZ ESETBEN, HA HALÁL VAGY
+SZEMÉLYI SÉRÜLÉS TÖRTÉNT A FÉL HANYAGSÁGÁBÓL KIFOLYÓLAG, OLYAN MÉRTÉKBEN,
+AMENNYIRE AZ ALKALMAZHATÓ TÖRVÉNYEK MEGTILTJÁK AZ ILYEN KORLÁTOZÁSOKAT.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+

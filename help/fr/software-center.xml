@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="fr">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Logithèque Ubuntu</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Le Projet de Documentation Ubuntu</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Installer et supprimer des logiciels sous Ubuntu.</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Qu'est-ce que la logithèque Ubuntu ?</title>
+    <para>
+      La logithèque Ubuntu est un catalogue virtuel contenant des milliers
+d'applications libres et autres logiciels permettant de rendre votre
+ordinateur plus utile avec Ubuntu.
+    </para>
+    <para>
+      Vous pouvez rechercher les logiciels par catégorie ou par recherche directe,
+puis les installer d'un simple clic de souris.
+    </para>
+    <para>
+      Vous pouvez aussi examiner les logiciels déjà installés sur votre ordinateur
+et supprimer ceux dont vous n'avez plus besoin.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Installer des logiciels</title>
+    <para>
+      Afin de procéder à une installation depuis la logithèque Ubuntu, vous devez
+disposer des droits administrateur  (si vous avez procédé vous même à
+l'installation d'Ubuntu sur l'ordinateur concerné, vous possédez
+automatiquement les droits administrateur) et d'une connexion Internet
+fonctionnelle.
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Dans la section <guilabel>Obtenir un logiciel</guilabel>, trouvez celui qui
+vous intéresse. Si vous connaissez déjà son nom, essayez de le taper
+directement dans le champ de recherche. Ou essayez une recherche en fonction
+du type de programme désiré (comme&#8220;tableur&#8221;). Sinon, parcourez
+la liste des catégories.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Sélectionnez le programme dans la liste et cliquez sur <guilabel>Plus
+d'informations</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Cliquez sur <guilabel>Installer</guilabel>.  Vous devrez peut-être entrer
+votre mot de passe Ubuntu pour pouvoir lancer l'installation.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      La durée de l'installation dépend de la taille du logiciel ainsi que de la
+vitesse de votre ordinateur et de votre connexion Internet.
+    </para>
+    <para>
+      Quand le message &#8220;Installé&#8221; apparaît à l'écran, le logiciel est
+prêt à l'emploi.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Utilisation d&#8217;un programme une fois qu&#8217;il est installé</title>
+    <para>
+      Pour la plupart des programmes, une fois qu'ils sont installés, vous pouvez
+les lancer depuis le menu <guimenu>Applications</guimenu>. (Les utilitaires
+permettant de changer des préférences pourraient se trouver dans
+<menuchoice><guimenu>Système</guimenu>
+<guisubmenu>Préférences</guisubmenu></menuchoice> ou bien
+<menuchoice><guimenu>Système</guimenu>
+<guisubmenu>Administration</guisubmenu></menuchoice>.)
+    </para>
+    <para>
+      Pour trouver comment lancer un nouveau programme, parcourez la Logithèque
+Ubuntu jusqu'à l'écran de ce programme, s'il n'est pas déjà
+affiché. L'emplacement dans le menu devrait être affiché sur cet écran, sous
+la barre colorée.
+    </para>
+    <para>
+      Si vous utilisez Ubuntu Netbook Edition, une application apparaît dans la
+catégorie appropriée sur l'écran d'accueil.
+    </para>
+    <para>
+      Certains éléments tels que les modules de lecture de média ou liés aux
+navigateurs Web, n'apparaissent pas dans les menus. Ils sont utilisés
+automatiquement quand Ubuntu en a besoin. Dans le cas des modules pour
+navigateur Web, il est parfois nécessaire de fermer et de relancer le
+navigateur pour que le module fonctionne.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Supprimer des logiciels</title>
+    <para>
+      Afin de supprimer des logiciels, vous devez disposer des droits
+d'administrateur (si vous avez procédé vous même à l'installation d'Ubuntu
+sur l'ordinateur concerné, vous possédez automatiquement les droits
+d'administrateur).
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Dans la section <guilabel>Logiciels installés</guilabel>, repérez l'élément
+que vous désirez supprimer.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Sélectionnez cet élément dans la liste et cliquez sur
+<guilabel>Supprimer</guilabel>. Votre mot de passe Ubuntu vous sera
+peut-être demandé.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Si un programme est en cours d'exécution quand vous le désinstallez, il
+restera généralement ouvert même après sa suppression. Il cessera d'être
+disponible dès que vous le fermerez.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Pourquoi m'est-il demandé de supprimer plusieurs programmes à la fois?</title>
+    <para>
+      Parfois, si vous essayez de supprimer un élément, la Logithèque Ubuntu vous
+avertira que d'autres éléments seront également supprimés. Cela peut arriver
+pour deux raisons.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Généralement, si vous supprimez une application, tous les add-ons ou
+greffons de cette application seront également supprimés.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Certaines applications sont parfois livrées sous forme de paquet unique. Si
+l'une d'entre elles est installée, toutes les autres sont installées en même
+temps. Si l'une d'entre elles est supprimée, les autres le sont aussi. La
+logithèque Ubuntu ne peut les supprimer individuellement car elle ne dispose
+d'aucune instruction pour les séparer.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Vous pouvez modifier les paramètres du <guilabel>Menu principal</guilabel>
+pour cacher les éléments indésirables sans les supprimer de
+l'ordinateur. Dans Ubuntu, vous trouverez le <guilabel>Menu
+principal</guilabel> dans <menuchoice><guimenu>Système</guimenu>
+<guisubmenu>Préférences</guisubmenu></menuchoice>. Dans Ubuntu Netbook
+Edition, il se trouve dans <menuchoice><guimenu>Réglages</guimenu>
+<guisubmenu>Préférences</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor">Personnaliser la barre de
+menu</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Que signifie &#8220;maintenu par Canonical&#8221; ?</title>
+    <para>
+      Certains logiciels disponibles pour Ubuntu sont mis à jour par
+Canonical. Les ingénieurs de Canonical s'assurent que des correctifs de
+sécurité et autres mises à jour critiques sont fournis pour ces programmes.
+    </para>
+    <para>
+      Les autres logiciels sont maintenus par la communauté des développeurs
+Ubuntu. Les mises à jour sont fournies dès que possible.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Qui sont les &#8220;partenaires Canonical&#8221; ?</title>
+    <para>
+      <guilabel>Partenaires de Canonical</guilabel> signale les logiciels publiés
+par des éditeurs qui ont collaboré avec Canonical pour rendre leur logiciel
+disponible sous Ubuntu.
+    </para>
+    <para>
+      Vous pouvez installer ce logiciel de la même manière que n'importe quel
+autre logiciel de la logithèque Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Ai-je besoin de payer quoi que ce soit ?</title>
+    <para>
+      La plupart des logiciels présents dans la Logithèque Ubuntu sont gratuits.
+    </para>
+    <para>
+      Si quelque chose est payant, il a un bouton <guilabel>Acheter</guilabel> au
+lieu du bouton <guilabel>Installer</guilabel>, et son prix est affiché à
+l'écran pour l'élément en question.
+    </para>
+    <para>
+      Pour acheter des logiciels commerciaux, vous avez besoin d'une connexion
+Internet, d'un compte Ubuntu Single Sign On ou Launchpad. Si vous n'avez pas
+de tel compte, la Logithèque Ubuntu vous aidera à en créer un.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      Qu'arrive t'il si je paie un logiciel et que je le perds ensuite ?
+    </title>
+    <para>
+      Si, accidentellement, vous avez supprimé un logiciel que vous aviez acheté
+et que vous voulez le récupérer, cliquez sur
+<menuchoice><guimenu>Fichier</guimenu> <guimenuitem>Réinstaller Précédents
+Achats</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Une fois que vous vous êtes connecté au compte que vous aviez utilisé pour
+acheter le logiciel, la Logithèque Ubuntu affichera vos achats pour les
+réinstaller.
+    </para>
+    <para>
+      Cela fonctionne même si vous avez réinstallé Ubuntu sur l'ordinateur.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Et si un programme qui m'intéresse n'est pas disponible ?</title>
+    <para>
+      Tout d'abord, assurez-vous que <menuchoice><guimenu>Affichage</guimenu>
+<guimenuitem>Tous les logiciels</guimenuitem></menuchoice> est bien
+sélectionné.
+    </para>
+    <para>
+      Si le logiciel que vous recherchez n'apparait toujours pas et si vous êtes
+sûr qu'il fonctionne avec Ubuntu, essayez de contacter les développeurs du
+programme et demandez leur s'ils peuvent aider à le rendre disponible.
+    </para>
+    <para>
+      Si un programme existe pour d'autres systèmes d'exploitation mais pas pour
+Ubuntu, faîtes savoir aux développeurs que son portage sous Ubuntu vous
+intéresse.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Que faire si un programme ne marche pas?</title>
+    <para>
+      Avec les dizaines de milliers de programmes disponibles dans la bibliothèque
+Ubuntu, vous risquez toujours d'en rencontrer quelques uns qui ne
+fonctionneront pas correctement sur votre ordinateur.
+    </para>
+    <para>
+      Si vous avez l'habitude de signaler les bogues dans les logiciels, vous
+pouvez vous rendre utile en signalant le problème aux développeurs
+Ubuntu. La plupart des programmes possèdent une entrée <guimenuitem>Signaler
+un bogue</guimenuitem> dans leur menu <guimenu>Aide</guimenu>.
+    </para>
+    <para>
+      Dans le cas contraire, cherchez dans la Logithèque Ubuntu un autre programme
+pouvant faire ce que vous souhaitez.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

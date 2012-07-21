@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="gl">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Centro de software de Ubuntu</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Proxecto de documentación de
+Ubuntu</publishername> </publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Como instalar e desinstalar software en Ubuntu</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Que é o Centro de software de Ubuntu?</title>
+    <para>
+      O Centro de software de Ubuntu é un catálogo virtual de milleiros de
+aplicativos libres e outro software para facer o seu computador Ubuntu máis
+útil.
+    </para>
+    <para>
+      Pode atopar o software por categorías ou por  busca, e pode instalar un
+elemento premendo un botón.
+    </para>
+    <para>
+      Tamén pode examinar o software instalado no seu equipo actualmente, e
+eliminar todo o que xa non necesite.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Instalando software</title>
+    <para>
+      Para instalar algo co Centro de software de Ubuntu, necesita acceso de
+administrador e unha conexión activa a Internet. (Se configura Ubuntu neste
+computador, ten acceso de administrador de forma automática.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Na sección <guilabel>Obter software</guilabel>, busque aquelo que queira
+instalar, Se vostede xa coñece o nome do que quere, escriba o nome no campo
+de busca. Ou tente buscar por un tipo de programa como o que vostede quere
+como &#8220;folls de cálculo&#8221;). Ou senon, navegue pola lista de
+categorias.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Seleccione o elemento na lista e elixa <guilabel>Máis
+información</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Elixa <guilabel>Instalar</guilabel>.  Pode necesitar introducir o seu
+contrasinal de Ubuntu antes de comezar a instalación.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      O tempo que leva unha instalación depende do grande que sexa, da velocidade
+do seu computador e da conexión a Internet.
+    </para>
+    <para>
+      Cando a pantalla cambia a «instalado», o software está listo para o seu uso.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Usando un programa no momento de que está instalado</title>
+    <para>
+      Pode iniciar a maioría dos programas que ten instalados desde o menú
+<guimenu>Aplicativos</guimenu>. (As utilidades para cambiar as preferencias
+poden aparecer en
+<menuchoice><guimenu>Sistema</guimenu><guisubmenu>Preferencias</guisubmenu></menuchoice>
+ou
+<menuchoice><guimenu>Sistema</guimenu></guisubmenu>Administración</guisubmenu></menuchoice>
+no seu lugar).
+    </para>
+    <para>
+      Para saber desde onde iniciar un novo programa, vaia á pantalla de dito
+programa no Centro de Software de Ubuntu, se non está visualizándoa agora
+mesmo. A localización do menú debería mostrarse en dita pantalla, debaixo da
+barra coloreada.
+    </para>
+    <para>
+      Se está usando a Edición Netbook de Ubuntu aparecerá un aplicativo na
+categoría axeitada da súa pantalla de inicio.
+    </para>
+    <para>
+      Algúns elementos, como a reprodución multimedia ou os engadidos do navegador
+web non aparecen nos menús. Son usados automaticamente por Ubuntu canso son
+necesarios. Para un engadido dun navegador web vostede podería necesitar
+pechar o navegador e reabrilo antes de usar o engadido.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Desinstalando software</title>
+    <para>
+      Para desinstalar software, necesita acceso de administrador. (Se configura
+Ubuntu neste computador, ten acceso de administrador de forma automática.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Na sección <guilabel>Software instalado</guilabel> busque o elemento que
+desexa desinstalar.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Seleccione o elemento na lista e elixa <guilabel>Desinstalar</guilabel>.
+Pode necesitar introducir o seu contrasinal de Ubuntu.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Se un programa está aberto ao desinstalalo, polo xeral manterase aberto
+despois de ser desinstalado. Unha vez que o peche, xa non estará dispoñíbel.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Porqué esta preguntándome para desinstalar varios programas á vez?</title>
+    <para>
+      En ocasións, se tenta eliminar un elemento, o Centro de Software de Ubuntu
+avisaralle se outros elementos van seren tamén eliminados. Hai dúas razóns
+polas que isto acontece.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Se elimina un aplicativo, todos os engadidos e complementos para dito
+aplicativo tamén van seren eliminados.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          As veces algún aplicativo fornece varios aplicativos de vez como un só
+paquete. Se se instala algún deles, instálanse todos de vez. E se se
+desinstala algún deles, desinstalanse todos os demais. O Centro de software
+de Ubuntu non pode desinstalar de xeito individual, xa que non ten
+instruccións sobre como separalos.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Vostede pode utilizar os axustes do <guilabel>Menu principal</guilabel> para
+agochar os elementos non desexados sen eliminalos do computador. En Ubuntu,
+podes atopar o <guilabel>Menú principal</guilabel> dentro de <menuchoice>
+<guimenu>Sistema</guimenu>
+<guisubmenu>Preferencias</guisubmenu></menuchoice>. En Ubuntu Netbook
+Edition, atoparao en <menuchoice><guimenu>Configuración</guimenu>
+<guisubmenu>Preferencias</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >Personalizando a barra de
+menú</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Que é &#8220;Mantido por Canonical&#8221;?</title>
+    <para>
+      Algún software dispoñíbel para Ubuntu é mantido por Canonical. Os enxeñeiros
+de Canonical asegúranse de fornecer actualizacións para arranxar problemas
+de seguranza para estes programas.
+    </para>
+    <para>
+      O outro software está mantido pola comunidade de desenvolvedores de
+Ubuntu. Calquera actualización é fornecida con unha base de mellor
+ofrecemento.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Que é &#8220;Socio de Canonical&#8221;?</title>
+    <para>
+      <guilabel>Socios de Canonical</guilabel> mostra o software de provedores que
+traballaron con Canonical para que o seu software estea dispoñíbel para
+Ubuntu.
+    </para>
+    <para>
+      Pode instalar este software do mesmo xeito que calquera outro software no
+Centro de software de Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Teño que pagar por calquera cousa?</title>
+    <para>
+      A maioría do Centro de software de Ubuntu é de balde.
+    </para>
+    <para>
+      Se algo custa diñeiro terá o botón <guilabe>Comprar</guilabel> no lugar do
+botón <guilabel>Instalar</guilabel>, e móstrase o seu prezo na pantalla.
+    </para>
+    <para>
+      Para pagar por software comercial, debe ter unha conexión a Internet e unha
+conta de Ubuntu Single Sign On ou de Launchpad. Se non ten unha conta, o
+Centro de software de Ubuntu axudaralle a crear unha.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      Que teño que pagar se os perdo?
+    </title>
+    <para>
+      Se eliminou accidentalmente algún programa que comprou anteriormente e quere
+restauralo seleccione
+<menuchoice><guimenu>Ficheiro</guimenu><guimenuitem>Reinstalar anteriores
+compras</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Cando inicie a sesión na sesión que usa para comprar software, o Centro de
+software de Ubuntu móstralle as súas compras anteriores para poder
+reinstalalas.
+    </para>
+    <para>
+      Isto funciona incluso se reinstala Ubuntu no seu computador.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Que facer se un programa que desexamos non está dispoñíbel?</title>
+    <para>
+      Primeiro comprobe que estea seleccionado <menuchoice><guimenu>Ver</guimenu>
+<guimenuitem>Todo o software</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Se o software que desexa aínda non está, pero sabe que funciona en Ubuntu,
+tente pórse en contacto cos desenvolvedores orixinais do programa para
+preguntar se poden axudar a facer que estea dispoñíbel.
+    </para>
+    <para>
+      Se un programa está dispoñíbel para outro sistema operativo pero non par
+Ubuntu, dígalle aos desenvolvedores que vostede está interesado en executalo
+en Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Que sucede se un programa non funciona?</title>
+    <para>
+      Con centos de programas no Centro de software de Ubuntu, sempre existe a
+posibilidade de que uns poucos non funcionen axeitadamente no seu
+computador.
+    </para>
+    <para>
+      Si está familiarizado con informar de problemas nos programas, pode axudar
+informando aos desenvolvedores de Ubuntu. A maioría dos programas teñen un
+elemento <guimenuitem>Informar dun problema</guimenuitem> no seu menú de
+<guimenu>Axuda</guimenu>.
+    </para>
+    <para>
+      Pola contra, mire no Centro de software de Ubuntu por outro programa que
+faga o que queira.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

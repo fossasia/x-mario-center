@@ -1,0 +1,52 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH SOFTWARE-CENTER 1 "2.1.8" "August 2010"
+
+.SH NAME
+software-center \- manage software
+
+.SH SYNOPSIS
+.B software-center 
+[\fIoptions\fR] [ \fIpackage-name\fR | \fIapt-url\fR  | \fIdeb-file\fR ]
+
+.SH DESCRIPTION
+\fBsoftware-center\fR a graphical interface for package management in Ubuntu.
+
+.SH OPTIONS
+Listed below are the command line options for \fBsoftware-center\fR:
+.TP
+\fB\-\-version\fR
+show program's version number and exit
+.TP
+\fB\-h\fR, \fB\-\-help\fR
+show this help message and exit
+.TP
+\fB\-\-debug\fR
+enable debug mode
+
+.SH EXAMPLES
+.TP
+software-center
+Display the main screen of software-center.
+.TP
+software-center gedit
+Display the details view of the gedit package.
+.TP
+software-center banshee?section=universe
+Display the details view of the banshee package and offer to enable the universe component.
+.TP
+software-center adobe-flashplugin?channel=maverick-partner
+Display the details view of the adobe-flashplugin package and offer to enable the maverick-partner channel.
+.TP
+software-center cheese,gtg
+Display a list containing the cheese and gtg packages.
+.TP
+software-center /home/pgg/skype.deb
+Display the details view of the local debian file '/home/pgg/skype.deb'.
+
+.SH AUTHOR
+\fBsoftware-center\fR was written by Michael Vogt <mvo@canonical.com>, and this manual page by Andrew Higginson <rugby471@gmail.com>.
+
+Both are released under the GNU General Public License, version 3 or later.

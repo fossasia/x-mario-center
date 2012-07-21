@@ -1,0 +1,728 @@
+# Serbian translation for software-center
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the software-center package.
+#
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-09 09:31+0700\n"
+"PO-Revision-Date: 2011-07-17 10:22+0000\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"Language-Team: Launchpad Serbian Translators\n"
+"Language: Serbian (sr)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-12-10 13:12+0000\n"
+"X-Generator: Launchpad (build 14450)\n"
+
+#. type: Attribute 'lang' of: <book>
+#: help/C/software-center.xml:18
+msgid "en"
+msgstr "ср"
+
+#. type: Content of: <book><bookinfo><title>
+#: help/C/software-center.xml:22
+msgid "Ubuntu Software Center"
+msgstr "Убунтуов софтверски центар"
+
+#.  translators: uncomment this:
+#.   <copyright>
+#.    <year>2000</year>
+#.    <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+#.   </copyright>
+#.   
+#.  An address can be added to the publisher information.  If a role is
+#.      not specified, the publisher/author is the same for all versions of the
+#.      document.  
+#.  This file  contains link to license for the documentation (GNU FDL), and
+#.         other legal stuff such as "NO WARRANTY" statement. Please do not change
+#.         any of this. 
+#. type: Content of: <book><bookinfo>
+#: help/C/software-center.xml:34
+msgid ""
+"<publisher> <publishername>Ubuntu Documentation Project</publishername> </"
+"publisher> &legal;"
+msgstr ""
+"<publisher><publishername>Пројекат Убунтуове документације</publishername> </"
+"publisher> &legal;"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><firstname>
+#: help/C/software-center.xml:43
+msgid "Michael"
+msgstr "Мајкл"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><surname>
+#: help/C/software-center.xml:44
+msgid "Vogt"
+msgstr "Вог"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><email>
+#: help/C/software-center.xml:45
+msgid "mvo@ubuntu.com"
+msgstr "mvo@ubuntu.com"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><firstname>
+#: help/C/software-center.xml:48
+msgid "Matthew"
+msgstr "Метју"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><firstname>
+#: help/C/software-center.xml:49
+msgid "Paul"
+msgstr "Пол"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><surname>
+#: help/C/software-center.xml:50
+msgid "Thomas"
+msgstr "Томас"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><email>
+#: help/C/software-center.xml:51
+msgid "mpt@ubuntu.com"
+msgstr "mpt@ubuntu.com"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><firstname>
+#: help/C/software-center.xml:54
+msgid "Andrew"
+msgstr "Ендрју"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><surname>
+#: help/C/software-center.xml:55
+msgid "Higginson"
+msgstr "Хајгинсон"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><email>
+#: help/C/software-center.xml:56
+msgid "rugby471@gmail.com"
+msgstr "rugby471@gmail.com"
+
+#. type: Content of: <book><bookinfo><abstract><para>
+#: help/C/software-center.xml:60
+msgid "How to install and remove software in Ubuntu."
+msgstr "Како да инсталирате и уклоните софтвер у Убунтуу."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:67
+msgid "What is Ubuntu Software Center?"
+msgstr "Шта је Убунтуов софтверски центар?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:69
+msgid ""
+"Ubuntu Software Center is a virtual catalog of thousands of free "
+"applications and other software to make your Ubuntu computer more useful."
+msgstr ""
+"Убунтуов софтверски центар је виртуелни каталог хиљаде слободних програма и "
+"другог софтвера како би ваш Убунту рачунар био још кориснији."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:73
+msgid ""
+"You can find software by category or by searching, and you can install an "
+"item with the click of a button."
+msgstr ""
+"Софтвер можете наћи према категорији или претраживањем, а било коју ставку "
+"можете инсталирати кликом на дугме."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:77
+msgid ""
+"You can also examine which software is installed on the computer already, "
+"and remove anything you no longer need."
+msgstr ""
+"Такође можете да прегледате који су програми већ инсталирани на рачунару и "
+"да уклоните све оно што вам више не треба."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:83
+msgid "Installing software"
+msgstr "Инсталирање софтвера"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:85
+msgid ""
+"To install something with Ubuntu Software Center, you need administrator "
+"access and a working Internet connection.  (If you set up Ubuntu on this "
+"computer yourself, you have administrator access automatically.)"
+msgstr ""
+"Да инсталирате неки програм из Убунтуовог софтверског центра, потребан вам "
+"је администраторски приступ и радна веза на Интернет. (Ако сте ви сами "
+"подесили Убунту на том рачунару, аутоматски имате администраторски приступ.)"
+
+#. type: Content of: <book><chapter><orderedlist><listitem><para>
+#: help/C/software-center.xml:93
+msgid ""
+"In the <guilabel>Get Software</guilabel> section, find the thing you want to "
+"install.  If you already know its name, try typing the name in the search "
+"field.  Or try searching for the type of program you want (like &#8220;"
+"spreadsheet&#8221;).  Otherwise, browse the list of departments."
+msgstr ""
+"У одељку <guilabel>Набавите софтвер</guilabel>, нађите оно што желите да "
+"инсталирате. Ако већ знате како се зове програм, покушајте да откуцате име у "
+"поље за претрагу. Или покушајте претрагу за врстом програма који желите (као "
+"&#8220;унакрсна табела&#8221;). У супротном, прегледајте списак одељења."
+
+#. type: Content of: <book><chapter><orderedlist><listitem><para>
+#: help/C/software-center.xml:103
+msgid "Select the item in the list, and choose <guilabel>More Info</guilabel>."
+msgstr ""
+"Изаберите ставку са списка, а затим изаберите <guilabel>Више података</"
+"guilabel>."
+
+#. type: Content of: <book><chapter><orderedlist><listitem><para>
+#: help/C/software-center.xml:109
+msgid ""
+"Choose <guilabel>Install</guilabel>.  You may need to enter your Ubuntu "
+"password before the installation can begin."
+msgstr ""
+"Изаберите <guilabel>Инсталирај</guilabel>. Можда ћете морати да унесете вашу "
+"Убунту лозинку да би инсталација могла да почне."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:116
+msgid ""
+"How long something takes to install depends on how large it is, and the "
+"speed of your computer and Internet connection."
+msgstr ""
+"Колико дуго ће неки програм да се инсталира зависи од његове величине, и од "
+"брзине вашег рачунара и Интернет везе."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:120
+msgid ""
+"When the screen changes to say &#8220;Installed&#8221;, the software is "
+"ready to use."
+msgstr ""
+"Када се екран промени и прикаже &#8220;Инсталиран&#8221;, то значи да је "
+"софтвер спреман за употребу."
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:124
+msgid "<xref linkend=\"launching\" endterm=\"launching-title\"/>"
+msgstr "<xref linkend=\"launching\" endterm=\"launching-title\"/>"
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:125
+msgid "<xref linkend=\"missing\" endterm=\"missing-title\"/>"
+msgstr "<xref linkend=\"missing\" endterm=\"missing-title\"/>"
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:130
+msgid "Using a program once it&#8217;s installed"
+msgstr "Коришћење програма након инсталације"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:132
+msgid ""
+"For most programs, once they are installed, you can launch them from the "
+"<guimenu>Applications</guimenu> menu.  (Utilities for changing settings may "
+"appear inside <menuchoice><guimenu>System</guimenu> <guisubmenu>Preferences</"
+"guisubmenu></menuchoice> or <menuchoice><guimenu>System</guimenu> "
+"<guisubmenu>Administration</guisubmenu></menuchoice> instead)."
+msgstr ""
+"Већину програма, након инсталације, можете покренути из изборника "
+"„<guimenu>Програми</guimenu>“. (Помоћни алати за мењање подешавања могу "
+"уместо тога да се појаве у изборнику „<menuchoice><guimenu>Систем</guimenu> "
+"<guisubmenu>Поставке</guisubmenu></menuchoice>“ или у изборнику "
+"„<menuchoice><guimenu>Систем</guimenu> <guisubmenu>Администрација</"
+"guisubmenu></menuchoice>“)"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:141
+msgid ""
+"To find out where to launch a new program, navigate to the screen for that "
+"program in Ubuntu Software Center, if it is not still being displayed.  The "
+"menu location should be displayed on that screen, below the colored bar."
+msgstr ""
+"Да сазнате одакле да покренете нови програм, идите на екран тог програма у "
+"Убунтуовом софтверском центру, ако још увек није приказан. Место изборника "
+"треба да буде приказано на том екрану, испод траке у боји."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:148
+msgid ""
+"If you are using Ubuntu Netbook Edition, an application appears in the "
+"appropriate category on the home screen."
+msgstr ""
+"Ако користите Убунту Нетбук издање, инсталирани програм ће се појавити у "
+"одговарајућој категорији на почетном екрану."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:152
+msgid ""
+"Some items, such as media playback or Web browser plugins, do not appear in "
+"the menus.  They are used automatically when Ubuntu needs them.  For a Web "
+"browser plugin, you may need to close the browser and reopen it before the "
+"plugin will be used."
+msgstr ""
+"Неке ставке, као што су репродукција медија или додаци Веб претраживача, се "
+"не појављује у изборницима. Оне се аутоматски користе када их Убунту "
+"затреба. За додатак Веб претраживача, можда ћете морати да затворите "
+"претраживач и да га поново отворите да би додатак био спреман за коришћење."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:160
+msgid "Removing software"
+msgstr "Уклањање софтвера"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:162
+msgid ""
+"To remove software, you need administrator access.  (If you set up Ubuntu on "
+"this computer yourself, you have administrator access automatically.)"
+msgstr ""
+"Да уклоните софтвер, морате имати администраторски приступ. (Ако сте сами "
+"подесили Убунту на овом рачунару, аутоматски имате администраторски приступ.)"
+
+#. type: Content of: <book><chapter><orderedlist><listitem><para>
+#: help/C/software-center.xml:169
+msgid ""
+"In the <guilabel>Installed Software</guilabel> section, find the item you "
+"want to remove."
+msgstr ""
+"У одељку <guilabel>Инсталирани софтвер</guilabel>, пронађите ставку коју "
+"желите да уклоните."
+
+#. type: Content of: <book><chapter><orderedlist><listitem><para>
+#: help/C/software-center.xml:175
+msgid ""
+"Select the item in the list, and choose <guilabel>Remove</guilabel>.  You "
+"may need to enter your Ubuntu password."
+msgstr ""
+"Изаберите ставку са списка, а затим изаберите <guilabel>Уклони</guilabel>. "
+"Можда ћете морати да унесете вашу Убунту лозинку."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:181
+msgid ""
+"If a program is open when you remove it, usually it will stay open even "
+"after it is removed.  As soon as you close it, it will no longer be "
+"available."
+msgstr ""
+"Ако је програм био отворен када сте га уклонили, обично ће остати отворен и "
+"након обављеног уклањања. Чим га затворите, више неће бити доступан."
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:186
+msgid "<xref linkend=\"metapackages\" endterm=\"metapackages-title\"/>"
+msgstr "<xref linkend=\"metapackages\" endterm=\"metapackages-title\"/>"
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:191
+msgid "Why is it asking me to remove several programs together?"
+msgstr "Зашто тражи од мене да уклоним неколико програма заједно?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:193
+msgid ""
+"Sometimes if you try to remove one item, Ubuntu Software Center will warn "
+"you that other items will be removed too.  There are two main reasons this "
+"happens."
+msgstr ""
+"Понекад ако покушате да уклоните једну ставку, Убунтуов софтверски центар ће "
+"вас упозорити да ће и друге ставке такође бити уклоњене. Постоје два главна "
+"разлога за то."
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:200
+msgid ""
+"If you remove an application, any add-ons or plugins for that application "
+"usually will be removed too."
+msgstr ""
+"Ако уклоните неки програм онда ће такође бити уклоњени и сви додаци или "
+"прикључци за тај програм."
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:206
+msgid ""
+"Multiple applications are sometimes provided as a single package.  If any of "
+"them are installed, all of them are installed.  And if any of them are "
+"removed, all of them are removed.  Ubuntu Software Center cannot remove them "
+"individually, because it has no instructions on how to separate them."
+msgstr ""
+"Група програма се понекад обезбеђује као јединствен пакет. Уколико "
+"инсталирате неки програм из овог пакета, онда ће бити инсталирани и сви "
+"остали програми. И ако уклоните неки програм из овог пакета, онда ће и сви "
+"остали програми бити уклоњени. Убунтуов софтверски центар не може да их "
+"уклони појединачно, јер нема упутства о томе како да их раздвоји."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:215
+msgid ""
+"You can use the <guilabel>Main Menu</guilabel> settings to hide unwanted "
+"items without removing them from the computer.  In Ubuntu, you can find "
+"<guilabel>Main Menu</guilabel> inside <menuchoice><guimenu>System</guimenu> "
+"<guisubmenu>Preferences</guisubmenu></menuchoice>.  In Ubuntu Netbook "
+"Edition, it is in <menuchoice><guimenu>Settings</guimenu> "
+"<guisubmenu>Preferences</guisubmenu></menuchoice>."
+msgstr ""
+"Можете да користите подешавања <guilabel>Главног менија</guilabel> да "
+"сакријете нежељене ставке без њиховог уклањања са рачунара. У Убунтуу, "
+"можете пронаћи <guilabel>Главни мени</guilabel> у изборнику "
+"<menuchoice><guimenu>Систем</guimenu><guisubmenu>Поставке</guisubmenu></"
+"menuchoice>. У Убунту Нетбук издању, се налази у изборнику "
+"<menuchoice><guimenu>Подешавања</guimenu><guisubmenu>Поставке</guisubmenu></"
+"menuchoice>."
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:226
+msgid ""
+"<ulink url=\"ghelp:user-guide?menu-editor\" >Customizing the menu bar</ulink>"
+msgstr ""
+"<ulink url=\"ghelp:user-guide?menu-editor\" >Прилагођавање траке менија</"
+"ulink>"
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:232
+msgid "What is &#8220;Canonical-maintained&#8221;?"
+msgstr "Шта значи „Одржава Каноникал“?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:234
+msgid ""
+"Some of the software available for Ubuntu is maintained by Canonical.  "
+"Canonical engineers ensure that security fixes and other critical updates "
+"are provided for these programs."
+msgstr ""
+"Поједини софтвер доступан за Убунту одржава Каноникал. Инжењери Каноникала "
+"осигуравају да су безбедносне исправке и друге критичне допуне обезбеђене за "
+"ове програме."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:240
+msgid ""
+"Other software is maintained by the Ubuntu developer community.  Any updates "
+"are provided on a best-effort basis."
+msgstr ""
+"Док остали софтвер одржава Убунтуова заједница програмера. Све исправке су "
+"обезбеђене на основи личног залагања."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:245
+msgid "What is &#8220;Canonical Partners&#8221;?"
+msgstr "Шта значи „Каноникал партнери“?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:247
+msgid ""
+"<guilabel>Canonical Partners</guilabel> shows software from vendors who have "
+"worked with Canonical to make their software available for Ubuntu."
+msgstr ""
+"<guilabel>Каноникал партнери</guilabel> приказује софтвер продаваца који су "
+"радили са Каноникалом да би њихов софтвер учинили доступним за Убунту."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:251
+msgid ""
+"You can install this software in the same way as any other software in "
+"Ubuntu Software Center."
+msgstr ""
+"Можете да инсталирате овај софтвер на исти начин као и било који други "
+"софтвер у Убунтуовом софтверском центру."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:256
+msgid "Do I need to pay anything?"
+msgstr "Да ли треба нешто да платим?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:258
+msgid "Most software in Ubuntu Software Center is free of charge."
+msgstr "Већина програма у Убунтуовом софтверском центру су бесплатни програми."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:261
+msgid ""
+"If something costs money, it has a <guilabel>Buy</guilabel> button instead "
+"of an <guilabel>Install</guilabel> button, and its price is shown on the "
+"screen for the individual item."
+msgstr ""
+"Ако за нешто треба да се плати, уместо дугмета „<guilabel>Инсталација</"
+"guilabel>“ биће приказано дугме „<guilabel>Купите</guilabel>“, а цена "
+"програма се приказује на екрану за појединачну ставку."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:267
+msgid ""
+"To pay for commercial software, you need an Internet connection, and an "
+"Ubuntu Single Sign On account or Launchpad account.  If you do not have an "
+"account, Ubuntu Software Center will help you register one."
+msgstr ""
+"Да бисте платили комерцијални софтвер, потребна вам је Интернет веза и један "
+"налог Убунту Јединственог пријављивања или Ланчпад налог. Ако немате налог, "
+"Убунтуов софтверски центар ће вам помоћи да региструјете један."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:275
+msgid "What if I paid for software and then lost it?"
+msgstr "Шта ако платим неки програм а затим га изгубим?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:278
+msgid ""
+"If you accidentally removed software that you purchased, and you want it "
+"back, choose <menuchoice><guimenu>File</guimenu> <guimenuitem>Reinstall "
+"Previous Purchases</guimenuitem></menuchoice>."
+msgstr ""
+"Ако случајно уклоните неки програм који сте купили и желели бисте опет да га "
+"имате, изаберите <menuchoice><guimenu>Датотека</guimenu> <guimenuitem>Поново "
+"инсталирај претходно купљене</guimenuitem></menuchoice>."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:284
+msgid ""
+"Once you sign in to the account that you used to buy the software, Ubuntu "
+"Software Center will display your purchases for reinstalling."
+msgstr ""
+"Када се затим пријавите на налог који сте користили када сте купили програм, "
+"Убунтуов софтверски центар ће приказати ваше купљене програме за поновно "
+"инсталирање."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:288
+msgid "This works even if you have reinstalled Ubuntu on the computer."
+msgstr "Ово функционише чак и ако сте поново инсталирали Убунту на рачунару."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:293
+msgid "What if a program I want isn&#8217;t available?"
+msgstr "Шта ако програм који желим није доступан?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:295
+msgid ""
+"First, check that <menuchoice><guimenu>View</guimenu> <guimenuitem>All "
+"Software</guimenuitem></menuchoice> is selected."
+msgstr ""
+"Прво, проверите да ли је изабрано <menuchoice><guimenu>Преглед</"
+"guimenu><guimenuitem>Сав софтвер</guimenuitem></menuchoice>."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:299
+msgid ""
+"If the software you want still isn&#8217;t there, but you know that it runs "
+"on Ubuntu, try contacting the original developers of the program to ask if "
+"they can help make it available."
+msgstr ""
+"Ако софтвер који желите још увек није ту, али знате да ради на Убунтуу, "
+"покушајте да ступите у контакт са оригиналним програмерима програма и "
+"питајте их да ли они могу помоћи да га учине доступним."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:305
+msgid ""
+"If a program is available for other operating systems but not for Ubuntu, "
+"let the developers know that you&#8217;re interested in running it on Ubuntu."
+msgstr ""
+"Ако је програм доступан за друге оперативне системе, али не и за Убунту, "
+"обавестите програмере да сте заинтересовани да га покрећете на Убунтуу."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:312
+msgid "What if a program doesn&#8217;t work?"
+msgstr "Шта ако програм не ради?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:314
+msgid ""
+"With tens of thousands of programs in Ubuntu Software Center, there&#8217;s "
+"always the chance that a few of them won&#8217;t work properly on your "
+"computer."
+msgstr ""
+"Уз десетине хиљада програма у Убунтуовом софтверском центру, увек постоји "
+"шанса да неки од њих неће исправно радити на вашем рачунару."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:319
+msgid ""
+"If you are familiar with reporting bugs in software, you can help out by "
+"reporting the problem to the Ubuntu developers.  Most programs have a "
+"<guimenuitem>Report a Problem</guimenuitem> item in their <guimenu>Help</"
+"guimenu> menu."
+msgstr ""
+"Ако сте упознати са пријављивањем грешака у софтверу, можете помоћи тако што "
+"ћете Убунтуовим програмерима доставити извештај о проблему. Већина програма "
+"има ставку <guimenuitem>Известите о проблему</guimenuitem> у свом изборнику "
+"<guimenu>Помоћ</guimenu>."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:325
+msgid ""
+"Otherwise, look through Ubuntu Software Center for another program to do "
+"what you want."
+msgstr ""
+"У супротном, погледајте кроз Убунтуов софтверски центар и потражите неки "
+"други програм да урадите оно што желите."
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:329
+msgid "<xref linkend=\"removing\" endterm=\"removing-title\"/>"
+msgstr "<xref linkend=\"removing\" endterm=\"removing-title\"/>"
+
+#. type: Content of: <legalnotice><para>
+#: help/C/legal.xml:3
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts.  You can find a "
+"copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> "
+"or in the file COPYING-DOCS distributed with this manual."
+msgstr ""
+"Дозвољено је да умножавате, расподељујете и/или мењате овај документ под "
+"условима ГНУ Слободне Документационе Лиценце (GFDL), издање 1.1 или било ког "
+"новијег издања које објави Задужбина Слободног Софтвера без Непромењених "
+"одељака, без Текста насловне стране и без Текста задње стране. Можете наћи "
+"примерак ГСДЛ на овој <ulink type=\"help\" url=\"ghelp:fdl\">везици</ulink> "
+"или у датотеци COPYING-DOCS која иде уз овај приручник."
+
+#. type: Content of: <legalnotice><para>
+#: help/C/legal.xml:12
+msgid ""
+"This manual is part of a collection of GNOME manuals distributed under the "
+"GFDL.  If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"section 6 of the license."
+msgstr ""
+"Овај приручник је део збирке Гномових упутстава расподељен под ГСДЛ. Уколико "
+"желите да расподељујете ово упутство одвојено из збирке, то можете учинити "
+"додавањем примерка дозволе приручнику, као што је описано у дозволи о "
+"коришћењу у одељку 6."
+
+#. type: Content of: <legalnotice><para>
+#: help/C/legal.xml:20
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and the members of the GNOME Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"Многа од имена која користе компаније за разликовање својих производа и "
+"услуга су утврђена као заштитни знаци. Где се та имена појављују у некој "
+"Гномовој документацији, чланови Пројекта Гномове документације су свесни тих "
+"заштитних знакова, онда су имена исписана великим словима, или почетним "
+"великим словима."
+
+#. type: Content of: <legalnotice><para><orderedlist><listitem><para>
+#: help/C/legal.xml:35
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"ДОКУМЕНТ ЈЕ ОБЕЗБЕЂЕН НА ОСНОВИ „ТАКАВ КАКАВ ЈЕ“, БЕЗ ГАРАНЦИЈЕ БИЛО КОЈЕ "
+"ВРСТЕ, БИЛО ИЗРАЖЕНЕ ИЛИ ПРИМЕЊЕНЕ, УКЉУЧУЈУЋИ, БЕЗ ОГРАНИЧЕЊА, ГАРАНЦИЈЕ ДА "
+"ЈЕ ДОКУМЕНТ ИЛИ ИЗМЕЊЕНО ИЗДАЊЕ ОВОГ ДОКУМЕНТА БЕЗ НЕДОСТАТКА ТРЖИШНЕ "
+"ВРЕДНОСТИ, ПРИЛАГОЂЕНОСТИ ОДРЕЂЕНОЈ НАМЕНИ ИЛИ НЕЗАКОНИТОСТИ. ЦЕО РИЗИК НА "
+"КВАЛИТЕТ, ТАЧНОСТ И ПЕРФОРМАНСЕ ДОКУМЕНТА ИЛИ ИЗМЕЊЕНОГ ИЗДАЊА ДОКУМЕНТА ЈЕ "
+"САМО ВАШ. АКО БИЛО КОЈИ ДОКУМЕНТ ИЛИ ИЗМЕЊЕНО ИЗДАЊЕ ПОКАЖЕ НЕИСПРАВНОСТ У "
+"БИЛО КОМ ПОГЛЕДУ, ВИ (НЕ ПОЧЕТНИ ПИСАЦ, АУТОР ИЛИ БИЛО КОЈИ САРАДНИК) "
+"ПРЕУЗИМАТЕ ТРОШКОВЕ ПОТРЕБНОГ СЕРВИСИРАЊА, ПОПРАВКЕ ИЛИ ИСПРАВКЕ. ОВО "
+"ИЗУЗЕЋЕ ОД ГАРАНЦИЈЕ ПРЕДСТАВЉА БИТАН ДЕО ОВЕ ЛИЦЕНЦЕ. НИКАКВА УПОТРЕБА БИЛО "
+"КОГ ДОКУМЕНТА ИЛИ ИЗМЕЊЕНОГ ИЗДАЊА ДОКУМЕНТА НИЈЕ ОВЛАШЋЕНА ОСИМ ПОД ОВИМ "
+"ИЗУЗЕТКОМ; И"
+
+#. type: Content of: <legalnotice><para><orderedlist><listitem><para>
+#: help/C/legal.xml:55
+msgid ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"НИ ПОД КОЈИМ ОКОЛНОСТИМА И НИ ПОД КОЈОМ ПРАВНОМ ТЕОРИЈОМ, БИЛО У КРИВИЧНОМ "
+"ДЕЛУ (УКЉУЧУЈУЋИ НЕМАР), УГОВОРУ, ИЛИ НА ДРУГИ НАЧИН, АУТОР, ПОЧЕТНИ ПИСАЦ, "
+"БИЛО КОЈИ САРАДНИК, ИЛИ БИЛО КОЈИ ДОСТАВЉАЧ ДОКУМЕНТА ИЛИ ИЗМЕЊЕНОГ ИЗДАЊА "
+"ДОКУМЕНТА, ИЛИ БИЛО КОЈИ ДОБАВЉАЧ ИЗ БИЛО КОЈЕ ГРУПЕ, НЕЋЕ БИТИ ОДГОВОРАН НИ "
+"ЈЕДНОЈ ОСОБИ ЗА БИЛО КОЈУ ДИРЕКТНУ, ИНДИРЕКТНУ, ПОСЕБНУ, СЛУЧАЈНУ, ИЛИ "
+"ПОСЛЕДИЧНУ ШТЕТУ УКЉУЧУЈУЋИ БИЛО КОЈИ КАРАКТЕР, БЕЗ ОГРАНИЧЕЊА, ШТЕТЕ ЗА "
+"ГУБИТАК ДОБРЕ ВОЉЕ, ОБУСТАВУ РАДА, НЕУСПЕХ РАЧУНАРА ИЛИ КВАР, ИЛИ БИЛО КОЈЕ "
+"И СВАКЕ ДРУГЕ ШТЕТЕ ИЛИ ГУБИТКЕ НАСТАЛЕ ИЗ ИЛИ У ВЕЗИ СА КОРИШЋЕЊЕМ "
+"ДОКУМЕНТА И ИЗМЕЊЕНЕ ВЕРЗИЈЕ ДОКУМЕНТА, ЧАК И АКО БИ ТАКВА СТРАНА БИЛА "
+"ОБАВЕШТЕНА О МОГУЋНОСТИ ТАКВИХ ШТЕТА."
+
+#. type: Content of: <legalnotice><para>
+#: help/C/legal.xml:29
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<placeholder type=\"orderedlist\" id=\"0\"/>"
+msgstr ""
+"ДОКУМЕНТ И ИЗМЕЊЕНА ИЗДАЊА ДОКУМЕНТА СУ ОБЕЗБЕЂЕНА ПОД ТЕРМИНИМА ГНУ "
+"СЛОБОДНЕ ДОКУМЕНТАЦИОНЕ ЛИЦЕНЦЕ СА ДОДАТНИМ РАЗУМЕВАЊЕМ ДА: <placeholder "
+"type=\"orderedlist\" id=\"0\"/>"
+
+#~ msgid ""
+#~ "Most installed applications appear in the <guimenu>Applications</guimenu> "
+#~ "menu in the corner of the screen, in the same category as they came from "
+#~ "in the Software Center."
+#~ msgstr ""
+#~ "Већина инсталираних програма ће се појавити у изборнику "
+#~ "<guimenu>Програми</guimenu> у левом горњем углу екрана, у истој "
+#~ "категорији у којој се налазе и у софтверском центру."
+
+#~ msgid ""
+#~ "For example, if you installed a program from the <guilabel>Office</"
+#~ "guilabel> department, it will appear inside "
+#~ "<menuchoice><guimenu>Applications</guimenu> <guisubmenu>Office</"
+#~ "guisubmenu></menuchoice>."
+#~ msgstr ""
+#~ "На пример, ако сте инсталирали програм из одељења <guilabel>Канцеларија</"
+#~ "guilabel>, исти ће се појавити у изборнику <menuchoice><guimenu>Програми</"
+#~ "guimenu><guisubmenu>Канцеларија</guisubmenu></menuchoice>."
+
+#~ msgid ""
+#~ "If you remove an application, any add-ons or accessories for that "
+#~ "application usually will be removed too."
+#~ msgstr ""
+#~ "Ако уклоните неки програм онда ће такође бити уклоњени и сви додаци или "
+#~ "помоћни алати за тај програм."
+
+#~ msgid "Currently, all software in Ubuntu Software Center is free of charge."
+#~ msgstr "Тренутно, сав софтвер у Убунтуовом софтверском центру је бесплатан."
+
+#~ msgid ""
+#~ "Most of this software is developed as <firstterm>open source</firstterm>, "
+#~ "which means anyone is allowed to alter it and redistribute it for any "
+#~ "price.  Ubuntu developers, Debian developers, and others package the "
+#~ "software available in Ubuntu Software Center, and make it available to "
+#~ "you for free."
+#~ msgstr ""
+#~ "Већина овог софтвера је развијена као програм <firstterm>отвореног кôда</"
+#~ "firstterm>, што значи да је свакоме дозвољено да га мења и расподељује за "
+#~ "било коју цену. Убунтуови програмери, Дебианови програмери и остали, "
+#~ "пакују софтвер доступан у Убунтуовом софтверском центру, и чине га вама "
+#~ "доступним бесплатно."
+
+#~ msgid ""
+#~ "In a future version of Ubuntu, the Center will also allow software "
+#~ "purchases."
+#~ msgstr ""
+#~ "У наредном издању Убунтуа, софтверски центар ће такође омогућити и "
+#~ "куповину софтвера."
+
+#~ msgid ""
+#~ "Otherwise, look through the Center for another program to do what you "
+#~ "want."
+#~ msgstr ""
+#~ "У супротном, погледајте кроз Убунтуов софтверски центар и потражите неки "
+#~ "други програм да урадите оно што желите."

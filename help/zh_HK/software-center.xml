@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="zh-HK">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Ubuntu 軟件中心</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Ubuntu 文件專案</publishername> </publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>如何在 Ubuntu 中安裝及移除軟件</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>什麼是 Ubuntu 軟件中心？</title>
+    <para>
+      Ubuntu 軟件中心是一個包含數千種自由應用程式及其他軟件的虛擬目錄，讓您的 Ubuntu 電腦更有用。
+    </para>
+    <para>
+      您可藉由目錄或搜尋來找到軟件，您也可透過按一下按鈕來安裝一個項目。
+    </para>
+    <para>
+      您也可看看閣下電腦安裝了哪些軟件，又或移除您不要的。
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>正在安裝軟件</title>
+    <para>
+      要透過 Ubuntu 軟件中心安裝軟件，您需要擁有管理者權限以及一個可用的互聯網連線。（若您自己在這部電腦上安裝
+Ubuntu，您已自動擁有管理者權限。）
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          在 <guilabel>取得軟件</guilabel> 部份，找出您想安裝的軟件。若您已經知道名稱，試試在搜尋列中打出名稱。或者您也可以搜尋您想找的類別
+(如 &#8220;spreadsheet&#8221;)。此外，也可瀏覽各分類列表。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          選擇列表中的條目，並選擇 <guilabel>更多資訊</guilabel>。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          選擇 <guilabel>安裝</guilabel>。您可能需要於安裝前輸入您的您的 Ubuntu 密碼。
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      安裝所需時間取決於軟件的容量大小、您的電腦及網絡連線速度。
+    </para>
+    <para>
+      當畫面顯示 &#8220;Installed&#8221;，軟件就準備好已可使用了。
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >一旦安裝好就可使用程式</title>
+    <para>
+      大部份軟件安裝後就可於 <guimenu>應用程式</guimenu> 選單開啟（用於變更設定之工具可能在
+<menuchoice><guimenu>系統</guimenu> <guisubmenu>偏好設定</guisubmenu></menuchoice>
+或 <menuchoice><guimenu>系統</guimenu>
+<guisubmenu>管理</guisubmenu></menuchoice>）。
+    </para>
+    <para>
+      To find out where to launch a new program, navigate to the screen for that
+program in Ubuntu Software Center, if it is not still being displayed.  The
+menu location should be displayed on that screen, below the colored bar.
+    </para>
+    <para>
+      若您用的是 Ubuntu Netbook Edition，應用程式見於主畫面的對應類別。
+    </para>
+    <para>
+      有些項目，像是媒體播放或網頁瀏覽器附加元件，並不會出現在選單裡面。它們會在 Ubuntu
+需要它們的時候自動被使用。以網頁瀏覽器附加元件為例，您可能需要關閉瀏覽器並接著重新啟動它，才能讓附加元件發揮作用。
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">正在移除軟件</title>
+    <para>
+      欲移除軟件，您需要管理者權限。（若您自己在此電腦上安裝 Ubuntu，您將自動擁有管理者權限。）
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          在 <guilabel>已安裝軟件</guilabel>部份，找出您想要移除的軟件。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          在列表中選擇項目，並點選 <guilabel>移除</guilabel>。您可能需要輸入您的 Ubuntu 密碼。
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      若一個程式在您移除時仍然開啟，通常即使在移除後它依然會保持開啟狀態。一旦您關閉它，它將不再能使用。
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >為何要我同時移除數個程式？</title>
+    <para>
+      有時您只想移除一款應用程式，Ubuntu 軟件中心會警告您其他程式也會被移除。這主要有兩個原因。
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          如移除某應用程式，其附加元件或外掛程式也會一併移除。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          多個應用程式有時會以單一套件方式提供。若其中任何一個被安裝，其他所有也將一併安裝。若其中任何一個被移除，則其它所有也將被一併移除。Ubuntu
+軟件中心無法個別移除它們，因為並沒有如何分別移除的指令。
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      您可以用 <guilabel>主選單</guilabel> 設定來隱藏不想要的元件而不需移除它們。在 Ubuntu 中，您可以在
+<menuchoice><guimenu>系統</guimenu> <guisubmenu>偏好設定</guisubmenu></menuchoice>
+找到 <guilabel>主選單</guilabel>。在 Ubuntu Netbook Edition 中，它是位於
+<menuchoice><guimenu>設定</guimenu>
+<guisubmenu>偏好設定</guisubmenu></menuchoice>。
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >自訂選單列</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>什麼是 &#8220;Canonical 維護&#8221;？</title>
+    <para>
+      某些 Ubuntu 軟件由 Canonical 維護。Canonical 工程人員確保提供其保安修補及其他重要更新。
+    </para>
+    <para>
+      其他軟件是由 Ubuntu 的開發社群所維護，任何更新都會以最大的努力為基礎上推出。
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>什麼是 &#8220;Canonical 夥伴&#8221;？</title>
+    <para>
+      <guilabel>Canonical 夥伴</guilabel> 中顯示與 Canonical 共同合作的廠商為 Ubuntu 所推出的軟件。
+    </para>
+    <para>
+      您可以如其他軟件一樣於 Ubuntu 軟件中心安裝這個軟件。
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">我要付錢嗎？</title>
+    <para>
+      Ubuntu 軟件中心絕大部份軟件都免費。
+    </para>
+    <para>
+      如某些軟件要付錢，其有 <guilabel>購買</guilabel> 而非 <guilabel>安裝</guilabel>
+按鈕；其價錢顯示於項目底部。
+    </para>
+    <para>
+      要購買商業軟件，您要有網絡連線以及 Ubuntu Single Sign On 帳號或 Launchpad 帳號。如無帳號，Ubuntu
+軟件中心可讓您建立。
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      買了軟件又丟失了怎辦？
+    </title>
+    <para>
+      不小心刪除了購買的軟件又想重新安裝，選 <menuchoice><guimenu>檔案</guimenu>
+<guimenuitem>重新安裝已購項目</guimenuitem></menuchoice>。
+    </para>
+    <para>
+      Once you sign in to the account that you used to buy the software, Ubuntu
+Software Center will display your purchases for reinstalling.
+    </para>
+    <para>
+      This works even if you have reinstalled Ubuntu on the computer.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >我得不到想要的軟件怎麼辦？</title>
+    <para>
+      首先, 先檢查您是否已勾選 <menuchoice><guimenu>檢視</guimenu>
+<guimenuitem>所有軟件</guimenuitem></menuchoice>。
+    </para>
+    <para>
+      如果您想要的軟件仍未顯示出來，但您知道它可於 Ubuntu 上執行，您可以嘗試聯繫軟件的原始開發者並詢問是否能協助讓其可選用。
+    </para>
+    <para>
+      若該程式可在其他作業系統中使用而不是在 Ubuntu 中，請讓開發者知道您對其能夠在 Ubuntu 中執行感到興趣。
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >如果某程式無法正確運作的話該怎麼辦？</title>
+    <para>
+      Ubuntu 軟件中心擁有數以萬計的程式，非常有可能其中少數某些無法正確在您的電腦上運作。
+    </para>
+    <para>
+      若您熟悉如何回報軟件錯誤，您可協助回報程式錯誤給 Ubuntu 開發者。大多數程式擁有 <guimenuitem>報告問題</guimenuitem>
+選項在 <guimenu>求助</guimenu> 選單中。
+    </para>
+    <para>
+      Otherwise, look through Ubuntu Software Center for another program to do
+what you want.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

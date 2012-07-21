@@ -1,0 +1,59 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  Tillatelse er gitt til å kopiére, distribuére og/eller endre på dette
+dokumentet under vilkårene til «GNU Free Documentation License» (GFDL),
+Versjon 1.1 eller en senere utgave publisert av Free Software Foundation med
+ingen uforanderlige avsnitt, ingen forsidetekst og ingen baksidetekst. Du
+finner lisensen i denne <ulink type="help" url="ghelp:fdl">lenken</ulink>
+eller i filen «COPYING-DOCS» som følger med denne manualen.
+         </para>
+         <para> Denne manualen er en del av en samling av GNOME-manualer som er distribuert
+under GFDL. Hvis du ønsker å distribuére denne manualen adskilt fra resten
+av samlingen kan du gjøre det ved å legge til lisensen i manualen, som
+forklart under punkt 6 i lisensen.
+	</para>
+
+	<para>
+	  Mange av navnene som selskap bruker på sine produkter og tjenester er
+varemerker. Medlemmene av GNOMEs dokumentasjonsprosjekt er oppmerksomme på
+dette, så slike varemerker er betegnet med store bokstaver eller stor
+forbokstav der de er nevnt i GNOMEs dokumentasjon.
+	</para>
+
+	<para>
+	  DOKUMENT OG ENDREDE VERSJONER AV DOKUMENTET ER TILBYDD UNDER VILKÅRENE TIL
+«THE GNU FREE DOCUMENTATION LICENSE» MED FØLGENDE TILLEGSVILKÅR:
+<orderedlist>
+		<listitem>
+		  <para>DOKUMENTET ER TILBYDD «SOM DET ER», UTEN NOEN FORM FOR GARANTI, ENTEN
+UTTRYKT ELLER IMPLISERT, INKLUDERT, UTEN BEGRENSNING, GARANTIER SOM
+DOKUMENTET ELLER ENDREDE VERSJONER AV DOKUMENTET ER FRITT FOR FEIL,
+SALGBART, EGNET TIL ET BESTEMT FORMÅL ELLER UKRENKENDE. HELE RISIKOEN PÅ
+GRUNN AV KVALITET, KORREKTHET OG UTFØRELSE AV DOKUMENTET ELLER ENDREDE
+VERSJONER AV DOKUMENTET STÅR PÅ DEG. SKULLE HVILKET SOM HELST DOKUMENT ELLER
+EN ENDRET AV DOKUMENTET VERSJON VISE SEG Å VÆRE DEFEKT PÅ NOEN MÅTE, SÅ ER
+DET DU (IKKE DEN OPPRINNELIGE FORFATTEREN, FORFATTER ELLER BIDRAGSYTER) SOM
+MÅ PÅTA DEG KOSTNADENE FOR EVENTUELL SERVICE, REPARASJONER ELLER
+GJENOPPRETTING. DENNE ANSVARSFRASKRIVELSEN FRA GARANTI UTGJØR EN ESSENSIELL
+DEL AV DENNE LISENSEN. INGEN FORM FOR BRUK AV HVILKET SOM HELST DOKUMENT
+ELLER ENDREDE VERSJONER AV DOKUMENTET ER GODKJENT HERUNDER UNNTATT DENNE
+ANSVARSFRASKRIVELSEN; OG
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>UNDER INGEN OMSTENDIGHET OG UNDER INGEN JURIDISK PRAKSIS, VERKEN I FORVOLDT
+SKADE (INKLUDERT UAKTSOMT), KONTRAKT, ELLER PÅ ANNET VIS, SKAL FORFATTER,
+OPPRINNELIG FORFATTER, ELLER NOEN BIDRAGSYTER TIL DOKUMENTET ELLER ENDREDE
+VERSJONER AV DOKUMENTET, ELLER EN LEVERANDØR AV SLIKE PARTER, VÆRE ANSVARLIG
+FOR ENHVER DIREKTE, INDIREKTE, SPESIELL, TILFELDIG, ELLER FØLGENDE SKADE AV
+ENHVER TYPE INKLUDERT; UTEN BEGRENSNING, SKADER FOR TAP AV GODVILJE,
+ARBEIDSSTOPP, SVIKT I DATAMASKINER ELLER MASKINSVIKT, ELLER ENHVER ANNEN
+FORM FOR SKADE ELLER TAP I FORBINDELSE MED BRUK AV DOKUMENTET ELLER ENDREDE
+VERSJONER AV DOKUMENTET, SELV OM EN SLIK PART SKAL VÆRE INFORMERT OM
+RISIKOEN FOR SLIK SKADE.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+

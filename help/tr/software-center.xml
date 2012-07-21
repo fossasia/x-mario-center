@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="ing">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Ubuntu Yazılım Merkezi</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Ubuntu Belgeleme Projesi</publishername>
+</publisher> &yasal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Ubuntu'da yazılım nasıl kurulur ve kaldırılır.</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Ubuntu Yazılım Merkezi nedir?</title>
+    <para>
+      Ubuntu Yazılım Merkezi bilgisayarınızdan daha iyi faydalanabilmenizi
+sağlayacak binlerce ücretsiz uygulama ve diğer yazılımların bulunduğu sanal
+bir katalogtur.
+    </para>
+    <para>
+      Kategori ya da aramaya göre yazılım bulabilir ve bir düğme tıklaması ile
+öğeyi kurabilirsiniz.
+    </para>
+    <para>
+      Ayrıca bilgisayarınıza hangi yazılımların kurulu olduğunu inceleyebilir ve
+artık ihtiyaç duymadıklarınızı kaldırabilirsiniz.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Yazılım yükleme</title>
+    <para>
+      Ubuntu Yazılım Merkezi ile birşey yüklemek için, yönetici erişimine ve
+Internet bağlantısına sahip olmalısın. (Eğer bu bilgisayarda Ubuntu&#8217;yu
+kendin kurduysan, otomatik olarak yönetici erişimine sahipsin.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          <guilabel>Yazılım Al</guilabel> bölümünde yüklemek istediğinizi bulun. Eğer
+adını biliyorsanız, arama alanına adı yazın veya istediğiniz program türünü
+aramayı deneyin (&#8220;hesap çizelgesi&#8221; gibi). Aksi takdirde kategori
+listesine göz atın.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Listeden öğeyi seçin, ve <guilabel>Daha Fazla Bilgi</guilabel>yi seçin.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          guilabel>Yükle</guilabel>yi seçin. Yüklemenin başlamayabilmesi için önce
+Ubuntu parolanızı girmeniz gerekir.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Bir şeyin yüklenme süresi, onun ne kadar büyük olduğuna, ve sizin
+bilgisayarınızın ve İnternet bağlantınızın ne kadar hızlı olduğuna bağlıdır.
+    </para>
+    <para>
+      Ekran &#8220;Yüklü&#8221; olarak değiştiğinde, yazılım kullanıma hazırdır.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Yüklenen bir programın kullanımı</title>
+    <para>
+      For most programs, once they are installed, you can launch them from the
+<guimenu>Applications</guimenu> menu.  (Utilities for changing settings may
+appear inside <menuchoice><guimenu>System</guimenu>
+<guisubmenu>Preferences</guisubmenu></menuchoice> or
+<menuchoice><guimenu>System</guimenu>
+<guisubmenu>Administration</guisubmenu></menuchoice> instead).
+    </para>
+    <para>
+      Eğer hala gözükmüyorsa, bir programın nereden açılacağını bulabilmek için o
+programın Ubuntu Yazılım Merkezindeki sayfasına gidin. Oradaki ekranda
+renkli çubuğun altında programın menüdeki yeri gösteriliyor olacaktır.
+    </para>
+    <para>
+      Eğer Ubuntu Netbook Edition kullanıyorsanız uygulama ana ekranında uygun
+kategori görünür
+    </para>
+    <para>
+      Web tarayıcı eklentileri veya ortam yürütücüsü gibi bazı ögeler menülerde
+görünmez. Sadece Ubuntu onlara ihtiyaç duyduğunda otomatik olarak
+kullanılırlar. Bir Web tarayıcı eklentisi, tarayıcıyı kapatıp yeniden
+başlattığınızda kullanılacaktır.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Yazılım kaldırılıyor</title>
+    <para>
+      Yazılım kaldırmak için yönetici erişimine sahip olmalısın. (Eğer Ubuntu'yu
+bu bilgisayara kendin yüklediysen, yönetici erişimine otomatik olarak
+sahipsin.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          <guilabel>Yüklenmiş Yazılımlar</guilabel> bölümünde kaldırmak istediğiniz
+öğeyi bulun.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Listeden öğeyi seçin, ve <guilabel>Kaldır</guilabel>ı seçin. Ubuntu
+parolanızı girmeniz gerekebilir.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Eğer programı açıkken kaldırırsanız, çoğu zaman kaldırdıktan sonra bile açık
+kalacaktır. Kapattığınızda ise artık kullanılamaz hale gelir.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Neden birkaç programı birlikte kaldıracağını soruyor?</title>
+    <para>
+      Eğer bir öğeyi kaldırmaya çalışırsanız Bazen Ubuntu Yazılım Merkezi diğer
+öğelerin de kaldırılacağı konusunda sizi uyarır.  Bu durumun iki temel
+nedeni vardır.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Eğer bir uygulamayı kaldırırsanız, o uygulamaya bağlı tüm eklentiler de
+genellikle kaldırılır.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Çoklu uygulamalar bazen tek bir paketle birlikte gelir. Eğer herhangi biri
+yüklenirse, onların hepsi yüklenir. Eğer herhangi biri kaldırılırsa, onların
+hepsi kaldırılır. Onların nasıl ayrıştırılacağı hakkında yönerge
+bulunmadığından dolayı, Ubuntu Yazılım Merkezi onları ayrı ayrı kaldıramaz.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      İstenmeyen öğeleri bilgisayardan kaldırmaksızın gizlemek için <guilabel>Ana
+Menü</guilabel> ayarlarını kullanabilirsiniz. Ubuntu'da <guilabel>Ana
+Menü</guilabel>yü, <menuchoice><guimenu>Sistem</guimenu>
+<guisubmenu>Yeğlenenler</guisubmenu></menuchoice> içinde
+bulabilirsin. Ubuntu Netbook Sürümü'nde ise,
+<menuchoice><guimenu>Ayarlar</guimenu>
+<guisubmenu>Yeğlenenler</guisubmenu></menuchoice> içinde bulunur.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >Menü çubuğunu düzenlemek</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>&#8220;Canonical-maintained&#8221;nedir?</title>
+    <para>
+      Ubuntu için olan bazı yazılımlar Canonical tarafından sürdürülür. Canonical
+mühendisleri, bu programlar için güvenlik düzeltmelerinin ve diğer kritik
+güncelleştirmelerin karşılanmasını sağlar.
+    </para>
+    <para>
+      Diğer yazılımlar Ubuntu geliştirici topluluğu tarafından tedarik edilir. Her
+bir güncelleme en iyi çalışma esasıyla sağlanır.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>&#8220;Canonical Ortakları&#8221;kimlerdir?</title>
+    <para>
+      <guilabel>Canonical Ortakları</guilabel>, kendi yazılımlarını Ubuntu için
+yaparak, Canonical ile çalışan sağlayıcıların yazılımlarını gösterir.
+    </para>
+    <para>
+      Bu uygulamayı, Ubuntu Yazılım Merkezi'ndeki diğer yazılımlar gibi aynı yolla
+yükleyebilirsin.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Herhangi bir ödeme yapmam gerekiyor mu?</title>
+    <para>
+      Ubuntu Yazılım Merkezi'ndeki çoğu yazılım ücretsizdir.
+    </para>
+    <para>
+      Eğer bir şey ücretliyse, <guilabel>Kur</guilabel> yerine <guilabel>Satın
+Al</guilabel> düğmesine sahip olur ve herbir ögenin fiyatı ekranda
+gösterilir.
+    </para>
+    <para>
+      Ticari yazılıma ödeme yapmak için internet bağlantısına ve Ubuntu Single
+Sign On yada Launchpad hesabına ihtiyacınız olacak. Eğer hesabınız yoksa
+Ubuntu Yazılım Merkezi size yardımcı olacaktır.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      Ücret ödediğim bir yazılımı kaybedersem ne olur?
+    </title>
+    <para>
+      Eğer satın aldığınız bir yazılımı yanlışlıkla kaldırırsanız ve sonra onu
+tekrar kullanmak isterseniz, <menuchoice><guimenu>Dosya</guimenu>
+<guimenuitem>Önceki Satın Almaları Yeniden Yükle</guimenuitem></menuchoice>
+seçeneğini seçin.
+    </para>
+    <para>
+      Yazılım satın almak için kullandığınız hesapla oturum açtığınızda, Ubuntu
+Yazılım Merkezi satın aldığınız yazılımları tekrar kurulum için
+görüntüleyecek.
+    </para>
+    <para>
+      Bu, Ubuntu'yu bilgisayarınıza sıfırdan tekrar kurduğunuz durumda bile
+geçerlidir.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Eğer istediğim program mevcut değilse?</title>
+    <para>
+      Önce <menuchoice><guimenu>Görünüm</guimenu> <guimenuitem>Tüm
+Yazılım</guimenuitem></menuchoice>'ın seçili olduğunu denetleyin.
+    </para>
+    <para>
+      Eğer istediğiniz yazılım hala orada değil, fakat Ubuntu'da çalıştığına
+eminseniz, onu kullanılabilir hale getirmenize yardım etmesi için programın
+özgün geliştiricileri ile iletişime geçmeyi deneyin.
+    </para>
+    <para>
+      Eğer bir program diğer işletim sistemlerinde kullanılabiliyor, fakat
+Ubuntu'da kullanılamıyorsa, geliştiricilere Ubuntu'da çalıştırılmasını
+istediğinizi bildirin.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Eğer bir program çalışmıyorsa?</title>
+    <para>
+      Ubuntu Yazılım Merkezi'ndeki binlerce programın onlarcası, bilgisayarınız
+ile tam olarak çalışmayacağına dair bir ihtimal her zaman vardır.
+    </para>
+    <para>
+      Eğer yazılım hataları raporlama konusunda bilgi sahibiyseniz, problemi
+Ubuntu geliştiricilerine raporlayarak yardımda bulunabilirsiniz. Çoğu
+programın <guimenu>Yardım</guimenu> menüsünde bir <guimenuitem>Problem
+Raporla</guimenuitem> ögesi bulunur.
+    </para>
+    <para>
+      Aksi takdirde, Ubuntu Yazılım Merkezi'nden başka yazılımlara göz atın.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

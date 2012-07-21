@@ -1,0 +1,34 @@
+<Menu>
+  <Menu>
+    <_Name>Featured</_Name>
+    <SCIcon>gtk-about</SCIcon>
+    <Flags>
+      <Flag>carousel-only</Flag>
+    </Flags>
+    <Include>
+      <Or>
+        <SCPkgname>armagetronad</SCPkgname>
+        <SCPkgname>calibre</SCPkgname>
+        <SCPkgname>cheese</SCPkgname>
+        <SCPkgname>homebank</SCPkgname>
+        <SCPkgname>stellarium</SCPkgname>
+        <SCPkgname>gimp</SCPkgname>
+        <SCPkgname>inkscape</SCPkgname>
+        <SCPkgname>blender</SCPkgname>
+        <SCPkgname>audacity</SCPkgname>
+        <SCPkgname>gufw</SCPkgname>
+        <SCPkgname>frozen-bubble</SCPkgname>
+        <SCPkgname>fretsonfire</SCPkgname>
+        <SCPkgname>moovida</SCPkgname>
+        <SCPkgname>liferea</SCPkgname>
+        <SCPkgname>arista</SCPkgname>
+        <SCPkgname>gtg</SCPkgname>
+        <SCPkgname>freeciv-client-gtk</SCPkgname>
+        <SCPkgname>supertuxkart</SCPkgname>
+        <SCPkgname>tumiki-fighters</SCPkgname>
+        <SCPkgname>tuxpaint</SCPkgname>
+        <SCPkgname>webservice-office-zoho</SCPkgname>
+      </Or>
+    </Include>
+  </Menu>
+</Menu>

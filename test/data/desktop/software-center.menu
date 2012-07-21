@@ -1,0 +1,37 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+
+  <!-- test debtags -->
+  <Menu>
+    <Name>Debtag</Name>
+    <Include>
+      <And>
+        <SCDebtag>region::de</SCDebtag>
+      </And>
+    </Include>
+  </Menu> 
+
+  <!-- test dynamic menus -->
+  <Menu>
+    <Name>Dynamic</Name>
+    <Include>
+      <And>
+        <SCDebtag>region::${CURRENT_REGION}</SCDebtag>
+      </And>
+    </Include>
+  </Menu> 
+
+  <!-- multimedia -->
+  <Menu>
+    <Name>Dynamic</Name>
+    <Include>
+      <And>
+        <Category>AudioVideo</Category>
+      </And>
+    </Include>
+  </Menu> 
+
+
+</Menu> 

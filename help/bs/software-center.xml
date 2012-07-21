@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="en">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Ubuntu Programski Centar</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Ubuntu Dokumentacija</publishername> </publisher>
+&legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Kako se instalira i izbriše softver u Ubuntu.</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Šta je to Ubuntu Programski Centar?</title>
+    <para>
+      Ubuntu Programski Centar je virtualni katalog sa hiljadama besplatnih
+aplikacija i ostalih programa koji će pomoći da Vaš Ubuntu kompjuter bude
+korisniji.
+    </para>
+    <para>
+      Možete pronaći programe po kategoriji ili pretragom, instalirajući ih sa
+jednostavnim klikom na dugme.
+    </para>
+    <para>
+      Također, možete provjeriti koji je softver već instaliran na vašem računalu,
+te ukloniti ono što vam više ne treba.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Instaliranje programa</title>
+    <para>
+      Da bi instalirali nešto sa Ubuntu Programskim Centrom, morate imati
+administrativni pristup i ispravnu internet konekciju. (Ako ste podesili
+Ubuntu na ovom računaru lično, već imate administrativni pristup.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          U <guilabel>Preuzmi Programe</guilabel> sekciji, pronađite koje programe
+želite instalirati.  Ako već znate njegovo ime, pokušajte upisati ime u
+polje za pretragu. Ili pokušajte pronaći program koji želite
+(npr. &#8220;tablice&#8221;).  U suprotnom, pretražite liste preko
+kategorija.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Odaberi svari na listi, i odaberite <guilabel>Više Informacija</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Izaberite <guilabel>Instaliraj</guilabel>.  Možda ćete morati unijeti vašu
+šifru da instalacija programa može početi.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Vrijeme preuzimanja i instalacije uveliko zavisi od veličine i brzine vašeg
+računara i internet konekcije.
+    </para>
+    <para>
+      Kada se ekran promjeni u npr.  &#8220;Instalirano&#8221;, program je spreman
+za upotrebu.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Korištenje programa nakon instalacije</title>
+    <para>
+      Nakon instalacije, većinu programa možete pokrenuti iz menija
+<guimenu>Programi</guimenu>.  (Alati za promjenu postavki mogu se pojaviti
+pod <menuchoice><guimenu>Sistem</guimenu>
+<guisubmenu>Postavke</guisubmenu></menuchoice> ili
+<menuchoice><guimenu>Sustav</guimenu>
+<guisubmenu>Administracija</guisubmenu></menuchoice>).
+    </para>
+    <para>
+      Da biste saznali gdje možete pokrenuti novi program, posjetite stranicu tog
+programa u Ubuntu centru softvera, ako već nije prikazana.  Lokacija u
+izborniku bi trebala biti navedena na toj stranici, ispod obojane trake.
+    </para>
+    <para>
+      Ako koristite Ubuntu Netbook Edition, program se pojavljuje u pripadajućoj
+kategoriji na početnom zaslonu.
+    </para>
+    <para>
+      Neke se stavke, poput  kodeka ili priključaka za web preglednike, ne
+pojavljuju u menijima.  One se koriste automatski, kada ih Ubuntu zatreba.
+Prije korištenja priključka za web preglednik, možda ćete terbati zatvoriti
+preglednik i ponovno ga otvoriti.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Uklanjam softver</title>
+    <para>
+      Da biste uklonili program, potreban vam je administratorski pristup (ako ste
+sami podesili ovo računalo, već imate administratorski pristup).
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          U kategoriji <guilabel>Instalirani softver</guilabel>, pronađite program
+kojeg želite ukloniti.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Označite stavku na popisu i odaberite <guilabel>Ukloni</guilabel>.  Možda
+ćete biti upitani za unos vaše Ubuntu lozinke.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Ako je program pokrenut dok ga uklanjate, obično će ostati aktivan čak i
+nakon uklanjanja.  Čim program zatvorite, on postaje nedostupan.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Zašto me pita za uklanjanje nekoliko programa zajedno?</title>
+    <para>
+      Ponekad, kada uklanjate jednu stavku, Centar softvera će vas upozoriti kako
+će također biti uklonjene i neke druge stavke. Ovo se događa zbog dva glavna
+razloga.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Ako uklonite aplikaciju, bilo koji dodaci ili pomagala za tu aplikaciju će
+također biti uklonjeni.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Više različitih programa ponekad su ponuđeni u jednom paketu.  Ako se jedan
+od njih instalira, svi se instaliraju.  Ako se jedan od tih programa
+uklanja, svi se uklanjaju.  Ubuntu centar softvera ih ne može ukloniti
+individualno jer nema upute kako ih razdvojiti.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Ako želite sakriti neželjene stavke bez uklanjanja, možete iskoristiti
+postavke <guilabel>Glavnog menija</guilabel>.  U Ubuntuu,  <guilabel>Glavni
+meni</guilabel> možete pronaći unutar <menuchoice><guimenu>Sistem</guimenu>
+<guisubmenu>Postavke</guisubmenu></menuchoice>.  Kod Ubuntu Netbook
+Editiona, on se nalazi pod <menuchoice><guimenu>Postavke</guimenu>
+<guisubmenu>Mogućnosti</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >Prilagođavanje trake
+menija</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Što znači &#8220;Održava Canonical&#8221;?</title>
+    <para>
+      Neke od programa dostupnih u Ubuntu centru softvera održava Canonical.
+Canonicalovi inženjeri brinu se da su vam za takve programe dostupne
+sigurnosne dopune .
+    </para>
+    <para>
+      Ostatak softvera održava zajednica Ubuntu programera.  Sve dopune su
+osigurane na temelju dobre volje.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Što znači &#8220;Canonicalovi partneri&#8221;?</title>
+    <para>
+      <guilabel>Canonicalovi partneri</guilabel> prikazuje softver prodavača koji
+surađuju s Canonicalom kako bi njihovi proizvodi bili dostupni za Ubuntu.
+    </para>
+    <para>
+      Taj softver možete instalirati na isti način kao i bilo koji drugi softver u
+Ubuntu centru softvera.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Trebam li šta platiti?</title>
+    <para>
+      Većina stvari u Ubuntu centru softvera je besplatna.
+    </para>
+    <para>
+      Ako se nešto naplaćuje, tada ima dugme <guilabel>Kupi</guilabel> umjesto
+dugmeta <guilabel>Instaliraj</guilabel>, te ima navedenu cijenu na
+pripadajućoj stranici.
+    </para>
+    <para>
+      Da biste platili komercijalni softver trebate imati Internet vezu i Ubuntu
+Single Sign On korisnički račun ili Launchpad korisnički račun.  Ako nemate
+korisnički račun, Ubuntu centar softvera će vam pomoći oko otvaranja novog.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      Što ako platim softver, te ga izgubim?
+    </title>
+    <para>
+      Ako slučajno uklonite softver kojeg ste platili i želite ga vratiti,
+odaberite <menuchoice><guimenu>Datoteka</guimenu> <guimenuitem>Ponovno
+instaliraj prethodne kupovine</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Nakon što se prijavite s korisničkim računom s kojim ste kupili softver,
+Ubuntu centar softvera će vam prikazati plaćeni softver kojeg možete ponovno
+instalirati.
+    </para>
+    <para>
+      Ovo funkcioniše čak i ako ste ponovno instalirali Ubuntu na svoj računar.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Što ako program kojeg želim nije dostupan?</title>
+    <para>
+      Najprije provjerite da je opcija <menuchoice><guimenu>Prikaz</guimenu>
+<guimenuitem>Sav softver</guimenuitem></menuchoice> označena.
+    </para>
+    <para>
+      Ako softver kojeg želite još uvijek nije dostupan, ali znate da ga je moguće
+pokrenuti na Ubuntuu, pokušajte kontaktirati izvorne razvijatelje programa i
+upitajte ih ako mogu pomoći po pitanju dostupnosti za Ubuntu.
+    </para>
+    <para>
+      Ako je program dostupan za ostale operativne sisteme, ali ne i Ubuntu, dajte
+programerima do znanja da ste zainteresirani da se program može pokrenuti na
+Ubuntuu.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Što ako program ne radi?</title>
+    <para>
+      Uz desetine hiljada programa u Ubuntu centru softvera, uvijek postoji šansa
+da neki od njih neće ispravno funkcionisati na vašem računaru.
+    </para>
+    <para>
+      Ako ste upoznati s prijavljivanjem grešaka u softveru, možete pomoći na
+način da prijavite problem Ubuntu razvijateljima.  Većina programa ima
+opciju <guimenuitem>Prijavite problem</guimenuitem> u meniju
+<guimenu>Pomoć</guimenu>.
+    </para>
+    <para>
+      U suprotnom, pretražite Ubuntu centar softvera za drugi program iste ili
+slične namjene.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

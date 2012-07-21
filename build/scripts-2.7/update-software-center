@@ -1,0 +1,181 @@
+#!/usr/bin/python
+# Copyright (C) 2009 Canonical
+#
+# Authors:
+#  Michael Vogt
+#
+# This program is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; version 3.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+
+# We have to import Gio before everything, for dynamic PK to work.
+try:
+    from gi.repository import Gio
+except: pass
+
+import locale
+import gettext
+import logging
+import os
+import os.path
+import sys
+import time
+import xapian
+
+from optparse import OptionParser
+
+from softwarecenter.enums import *
+from softwarecenter.paths import XAPIAN_BASE_PATH
+from softwarecenter.db.update import rebuild_database
+import softwarecenter.paths
+
+# dbus may not be available during a upgrade so we 
+# only set it up if its there
+try:
+    import dbus
+    import dbus.service
+    from gi.repository import GLib, GObject
+    from dbus.mainloop.glib import DBusGMainLoop
+except ImportError as e:
+    logging.warn("failure to import: '%s'" % e)
+
+# add a bit of extra time between sending the "we-rebuild-the-db-now"
+# signal and the actual rebuilding to help the applications to shutdown
+# the DB access
+APP_CATCHUP_DELAY = 2
+
+# the language pack directory that we need for the triggers checking
+LANGPACKDIR = "/usr/share/locale-langpack"
+
+logging.basicConfig(level=logging.INFO)
+LOG = logging.getLogger("softwarecenter.db.update")
+
+class UpdateSoftwarecenterDbus(dbus.service.Object):
+    """ 
+    This is a helper to provide the UpdateSoftwarecenterIFace
+    """
+    def __init__(self, bus_name,
+                 object_path='/com/ubuntu/Softwarecenter'):
+        dbus.service.Object.__init__(self, bus_name, object_path)
+
+    @dbus.service.method('com.ubuntu.Softwarecenter')
+    def IsRebuilding(self):
+        return True
+    @dbus.service.signal(dbus_interface='com.ubuntu.Softwarecenter',
+                         signature='b')
+    def DatabaseRebuilding(self, isRebuilding):
+        LOG.debug("Sending DatabaseRebuilding signal '%s'" % isRebuilding)
+
+
+if __name__ == "__main__":
+    try:
+        locale.setlocale(locale.LC_ALL, "")
+    except Exception, e:
+        LOG.warn("setlocale failed with '%s'" % e) 
+
+    # parser
+    parser = OptionParser()
+    parser.add_option("--triggered", "", default="",
+                      help="triggered from dpkg")
+    parser.add_option("--local", "", action="store_true", default=False,
+                      help="update local database")
+    parser.add_option("--appstream-only", "", action="store_true", 
+                      default=False,
+                      help="appstream app-info only")
+    parser.add_option("--appstream-xml-path", "", default=None,
+                      help="set different appstream xml rootdir")
+    parser.add_option("--debug", "", action="store_true", default=False,
+                      help="show debug output")
+    parser.add_option("--use-packagekit", action="store_true",
+                      help="use PackageKit backend (experimental)", 
+                      default=False)
+    (options, args) = parser.parse_args()
+
+    #logging.basicConfig(level=logging.INFO)
+    if options.debug:
+        LOG.setLevel(logging.DEBUG)
+
+    if options.local:
+        if not os.path.exists('./data'):
+            LOG.error("trying to update local database, ./data does not exist")
+            sys.exit(-1)
+        LOG.info("updating local database")
+        xapian_base_path = './data'
+    else:
+        xapian_base_path = XAPIAN_BASE_PATH
+
+    if options.appstream_only:
+        LOG.info("updating only information from app-info")
+
+    if options.appstream_xml_path:
+        softwarecenter.paths.APPSTREAM_XML_PATH = options.appstream_xml_path
+
+    if options.use_packagekit:
+        LOG.info("using the PackageKit backend")
+        softwarecenter.enums.USE_PACKAGEKIT_BACKEND = True
+
+    # check if we are dpkg triggered because of langpack change
+    # and avoid unneeded database rebuilds by checking the timestamp
+    # of the app-install-data mo file
+    if options.triggered and options.triggered == LANGPACKDIR:
+        LOG.debug("triggered with '%s'" % options.triggered)
+        mofile = gettext.find("app-install-data")
+        if not mofile:
+            LOG.info("no translation information in database needed")
+            sys.exit(0)
+        mo_time = os.path.getctime(mofile)
+        pathname = os.path.join(xapian_base_path, "xapian")
+        if os.path.exists(pathname):
+            db = xapian.Database(pathname)
+            mo_db_time = db.get_metadata("app-install-mo-time")
+            LOG.debug("mo_time: %s db_mo_time: %s" % (mo_time, mo_db_time))
+            if str(mo_time) == mo_db_time:
+                LOG.info("translation information in database is up-to-date")
+                sys.exit(0)
+
+    # setup dbus
+    dbus_controller = None
+    try:
+        DBusGMainLoop(set_as_default=True)
+        bus = dbus.SystemBus()
+        bus_name = dbus.service.BusName('com.ubuntu.Softwarecenter', bus)
+        dbus_controller = UpdateSoftwarecenterDbus(bus_name)
+        dbus_controller.DatabaseRebuilding(True)
+        time.sleep(APP_CATCHUP_DELAY)
+    except:
+        LOG.warn("Failed to setup dbus (ignoring)")
+
+    # rebuild and send signal when done
+    try:
+        # setup path
+        pathname = os.path.join(xapian_base_path, "xapian")
+        if not os.path.exists(pathname):
+            os.makedirs(pathname)
+        # rebuild the database, the default context is run to ensure
+        # dbus querries are processed
+        print "Updating software catalog...this may take a moment."
+        if options.appstream_only:
+            result = rebuild_database(pathname, debian_sources=False, appstream_sources=True)
+        else:
+            result = rebuild_database(pathname)
+        if result:
+            print "Software catalog update was successful."
+        else:
+            print "There was a problem updating the software catalog. Please try again or check the log."
+    finally:
+        # signal that the xapian db is valid again
+        if dbus_controller:
+            time.sleep(APP_CATCHUP_DELAY)
+            dbus_controller.DatabaseRebuilding(False)
+            context = GObject.main_context_default()
+            while context.pending():
+                context.iteration()

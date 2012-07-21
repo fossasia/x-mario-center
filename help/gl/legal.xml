@@ -1,0 +1,59 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  Autorizase a copiar, distribuír e modificar este documento baixo os termos
+da Licencia de Documentación Libre de GNU (GFDL), versión 1.1 ou posterior
+publicada pola Free Software Foundation sen cambiar seccións, sen textos de
+portada nin textos de contraportada. Pode conseguir unha copia da GFDL nesta
+<ulink type="help" url="ghelp:fdl">ligazón</ulink> ou no ficheiro
+COPYING-DOCS distribuido con este manual.
+         </para>
+         <para> Este manual é parte dunha colección de manuais de GNOME distribuidas baixo a
+GFDL. Se quere distribuir este manual de forma separada da colección pode
+facelo engadindo unha copia da licenza ao manual, como se describe na
+sección 6 da licenza.
+	</para>
+
+	<para>
+	  Moitos dos nomes usados por empresas para distinguir os seus produtos e
+servizos menciónanse como marcas comerciais. Onde aparezan ditos nomes en
+calquera documentación GNOME, e para que os membros do proxecto de
+documentación recoñezan ditas marcas comerciais, ditos nomes imprímense en
+maiúsculas ou iniciais en maiúsculas.
+	</para>
+
+	<para>
+	  DO DOCUMENTO OU DAS VERSIÓNS MODIFICADAS DO DOCUMENTO OUTÓRGASE BAIXO OS
+TERMOS DA LICENZA DE DOCUMENTACIÓN LIBRE GNU NO ENTENDEMENTO DE QUE:
+<orderedlist>
+		<listitem>
+		  <para>O DOCUMENTO FORNECESE «TAL CAL», SEN GARANTÍA DE NINGÚN TIPO, NIN EXPLÍCITA
+NIN IMPLÍCITA INCLUÍNDO, SEN LIMITACIÓN, GARANTÍA DE QUE O DOCUMENTO OU
+VERSIÓN MODIFICADA DE ESTE CAREZA DE DEFECTOS COMERCIAIS, SEXA AXEITADO A UN
+FIN CONCRETO OU INCUMPRA ALGUNHA NORMATIVA. TODO O RISCO RELATIVO Á
+CALIDADE, PRECISIÓN E UTILIDADE DO DOCUMENTO OU A SÚA VERSIÓN MODIFICADA
+RECAE EN VOSTEDE. SE CALQUERA DOCUMENTO OU VERSIÓN MODIFICADA DE AQUEL
+RESULTARA DEFECTUOSO EN CALQUERA ASPECTO, VOSTEDE (E NON O REDACTOR INICIAL,
+AUTOR OU COLABORADOR) ASUMIRÁ OS CUSTES DE TODA REPARACIÓN, MANTEMENTO OU
+CORRECCIÓN NECESARIOS. ESTA RENUNCIA DE GARANTÍA É UNHA PARTE ESENCIAL DESTA
+LICENZA. NON SE AUTORIZA O USO DE NINGÚN DOCUMENTO NIN VERSIÓN MODIFICADA
+DESTE POLO PRESENTE, SALVO DENTRO DO CUMPRIMENTO DA RENUNCIA; E
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>EN NINGUNHA CIRCUNSTANCIA NIN BAIXO NINGUNHA TEORÍA LEGAL, SEXA POR ERRO
+(INCLUÍNDO NEGLIXENCIA) CONTRATO OU DOCUMENTO DE OUTRO TIPO, O AUTOR, O
+ESCRITOR INICIAL, O AUTOR DE APARTACIÓNS NIN NINGÚN DISTRIBUIDOR DO
+DOCUMENTO OU VERSIÓN MODIFICADA DO DOCUMENTO, NIN NINGÚN PROVEDOR DE
+NINGUNHA DESAS PARTES, SERÁ RESPONSÁBEL ANTE NINGUNHA PERSOA POR NINGÚN DANO
+DIRECTO, INDIRECTO, ESPECIAL, INCIDENTAL OU DERIVADO DE NINGÚN TIPO,
+INCLUÍNDO, SEN LIMITACIÓN DANOS POR PERDA DE FONDO DE COMERCIO, PARO
+TÉCNICO, FALLO INFORMÁTICO OU AVARÍA OU CALQUERA OUTRO POSÍBEL DANO OU
+AVARÍA DERIVADO OU RELACIONADO CO USO DO DOCUMENTO OU AS SÚAS VERSIÓNS
+MODIFICADAS, AÍNDA QUE DITA PARTE TEÑA SIDO INFORMADA DA POSIBILIDADE DE QUE
+SE PRODUCISEN ESES DANOS.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+

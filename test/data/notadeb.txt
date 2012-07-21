@@ -1,0 +1,1 @@
+This is not really a deb file. It was created to test that DebFileApplication follows the right code paths when opening a file which is not a deb file.

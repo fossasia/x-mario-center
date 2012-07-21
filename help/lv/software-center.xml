@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="lv">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Ubuntu programmatūras centrs</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Ubuntu Documentation Project</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Kā instalēt un izņemt programmatūru Ubuntu vidē.</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Kas ir Ubuntu programmatūras centrs?</title>
+    <para>
+      Ubuntu programmatūras centrs ir virtuāls katalogs ar tūkstošiem brīvi
+pieejamu lietotņu un citu programmatūru, lai padarītu jūsu Ubuntu sistēmu
+vēl lielderīgāku.
+    </para>
+    <para>
+      Jūs varat atrast programmatūru pēc kategorijas vai veicot meklēšanu, un jūs
+to varat uzinstalēt ar vienu pogas klikšķi.
+    </para>
+    <para>
+      You can also examine which software is installed on the computer already,
+and remove anything you no longer need.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Programmatūras instalēšana</title>
+    <para>
+      Lai uzinstalētu kaut ko izmantojot Ubuntu programmatūras centru, jums ir
+nepieciešama administratora pieeja un strādājošs savienojums ar Internet (Ja
+pats esat iestatījis Ubuntu uz šī datora, administratora pieeja jums ir
+piešķirta automātiski.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          <guilabel>Iegūt programmatūru</guilabel> sekcijā atrodiet to, ko jūs
+vēlaties instalēt.  Ja jūs jau zināt nosaukumu, mēģiniet ierakstīt to
+meklēšanas laukā. Vai arī mēģiniet meklēt pēc programmas veida, kas jums
+nepieciešama (piemēram, izklājlapa).  Pašās beigās varat pārlūkot nodaļu
+sarakstu.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Izvēlieties vienību no saraksta, un klikšķiniet <guilabel>Vairāk
+informācijas</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Izvēlieties <guilabel>Instalēt</guilabel>.  Jums varētu būt nepieciešams
+ievadīt jūsu Ubuntu paroli pirms instalēšanas turpināšanas.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Cik ilgi notiks instalēšana ir atkarīgs no cik apjomīga programma tā ir, cik
+ātrs ir jūsu dators, kā arī savienojums ar Internet.
+    </para>
+    <para>
+      Kad uz ekrāna parādās &#8220;Instalēts&#8221;, programmatūra ir gatava
+lietošanai.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Programmas izmantošana pēc tās uzinstalēšanas</title>
+    <para>
+      For most programs, once they are installed, you can launch them from the
+<guimenu>Applications</guimenu> menu.  (Utilities for changing settings may
+appear inside <menuchoice><guimenu>System</guimenu>
+<guisubmenu>Preferences</guisubmenu></menuchoice> or
+<menuchoice><guimenu>System</guimenu>
+<guisubmenu>Administration</guisubmenu></menuchoice> instead).
+    </para>
+    <para>
+      To find out where to launch a new program, navigate to the screen for that
+program in Ubuntu Software Center, if it is not still being displayed.  The
+menu location should be displayed on that screen, below the colored bar.
+    </para>
+    <para>
+      If you are using Ubuntu Netbook Edition, an application appears in the
+appropriate category on the home screen.
+    </para>
+    <para>
+      Dažas vienības, tādas kā mēdiju atskaņošana vai tīmekļa pārlūku spraudņi,
+neparādās izvēlnēs. Tie tiek automātiski izmantoti atkarībā pēc
+nepieciešamības. Lai sāktu lietot tīmekļa pārlūka spraudni varētu būt
+nepieciešams pārstartēt pārlūku un atvērt to vēlreiz pirms spraudņa
+izmantošanas.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Programmatūras noņemšana</title>
+    <para>
+      Lai izņemtu programmatūru no šī datora, jums ir nepieciešama administratora
+pieeja un strādājošs savienojums ar Internet (Ja pats esat iestatījis Ubuntu
+uz šī datora, administratora pieeja jums ir piešķirta automātiski.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Sekcijā <guilabel>Instalētā programmatūra</guilabel> atrodiet vienību, ko
+jūs vēlētos izņemt.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Izvēlieties vienību no saraksta, un klikšķiniet
+<guilabel>Izņemt</guilabel>. Jums, iespējams, vajadzēs ievadīt jūsu Ubuntu
+paroli.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Ja programma ir atvērta laikā, kad mēģinat to izņemt no sistēmas, parasti tā
+paliks atvērta pat pēc izņemšanas darbības beigām. Tiklīdz jūs to
+aizvērsiet, tā vairāk nebūs pieejama.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Kāpēc tas vaicā man par vairāku programmu izņemšanu vienlaicīgi?</title>
+    <para>
+      Sometimes if you try to remove one item, Ubuntu Software Center will warn
+you that other items will be removed too.  There are two main reasons this
+happens.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          If you remove an application, any add-ons or plugins for that application
+usually will be removed too.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Vairākas lietotnes dažreiz tiek piedāvātas kā viena pakotne. Ja kāda no
+viņām tiek instalēta, tad pārējās arī tiek. Attiecīgi ja kāda no tām tiek
+izņemta, pārējās seko. Ubuntu programmatūras centrs nevar izņemt tās
+atsevišķi pa vienai, tāpēc ka tam nav instrukcijas, kā tās atdalīt.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      <ulink url="ghelp:user-guide?menu-editor" >Customizing the menu bar</ulink>
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >Izvēlnes joslas
+pielāgošana</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Ko nozīmē &#8220;Canonical uzturētā programmatūra&#8221;?</title>
+    <para>
+      Some of the software available for Ubuntu is maintained by Canonical.
+Canonical engineers ensure that security fixes and other critical updates
+are provided for these programs.
+    </para>
+    <para>
+      Citu daļu no programmatūras uztur Ubuntu izstrādātāju kopiena. Jebkuri
+atjauninājumi šai programmatūrai tiek nodrošināti vadoties pēc labākajām
+iespējām.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Kas ir &#8220;Canonical partneri&#8221;?</title>
+    <para>
+      <guilabel>Canonical partneri</guilabel> satur programmatūru no
+piegādātājiem, kas ir sadarbojušies ar Canonical, lai padarītu savu
+programmatūru pieejamu Ubuntu videi.
+    </para>
+    <para>
+      Jūs varat instalēt šo programmatūru tāpat kā jebkuru citu Ubuntu
+programmatūras centrā.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Do I need to pay anything?</title>
+    <para>
+      Most software in Ubuntu Software Center is free of charge.
+    </para>
+    <para>
+      If something costs money, it has a <guilabel>Buy</guilabel> button instead
+of an <guilabel>Install</guilabel> button, and its price is shown on the
+screen for the individual item.
+    </para>
+    <para>
+      To pay for commercial software, you need an Internet connection, and an
+Ubuntu Single Sign On account or Launchpad account.  If you do not have an
+account, Ubuntu Software Center will help you register one.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      What if I paid for software and then lost it?
+    </title>
+    <para>
+      If you accidentally removed software that you purchased, and you want it
+back, choose <menuchoice><guimenu>File</guimenu> <guimenuitem>Reinstall
+Previous Purchases</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Once you sign in to the account that you used to buy the software, Ubuntu
+Software Center will display your purchases for reinstalling.
+    </para>
+    <para>
+      This works even if you have reinstalled Ubuntu on the computer.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Ko darīt, ja programma, ko es vēlos iegūt, nav pieejama?</title>
+    <para>
+      Vispirms pārbaudiet, ka <menuchoice><guimenu>Skats</guimenu>
+<guimenuitem>Visa programmatūra</guimenuitem></menuchoice> ir izvēlēts.
+    </para>
+    <para>
+      Ja programmatūra, ko jūs vēlaties izmantot vēl joprojām nav tur atrodama,
+bet jūs zināt, ka tā strādā Ubuntu vidē, mēģiniet sazināties ar programmas
+izstrādātājiem un vaicājiet, vai tie var palīdzēt jums ar pieejamību.
+    </para>
+    <para>
+      Ja programma ir pieejama citām operētājsistēmām, bet ne Ubuntu, informējiet
+izstrādātājus, ka jūs esat ieinteresēti tās lietošanā Ubuntu vidē.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Ko darīt, ja programma nestrādā?</title>
+    <para>
+      Tā kā Ubuntu programmatūras centrs piedāvā tūkstošiem programmu, vienmēr
+pastāv iespēja ka dažas no tām jūsu datorā nestrādās korekti.
+    </para>
+    <para>
+      Ja jūs zināt, kā ziņot par kļūdām programmatūrā, jūs varat palīdzēt ar
+problēmas apraksta nosūtīšanu Ubuntu izstrādātājiem. Lielākoties visām
+programmām ir pieejama <guimenuitem>Report a Problem</guimenuitem> izvēle
+<guimenu>Palīdzība</guimenu> izvēlnē.
+    </para>
+    <para>
+      Otherwise, look through Ubuntu Software Center for another program to do
+what you want.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

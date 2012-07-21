@@ -1,0 +1,372 @@
+# Esperanto translation for software-store
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-store\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-09-25 17:10+0200\n"
+"PO-Revision-Date: 2009-10-07 22:09+0000\n"
+"Last-Translator: Patrick (Petriko) Oudejans <Unknown>\n"
+"Language-Team: Esperanto <eo@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2009-10-08 06:49+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../softwarecenter/app.py:349 ../softwarecenter/view/appdetailsview.py:404
+msgid "ERROR"
+msgstr "ERARO"
+
+#: ../softwarecenter/apt/aptcache.py:173 ../softwarecenter/apt/aptcache.py:185
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+"Canonical ne plu provizas ĝisdatigojn por %s en Ubuntu %s. Ĝisdatigoj povas "
+"esti haveblaj en pli nova versio de Ubuntu."
+
+#: ../softwarecenter/apt/aptcache.py:178
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical provizas kritikajn ĝisdatigojn por %(appname)s ĝis "
+"%(support_end_month_str)s %(support_end_year)s."
+
+#: ../softwarecenter/apt/aptcache.py:190
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical provizas kritikajn ĝisdatigojn havigatajn de la programistoj de "
+"%(appname)s ĝis %(support_end_month_str)s %(support_end_year)s."
+
+#: ../softwarecenter/apt/aptcache.py:200
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+"Canonical ne provizas ĝisdatigojn por %s. Kelkaj ĝisdatigoj povas esti "
+"provizataj de ekstera liveranto."
+
+#: ../softwarecenter/apt/aptcache.py:204
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr "Canonical provizas kritikajn ĝisdatigojn por %s."
+
+#: ../softwarecenter/apt/aptcache.py:206
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr ""
+"Canonical provizas kritikajn ĝisdatigojn havigatajn de la programistoj de %s."
+
+#: ../softwarecenter/apt/aptcache.py:209
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+"Canonical ne provizas ĝisdatigojn por %s. Kelkaj ĝisdatigoj povas esti "
+"provizataj de la Ubuntu-komunumo."
+
+#: ../softwarecenter/apt/aptcache.py:212
+#, python-format
+msgid "Application %s has a unkown maintenance status."
+msgstr "Aplikaĵo %s havas nekonatan prizorgadan staton."
+
+#: ../softwarecenter/view/appdetailsview.py:89
+msgid "Description"
+msgstr "Priskribo"
+
+#: ../softwarecenter/view/appdetailsview.py:181
+#: ../softwarecenter/view/appdetailsview.py:186
+msgid "Not available in the current data"
+msgstr "Ne havebla en la nunaj datumoj."
+
+#: ../softwarecenter/view/appdetailsview.py:184
+msgid "Not available for your hardware architecture."
+msgstr "Ne havebla por via aparatar-arkitekturo."
+
+#: ../softwarecenter/view/appdetailsview.py:211
+#: ../softwarecenter/view/appdetailsview.py:215
+msgid "Application Screenshot"
+msgstr "Aplikaĵa ekranbildo"
+
+#: ../softwarecenter/view/appdetailsview.py:239
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "Versio: %s (%s)"
+
+#. generic message
+#: ../softwarecenter/view/appdetailsview.py:257
+#, python-format
+msgid "%s is installed on this computer."
+msgstr "%s instaliĝis sur tiu ĉi komputilo."
+
+#: ../softwarecenter/view/appdetailsview.py:269
+#, python-format
+msgid "It is used by %s piece of installed software."
+msgid_plural "It is used by %s pieces of installed software."
+msgstr[0] "Ĝi estas uzata de %s instalita programo."
+msgstr[1] "Ĝi estas uzata de %s instalitaj programoj."
+
+#: ../softwarecenter/view/appdetailsview.py:274
+msgid "Website"
+msgstr "Retejo"
+
+#: ../softwarecenter/view/appdetailsview.py:277
+msgid "Unknown"
+msgstr "Nekonata"
+
+#: ../softwarecenter/view/appdetailsview.py:279
+msgid "Open Source"
+msgstr "Libera Programaro"
+
+#: ../softwarecenter/view/appdetailsview.py:281
+msgid "Proprietary"
+msgstr "Mallibera"
+
+#: ../softwarecenter/view/appdetailsview.py:282
+#, python-format
+msgid "License: %s"
+msgstr "Permesilo: %s"
+
+#. TRANSLATORS: This text will be showed as price of the software
+#: ../softwarecenter/view/appdetailsview.py:286
+msgid "Free"
+msgstr "Senkosta"
+
+#: ../softwarecenter/view/appdetailsview.py:287
+#, python-format
+msgid "Price: %s"
+msgstr "Prezo: %s"
+
+#: ../softwarecenter/view/appdetailsview.py:327
+#, python-format
+msgid "%s - Screenshot"
+msgstr "%s - Ekranbildo"
+
+#. generic removal text
+#. FIXME: this text is not accurate, we look at recommends as
+#. well as part of the rdepends, but those do not need to
+#. be removed, they just may be limited in functionatlity
+#: ../softwarecenter/view/appdetailsview.py:346
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr "Por forigi %s, ĉi tiuj elementoj devas ankaŭ esti forigataj:"
+
+#: ../softwarecenter/view/appdetailsview.py:348
+msgid "Remove All"
+msgstr "Forigi Ĉiujn"
+
+#: ../softwarecenter/view/appdetailsview.py:354
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+"Se vi malinstalas %s-n, estontaj ĝisdatigoj ne inkluzivos novajn elementojn "
+"en <b>%s</b>-aro. Ĉu vi certe volas daŭrigi?"
+
+#: ../softwarecenter/view/appdetailsview.py:357
+#: ../softwarecenter/view/appdetailsview.py:368
+msgid "Remove Anyway"
+msgstr "Tamen forigi"
+
+#: ../softwarecenter/view/appdetailsview.py:364
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s estas kerna aplikaĵo en Ubuntu. Malinstalo de ĝi kaŭzas ke estontaj "
+"promocioj estos nekompletaj. Ĉu vi certe volas daŭrigi?"
+
+#: ../softwarecenter/view/appdetailsview.py:427
+msgid "Upgrade"
+msgstr "Promocii"
+
+#: ../softwarecenter/view/appdetailsview.py:430
+msgid "Remove"
+msgstr "Forigi"
+
+#: ../softwarecenter/view/appdetailsview.py:433
+msgid "Install"
+msgstr "Instali"
+
+#. FIXME: deal with the EULA stuff
+#: ../softwarecenter/view/appdetailsview.py:442
+msgid "Enable channel"
+msgstr "Ŝalti kanalon"
+
+#: ../softwarecenter/view/appdetailsview.py:469
+msgid "_Keep"
+msgstr "_Konservi"
+
+#: ../softwarecenter/view/appdetailsview.py:470
+msgid "_Replace"
+msgstr "_Anstataŭigi"
+
+#: ../softwarecenter/view/appdetailsview.py:472
+#, python-format
+msgid "Configuration file '%s' changed"
+msgstr "Agorda dosiero '%s' ŝanĝiĝis"
+
+#: ../softwarecenter/view/appdetailsview.py:473
+msgid "Do you want to use the new version?"
+msgstr "Ĉu vi volas uzi la novan version?"
+
+#. home button
+#: ../softwarecenter/view/availablepane.py:88
+#: ../softwarecenter/view/viewswitcher.py:128
+msgid "Get Free Software"
+msgstr "Akiri senpagan programaron"
+
+#: ../softwarecenter/view/availablepane.py:138
+#: ../softwarecenter/view/installedpane.py:127
+#, python-format
+msgid "%s matching item"
+msgid_plural "%s matching items"
+msgstr[0] "%s kongruanta elemento"
+msgstr[1] "%s kongruantaj elementoj"
+
+#: ../softwarecenter/view/availablepane.py:142
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] "%s elemento havebla"
+msgstr[1] "%s elementoj haveblaj"
+
+#: ../softwarecenter/view/catview.py:71 ../softwarecenter/view/catview.py:106
+msgid "Departments"
+msgstr "Fakoj"
+
+#: ../softwarecenter/view/dialogs.py:45
+msgid "Details"
+msgstr "Detaloj"
+
+#: ../softwarecenter/view/dialogs.py:80
+msgid "Cancel"
+msgstr "Nuligi"
+
+#. FIXME: make this a generic pkgview widget
+#: ../softwarecenter/view/dialogs.py:88
+msgid "Dependency"
+msgstr "Dependeco"
+
+#: ../softwarecenter/view/installedpane.py:74
+#: ../softwarecenter/view/viewswitcher.py:130
+msgid "Installed Software"
+msgstr "Instalita programaro"
+
+#: ../softwarecenter/view/installedpane.py:131
+#, python-format
+msgid "%s installed item"
+msgid_plural "%s installed items"
+msgstr[0] "%s instalita elemento"
+msgstr[1] "%s instalitaj elementoj"
+
+#: ../softwarecenter/view/viewswitcher.py:160
+#: ../softwarecenter/view/viewswitcher.py:165
+#, python-format
+msgid "In Progress (%i)"
+msgstr "Farata (%i)"
+
+#: ../data/ui/SoftwareCenter.ui.h:1
+msgid "&#xA9;2009 Canonical"
+msgstr "&#xA9;2009 Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:2
+msgid "Copy _Web Link"
+msgstr "Kopii _ligilon"
+
+#: ../data/ui/SoftwareCenter.ui.h:3
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr "Lasas vin elekti milojn da senkostaj aplikaĵoj haveblaj por Ubuntu."
+
+#: ../data/ui/SoftwareCenter.ui.h:4
+msgid "Rebuilding application catalog..."
+msgstr "Rekonstruas aplikaĵan katalogon..."
+
+#: ../data/ui/SoftwareCenter.ui.h:5
+msgid "Search..."
+msgstr "Serĉi..."
+
+#: ../data/ui/SoftwareCenter.ui.h:6
+msgid "Software Center _Help"
+msgstr "Programareja _Helpo"
+
+#: ../data/ui/SoftwareCenter.ui.h:7
+#: ../data/ubuntu-software-center.desktop.in.h:3
+msgid "Ubuntu Software Center"
+msgstr "Ubuntu Programarejo"
+
+#: ../data/ui/SoftwareCenter.ui.h:8
+msgid "_All Applications"
+msgstr "Ĉ_iuj aplikaĵoj"
+
+#: ../data/ui/SoftwareCenter.ui.h:9
+msgid "_Canonical-Maintained Applications"
+msgstr "Aplikaĵoj prizorgataj de _Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:10
+msgid "_Edit"
+msgstr "_Redakti"
+
+#: ../data/ui/SoftwareCenter.ui.h:11
+msgid "_File"
+msgstr "_Dosiero"
+
+#: ../data/ui/SoftwareCenter.ui.h:12
+msgid "_Help"
+msgstr "_Helpo"
+
+#: ../data/ui/SoftwareCenter.ui.h:13
+msgid "_Install"
+msgstr "_Instali"
+
+#: ../data/ui/SoftwareCenter.ui.h:14
+msgid "_Software Sources..."
+msgstr "_Programaraj fontoj..."
+
+#: ../data/ui/SoftwareCenter.ui.h:15
+msgid "_View"
+msgstr "_Vido"
+
+#: ../data/ui/SoftwareCenter.ui.h:16
+msgid "available"
+msgstr "havebla"
+
+#: ../data/ui/SoftwareCenter.ui.h:17
+msgid "installed"
+msgstr "instalita"
+
+#: ../data/ui/SoftwareCenter.ui.h:18
+msgid "pending"
+msgstr "pritraktota"
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr "Lasas vin elekti milojn da senkostaj aplikaĵoj haveblaj por Ubuntu"
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+msgid "Software Center"
+msgstr "Programarejo"
+
+#~ msgid "All"
+#~ msgstr "Ĉiuj"
+
+#, python-format
+#~ msgid "Pending (%i)"
+#~ msgstr "pritraktata (%i)"

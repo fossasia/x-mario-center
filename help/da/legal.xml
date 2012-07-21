@@ -1,0 +1,31 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  Tilladelse gives til at kopier, distribuere og/eller modificere denne
+dokumentation under betingelserne i GNU Free Documentation License (GFDL),
+Version 1.1 eller en senere version udgivet af Free Software Foundation,
+uden nogen invariante afsnit, forsidetekster, og ingen bagsidetekst. Du kan
+finde en kopi af GFDL på dette <ulink type="help"
+url="ghelp:fdl">link</ulink> eller i filen COPYING-DOCS der fulgte med denne
+manual.
+         </para>
+         <para> Denne manual er en del af GNOME maualer distribueret under GFDL. Hvis du
+ønsker at distribuere denne manual separat fra denne samling, kan du gøre
+det ved at tilføje en kopi af licensen for manualen, som beskrevet i sektion
+6 af licensen.
+	</para>
+
+	<para>
+	  Mange af de navne der bruges af firmaer til at udskille deres produkter og
+tjenester hævdes som værende varemærker. Der hvor disse navne optræser i en
+GNOME-dokumentation og  medlemmerne af GNOME-dokumentationsprojektet bliver
+gjort opmærksom på disse varemærker, vil navnene være med store bogstaver,
+eller stort forbogstav.
+	</para>
+
+	<para>
+	  DETTE DOKUMENT OG MODIFICEREDE VERSIONER GØRES TILGÆNGELIGT UNDER
+BETINGELSERNE I GNU FREE DOCUMENTATION LICENSE UNDER DEN FORUDSÆTNING AT:
+<placeholder-1/>
+	</para>
+  </legalnotice>
+

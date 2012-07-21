@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="en">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Centrum softwaru pro Ubuntu</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Dokumentační projekt Ubuntu</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Jak nainstalovat a odstranit software v Ubuntu.</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Co je Centrum softwaru pro Ubuntu?</title>
+    <para>
+      Centrum softwaru pro Ubuntu je virtuální katalog tisíců aplikací zadarmo a
+jiného softwaru, který učiní váš počítač s Ubuntu ještě použitelnější.
+    </para>
+    <para>
+      Software můžete hledat podle kategorie nebo vyhledáváním a položku můžete
+nainstalovat stisknutím tlačítka.
+    </para>
+    <para>
+      Můžete také prohlížet software, který je již na počítači nainstalován, a
+mazat cokoli, co už nepotřebujete.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Instalace softwaru</title>
+    <para>
+      K instalaci pomocí Centra softwaru pro Ubuntu potřebujete správcovský
+přístup a funkční připojení k Internetu. (Pokud jste na tento počítač
+nainstalovali Ubuntu vy, máte správcovský přístup automaticky.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          V sekci <guilabel>Získat software</guilabel> nalezněte to, co chcete
+nainstalovat. Pokud již znáte název, zkuste jej napsat do vyhledávacího
+pole. Nebo zkuste hledat podle typu programu, který chcete (jako
+např. &#8220;tabulkový procesor&#8221;). Jinak prohlížejte seznam sekcí.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Vyberte položku v seznamu a zvolte <guilabel>Další informace</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Zvolte <guilabel>Nainstalovat</guilabel>. Před započetím instalace budete
+možná muset zadat vaše heslo v Ubuntu.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Čas potřebný k instalaci závisí na velikosti balíku, rychlosti vašeho
+počítače a připojení k Internetu.
+    </para>
+    <para>
+      Když se na obrazovce objeví text &#8220;Nainstalováno&#8221;, je software
+připraven k použití.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Používání programu po instalaci</title>
+    <para>
+      Většinu programů, jakmile jsou nainstalovány, můžete spouštět z menu
+<guimenu>Aplikace</guimenu>. (Nástroje na změnu nastavení se mohou objevit
+uvnitř <menuchoice><guimenu>Systém</guimenu>
+<guisubmenu>Předvolby</guisubmenu></menuchoice> nebo
+<menuchoice><guimenu>Systém</guimenu>
+<guisubmenu>Správa</guisubmenu></menuchoice>)
+    </para>
+    <para>
+      Pro nalezení, kde lze nový program spustit, přejděte na stránku tohoto
+programu v Centru softwaru pro Ubuntu. Umístění v nabídce by mělo být
+zobrazeno na této stránce pod barevným pruhem.
+    </para>
+    <para>
+      Pokud používáte Ubuntu pro Netbooky, aplikace se zobrazí v příslušné
+kategorii na domovské obrazovce.
+    </para>
+    <para>
+      Některé položky, jako jsou multimediální kodeky nebo zásuvné moduly webového
+prohlížeče, se v nabídce neobjeví. Použijí se automaticky, když je Ubuntu
+vyžaduje. Než bude zásuvný modul webového prohlížeče použit, budete možná
+nutné zavřít prohlížeč a znovu jej otevřít.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Odstranění softwaru</title>
+    <para>
+      K odstranění softwaru potřebujete správcovský přístup. (Pokud jste na tomto
+počítači nastavili Ubuntu vy, máte správcovský přístup automaticky.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          V sekci <guilabel>Nainstalovaný software</guilabel> najděte položku, kterou
+chcete odstranit.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Vyberte položku ze seznamu a zvolte <guilabel>Odstranit</guilabel>. Možná
+budete muset zadat vaše heslo v Ubuntu.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Pokud je program otevřen, když jej odstraňujete, obvykle zůstane otevřen i
+po odstranění. Jakmile jej zavřete, nebude již k dispozici.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Proč se mne to ptá na odstraňování několika programů najednou?</title>
+    <para>
+      Někdy, pokud se pokusíte odstranit jednu položku, vás bude Centrum softwaru
+pro Ubuntu varovat, že ostatní položky budou odstraněny také. Existují dva
+hlavní důvody kdy k tomu dojde.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Pokud odeberete aplikaci, obvykle všechny doplňky či zásuvné moduly
+aplikace, budou odstraněny také.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Více aplikací je někdy poskytováno jako jediný balík. Pokud je jakákoliv z
+nich nainstalována, jsou nainstalovány všechny. A pokud je jakákoliv z nich
+odstraněna, jsou odstraněny všechny. Centrum softwaru pro Ubuntu je nemůže
+odstranit po jedné, protože nemá pokyny k jejich rozdělení.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Ke skrytí nechtěných položek bez jejich odstranění z počítače můžete použít
+nastavení v aplikaci <guilabel>Hlavní nabídka</guilabel>. V Ubuntu naleznete
+aplikaci <guilabel>Hlavní nabídka</guilabel> přes
+<menuchoice><guimenu>Systém</guimenu>
+<guisubmenu>Předvolby</guisubmenu></menuchoice>. V Ubuntu Netbook Edition se
+nachází v <menuchoice><guimenu>Nastavení</guimenu>
+<guisubmenu>Předvolby</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >Upravení nabídky</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Co znamená &#8220;spravovaný společností Canonical&#8221;?</title>
+    <para>
+      Some of the software available for Ubuntu is maintained by Canonical.
+Canonical engineers ensure that security fixes and other critical updates
+are provided for these programs.
+    </para>
+    <para>
+      Další software je spravovaný komunitou vývojářů Ubuntu. Jakékoli aktualizace
+jsou poskytovány na základě jejich nejlepší snahy.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Co znamená &#8220;Partneři Canonicalu&#8221;?</title>
+    <para>
+      V sekci <guilabel>Partneři Canonicalu</guilabel> se zobrazuje software od
+dodavatelů, kteří spolupracovali s Canonicalem na zpřístupnění jejich
+softwaru pro Ubuntu.
+    </para>
+    <para>
+      Tento software můžete nainstalovat stejným způsobem jako jakýkoli jiný v
+Centru softwaru pro Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Musím něco platit?</title>
+    <para>
+      Většina softwaru v Centrum softwaru pro Ubuntu je zdarma.
+    </para>
+    <para>
+      Pokud něco stojí peníze, zobrazí se místo tlačítka
+<guilabel>Nainstalovat</guilabel> tlačítko
+<guilabel>Zakoupit</guilabel>. Pro každou položku je na stránce také
+zobrazena její cena.
+    </para>
+    <para>
+      Chcete-li platit za komerční software, budete potřebovat připojení k
+internetu a Ubuntu Single Sign On účet nebo účet Launchpad. Pokud nemáte
+účet, Centrum softwaru pro Ubuntu vám ho pomůže zaregistrovat.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      Co když jsem zaplatil za software, a pak ho ztratil?
+    </title>
+    <para>
+      Pokud jste omylem odstranil software, který jste koupil, a chcete ho zpět,
+zvolte <menuchoice> <guimenu> Soubor </ guimenu> <guimenuitem> přeinstalovat
+dříve zakoupené </ guimenuitem> </ menuchoice>.
+    </para>
+    <para>
+      Once you sign in to the account that you used to buy the software, Ubuntu
+Software Center will display your purchases for reinstalling.
+    </para>
+    <para>
+      Funguje to, i když přeinstalujete Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Co když program, který chci, není dostupný?</title>
+    <para>
+      Nejprve zkontrolujte, zda je vybráno <menuchoice><guimenu>Zobrazit</guimenu>
+<guimenuitem>Veškerý software</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Pokud software, který chcete, není ještě k dispozici, ale víte, že v Ubuntu
+funguje, zkuste kontaktovat původní vývojáře programu a požádat je o pomoc
+se zpřístupněním programu.
+    </para>
+    <para>
+      Pokud je program dostupný pro jiné operační systémy ale ne pro Ubuntu,
+uvědomte vývojáře o tom, že máte zájem, aby fungoval také v Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Co když program nefunguje?</title>
+    <para>
+      S desítkami tisíc programů v Centru softwaru pro Ubuntu vzniká vždy šance,
+že několik z nich nebude správně fungovat na vašem počítači.
+    </para>
+    <para>
+      Pokud jste obeznámeni s hlášením chyb v softwaru, můžete pomoci nahlášením
+problému vývojářům Ubuntu. Většina programů má ve své nabídce
+<guimenu>Nápověda</guimenu> položku <guimenuitem>Nahlásit
+problém</guimenuitem>.
+    </para>
+    <para>
+      V opačném případě si najděte v Centru softwaru pro Ubuntu jiný program na
+to, co potřebujete.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

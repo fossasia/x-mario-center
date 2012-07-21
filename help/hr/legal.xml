@@ -1,0 +1,56 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  Dopušteno je kopiranje, distribucija i/ili izmjena ovog dokumenta pod
+uvjetima GNU licence slobodne dokumentacije (GFDL), inačice 1.1 ili novije,
+koju je izdala Fundacija slobodnog softvera sa "bez nepromijenjive sekcije",
+"bez teksta na naslovnici" i "bez teksta na koricama".  Kopiju GFDL licence
+možete pronaći <ulink type="help" url="ghelp:fdl">ovdje</ulink> ili u
+datoteci COPYING-DOCS, distribuiranu uz ovaj priručnik.
+         </para>
+         <para> Ovaj priručnik je treći dio kolekcije GNOME priručnika distribuiranih pod
+GFDL licencom.  Ako želite distribuirati ovaj priručnik odvojeno od ove
+kolekcije, to možete učiniti dodavanje kopije ove licence uz priručnik, kao
+što je objašnjeno u članku 6 ove licence.
+	</para>
+
+	<para>
+	  Mnogi nazivi, koje tvrtke koriste za diferencijaciju svojih proizvoda i
+usluga, proglašeni su zaštitnim znakom. Kada se takvi nazivi spominju u bilo
+kojoj GNOME dokumentaciji, a članovima projekta GNOME dokumentacije se
+skrene pozornost na zaštitne znakove, ona se pišu velikim početnim slovom.
+	</para>
+
+	<para>
+	  DOKUMENT I IZMIJENJENE INAČICE DOKUMENTA SU DOSTUPNE POD UVJETIMA LICENCE
+GNU SLOBODNE DOKUMENTACIJE  S DALJNJIM SHVAĆANJEM DA: <orderedlist>
+		<listitem>
+		  <para>DOCUMENT IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTY OF ANY KIND,
+EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT
+THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS
+MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE
+RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR
+MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR
+MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL
+WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY
+SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN
+ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION
+OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING
+NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY
+CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE
+DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON
+FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF
+ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL,
+WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES
+OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED
+VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+

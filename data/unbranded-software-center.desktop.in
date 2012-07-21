@@ -1,0 +1,13 @@
+[Desktop Entry]
+_Name=Software Center
+_GenericName=Software Center
+_Comment=Lets you choose from thousands of applications available for your system 
+Exec=/usr/bin/software-center %u
+Icon=softwarecenter
+Terminal=false
+Type=Application
+Categories=PackageManager;GTK;System;Settings;
+MimeType=application/x-deb;application/x-debian-package;x-scheme-handler/apt;
+StartupNotify=true
+X-Ubuntu-Gettext-Domain=software-center
+_Keywords=Sources;PPA;Install;Uninstall;Remove;Purchase;Catalogue;Store;

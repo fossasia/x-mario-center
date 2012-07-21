@@ -1,0 +1,89 @@
+@define-color light-aubergine #DED7DB;
+@define-color super-light-aubergine #F4F1F3;
+
+
+#featured-star {
+    border-color: #F89516;  /* yellow */
+    color: #FFC51D;         /* orange */
+}
+
+.grid-lines {
+    border-color: shade (@light-aubergine, 1.025);
+}
+
+#screenshot-preview {
+    border-color: #000;
+    color: #000;
+    border-width: 2px;
+    border-radius: 3px;
+}
+
+.backforward-left-button {
+    border-radius: 3px 0 0 3px;
+}
+
+.backforward-right-button {
+    border-radius: 0 3px 3px 0;
+}
+
+.subtle,
+#subtle-label {
+    -GtkWidget-link-color: shade (@super-light-aubergine, 0.5);
+    -GtkWidget-visited-link-color: shade (@super-light-aubergine, 0.6);
+    color: shade (@super-light-aubergine, 0.5); /* non-link text color */
+    text-shadow: 0 1 2 lighter (@super-light-aubergine);
+}
+
+.cellrenderer-button {
+    border-radius: 3px;
+}
+
+.cellrenderer-avgrating-label {
+    color: #8E8E8E; /* dark gray */
+}
+
+.cellrenderer-avgrating-label:selected {
+    color: white;
+}
+
+.more-link {
+    -GtkButton-inner-border: 0;
+    -GtkButton-default-border: 0;
+    -GtkButton-default-outside-border: 0;
+    color: darker (@light-aubergine);
+    background-color: shade (@super-light-aubergine, 0.925);
+    border-color: shade (@super-light-aubergine, 0.875);
+    text-shadow: 0 1 2 white;
+}
+
+.frame-header-title {
+    text-shadow: 0 1 2 white;
+}
+
+.item-view-separator {
+    border-color: shade (@light-aubergine, 0.9);
+    border-width: 1px;
+}
+
+.light-aubergine-bg {
+    background-color: @light-aubergine;
+}
+
+.super-light-aubergine-bg {
+    background-color: @super-light-aubergine;
+    border-color: shade (@super-light-aubergine, 0.975)
+}
+
+GtkViewport {
+    background-color: @super-light-aubergine;
+    border-width: 0;
+    padding: 0;
+}
+
+GtkTreeView {
+    background-color: @super-light-aubergine;
+}
+
+#toolbar-popup {
+    padding: 0;
+}

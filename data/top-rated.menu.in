@@ -1,0 +1,18 @@
+<Menu>
+  <Menu>
+    <_Name>Top Rated</_Name>
+    <SCIcon>gtk-about</SCIcon>
+    <Flags>
+      <Flag>available-only</Flag>
+      <Flag>carousel-only</Flag>
+      <Flag>not-installed-only</Flag>
+    </Flags>
+    <SCSortMode>4</SCSortMode>
+    <SCItemLimit>100</SCItemLimit>
+    <Include>
+      <And>
+        <SCType>Application</SCType>
+      </And>
+    </Include>
+  </Menu>
+</Menu>

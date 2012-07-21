@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Scintillant Orange
+GenericName=Make Things Oranger
+Comment=Eye protection recommended.
+Icon=gtk-media-record
+Terminal=false
+Categories=Graphics;2DGraphics;
+X-AppInstall-Package=scintillant-orange
+X-AppInstall-Tags=implemented-in::perl, role::program, use::converting

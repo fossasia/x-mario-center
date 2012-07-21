@@ -1,0 +1,47 @@
+#featured-star {
+    border-color: #ED0000;      /* darkish red */
+    color: #ED0000   /* darkish red */
+}
+
+.section-sel-bg {
+    background-color: #666699;
+}
+
+GtkArrow:hover,
+.section-sel:hover,
+.symbolic-icon:hover,
+.label-tile:hover,
+.category-tile:hover {
+    color: pink;
+}
+
+.cellrenderer-button {
+    border-radius: 0;
+}
+
+.grid-lines {
+    border-color: white;
+}
+
+.subtle,
+#subtle-label {
+    color: pink; /* non-link text color */
+    background-color: #666699; /* link hover bg color */
+}
+
+.item-view-separator {
+    border-color: white;
+    border-width: 2px;
+}
+
+.more-link {
+    -GtkButton-inner-border: 0;
+    -GtkButton-default-border: 0;
+    -GtkButton-default-outside-border: 0;
+    background-color: #FF8888;  /* pinkish */
+}
+
+GtkViewport {
+    border-width: 0;
+    padding: 0;
+}

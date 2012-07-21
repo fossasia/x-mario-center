@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=The expensive gem
+Comment=It does nothing
+Terminal=false
+Type=Application
+Categories=Application;Games;
+X-AppInstall-Package=expensive-gem
+X-AppInstall-Popcon=32217
+X-AppInstall-Price=999$
+X-AppInstall-Icon-Url=http://www.google.com/favicon.ico

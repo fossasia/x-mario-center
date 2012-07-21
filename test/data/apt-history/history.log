@@ -1,0 +1,184 @@
+
+Start-Date: 2010-06-01  09:21:00
+Install: gnuplot (4.4.0-1), libjava3d-java (1.5.2+dfsg-5), libvecmath-java (1.5.2-2), gpsprune (10-1), gnuplot-x11 (4.4.0-1), gnuplot-nox (4.4.0-1), libjava3d-jni (1.5.2+dfsg-5), libimage-exiftool-perl (8.15-1)
+End-Date: 2010-06-01  09:22:20
+
+xxx-bogus-entry
+
+Start-Date: 2010-06-01  09:22:21
+Commandline: apt-get install 4g8
+Install: 4g8:amd64 (1.0-3)
+Upgrade: python-apt (0.7.94.2ubuntu6, 0.7.96.1ubuntu11), apt (0.7.25.3ubuntu7, 0.8.3ubuntu6), synaptic (0.63.1ubuntu6, 0.63.1ubuntu14)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2010-06-01  09:22:22
+
+Start-Date: 2010-06-01  09:22:44
+Install: gpxviewer (0.1.5-1), python-osmgpsmap (0.6.0-1), libosmgpsmap0 (0.6.0-1)
+End-Date: 2010-06-01  09:23:05
+
+Start-Date: 2010-06-01  09:30:11
+Install: libgconfmm-2.6-1c2 (2.28.0-1), libgtkglext1 (1.2.0-1ubuntu1), timidity-daemon (2.13.2-38), timidity (2.13.2-38), libgtkglextmm-x11-1.2-0 (1.2.0-4ubuntu1), linthesia (0.4-1)
+End-Date: 2010-06-01  09:30:44
+
+Start-Date: 2010-06-01  10:09:48
+Install: nautilus (2.30.1-0ubuntu3), libglib2.0-data (2.25.7-1ubuntu2), gnome-session (2.30.0-0ubuntu1), libglib2.0-bin (2.25.7-1ubuntu2)
+Upgrade: libglib2.0-0 (2.24.0-0ubuntu4, 2.25.7-1ubuntu2)
+End-Date: 2010-06-01  10:10:21
+
+Start-Date: 2010-06-01  10:25:02
+Remove: libkworkspace4 (4.4.2-0ubuntu14), libmono-data-tds2.0-cil (2.4.4~svn151842-1ubuntu4), libmono-c5-1.0-cil (2.4.4~svn151842-1ubuntu4), libpopt-dev (1.15-1), libwpd8c2a (0.8.14-1build1), libmono-npgsql2.0-cil (2.4.4~svn151842-1ubuntu4), libcaca-dev (0.99.beta16-3), libmono-security2.0-cil (2.4.4~svn151842-1ubuntu4), libndesk-dbus1.0-cil (0.6.0-4), gnome-js-common (0.1.1-1), libmono-wcf3.0-cil (2.4.4~svn151842-1ubuntu4), libmono-peapi2.0-cil (2.4.4~svn151842-1ubuntu4), libmono-system-data1.0-cil (2.4.4~svn151842-1ubuntu4), gnome-mahjongg (2.30.0-0ubuntu6), x11proto-resource-dev (1.1.0-1), libmono-simd2.0-cil (2.4.4~svn151842-1ubuntu4), libmono-system2.0-cil (2.4.4~svn151842-1ubuntu4), libmono1.0-cil (2.4.4~svn151842-1ubuntu4), aisleriot (2.30.0-0ubuntu6), libmono-system-ldap1.0-cil (2.4.4~svn151842-1ubuntu4), libmono0 (2.4.4~svn151842-1ubuntu4), libmono-getoptions1.0-cil (2.4.4~svn151842-1ubuntu4), libmono-cscompmgd8.0-cil (2.4.4~svn151842-1ubuntu4), libmono-data1.0-cil (2.4.4~svn151842-1ubuntu4), libmono-sharpzip0.84-cil (2.4.4~svn151842-1ubuntu4), libmono-sqlite2.0-cil (2.4.4~svn151842-1ubuntu4), libaudiofile-dev (0.2.6-8ubuntu1), libmono-ldap1.0-cil (2.4.4~svn151842-1ubuntu4), libnunit2.4-cil (2.4.7+dfsg-5), smbclient (3.4.7~dfsg-1ubuntu3), libart-2.0-dev (2.3.20-2build1), libmono-management2.0-cil (2.4.4~svn151842-1ubuntu4), libpolkit-gnome0 (0.9.2-2ubuntu2), libgluezilla (2.4.3-2), libmono-corlib2.0-cil (2.4.4~svn151842-1ubuntu4), libplasma-geolocation-interface4 (4.4.2-0ubuntu14), libplasmaclock4 (4.4.2-0ubuntu14), libasound2-dev (1.0.22-0ubuntu7), cli-common (0.7), libmono-system-web-mvc1.0-cil (2.4.4~svn151842-1ubuntu4), libgmime-2.0-2a (2.2.22-5), libweather-ion4 (4.4.2-0ubuntu14), libnspr4-dev (4.8.4-0ubuntu1), libmono-cairo2.0-cil (2.4.4~svn151842-1ubuntu4), libmono-relaxng1.0-cil (2.4.4~svn151842-1ubuntu4), libndesk-dbus-glib1.0-cil (0.4.1-3), gnome-sudoku (2.30.0-0ubuntu6), libmono-i18n-west2.0-cil (2.4.4~svn151842-1ubuntu4), guile-1.8-libs (1.8.7+1-3ubuntu1), libwps-0.1-1 (0.1.2-1build1), python-gtk2-doc (2.17.0-0ubuntu2), libsqlite0 (2.8.17-6build2), kdebase-workspace-bin (4.4.2-0ubuntu14), libmono-microsoft7.0-cil (2.4.4~svn151842-1ubuntu4), libmono-system-messaging2.0-cil (2.4.4~svn151842-1ubuntu4), libmono-system-web1.0-cil (2.4.4~svn151842-1ubuntu4), libmono-accessibility1.0-cil (2.4.4~svn151842-1ubuntu4), libmono-webbrowser0.5-cil (2.4.4~svn151842-1ubuntu4), libmono-posix2.0-cil (2.4.4~svn151842-1ubuntu4), mysql-server-core-5.1 (5.1.41-3ubuntu12), mono-runtime (2.4.4~svn151842-1ubuntu4), automoc (1.0~version-0.9.88-4), libmono-addins0.2-cil (0.4-6), libffi-dev (3.0.9-1), libnss3-dev (3.12.6-0ubuntu3), libprocessui4 (4.4.2-0ubuntu14), libmono-system-runtime2.0-cil (2.4.4~svn151842-1ubuntu4), libprocesscore4 (4.4.2-0ubuntu14), libglitz-glx1 (0.5.6-1build1), libsolidcontrol4 (4.4.2-0ubuntu14), mono-csharp-shell (2.4.4~svn151842-1ubuntu4), libsolidcontrolifaces4 (4.4.2-0ubuntu14), akonadi-server (1.3.1-0ubuntu3), libenchant-dev (1.6.0-0ubuntu1), libcanberra-dev (0.22-1ubuntu2), libmono-i18n1.0-cil (2.4.4~svn151842-1ubuntu4), libksgrd4 (4.4.2-0ubuntu14), libmono-oracle1.0-cil (2.4.4~svn151842-1ubuntu4), libmono-messaging2.0-cil (2.4.4~svn151842-1ubuntu4), libmono-rabbitmq2.0-cil (2.4.4~svn151842-1ubuntu4), libmono-winforms1.0-cil (2.4.4~svn151842-1ubuntu4), libmono-db2-1.0-cil (2.4.4~svn151842-1ubuntu4), libtaskmanager4 (4.4.2-0ubuntu14), libkdecorations4 (4.4.2-0ubuntu14), libmono-system-data2.0-cil (2.4.4~svn151842-1ubuntu4), libqimageblitz4 (0.0.4-4build1), libmono2.0-cil (2.4.4~svn151842-1ubuntu4), libwpd-stream8c2a (0.8.14-1build1), libmono-system-ldap2.0-cil (2.4.4~svn151842-1ubuntu4), libmono-bytefx0.7.6.1-cil (2.4.4~svn151842-1ubuntu4), mysql-client-core-5.1 (5.1.41-3ubuntu12), libmono-data-tds1.0-cil (2.4.4~svn151842-1ubuntu4), mono-gac (2.4.4~svn151842-1ubuntu4), libmono-sharpzip2.6-cil (2.4.4~svn151842-1ubuntu4), libmono-getoptions2.0-cil (2.4.4~svn151842-1ubuntu4), libmono-data2.0-cil (2.4.4~svn151842-1ubuntu4), libmono-npgsql1.0-cil (2.4.4~svn151842-1ubuntu4), libmono-ldap2.0-cil (2.4.4~svn151842-1ubuntu4), libmono-messaging-rabbitmq2.0-cil (2.4.4~svn151842-1ubuntu4), libmono-security1.0-cil (2.4.4~svn151842-1ubuntu4), libgsf-gnome-1-114 (1.14.16-1ubuntu1), libglitz1 (0.5.6-1build1), libmono-peapi1.0-cil (2.4.4~svn151842-1ubuntu4), mono-2.0-gac (2.4.4~svn151842-1ubuntu4), libkwineffects1 (4.4.2-0ubuntu14), libmono-system1.0-cil (2.4.4~svn151842-1ubuntu4), libgda3-common (3.0.4-1ubuntu1), libesd0-dev (0.2.41-6ubuntu1), kdebase-workspace-data (4.4.2-0ubuntu14), libmono-sharpzip0.6-cil (2.4.4~svn151842-1ubuntu4), libplasmagenericshell4 (4.4.2-0ubuntu14), libmono-cscompmgd7.0-cil (2.4.4~svn151842-1ubuntu4), libflickrnet2.2-cil (2.2.0-3), libmono-sqlite1.0-cil (2.4.4~svn151842-1ubuntu4), libmono-sharpzip2.84-cil (2.4.4~svn151842-1ubuntu4), mono-utils (2.4.4~svn151842-1ubuntu4), libmono-relaxng2.0-cil (2.4.4~svn151842-1ubuntu4), kdebase-workspace-kgreet-plugins (4.4.2-0ubuntu14), libksignalplotter4 (4.4.2-0ubuntu14), libmono-microsoft-build2.0-cil (2.4.4~svn151842-1ubuntu4), libkephal4 (4.4.2-0ubuntu14), libsoprano-dev (2.4.2+dfsg.1-0ubuntu1), plasma-dataengines-workspace (4.4.2-0ubuntu14), ksysguardd (4.4.2-0ubuntu14), libmono-cecil-private-cil (2.4.4~svn151842-1ubuntu4), libmono-corlib1.0-cil (2.4.4~svn151842-1ubuntu4), libkscreensaver5 (4.4.2-0ubuntu14), libexif-gtk5 (0.3.5-4), libphonon-dev (4.7.0really4.4.1-0ubuntu3), libmono-microsoft8.0-cil (2.4.4~svn151842-1ubuntu4), libmono-system-web2.0-cil (2.4.4~svn151842-1ubuntu4), libgda3-bin (3.0.4-1ubuntu1), libmono-cairo1.0-cil (2.4.4~svn151842-1ubuntu4), libgda3-3 (3.0.4-1ubuntu1), libmono-accessibility2.0-cil (2.4.4~svn151842-1ubuntu4), ant-optional-gcj (1.8.0-4), libmono-i18n-west1.0-cil (2.4.4~svn151842-1ubuntu4), libwpg-0.1-1 (0.1.3-1build1), libmono-bytefx0.7.6.2-cil (2.4.4~svn151842-1ubuntu4), liblsofui4 (4.4.2-0ubuntu14), libxres-dev (1.0.4-1), libmono-system-messaging1.0-cil (2.4.4~svn151842-1ubuntu4), orbit2 (2.14.18-0.1), libkfontinst4 (4.4.2-0ubuntu14), libical-dev (0.44-3), libmono-posix1.0-cil (2.4.4~svn151842-1ubuntu4), ant-gcj (1.8.0-4), libmono-i18n2.0-cil (2.4.4~svn151842-1ubuntu4), libplasma-applet-system-monitor4 (4.4.2-0ubuntu14), kdepim-runtime (4.4.2-0ubuntu1), libmono-oracle2.0-cil (2.4.4~svn151842-1ubuntu4), libmono-system-runtime1.0-cil (2.4.4~svn151842-1ubuntu4), libnet1 (1.1.4-2), libaa1-dev (1.4p5-38build1), plasma-widgets-workspace (4.4.2-0ubuntu14), libnunit-cil-dev (2.4.7+dfsg-5), libgdiplus (2.4.2-1build1), libmono-winforms2.0-cil (2.4.4~svn151842-1ubuntu4), libmono-cil-dev (2.4.4~svn151842-1ubuntu4), epiphany-browser-data (2.30.2-1ubuntu1), mono-gmcs (2.4.4~svn151842-1ubuntu4), gnomine (2.30.0-0ubuntu6)
+End-Date: 2010-06-01  10:28:04
+
+Start-Date: 2010-06-01  10:29:59
+Downgrade: libglib2.0-0 (2.25.7-1ubuntu2, 2.24.0-0ubuntu4)
+Remove: nautilus (2.30.1-0ubuntu3), libglib2.0-data (2.25.7-1ubuntu2), gnome-session (2.30.0-0ubuntu1), libglib2.0-bin (2.25.7-1ubuntu2)
+End-Date: 2010-06-01  10:30:17
+
+Start-Date: 2010-06-01  10:33:22
+Install: nautilus (2.30.1-0ubuntu3), libpangomm-1.4-dev (2.26.2-1), libgconf2-dev (2.31.3-0ubuntu1), libglibmm-2.4-dev (2.24.2-1), libglib2.0-data (2.25.7-1ubuntu2), libgconfmm-2.6-dev (2.28.0-1), gnome-session (2.30.0-0ubuntu1), libgtkmm-2.4-dev (2.20.3-1), liborbit2-dev (2.14.18-0.1), libatk1.0-dev (1.30.0-1ubuntu1), libgtkglext1-dev (1.2.0-1ubuntu1), libglib2.0-bin (2.25.7-1ubuntu2), libglib2.0-dev (2.25.7-1ubuntu2), libidl-dev (0.8.14-0.1), libpango1.0-dev (1.28.0-0ubuntu2), libgtkglextmm-x11-1.2-dev (1.2.0-4ubuntu1), orbit2 (2.14.18-0.1), libgtk2.0-dev (2.21.0-1ubuntu2)
+Upgrade: libatk1.0-0 (1.30.0-0ubuntu2, 1.30.0-1ubuntu1), gconf2-common (2.28.1-0ubuntu1, 2.31.3-0ubuntu1), libgail18 (2.20.0-0ubuntu4, 2.21.0-1ubuntu2), libpangomm-1.4-1 (2.26.1-1, 2.26.2-1), libgtkmm-2.4-1c2a (2.20.2-1, 2.20.3-1), gconf2 (2.28.1-3ubuntu1, 2.31.3-0ubuntu1), libglib2.0-0 (2.24.0-0ubuntu4, 2.25.7-1ubuntu2), libglibmm-2.4-1c2a (2.24.1-1, 2.24.2-1), libgconf2-4 (2.28.1-3ubuntu1, 2.31.3-0ubuntu1), gconf-defaults-service (2.28.1-0ubuntu1, 2.31.3-0ubuntu1), libidl0 (0.8.13-1, 0.8.14-0.1), libgail-common (2.20.0-0ubuntu4, 2.21.0-1ubuntu2), gtk2-engines-pixbuf (2.20.0-0ubuntu4, 2.21.0-1ubuntu2), libgtk2.0-0 (2.20.0-0ubuntu4, 2.21.0-1ubuntu2)
+Remove: libgtk2.0-0-dbg (2.20.0-0ubuntu4)
+End-Date: 2010-06-01  10:36:20
+
+Start-Date: 2010-06-01  10:56:07
+Remove: gstreamer0.10-ffmpeg (0.10.10-1)
+End-Date: 2010-06-01  10:56:10
+
+Start-Date: 2010-06-01  11:02:51
+Install: gstreamer0.10-ffmpeg (0.10.10-1)
+End-Date: 2010-06-01  11:02:55
+
+Start-Date: 2010-06-01  11:03:12
+Remove: gstreamer0.10-ffmpeg (0.10.10-1)
+End-Date: 2010-06-01  11:03:14
+
+Start-Date: 2010-06-01  11:10:04
+Install: emacs23-lucid (23.1+1-4ubuntu7)
+Remove: emacs23 (23.1+1-4ubuntu7)
+End-Date: 2010-06-01  11:10:54
+
+Start-Date: 2010-06-01  11:44:10
+Install: 2vcard (0.5-3)
+End-Date: 2010-06-01  11:44:16
+
+Start-Date: 2010-06-01  11:45:10
+Install: gstreamer0.10-ffmpeg (0.10.10-1)
+End-Date: 2010-06-01  11:45:14
+
+Start-Date: 2010-06-01  12:15:36
+Install: gstreamer0.10-ffmpeg (0.10.10-1)
+End-Date: 2010-06-01  12:15:40
+
+Start-Date: 2010-06-01  12:18:35
+Install: gstreamer0.10-ffmpeg (0.10.10-1)
+End-Date: 2010-06-01  12:18:38
+
+Start-Date: 2010-06-01  14:50:19
+Install: libtext-csv-perl (1.17-1), libtext-csv-xs-perl (0.73-1)
+Upgrade: perl (5.10.1-8ubuntu2, 5.10.1-12ubuntu1), perl-base (5.10.1-8ubuntu2, 5.10.1-12ubuntu1), perl-modules (5.10.1-8ubuntu2, 5.10.1-12ubuntu1), libperl5.10 (5.10.1-8ubuntu2, 5.10.1-12ubuntu1)
+End-Date: 2010-06-01  14:52:54
+
+Start-Date: 2010-06-01  15:29:33
+Install: libgdu-dev (2.30.1-1), libnotify-dev (0.4.5-1ubuntu3), libgudev-1.0-dev (151-12), libdbus-glib-1-dev (0.86-1)
+End-Date: 2010-06-01  15:29:45
+
+Start-Date: 2010-06-01  18:00:50
+Upgrade: arista (0.9.3+repack-0ubuntu5, 0.9.4-1ubuntu1)
+End-Date: 2010-06-01  18:01:41
+
+Start-Date: 2010-06-02  09:27:12
+Install: linux-image-2.6.34-5-generic (2.6.34-5.12)
+Upgrade: linux (2.6.34.4.3, 2.6.34.5.4), linux-generic (2.6.34.4.3, 2.6.34.5.4), linux-image (2.6.34.4.3, 2.6.34.5.4), linux-image-generic (2.6.34.4.3, 2.6.34.5.4)
+End-Date: 2010-06-02  09:29:33
+
+Start-Date: 2010-06-02  09:29:49
+End-Date: 2010-06-02  09:32:00
+
+Start-Date: 2010-06-02  09:34:04
+Upgrade: nvidia-current (195.36.15-0ubuntu2, 195.36.24-0ubuntu1)
+End-Date: 2010-06-02  09:38:21
+
+Start-Date: 2010-06-02  10:43:33
+Install: libmono-security2.0-cil (2.4.4~svn151842-1ubuntu4), libmono-system2.0-cil (2.4.4~svn151842-1ubuntu4), libmono-corlib2.0-cil (2.4.4~svn151842-1ubuntu4), cli-common (0.7.1), libmono-cairo2.0-cil (2.4.4~svn151842-1ubuntu4), libmono-i18n-west2.0-cil (2.4.4~svn151842-1ubuntu4), pinta (0.3-2ubuntu1), libmono-posix2.0-cil (2.4.4~svn151842-1ubuntu4), mono-runtime (2.4.4~svn151842-1ubuntu4), mono-gac (2.4.4~svn151842-1ubuntu4), libglib2.0-cil (2.12.10-1), mono-2.0-gac (2.4.4~svn151842-1ubuntu4), libgtk2.0-cil (2.12.10-1)
+Upgrade: libc-bin (2.11.1-0ubuntu7, 2.12-0ubuntu2), libc6-i386 (2.11.1-0ubuntu7, 2.12-0ubuntu2), libnih-dbus1 (1.0.1-1, 1.0.2-1ubuntu1), libc6-dev (2.11.1-0ubuntu7, 2.12-0ubuntu2), libc-dev-bin (2.11.1-0ubuntu7, 2.12-0ubuntu2), libc6 (2.11.1-0ubuntu7, 2.12-0ubuntu2), libc6-dev-i386 (2.11.1-0ubuntu7, 2.12-0ubuntu2), libnih1 (1.0.1-1, 1.0.2-1ubuntu1)
+End-Date: 2010-06-02  10:47:38
+
+Start-Date: 2010-06-02  13:58:54
+End-Date: 2010-06-02  14:00:49
+
+Start-Date: 2010-06-02  14:01:57
+Install: linux-headers-2.6.34-5 (2.6.34-5.13), linux-headers-2.6.34-5-generic (2.6.34-5.13)
+Upgrade: linux-headers-generic (2.6.34.4.3, 2.6.34.5.4)
+End-Date: 2010-06-02  14:04:18
+
+Start-Date: 2010-06-02  14:04:49
+Remove: nvidia-glx-new (12.6.5-2ubuntu4)
+End-Date: 2010-06-02  14:04:51
+
+Start-Date: 2010-06-07  09:35:01
+Upgrade: metacity (2.30.1-0ubuntu1, 2.30.1-1ubuntu2)
+End-Date: 2010-06-07  09:35:48
+
+Start-Date: 2010-06-07  10:11:10
+Remove: timeout (1.19-1)
+End-Date: 2010-06-07  10:11:25
+
+Start-Date: 2010-06-08  09:14:18
+Install: git-buildpackage (0.4.67)
+End-Date: 2010-06-08  09:15:02
+
+Start-Date: 2010-06-08  09:15:50
+Upgrade: libdrm-nouveau1 (2.4.18-1ubuntu3, 2.4.20-2ubuntu1), libdrm-radeon1 (2.4.18-1ubuntu3, 2.4.20-2ubuntu1), libdrm2 (2.4.18-1ubuntu3, 2.4.20-2ubuntu1), libdrm-dev (2.4.18-1ubuntu3, 2.4.20-2ubuntu1), libdrm-intel1 (2.4.18-1ubuntu3, 2.4.20-2ubuntu1)
+End-Date: 2010-06-08  09:16:03
+
+Start-Date: 2010-06-08  10:11:05
+Upgrade: dpkg (1.15.5.6ubuntu4, 1.15.7.2ubuntu1)
+End-Date: 2010-06-08  10:11:17
+
+Start-Date: 2010-06-08  10:13:16
+Install: libdpkg-perl (1.15.7.2ubuntu1), libalgorithm-merge-perl (0.08-1), libalgorithm-diff-perl (1.19.02-1)
+Upgrade: dpkg-dev (1.15.5.6ubuntu4, 1.15.7.2ubuntu1)
+End-Date: 2010-06-08  10:13:35
+
+Start-Date: 2010-06-08  16:01:36
+Install: python-gtk2-doc (2.17.0-0ubuntu2)
+End-Date: 2010-06-08  16:02:18
+
+Start-Date: 2010-06-08  20:39:04
+Install: linux-image-2.6.35-1-generic (2.6.35-1.1)
+Upgrade: linux (2.6.34.5.4, 2.6.35.1.1), linux-generic (2.6.34.5.4, 2.6.35.1.1), linux-image (2.6.34.5.4, 2.6.35.1.1), linux-image-generic (2.6.34.5.4, 2.6.35.1.1)
+End-Date: 2010-06-08  20:40:03
+
+Start-Date: 2010-06-08  21:29:24
+Upgrade: python-debian (0.1.14ubuntu2, 0.1.16ubuntu1)
+End-Date: 2010-06-08  21:29:58
+
+Start-Date: 2010-06-08  21:53:57
+Upgrade: python-aptdaemon (0.31+bzr412-0ubuntu1, 0.31+bzr412-0ubuntu1)
+End-Date: 2010-06-08  21:54:06
+
+Start-Date: 2010-06-09  09:01:18
+Install: fatsort (0.9.14-1)
+End-Date: 2010-06-09  09:01:36
+
+Start-Date: 2010-06-09  10:25:54
+Install: automake1.4 (1.4-p6-13.1)
+End-Date: 2010-06-09  10:26:24
+
+Start-Date: 2010-06-09  12:01:17
+Remove: automake1.4 (1.4-p6-13.1)
+End-Date: 2010-06-09  12:01:29
+
+Start-Date: 2010-06-09  13:27:32
+Install: gcc-4.5-base (4.5.0-5ubuntu1)
+Upgrade: libstdc++6 (4.4.3-4ubuntu5, 4.5.0-5ubuntu1), lib32gomp1 (4.4.3-4ubuntu5, 4.5.0-5ubuntu1), binutils-dev (2.20.1-3ubuntu5, 2.20.51.20100608-0ubuntu1), g++-4.4 (4.4.3-4ubuntu5, 4.4.4-4ubuntu1), gcc-4.4-base (4.4.3-4ubuntu5, 4.4.4-4ubuntu1), libgomp1 (4.4.3-4ubuntu5, 4.5.0-5ubuntu1), gcc-4.4 (4.4.3-4ubuntu5, 4.4.4-4ubuntu1), lib32gcc1 (4.4.3-4ubuntu5, 4.5.0-5ubuntu1), libgcc1 (4.4.3-4ubuntu5, 4.5.0-5ubuntu1), cpp (4.4.3-1ubuntu1, 4.4.4-1ubuntu2), gcc (4.4.3-1ubuntu1, 4.4.4-1ubuntu2), gcc-4.4-multilib (4.4.3-4ubuntu5, 4.4.4-4ubuntu1), libgfortran3 (4.4.3-4ubuntu5, 4.5.0-5ubuntu1), cpp-4.4 (4.4.3-4ubuntu5, 4.4.4-4ubuntu1), lib32stdc++6 (4.4.3-4ubuntu5, 4.5.0-5ubuntu1), binutils (2.20.1-3ubuntu5, 2.20.51.20100608-0ubuntu1), libstdc++6-4.4-dev (4.4.3-4ubuntu5, 4.4.4-4ubuntu1)
+Remove: linux-image-2.6.32-16-generic (2.6.32-16.25), linux-tools (2.6.32.21.22), linux-tools-2.6.32-21 (2.6.32-21.32)
+End-Date: 2010-06-09  13:29:34
+
+Start-Date: 2010-06-09  14:42:41
+Upgrade: acl (2.2.49-2, 2.2.49-3)
+End-Date: 2010-06-09  14:42:52
+
+Start-Date: 2010-06-09  14:50:00
+Upgrade: alsa-base (1.0.23+dfsg-0ubuntu1, 1.0.23+dfsg-1ubuntu2)
+End-Date: 2010-06-09  14:52:00

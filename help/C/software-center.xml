@@ -1,0 +1,332 @@
+<?xml version="1.0"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+<!--<?yelp:chunk-depth 4?>-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="en">
+  <!-- please do not change the id; for translations, change lang to -->
+  <!-- appropriate code -->
+  <bookinfo>
+    <title>Ubuntu Software Center</title>
+    <!-- translators: uncomment this:
+
+  <copyright>
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+    <!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+    <publisher>
+      <publishername>Ubuntu Documentation Project</publishername>
+    </publisher> 
+    &legal;
+    <!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>How to install and remove software in Ubuntu.</para>
+    </abstract> 
+  </bookinfo> 
+  <!-- ============= Document Body ============================= -->
+
+  <!-- ============= Introduction ============================== -->
+  <chapter id="introduction">
+    <title>What is Ubuntu Software Center?</title>
+    <para>
+      Ubuntu Software Center is a virtual catalog of thousands of free
+      applications and other software to make your Ubuntu computer more useful.
+    </para>
+    <para>
+      You can find software by category or by searching,
+      and you can install an item with the click of a button.
+    </para>
+    <para>
+      You can also examine which software is installed on the computer
+      already,
+      and remove anything you no longer need.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Installing software</title>
+    <para>
+      To install something with Ubuntu Software Center,
+      you need administrator access and a working Internet connection.
+      (If you set up Ubuntu on this computer yourself,
+      you have administrator access automatically.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          In the <guilabel>Get Software</guilabel> section,
+          find the thing you want to install.
+          If you already know its name, try typing the name in the search field.
+          Or try searching for the type of program you want
+          (like &#8220;spreadsheet&#8221;).
+          Otherwise, browse the list of departments.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Select the item in the list, and choose
+          <guilabel>More Info</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Choose <guilabel>Install</guilabel>.
+          You may need to enter your Ubuntu password
+          before the installation can begin.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      How long something takes to install depends on how large it is,
+      and the speed of your computer and Internet connection.
+    </para>
+    <para>
+      When the screen changes to say &#8220;Installed&#8221;,
+      the software is ready to use.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Using a program once it&#8217;s installed</title>
+    <para>
+      For most programs, once they are installed,
+      you can launch them from the <guimenu>Applications</guimenu> menu.
+      (Utilities for changing settings may appear inside
+      <menuchoice><guimenu>System</guimenu>
+      <guisubmenu>Preferences</guisubmenu></menuchoice> or
+      <menuchoice><guimenu>System</guimenu>
+      <guisubmenu>Administration</guisubmenu></menuchoice> instead).
+    </para>
+    <para>
+      To find out where to launch a new program,
+      navigate to the screen for that program in Ubuntu Software Center,
+      if it is not still being displayed.
+      The menu location should be displayed on that screen,
+      below the colored bar.
+    </para>
+    <para>
+      If you are using Ubuntu Netbook Edition,
+      an application appears in the appropriate category on the home screen.
+    </para>
+    <para>
+      Some items, such as media playback or Web browser plugins,
+      do not appear in the menus.
+      They are used automatically when Ubuntu needs them.
+      For a Web browser plugin, you may need to close the browser and
+      reopen it before the plugin will be used.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Removing software</title>
+    <para>
+      To remove software, you need administrator access.
+      (If you set up Ubuntu on this computer yourself,
+      you have administrator access automatically.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          In the <guilabel>Installed Software</guilabel> section,
+          find the item you want to remove.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Select the item in the list, and choose <guilabel>Remove</guilabel>.
+          You may need to enter your Ubuntu password.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      If a program is open when you remove it,
+      usually it will stay open even after it is removed.
+      As soon as you close it, it will no longer be available.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Why is it asking me to remove several programs together?</title>
+    <para>
+      Sometimes if you try to remove one item,
+      Ubuntu Software Center will warn you that other items will be removed too.
+      There are two main reasons this happens.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          If you remove an application, any add-ons or plugins
+          for that application usually will be removed too.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Multiple applications are sometimes provided as a single package.
+          If any of them are installed, all of them are installed.
+          And if any of them are removed, all of them are removed.
+          Ubuntu Software Center cannot remove them individually,
+          because it has no instructions on how to separate them.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      You can use the <guilabel>Main Menu</guilabel> settings to hide unwanted
+      items without removing them from the computer.
+      In Ubuntu, you can find <guilabel>Main Menu</guilabel> inside
+      <menuchoice><guimenu>System</guimenu>
+      <guisubmenu>Preferences</guisubmenu></menuchoice>.
+      In Ubuntu Netbook Edition, it is in
+      <menuchoice><guimenu>Settings</guimenu>
+      <guisubmenu>Preferences</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor"
+        >Customizing the menu bar</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>What is &#8220;Canonical-maintained&#8221;?</title>
+    <para>
+      Some of the software available for Ubuntu is
+      maintained by Canonical.
+      Canonical engineers ensure that security fixes and other critical updates
+      are provided for these programs.
+    </para>
+    <para>
+      Other software is maintained by the Ubuntu developer community.
+      Any updates are provided on a best-effort basis.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>What is &#8220;Canonical Partners&#8221;?</title>
+    <para>
+      <guilabel>Canonical Partners</guilabel> shows software from vendors who
+      have worked with Canonical to make their software available for Ubuntu.
+    </para>
+    <para>
+      You can install this software in the same way as any other software in
+      Ubuntu Software Center.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Do I need to pay anything?</title>
+    <para>
+      Most software in Ubuntu Software Center is free of charge.
+    </para>
+    <para>
+      If something costs money,
+      it has a <guilabel>Buy</guilabel> button instead of an
+      <guilabel>Install</guilabel> button, and
+      its price is shown on the screen for the individual item.
+    </para>
+    <para>
+      To pay for commercial software, you need an Internet connection,
+      and an Ubuntu Single Sign On account or Launchpad account.
+      If you do not have an account,
+      Ubuntu Software Center will help you register one.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      What if I paid for software and then lost it?
+    </title>
+    <para>
+      If you accidentally removed software that you purchased,
+      and you want it back,
+      choose <menuchoice><guimenu>File</guimenu>
+      <guimenuitem>Reinstall Previous Purchases</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Once you sign in to the account that you used to buy the software,
+      Ubuntu Software Center will display your purchases for reinstalling.
+    </para>
+    <para>
+      This works even if you have reinstalled Ubuntu on the computer.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >What if a program I want isn&#8217;t available?</title>
+    <para>
+      First, check that <menuchoice><guimenu>View</guimenu>
+      <guimenuitem>All Software</guimenuitem></menuchoice> is selected.
+    </para>
+    <para>
+      If the software you want still isn&#8217;t there,
+      but you know that it runs on Ubuntu,
+      try contacting the original developers of the program
+      to ask if they can help make it available.
+    </para>
+    <para>
+      If a program is available for other operating systems but not for Ubuntu,
+      let the developers know that you&#8217;re interested in running it on
+      Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >What if a program doesn&#8217;t work?</title>
+    <para>
+      With tens of thousands of programs in Ubuntu Software Center,
+      there&#8217;s always the chance that a few of them won&#8217;t work
+      properly on your computer.
+    </para>
+    <para>
+      If you are familiar with reporting bugs in software,
+      you can help out by reporting the problem to the Ubuntu developers.
+      Most programs have a <guimenuitem>Report a Problem</guimenuitem> item in
+      their <guimenu>Help</guimenu> menu.
+    </para>
+    <para>
+      Otherwise, look through Ubuntu Software Center for another program
+      to do what you want.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

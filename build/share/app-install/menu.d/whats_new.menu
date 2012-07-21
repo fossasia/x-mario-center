@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Menu>
+  <Menu>
+    <Name>What’s New</Name>
+    <SCIcon>gtk-about</SCIcon>
+    <Flags>
+      <Flag>available-only</Flag>
+      <Flag>carousel-only</Flag>
+      <Flag>not-installed-only</Flag>
+    </Flags>
+    <SCSortMode>3</SCSortMode>
+    <SCItemLimit>20</SCItemLimit>
+    <Include>
+      <And>
+        <SCType>Application</SCType>
+
+      </And>
+    </Include>
+  </Menu>
+</Menu>

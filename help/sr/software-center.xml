@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="ср">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Убунтуов софтверски центар</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher><publishername>Пројекат Убунтуове документације</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Мајкл</firstname>
+        <surname>Вог</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Метју</firstname>
+        <firstname>Пол</firstname>
+        <surname>Томас</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Ендрју</firstname>
+        <surname>Хајгинсон</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Како да инсталирате и уклоните софтвер у Убунтуу.</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Шта је Убунтуов софтверски центар?</title>
+    <para>
+      Убунтуов софтверски центар је виртуелни каталог хиљаде слободних програма и
+другог софтвера како би ваш Убунту рачунар био још кориснији.
+    </para>
+    <para>
+      Софтвер можете наћи према категорији или претраживањем, а било коју ставку
+можете инсталирати кликом на дугме.
+    </para>
+    <para>
+      Такође можете да прегледате који су програми већ инсталирани на рачунару и
+да уклоните све оно што вам више не треба.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Инсталирање софтвера</title>
+    <para>
+      Да инсталирате неки програм из Убунтуовог софтверског центра, потребан вам
+је администраторски приступ и радна веза на Интернет. (Ако сте ви сами
+подесили Убунту на том рачунару, аутоматски имате администраторски приступ.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          У одељку <guilabel>Набавите софтвер</guilabel>, нађите оно што желите да
+инсталирате. Ако већ знате како се зове програм, покушајте да откуцате име у
+поље за претрагу. Или покушајте претрагу за врстом програма који желите (као
+&#8220;унакрсна табела&#8221;). У супротном, прегледајте списак одељења.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Изаберите ставку са списка, а затим изаберите <guilabel>Више
+података</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Изаберите <guilabel>Инсталирај</guilabel>. Можда ћете морати да унесете вашу
+Убунту лозинку да би инсталација могла да почне.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Колико дуго ће неки програм да се инсталира зависи од његове величине, и од
+брзине вашег рачунара и Интернет везе.
+    </para>
+    <para>
+      Када се екран промени и прикаже &#8220;Инсталиран&#8221;, то значи да је
+софтвер спреман за употребу.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Коришћење програма након инсталације</title>
+    <para>
+      Већину програма, након инсталације, можете покренути из изборника
+„<guimenu>Програми</guimenu>“. (Помоћни алати за мењање подешавања могу
+уместо тога да се појаве у изборнику „<menuchoice><guimenu>Систем</guimenu>
+<guisubmenu>Поставке</guisubmenu></menuchoice>“ или у изборнику
+„<menuchoice><guimenu>Систем</guimenu>
+<guisubmenu>Администрација</guisubmenu></menuchoice>“)
+    </para>
+    <para>
+      Да сазнате одакле да покренете нови програм, идите на екран тог програма у
+Убунтуовом софтверском центру, ако још увек није приказан. Место изборника
+треба да буде приказано на том екрану, испод траке у боји.
+    </para>
+    <para>
+      Ако користите Убунту Нетбук издање, инсталирани програм ће се појавити у
+одговарајућој категорији на почетном екрану.
+    </para>
+    <para>
+      Неке ставке, као што су репродукција медија или додаци Веб претраживача, се
+не појављује у изборницима. Оне се аутоматски користе када их Убунту
+затреба. За додатак Веб претраживача, можда ћете морати да затворите
+претраживач и да га поново отворите да би додатак био спреман за коришћење.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Уклањање софтвера</title>
+    <para>
+      Да уклоните софтвер, морате имати администраторски приступ. (Ако сте сами
+подесили Убунту на овом рачунару, аутоматски имате администраторски
+приступ.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          У одељку <guilabel>Инсталирани софтвер</guilabel>, пронађите ставку коју
+желите да уклоните.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Изаберите ставку са списка, а затим изаберите
+<guilabel>Уклони</guilabel>. Можда ћете морати да унесете вашу Убунту
+лозинку.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Ако је програм био отворен када сте га уклонили, обично ће остати отворен и
+након обављеног уклањања. Чим га затворите, више неће бити доступан.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Зашто тражи од мене да уклоним неколико програма заједно?</title>
+    <para>
+      Понекад ако покушате да уклоните једну ставку, Убунтуов софтверски центар ће
+вас упозорити да ће и друге ставке такође бити уклоњене. Постоје два главна
+разлога за то.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Ако уклоните неки програм онда ће такође бити уклоњени и сви додаци или
+прикључци за тај програм.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Група програма се понекад обезбеђује као јединствен пакет. Уколико
+инсталирате неки програм из овог пакета, онда ће бити инсталирани и сви
+остали програми. И ако уклоните неки програм из овог пакета, онда ће и сви
+остали програми бити уклоњени. Убунтуов софтверски центар не може да их
+уклони појединачно, јер нема упутства о томе како да их раздвоји.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Можете да користите подешавања <guilabel>Главног менија</guilabel> да
+сакријете нежељене ставке без њиховог уклањања са рачунара. У Убунтуу,
+можете пронаћи <guilabel>Главни мени</guilabel> у изборнику
+<menuchoice><guimenu>Систем</guimenu><guisubmenu>Поставке</guisubmenu></menuchoice>.
+У Убунту Нетбук издању, се налази у изборнику
+<menuchoice><guimenu>Подешавања</guimenu><guisubmenu>Поставке</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >Прилагођавање траке
+менија</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Шта значи „Одржава Каноникал“?</title>
+    <para>
+      Поједини софтвер доступан за Убунту одржава Каноникал. Инжењери Каноникала
+осигуравају да су безбедносне исправке и друге критичне допуне обезбеђене за
+ове програме.
+    </para>
+    <para>
+      Док остали софтвер одржава Убунтуова заједница програмера. Све исправке су
+обезбеђене на основи личног залагања.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Шта значи „Каноникал партнери“?</title>
+    <para>
+      <guilabel>Каноникал партнери</guilabel> приказује софтвер продаваца који су
+радили са Каноникалом да би њихов софтвер учинили доступним за Убунту.
+    </para>
+    <para>
+      Можете да инсталирате овај софтвер на исти начин као и било који други
+софтвер у Убунтуовом софтверском центру.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Да ли треба нешто да платим?</title>
+    <para>
+      Већина програма у Убунтуовом софтверском центру су бесплатни програми.
+    </para>
+    <para>
+      Ако за нешто треба да се плати, уместо дугмета
+„<guilabel>Инсталација</guilabel>“ биће приказано дугме
+„<guilabel>Купите</guilabel>“, а цена програма се приказује на екрану за
+појединачну ставку.
+    </para>
+    <para>
+      Да бисте платили комерцијални софтвер, потребна вам је Интернет веза и један
+налог Убунту Јединственог пријављивања или Ланчпад налог. Ако немате налог,
+Убунтуов софтверски центар ће вам помоћи да региструјете један.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      Шта ако платим неки програм а затим га изгубим?
+    </title>
+    <para>
+      Ако случајно уклоните неки програм који сте купили и желели бисте опет да га
+имате, изаберите <menuchoice><guimenu>Датотека</guimenu> <guimenuitem>Поново
+инсталирај претходно купљене</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Када се затим пријавите на налог који сте користили када сте купили програм,
+Убунтуов софтверски центар ће приказати ваше купљене програме за поновно
+инсталирање.
+    </para>
+    <para>
+      Ово функционише чак и ако сте поново инсталирали Убунту на рачунару.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Шта ако програм који желим није доступан?</title>
+    <para>
+      Прво, проверите да ли је изабрано
+<menuchoice><guimenu>Преглед</guimenu><guimenuitem>Сав
+софтвер</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Ако софтвер који желите још увек није ту, али знате да ради на Убунтуу,
+покушајте да ступите у контакт са оригиналним програмерима програма и
+питајте их да ли они могу помоћи да га учине доступним.
+    </para>
+    <para>
+      Ако је програм доступан за друге оперативне системе, али не и за Убунту,
+обавестите програмере да сте заинтересовани да га покрећете на Убунтуу.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Шта ако програм не ради?</title>
+    <para>
+      Уз десетине хиљада програма у Убунтуовом софтверском центру, увек постоји
+шанса да неки од њих неће исправно радити на вашем рачунару.
+    </para>
+    <para>
+      Ако сте упознати са пријављивањем грешака у софтверу, можете помоћи тако што
+ћете Убунтуовим програмерима доставити извештај о проблему. Већина програма
+има ставку <guimenuitem>Известите о проблему</guimenuitem> у свом изборнику
+<guimenu>Помоћ</guimenu>.
+    </para>
+    <para>
+      У супротном, погледајте кроз Убунтуов софтверски центар и потражите неки
+други програм да урадите оно што желите.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

@@ -1,0 +1,12 @@
+Package: gnome-utils
+Popcon: 17939
+Section: main
+Icon: baobab
+Name: Disk Usage Analyzer
+Name-de: Festplatten Ueberpruefer 
+Comment: Check folder sizes and available disk space
+Comment-de: Überprüfen des verfügbaren Platzes
+GenericName: ERROR
+Exec: baobab
+Categories: GTK;GNOME;Utility;
+Gettext-Domain: software-center

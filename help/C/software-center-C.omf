@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omf>
+  <resource>
+    <creator>
+     mvo@ubuntu.com
+    </creator>
+    <title>
+     Software Center
+    </title>
+    <date>
+     2009-09-07
+    </date>
+    <version identifier="0.1" date="2009-09-07" 
+	     description="Initial release"/>
+    <subject category="Applications"/>
+    <description>
+     How to manage applications on your system
+    </description>
+    <type>
+     user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:/usr/share/gnome/help/software-center/C/software-center.xml"/>
+    <language code="C"/>
+    <relation seriesid="09f8bcc4-9246-f537-be7d-a823fbbcfc78c0"/>
+    <rights type="GNU FDL" license.version="1.1"
+	    license="http://www.gnu.org/licenses/fdl.html" 
+	    holder="Canonical Ltd."/>
+  </resource>
+</omf>

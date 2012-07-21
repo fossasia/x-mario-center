@@ -1,0 +1,5 @@
+
+## This software is not part of Ubuntu, but is offered by third-party
+## developers who want to ship their latest software.
+deb http://extras.ubuntu.com/ubuntu/ #DISTROSERIES# main
+deb-src http://extras.ubuntu.com/ubuntu/ #DISTROSERIES# main

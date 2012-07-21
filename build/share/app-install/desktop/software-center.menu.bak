@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Menu>  
+
+  
+  <!--<Menu>
+    <Name>Accessories</Name>
+    <Directory>Utility.directory</Directory>
+    <Include>
+      <And>
+        <Category>Utility</Category>
+        
+        <Not><Category>Accessibility</Category></Not>
+      </And>
+    </Include>
+  </Menu> 
+
+  
+  <Menu>
+    <Name>Universal Access</Name>
+    <Directory>Utility-Accessibility.directory</Directory>
+    <Include>
+      <And>
+        <Category>Accessibility</Category>
+        <Not><Category>Settings</Category></Not>
+      </And>
+    </Include>
+  </Menu> 
+
+
+  
+  <Menu>
+    <Name>Developer Tools</Name>
+    <SCIcon>applications-development</SCIcon>
+    <Include>
+      <Or>
+        <Category>Development</Category>
+        <SCSection>devel</SCSection>
+        <SCSection>restricted/devel</SCSection>
+        <SCSection>universe/devel</SCSection>
+        <SCSection>multiverse/devel</SCSection>
+      </Or>
+      <Filename>emacs.desktop</Filename>
+    </Include>
+
+    
+    <Menu>
+      <Name>Debugging</Name>
+      <Name xml:lang="th">การดีบัก</Name>
+      <SCIcon>applications-debugging</SCIcon>
+      <Include>
+	<Category>Debugger</Category>
+      </Include>
+    </Menu>
+
+    <Menu>
+      <Name>Graphic Interface Design</Name>
+      <Name xml:lang="th">ออกแบบส่วนติดต่อผู้ใช้แบบกราฟิก</Name>
+      <SCIcon>applications-interfacedesign</SCIcon>
+      <Include>
+	<Category>GUIDesigner</Category>
+      </Include>
+    </Menu>
+
+    <Menu>
+      <Name>Haskell</Name>
+      <Name xml:lang="th">Haskell</Name>
+      <SCIcon>applications-haskell</SCIcon>
+      <Include>
+	<Or>
+	  <SCSection>haskell</SCSection>
+	  <SCSection>restricted/haskell</SCSection>
+	  <SCSection>universe/haskell</SCSection>
+	  <SCSection>multiverse/haskell</SCSection>
+	</Or>
+      </Include>
+    </Menu>
+
+    <Menu>
+      <Name>IDEs</Name>
+      <Name xml:lang="th">IDEs</Name>
+      <SCIcon>applications-ide</SCIcon>
+      <Include>
+	<Category>IDE</Category>
+      </Include>
+    </Menu>
+
+    <Menu>
+      <Name>Java</Name>
+      <Name xml:lang="th">Java</Name>
+      <SCIcon>applications-java</SCIcon>
+      <Include>
+	<Or>
+	  <SCSection>java</SCSection>
+	  <SCSection>restricted/java</SCSection>
+	  <SCSection>universe/java</SCSection>
+	  <SCSection>multiverse/java</SCSection>
+	</Or>
+      </Include>
+    </Menu>
+
+    <Menu>
+      <Name>Libraries</Name>
+      <Name xml:lang="th">Libraries</Name>
+      <SCIcon>applications-libraries</SCIcon>
+      <Include>
+	<Or>
+	  <SCSection>libdevel</SCSection>
+	  <SCSection>restricted/libdevel</SCSection>
+	  <SCSection>universe/libdevel</SCSection>
+	  <SCSection>multiverse/libdevel</SCSection>
+	</Or>
+      </Include>
+    </Menu>
+
+    <Menu>
+      <Name>Lisp</Name>
+      <Name xml:lang="th">Lisp</Name>
+      <SCIcon>applications-lisp</SCIcon>
+      <Include>
+	<Or>
+	  <SCSection>lisp</SCSection>
+	  <SCSection>restricted/lisp</SCSection>
+	  <SCSection>universe/lisp</SCSection>
+	  <SCSection>multiverse/lisp</SCSection>
+	</Or>
+      </Include>
+    </Menu>
+
+    <Menu>
+      <Name>Localization</Name>
+      <SCIcon>preferences-desktop-locale</SCIcon>
+      <Include>
+	<And>
+	  <Category>Translation</Category>
+	</And>
+      </Include>
+    </Menu>
+
+    <Menu>
+      <Name>Mono/CLI</Name>
+      <SCIcon>applications-monodevelopment</SCIcon>
+      <Include>
+        <Or>
+          <SCSection>cli-mono</SCSection>
+          <SCSection>restricted/cli-mono</SCSection>
+          <SCSection>universe/cli-mono</SCSection>
+          <SCSection>multiverse/cli-mono</SCSection>
+        </Or>
+      </Include>
+    </Menu>
+
+    <Menu>
+      <Name>OCaml</Name>
+      <Name xml:lang="th">OCaml</Name>
+      <SCIcon>applications-ocaml</SCIcon>
+      <Include>
+        <Or>
+          <SCSection>ocaml</SCSection>
+          <SCSection>restricted/ocaml</SCSection>
+          <SCSection>universe/ocaml</SCSection>
+          <SCSection>multiverse/ocaml</SCSection>
+        </Or>
+      </Include>
+    </Menu>
+
+    <Menu>
+      <Name>Perl</Name>
+      <Name xml:lang="th">Perl</Name>
+      <SCIcon>applications-perl</SCIcon>
+      <Include>
+	<Or>
+	  <SCSection>perl</SCSection>
+	  <SCSection>restricted/perl</SCSection>
+	  <SCSection>universe/perl</SCSection>
+	  <SCSection>multiverse/perl</SCSection>
+	</Or>
+      </Include>
+    </Menu>
+
+    <Menu>
+      <Name>Profiling</Name>
+      <Name xml:lang="th">Profiling</Name>
+      <SCIcon>applications-profiling</SCIcon>
+      <Include>
+	<Category>Profiling</Category>
+      </Include>
+    </Menu>
+
+    <Menu>
+      <Name>Python</Name>
+      <Name xml:lang="th">Python</Name>
+      <SCIcon>applications-python</SCIcon>
+      <Include>
+	<Or>
+	  <SCSection>python</SCSection>
+	  <SCSection>restricted/python</SCSection>
+	  <SCSection>universe/python</SCSection>
+	  <SCSection>multiverse/python</SCSection>
+	</Or>
+      </Include>
+    </Menu>
+
+    <Menu>
+      <Name>Ruby</Name>
+      <Name xml:lang="th">Ruby</Name>
+      <SCIcon>applications-ruby</SCIcon>
+      <Include>
+	<Or>
+	  <SCSection>ruby</SCSection>
+	  <SCSection>restricted/ruby</SCSection>
+	  <SCSection>universe/ruby</SCSection>
+	  <SCSection>multiverse/ruby</SCSection>
+	</Or>
+      </Include>
+    </Menu>
+
+    <Menu>
+      <Name>Version Control</Name>
+      <Name xml:lang="th">ควบคุมรุ่น</Name>
+      <SCIcon>applications-versioncontrol</SCIcon>
+      <Include>
+	<Or>
+	  <SCSection>vcs</SCSection>
+	  <SCSection>restricted/vcs</SCSection>
+	  <SCSection>universe/vcs</SCSection>
+	  <SCSection>multiverse/vcs</SCSection>
+	  <Category>RevisionControl</Category>
+	</Or>
+      </Include>
+    </Menu>
+
+    <Menu>
+      <Name>Web Development</Name>
+      <Include><And><Category>WebDevelopment</Category></And></Include>
+      <SCIcon>applications-internet</SCIcon>
+    </Menu>
+
+  </Menu> 
+
+  
+  <Menu>
+    <Name>Education</Name>
+    <Directory>Education.directory</Directory>
+    <Include>
+      <And>
+        <Category>Education</Category>
+        <Not><Category>Science</Category></Not>
+        <Not><Category>X-Publication</Category></Not>
+      </And>
+    </Include>
+  </Menu> 
+
+  
+  <Menu>
+    <Name>Science &amp; Engineering</Name>
+    <SCIcon>applications-science</SCIcon>
+    <Include>
+      <Or>
+        <Category>Science</Category>
+        <Category>Engineering</Category>
+      </Or>
+    </Include>
+    <Menu>
+      <Name>Astronomy</Name>
+      <SCIcon>applications-astronomy</SCIcon>
+      <Include><Category>Astronomy</Category></Include>
+    </Menu>
+    <Menu>
+      <Name>Biology</Name>
+      <SCIcon>applications-biology</SCIcon>
+      <Include><Category>Biology</Category></Include>
+    </Menu>
+    <Menu>
+      <Name>Chemistry</Name>
+      <SCIcon>applications-science</SCIcon>
+      <Include><Category>Chemistry</Category></Include>
+    </Menu>
+    <Menu>
+      <Name>Computer Science &amp; Robotics</Name>
+      <SCIcon>computer</SCIcon>
+      <Include>
+        <Or>
+          <Category>ArtificialIntelligence</Category>
+          <Category>ComputerScience</Category>
+          <Category>Robotics</Category>
+        </Or>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Electronics</Name>
+      <SCIcon>applications-electronics</SCIcon>
+      <Include><Category>Electronics</Category></Include>
+    </Menu>
+    <Menu>
+      <Name>Engineering</Name>
+      <SCIcon>applications-engineering</SCIcon>
+      <Include><Category>Engineering</Category></Include>
+    </Menu>
+    <Menu>
+      <Name>Geography</Name>
+      <SCIcon>applications-geography</SCIcon>
+      <Include><Category>Geography</Category></Include>
+    </Menu>
+    <Menu>
+      <Name>Geology</Name>
+      <SCIcon>applications-geology</SCIcon>
+      <Include>
+        <Or><Category>Geology</Category><Category>Geoscience</Category></Or>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Mathematics</Name>
+      <Name xml:lang="th">คณิตศาสตร์</Name>
+      <SCIcon>applications-mathematics</SCIcon>
+      <Include>
+        <Or>
+          <Category>DataVisualization</Category>
+          <Category>Math</Category>
+          <Category>NumericalAnalysis</Category>
+          <SCSection>math</SCSection>
+          <SCSection>restricted/math</SCSection>
+          <SCSection>universe/math</SCSection>
+          <SCSection>multiverse/math</SCSection>
+          <SCSection>gnu-r</SCSection>
+          <SCSection>restricted/gnu-r</SCSection>
+          <SCSection>universe/gnu-r</SCSection>
+          <SCSection>multiverse/gnu-r</SCSection>
+        </Or>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Physics</Name>
+      <SCIcon>applications-physics</SCIcon>
+      <Include><Category>Physics</Category></Include>
+    </Menu>
+  </Menu> 
+
+  
+  <Menu>
+    <Name>Fonts</Name>
+    <Name xml:lang="th">แบบอักษร</Name>
+    <SCIcon>applications-fonts</SCIcon>
+    <Include>
+      <And>
+        <Or>
+          <SCPkgnameWildcard>ttf*</SCPkgnameWildcard>
+          <SCPkgnameWildcard>otf*</SCPkgnameWildcard>
+          <SCSection>fonts</SCSection>
+          <SCSection>restricted/fonts</SCSection>
+          <SCSection>universe/fonts</SCSection>
+          <SCSection>multiverse/fonts</SCSection>
+        </Or>
+        <Not>
+          <SCPkgname>ttfm</SCPkgname>
+        </Not>
+      </And>
+    </Include>
+  </Menu>-->
+
+  
+  <Menu>
+    <Name>All Game</Name>    
+    <Directory>Game.directory</Directory>
+    <Include>
+      <And>
+        <Category>Game</Category>
+      </And>
+    </Include>
+ </Menu>   
+ <Menu>
+      <Name>Arcades</Name>
+      <SCIcon>applications-arcade</SCIcon>
+      <Include>
+        <Category>ArcadeGame</Category>
+      </Include>
+ </Menu>
+    <Menu>
+      <Name>Board Games</Name>
+      <SCIcon>applications-boardgames</SCIcon>
+      <Include>
+        <Category>BoardGame</Category>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Card Games</Name>
+      <SCIcon>applications-cardgames</SCIcon>
+      <Include>
+        <Category>CardGame</Category>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Puzzles</Name>
+      <SCIcon>applications-puzzles</SCIcon>
+      <Include>
+        <Category>LogicGame</Category>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Role Playing</Name>
+      <SCIcon>applications-roleplaying</SCIcon>
+      <Include>
+        <Category>RolePlaying</Category>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Simulation</Name>
+      <Directory>SimulationGames.directory</Directory>
+      <SCIcon>applications-simulation</SCIcon>
+      <Include>
+        <Category>Simulation</Category>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Sports</Name>
+      <Directory>SportsGames.directory</Directory>
+      <SCIcon>applications-sports</SCIcon>
+      <Include>
+        <Category>SportsGame</Category>
+      </Include>
+    </Menu>
+
+  <!--</Menu> -->
+
+  
+  <!--<Menu>
+    <Name>Graphics</Name>
+    <Name xml:lang="th">กราฟิก</Name>
+    <Directory>Graphics.directory</Directory>
+    <Include>
+      <And>
+        <Category>Graphics</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>3D Graphics</Name>
+      <SCIcon>applications-3D</SCIcon>
+      <Include><And><Category>3DGraphics</Category></And></Include>
+    </Menu>
+    <Menu>
+      <Name>Drawing</Name>
+      <SCIcon>applications-drawing</SCIcon>
+      <Include>
+        <And>
+          <Category>VectorGraphics</Category>
+          <Not><Category>Viewer</Category></Not>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Painting &amp; Editing</Name>
+      <SCIcon>applications-painting</SCIcon>
+      <Include>
+        <And>
+          <Category>RasterGraphics</Category>
+          <Not><Category>Viewer</Category></Not>
+          <Not><Category>Scanning</Category></Not>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Photography</Name>
+      <SCIcon>applications-photography</SCIcon>
+      <Include><And><Category>Photography</Category></And></Include>
+    </Menu>
+    <Menu>
+      <Name>Publishing</Name>
+      <SCIcon>applications-publishing</SCIcon>
+      <Include><And><Category>Publishing</Category></And></Include>
+    </Menu>
+    <Menu>
+      <Name>Scanning &amp; OCR</Name>
+      <SCIcon>scanner</SCIcon>
+      <Include>
+        <Or>
+          <Category>Scanning</Category>
+          <Category>OCR</Category>
+        </Or>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Viewers</Name>
+      <SCIcon>applications-viewers</SCIcon>
+      <Include><And><Category>Viewer</Category></And></Include>
+    </Menu>
+  </Menu> 
+
+  
+  <Menu>
+    <Name>Internet</Name>
+    <Directory>Network.directory</Directory>
+    <Include>
+      <And>
+        <Category>Network</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>Chat</Name>
+      <SCIcon>applications-chat</SCIcon>
+      <Include><And><Category>InstantMessaging</Category></And></Include>
+    </Menu>
+    <Menu>
+      <Name>File Sharing</Name>
+      <SCIcon>applications-filesharing</SCIcon>
+      <Include><And><Category>FileTransfer</Category></And></Include>
+    </Menu>
+    <Menu>
+      <Name>Mail</Name>
+      <Name xml:lang="th">เมล</Name>
+      <SCIcon>applications-mail</SCIcon>
+      <Include><And><Category>Email</Category></And></Include>
+    </Menu>
+    <Menu>
+      <Name>Web Browsers</Name>
+      <SCIcon>applications-webbrowsers</SCIcon>
+      <Include><And><Category>WebBrowser</Category></And></Include>
+    </Menu>
+  </Menu>   
+
+  
+  <Menu>
+    <Name>Multimedia</Name>
+    <Directory>AudioVideo.directory</Directory>
+    <Include>
+      <And>
+        <Category>AudioVideo</Category>
+      </And>
+    </Include>
+  </Menu>   
+
+  
+  <Menu>
+    <Name>Office</Name>
+    <Directory>Office.directory</Directory>
+    <Include>
+      <And>
+        <Category>Office</Category>
+      </And>
+    </Include>
+  </Menu> 
+
+  <Menu>
+    <Name>Themes &amp; Tweaks</Name>
+    <SCIcon>preferences-other</SCIcon>
+    <Include><Category>Settings</Category></Include>
+  </Menu>
+
+ 
+  <Menu>
+    <Name>System</Name>
+    <SCIcon>applications-system</SCIcon>
+    <OnlyUnallocated/>
+    <Include>
+    </Include>
+  </Menu> 
+
+  
+  <Menu>
+    <Name>Books &amp; Magazines</Name>
+    <SCIcon>application-pdf</SCIcon>
+    <Include>
+      <And>
+        <Category>X-Publication</Category>
+      </And>
+    </Include>
+  </Menu> -->
+
+</Menu>

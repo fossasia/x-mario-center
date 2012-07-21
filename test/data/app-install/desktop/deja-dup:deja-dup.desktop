@@ -1,0 +1,54 @@
+[Desktop Entry]
+X-AppInstall-Package=deja-dup
+X-AppInstall-Popcon=4952
+X-AppInstall-Section=universe
+
+Version=1.0
+
+Name=Déjà Dup
+GenericName=Backup Tool
+X-GNOME-FullName=Déjà Dup Backup Tool
+X-GNOME-FullName[ar]=أداة النسخ الإحتياطي
+X-GNOME-FullName[bg]=Инструмент за създаване на резервни копия Déjà Dup
+X-GNOME-FullName[ca]=Eina de còpies de seguretat Déjà Dup
+X-GNOME-FullName[cs]=Nástroj k zálohování Déjà Dup
+X-GNOME-FullName[da]=Déjà Dup - sikkerhedskopieringsværktøj
+X-GNOME-FullName[de]=Déjà Dup Datensicherungs-Werkzeug
+X-GNOME-FullName[en_GB]=Déjà Dup Backup Tool
+X-GNOME-FullName[es]=Herramienta de respaldo Déjà Dup
+X-GNOME-FullName[eu]=Déjà Dup babeskopietarako tresna
+X-GNOME-FullName[fi]=Déjà Dup -varmuuskopiointityökalu
+X-GNOME-FullName[fo]=Déjà Dup trygdarritinghar amboð
+X-GNOME-FullName[fr]=Outil de sauvegarde Déjà Dup
+X-GNOME-FullName[gl]=Ferramenta de copia de seguranza do Déjà Dup
+X-GNOME-FullName[he]=כלי הגיבוי Déjà Dup
+X-GNOME-FullName[hu]=Déjà Dup biztonságimentés-kezelő
+X-GNOME-FullName[id]=Peralatan Backup Déjà Dup
+X-GNOME-FullName[it]=Strumento di backup Déjà Dup
+X-GNOME-FullName[ja]=Déjà Dup バックアップツール
+X-GNOME-FullName[lt]=Déjà Dup atsarginių kopijų įrankis
+X-GNOME-FullName[ml]=Déjà Dup ബാക്കപ്പ് ടൂള്‍
+X-GNOME-FullName[nb]=Déjà Dup verktøy for sikkerhetskopiering
+X-GNOME-FullName[nl]=Déjà Dup back-up maken
+X-GNOME-FullName[nn]=Déjà Dup verktøy for tryggleikskopiering
+X-GNOME-FullName[pl]=Program do tworzenia kopii zapasowych Déjà Dup
+X-GNOME-FullName[pt_BR]=Ferramenta de Backup Déjà Dup
+X-GNOME-FullName[ru]=Сохранение данных с Déjà Dup
+X-GNOME-FullName[sk]=Déjà Dup - zálohovací nástroj
+X-GNOME-FullName[sv]=Déjà Dup Säkerhetskopiering
+X-GNOME-FullName[th]=เครื่องมือสำรองข้อมูล Déjà Dup
+X-GNOME-FullName[tr]=Déjà Dup Yedekleme Aracı
+X-GNOME-FullName[uk]=Резервне копіювання з Déjà Dup
+X-GNOME-FullName[zh_CN]=Déjà Dup 备份工具
+X-GNOME-FullName[zh_TW]=Déjà Dup 備份工具
+Comment=Back up your files
+
+Icon=deja-dup
+TryExec=deja-dup
+Exec=deja-dup
+
+StartupNotify=true
+
+Type=Application
+Categories=GNOME;GTK;System;Utility;Archiving;
+X-Ubuntu-Gettext-Domain=app-install-data

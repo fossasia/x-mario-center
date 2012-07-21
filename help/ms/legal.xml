@@ -1,0 +1,61 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  Keizinan diberikan untuk menyalin, mengedar dan/atau mengubahsuai dokumen
+ini di bawah terma GNU Free Documentation License (GFDL), Versi 1.1 atau
+versi berikutnya yang diterbitkan oleh Free Software Foundation tanpa
+seksyen yang berbeza, tanpa Teks Muka Depan, dan tidak ada Mesej Muka
+Belakang. Anda boleh peroleh salinan GFDL di <ulink type="help"
+url="ghelp:fdl">pautan</ulink> ini atau dalam fail COPYING DOCS diedarkan
+bersama-sama manual ini.
+         </para>
+         <para> Manual ini merupakan sebahagian dari koleksi manual GNOME yang diedarkan di
+bawah GFDL. Jika anda ingin mengedarkan Manual ini secara berasingan
+daripada koleksinya, anda boleh melakukannya dengan menambah satu salinan
+lesen ke dalam manual seperti yang dinyatakan di dalam bahagian 6 bahagian
+di dalam lesen.
+	</para>
+
+	<para>
+	  Pelbagai Jenama yang digunakan oleh syarikat untuk membezakan produk dan
+perkhidmatan yang dituntut sebagai cap dagang. Jika Jenama itu muncul dalam
+setiap dokumentasi GNOME, maka ahli-ahli Projek Dokumentasi GNOME
+berhati-hati menggunakan tanda dagangan tersebut, oleh itu Jenama tersebut
+dinyatakan dalam huruf besar sepenuhnya atau huruf besar pada permulaan
+huruf .
+	</para>
+
+	<para>
+	  DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS
+OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT:
+<orderedlist>
+		<listitem>
+		  <para>DOCUMENT IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTY OF ANY KIND,
+EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT
+THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS
+MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE
+RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR
+MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR
+MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL
+WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY
+SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN
+ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION
+OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING
+NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY
+CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE
+DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON
+FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF
+ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL,
+WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES
+OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED
+VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+

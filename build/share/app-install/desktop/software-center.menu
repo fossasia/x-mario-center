@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Menu>  
+
+  
+  
+
+  
+  <Menu>
+    <Name>All Game</Name>    
+    <Directory>Game.directory</Directory>
+    <Include>
+      <And>
+        <Category>Game</Category>
+      </And>
+    </Include>
+ </Menu>   
+ <Menu>
+      <Name>Arcades</Name>
+      <SCIcon>applications-arcade</SCIcon>
+      <Include>
+        <Category>ArcadeGame</Category>
+      </Include>
+ </Menu>
+    <Menu>
+      <Name>Board Games</Name>
+      <SCIcon>applications-boardgames</SCIcon>
+      <Include>
+        <Category>BoardGame</Category>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Card Games</Name>
+      <SCIcon>applications-cardgames</SCIcon>
+      <Include>
+        <Category>CardGame</Category>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Puzzles</Name>
+      <SCIcon>applications-puzzles</SCIcon>
+      <Include>
+        <Category>LogicGame</Category>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Role Playing</Name>
+      <SCIcon>applications-roleplaying</SCIcon>
+      <Include>
+        <Category>RolePlaying</Category>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Simulation</Name>
+      <Directory>SimulationGames.directory</Directory>
+      <SCIcon>applications-simulation</SCIcon>
+      <Include>
+        <Category>Simulation</Category>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Sports</Name>
+      <Directory>SportsGames.directory</Directory>
+      <SCIcon>applications-sports</SCIcon>
+      <Include>
+        <Category>SportsGame</Category>
+      </Include>
+    </Menu>
+
+  
+	<Menu>
+		<Name>Other</Name>
+		<Include>
+			<OR>
+				<Category>Utility</Category>
+				<Category>Accessibility</Category>
+				<Category>Debugger</Category>
+				<Category>Graphics</Category>
+				<Category>3DGraphics</Category>	
+				<Category>Geology</Category>
+				<Category>Geoscience</Category>	
+				<Category>Education</Category>					
+				<Category>Settings</Category>
+				<Category>GUIDesigner</Category>
+				<Category>Network</Category>
+				<Category>Office</Category>
+				<Category>Viewer</Category>
+				<Category>Publishing</Category>
+				<Category>AudioVideo</Category>
+				<Category>X-Publication</Category>
+			</OR>
+		</Include>
+	</Menu>
+  
+  
+
+</Menu>

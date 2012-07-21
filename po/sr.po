@@ -1,0 +1,324 @@
+# Serbian translation for software-store
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-store\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-09-18 14:26+0200\n"
+"PO-Revision-Date: 2009-09-09 09:54+0000\n"
+"Last-Translator: Michael Vogt <michael.vogt@ubuntu.com>\n"
+"Language-Team: Serbian <sr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2009-09-23 11:13+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../softwarestore/app.py:339 ../softwarestore/view/appdetailsview.py:371
+msgid "ERROR"
+msgstr "ГРЕШКА"
+
+#: ../softwarestore/app.py:398
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarestore/apt/aptcache.py:174 ../softwarestore/apt/aptcache.py:186
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+
+#: ../softwarestore/apt/aptcache.py:179
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+
+#: ../softwarestore/apt/aptcache.py:191
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+
+#: ../softwarestore/apt/aptcache.py:201
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+
+#: ../softwarestore/apt/aptcache.py:205
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr ""
+
+#: ../softwarestore/apt/aptcache.py:207
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr ""
+
+#: ../softwarestore/apt/aptcache.py:210
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+
+#: ../softwarestore/apt/aptcache.py:213
+#, python-format
+msgid "Application %s has a unkown maintenance status."
+msgstr ""
+
+#: ../softwarestore/view/appdetailsview.py:92
+msgid "Description"
+msgstr "Опис"
+
+#: ../softwarestore/view/appdetailsview.py:176
+#: ../softwarestore/view/appdetailsview.py:181
+msgid "Not available in the current data"
+msgstr "Није доступно у текућим подацима"
+
+#: ../softwarestore/view/appdetailsview.py:179
+msgid "Not available for your hardware architecture."
+msgstr ""
+
+#: ../softwarestore/view/appdetailsview.py:235
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "Верзија: %s (%s)"
+
+#. generic message
+#: ../softwarestore/view/appdetailsview.py:253
+#, python-format
+msgid "%s is installed on this computer."
+msgstr ""
+
+#: ../softwarestore/view/appdetailsview.py:265
+#, python-format
+msgid "It is used by %s piece of installed software."
+msgid_plural "It is used by %s pieces of installed software."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarestore/view/appdetailsview.py:270
+msgid "Website"
+msgstr ""
+
+#: ../softwarestore/view/appdetailsview.py:273
+#, python-format
+msgid "Price: %s"
+msgstr "Цена: %s"
+
+#: ../softwarestore/view/appdetailsview.py:273
+msgid "Free"
+msgstr "Слободно"
+
+#: ../softwarestore/view/appdetailsview.py:313
+#, python-format
+msgid "%s - Screenshot"
+msgstr ""
+
+#. generic removal text
+#: ../softwarestore/view/appdetailsview.py:329
+#, python-format
+msgid "%s depends on other software on the system. "
+msgstr ""
+
+#: ../softwarestore/view/appdetailsview.py:330
+msgid ""
+"Uninstalling it means that the following additional software needs to be "
+"removed."
+msgstr ""
+
+#: ../softwarestore/view/appdetailsview.py:335
+#, python-format
+msgid "%s is a core component"
+msgstr ""
+
+#: ../softwarestore/view/appdetailsview.py:336
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+
+#: ../softwarestore/view/appdetailsview.py:394
+msgid "Upgrade"
+msgstr "Надоградња"
+
+#: ../softwarestore/view/appdetailsview.py:397
+#: ../softwarestore/view/dialogs.py:69
+msgid "Remove"
+msgstr "Уклони"
+
+#: ../softwarestore/view/appdetailsview.py:400
+msgid "Install"
+msgstr "Инсталација"
+
+#. FIXME: deal with the EULA stuff
+#: ../softwarestore/view/appdetailsview.py:409
+msgid "Enable channel"
+msgstr ""
+
+#. home button
+#: ../softwarestore/view/availablepane.py:101
+#: ../softwarestore/view/viewswitcher.py:118
+msgid "Get Free Software"
+msgstr ""
+
+#: ../softwarestore/view/dialogs.py:52
+msgid "Details"
+msgstr ""
+
+#: ../softwarestore/view/dialogs.py:68
+msgid "Cancel"
+msgstr ""
+
+#: ../softwarestore/view/dialogs.py:75
+msgid "Dependencies"
+msgstr ""
+
+#: ../softwarestore/view/installedpane.py:98
+#: ../softwarestore/view/viewswitcher.py:120
+msgid "Installed Software"
+msgstr ""
+
+#: ../softwarestore/view/viewswitcher.py:150
+#, python-format
+msgid "In Progress (%i)"
+msgstr "У току (%i)"
+
+#: ../softwarestore/view/viewswitcher.py:155
+#, python-format
+msgid "Pending (%i)"
+msgstr "Чека (%i)"
+
+#: ../data/ui/GBTestWidget.ui.h:1
+msgid "Click me"
+msgstr ""
+
+#: ../data/ui/GBTestWidget.ui.h:2
+msgid "button"
+msgstr ""
+
+#: ../data/ui/GBTestWidget.ui.h:3
+msgid "label"
+msgstr ""
+
+#: ../data/ui/GBTestWidget.ui.h:4
+msgid "page 1"
+msgstr ""
+
+#: ../data/ui/GBTestWidget.ui.h:5
+msgid "page 2"
+msgstr ""
+
+#: ../data/ui/GBTestWidget.ui.h:6
+msgid "page 3"
+msgstr ""
+
+#: ../data/ui/SoftwareStore.ui.h:1
+msgid "&#xA9;2009 Canonical"
+msgstr ""
+
+#: ../data/ui/SoftwareStore.ui.h:2
+msgid "All Applications"
+msgstr ""
+
+#: ../data/ui/SoftwareStore.ui.h:3
+msgid "Canonical-Maintained Applications"
+msgstr ""
+
+#: ../data/ui/SoftwareStore.ui.h:4
+msgid "Copy _Web Link"
+msgstr ""
+
+#: ../data/ui/SoftwareStore.ui.h:5
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr ""
+
+#: ../data/ui/SoftwareStore.ui.h:6
+msgid "Search..."
+msgstr ""
+
+#: ../data/ui/SoftwareStore.ui.h:7
+msgid "Software Store _Help"
+msgstr ""
+
+#: ../data/ui/SoftwareStore.ui.h:8
+#: ../data/ubuntu-software-store.desktop.in.h:3
+msgid "Ubuntu Software Store"
+msgstr "Убунту програмски магацин"
+
+#: ../data/ui/SoftwareStore.ui.h:9
+msgid "View"
+msgstr ""
+
+#: ../data/ui/SoftwareStore.ui.h:10
+msgid "_Edit"
+msgstr ""
+
+#: ../data/ui/SoftwareStore.ui.h:11
+msgid "_File"
+msgstr ""
+
+#: ../data/ui/SoftwareStore.ui.h:12
+msgid "_Help"
+msgstr ""
+
+#: ../data/ui/SoftwareStore.ui.h:13
+msgid "_Software Sources..."
+msgstr ""
+
+#: ../data/ui/SoftwareStore.ui.h:14
+msgid "available"
+msgstr ""
+
+#: ../data/ui/SoftwareStore.ui.h:15
+msgid "installed"
+msgstr ""
+
+#: ../data/ui/SoftwareStore.ui.h:16
+msgid "pending"
+msgstr ""
+
+#: ../data/ubuntu-software-store.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr ""
+
+#: ../data/ubuntu-software-store.desktop.in.h:2
+msgid "Software Store"
+msgstr "Прокрамски магацин"
+
+#, python-format
+#~ msgid "%s items available"
+#~ msgstr "%s ставки доступно"
+
+#, python-format
+#~ msgid "Search in %s"
+#~ msgstr "Претражи у %s"
+
+#~ msgid "All"
+#~ msgstr "Све"
+
+#~ msgid "Install and remove software"
+#~ msgstr "Инсталирај или уклони програме"
+
+#~ msgid "Installed software"
+#~ msgstr "Инсталирани програми"
+
+#~ msgid "Get Free software"
+#~ msgstr "Преузми слободне програме"

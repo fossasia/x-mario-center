@@ -1,0 +1,57 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  Dopušteno je kopiranje, distribucija i/ili izmjena ovog dokumenta pod
+uslovima GNU licence slobodne dokumentacije (GFDL), inačice 1.1 ili novije,
+koju je izdala Fundacija slobodnog softvera sa "bez nepromijenjive sekcije",
+"bez teksta na naslovnici" i "bez teksta na koricama".  Kopiju GFDL licence
+možete pronaći <ulink type="help" url="ghelp:fdl">ovdje</ulink> ili u
+datoteci COPYING-DOCS, distribuiranu uz ovaj priručnik.
+         </para>
+         <para> Ovaj priručnik je treći dio kolekcije GNOME priručnika distribuiranih pod
+GFDL licencom.  Ako želite distribuirati ovaj priručnik odvojeno od ove
+kolekcije, to možete učiniti dodavanje kopije ove licence uz priručnik, kao
+što je objašnjeno u članku 6 ove licence.
+	</para>
+
+	<para>
+	  Mnoga od imena koja koriste kompanije za razlikovanje svojih proizvoda i
+usluga su proglašena zaštitnim znacima. gdje se ta imena pojave u bilo kom
+GNOME dokumentu, a članovi Projekta GNOME dokumentacije su svesni tih
+zaštitnih znakova, onda su imena ispisana velikim slovima ili velikim
+početnim slovom.
+	</para>
+
+	<para>
+	  DOKUMENT I IZMIJENJENE VERZIJE DOKUMENTA SU DOSTUPNE POD USLOVIMA LICENCE
+GNU SLOBODNE DOKUMENTACIJE  S DALJNJIM SHVAĆANJEM DA: <orderedlist>
+		<listitem>
+		  <para>DOKUMENT JE DAT NA OSNOVI "TAKAV JE KAKAV JE", BEZ GARANCIJE BILO KOJE
+VRSTE, BILO IZRAŽENE ILI PRIMJENJENE, UKLJUČUJUĆI BEZ OGRANIČENJA, GARANCIJE
+DA JE DOKUMENT ILI IZMJENJENA VERZIJA OVOG DOKUMENTA BEZ NEDOSTATAKA
+PODESNOSTI, PRILAGOĐENOSTI ODREĐENOJ NAMJENI ILI NEZAKONITOSTI.SAV RIZIK NA
+KVALITET, TAČNOST I PERFORMANSE DOKUMENTA ILI IZMJENJENE VERZIJE DOKUMENTA
+JE SAMO VAŠ.AKO BILO KOJI DOKUMENT ILI IZMJENJENA VERZIJA POKAŽE
+NEISPRAVNOST U BILO KOJEM POGLEDU, VI( NE POČETNI PISAC, AUTOR ILI BILO KOJI
+SARADNIK ) VI PREUZIMATE TROŠKOVE POTREBA SERVISIRANJA, POPRAVKE ILI
+KOREKCIJE. OVO ODRICANJE OD GARANCIJE PREDSTAVLJA BITAN DIO OVE
+LICENCE. NIKAKVA UPOTREBA BILO KOJEG DOKUMENTA ILI IZMJENJENE VERZIJE
+DOKUMENTA NIJE OVLAŠTENA OSIM POD OVI IZUZETKOM; I
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>NI POD KAKVIM USLOVIMA I NI PO KAKVOJ PRAVNOJ TEORIJI, BILO DA JE U KRIVU
+(UKLJUČUJUĆI NEMAR), UGOVORU, ILI DRUGAČIJE; AUTOR, PRVOBITNI PISAC, BILO
+KOJI SARADNIK ILI BILO KOJI DOSTAVLJAČ DOKUMENTA ILI IZMENJENE VERZIJE
+DOKUMENTA, ILI BILO KOJI DOBAVLJAČ BILO KOJE OD OVIH STRANA, NEĆE BITI
+PODLEŽAN NIKOME ZA BILO KAKVU DIREKTNU, INDIREKTNU, POSEBNU, SLUČAJNU ILI
+POSLEDIČNU ŠTETU BILO KAKVE VRSTE UKLJUČUJUĆI, BEZ OGRANIČENJA, ŠTETU ZA
+GUBITAK DOBRE VOLJE, OBUSTAVU RADA, KVAR RAČUNARA I NEFUNKCIONISANJE, ILI
+BILO KOJE I SVIH DRUGIH ŠTETA ILI GUBITAKA KOJI PROISTEKNU ILI SU U VEZI SA
+UPOTREBOM DOKUMENTA I IZMENJENE VERZIJE DOKUMENTA, ČAK I AKO SU TE STRANE
+BILE OBAVEŠTENE O MOGUĆNOSTI TAKVIH ŠTETA.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+

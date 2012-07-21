@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="br">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Central de Programas do Ubuntu</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Projeto de documentação do Ubuntu</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Como instalar e remover programas no Ubuntu.</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>O que é a Central de Programas do Ubuntu?</title>
+    <para>
+      Central de Programas do Ubuntu é um catálogo virtual de milhares de
+aplicativos gratuitos, além de outros programas que fazem seu computador com
+Ubuntu ser mais útil.
+    </para>
+    <para>
+      Você pode encontrar software por categorias ou por pesquisa, e você pode
+instalar um item com um clique de um botão.
+    </para>
+    <para>
+      Você pode examinar que software está instalado no seu computador e remover
+qualquer coisa que você não precisa.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Instalando o software</title>
+    <para>
+      Para instalar alguma coisa com a Central de Programas do Ubuntu, você
+precisa de acesso de administrador e de uma conexão com a Internet
+funcionando. (Se você mesmo configurou o Ubuntu neste computador, você tem
+acesso de administrador automaticamente.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Na seção <guilabel>Instalar programa</guilabel>, encontre aquilo que você
+quer instalar. Se você já sabe o nome do que quer, tente digitar o nome no
+campo de busca. Ou tente buscar por um tipo de programa que você quer (como
+&#8220;planilha eletrônica&#8221;). Ou ainda, navegue pela lista de
+categorias.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Selecione o item na lista, e escolha <guilabel>Mais informações</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Escolha <guilabel>Instalar</guilabel>. Você pode precisar digitar sua senha
+antes que a instalação comece.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      O tempo que algo leva para ser instalado depende do seu tamanho, da
+velocidade do seu computador e da conexão com a Internet.
+    </para>
+    <para>
+      Quando a mensagem na tela é &#8220;Instalado&#8221;, o programa está pronto
+para ser usado.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Usando um programa já instalado</title>
+    <para>
+      Para a maioria dos programas, após tê-los instalado, você poderá lançá-los a
+partir do menu <guimenu>Aplicativos</guimenu>. (Utilidades para fazer
+alterações nas configurações podem aparecer em
+<menuchoice><guimenu>Sistemas</guimenu><guisubmenu>Preferências</guisubmenu></menuchoice>
+ou
+<menuchoice><guimenu>Sistema</guimenu><guisubmenu>Administração</guisubmenu></menuchoice>)
+    </para>
+    <para>
+      Para saber onde encontrar o atalho para um novo programa, navegue pela
+janela até a referência ao programa na Central de Programas do Ubuntu, se
+ele ainda não estiver sendo exibido. A localização do atalho no menu deve
+ser exibida na tela, abaixo da barra colorida.
+    </para>
+    <para>
+      Se você está usando a versão do Ubuntu para netbooks, uma aplicação é
+exibida na categoria apropriada em sua tela de usuário.
+    </para>
+    <para>
+      Alguns itens, como reprodutores de mídia ou complementos de navegadores de
+Internet, não aparecem nos menus. Eles são usados automaticamente quanto o
+Ubuntu precisa deles. Para complementos de navegadores de Internet, você
+talvez precise fechar e reabrir o navegador antes do complemento ser usado.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Removendo software</title>
+    <para>
+      Para remover programa, você precisa de acesso de administrador. (Se você
+mesmo configurou o Ubuntu neste computador, você tem acesso de administrador
+automaticamente.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Na seção <guilabel>Programas instalados</guilabel>, procure o item que você
+deseja remover.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Selecione o item na lista, e escolha <guilabel>Remover</guilabel>. Você
+precisa digitar sua senha do Ubuntu.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Se um programa está aberto enquanto você o remove, geralmente ele
+permanecerá aberto após removido. Logo que você o feche, ele não estará mais
+disponível.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Por que está pedindo para remover vários programas junto?</title>
+    <para>
+      Algumas vezes, se você tentar remover um item, a Central de Programas do
+Ubuntu irá avisar que outros itens também serão removidos. Há duas razões
+principais para isso acontecer.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Se você remover uma aplicação, qualquer plug-in ou complemento para aquela
+aplicação será removido também.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Múltiplos aplicativos são às vezes disponibilizados em um único pacote. Se
+qualquer um deles é instalado, todos o os outros também serão. E se qualquer
+um deles é removido, todos os outros também o são. A Central de Programas do
+Ubuntu não pode removê-los individualmente porque não há instruções de como
+separá-los.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Você pode usar as configurações do <guilabel>Menu Principal</guilabel> para
+ocultar ítens indesejados sem removê-los do computador. No Ubuntu, você pode
+encontrar o <guilabel>Menu Principal</guilabel> em
+<menuchoice><guimenu>Sistema</guimenu>
+<guisubmenu>Preferências</guisubmenu></menuchoice>. No Ubuntu Netbook
+Edition, encontra-se em <menuchoice><guimenu>Configurações</guimenu>
+<guisubmenu>Preferências</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >Personalizando a barra de
+menus</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>O que é &#8220;Mantido pela Canonical&#8221;?</title>
+    <para>
+      Alguns dos softwares disponíveis para o Ubuntu são mantidos pela
+Canonical. Engenheiros da Canonical garantem que correções de segurança  e
+outras atualizações críticas sejam fornecidas para estes programas.
+    </para>
+    <para>
+      Outros programas são mantidos pela comunidade de desenvolvedores do
+Ubuntu. Todas as atualizações são fornecidas em uma ótima base de esforços.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>O que é &#8220;Parceiros da Canonical&#8221;?</title>
+    <para>
+      <guilabel>Parceiros da Canonical</guilabel> mostra software de vendedores
+que tem trabalhado com a Canonical e feito seu programa disponível para o
+Ubuntu.
+    </para>
+    <para>
+      Você pode instalar este programa da mesma maneira que outros programas na
+Central de Programas do Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Eu preciso pagar algo?</title>
+    <para>
+      A maioria dos programas na Central de Programs do Ubuntu é gratuita.
+    </para>
+    <para>
+      Se algum aplicativo for comercial, ele terá um botão
+<guilabel>Comprar</guilabel> ao invés de um botão
+<guilabel>Instalar</guilabel>, e o seu preço será exibido na tela para este
+item individual.
+    </para>
+    <para>
+      Para pagar por um software comercial, você precisa de uma conexão com a
+Internet, e uma conta do Ubuntu Single Sign On ou do Launchpad. Se você não
+tem uma conta, a Central de Programas do Ubuntu vai ajudá-lo a registrar
+uma.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      E se eu pagar pelo aplicativo e depois perdê-lo?
+    </title>
+    <para>
+      Se você acidentalmente removeu um software que você comprou e quer
+instalá-lo de volta, escolha <menuchoice><guimenu>Arquivo</guimenu>
+<guimenuitem>Reinstalar compras anteriores</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Uma vez que você se registrar na conta que você usou para comprar o
+software, a Central de Programas do Ubuntu vai exibir as suas compras para
+reinstalação.
+    </para>
+    <para>
+      Isto funciona mesmo se você tiver reinstalado o Ubuntu no computador.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >E se um programa que eu preciso não estiver disponível?</title>
+    <para>
+      Primeiro, verifique se <menuchoice><guimenu>Visualizar</guimenu>
+<guimenuitem>Todos os programas</guimenuitem></menuchoice> está selecionado.
+    </para>
+    <para>
+      Se o programa que você quer não está ainda disponível, mas você sabe que ele
+roda no Ubuntu, tente contatar os desenvolvedores originais do programa para
+ajudar a torná-lo disponível.
+    </para>
+    <para>
+      Se o programa for disponível para outros sistemas operacionais mas não para
+o Ubuntu, diga a seus desenvolvedores que você está interessado em
+executá-lo no Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >E se um programa não funcionar?</title>
+    <para>
+      Com dezenas de milhares de programas na Central de Programas do Ubuntu, há
+sempre a chance de que uns poucos deles não operem de forma própria no seu
+computador.
+    </para>
+    <para>
+      Se você estiver familiarizado em relatar erro de programas, você pode ajudar
+relatando o erro para os desenvolvedores do Ubuntu. A maioria dos programas
+tem um item <guimenuitem>Relatar erro</guimenuitem> em seu menu
+<guimenu>Ajuda</guimenu>.
+    </para>
+    <para>
+      Caso contrário, procure na Central de Programas do Ubuntu por outro programa
+para fazer o que você quer.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

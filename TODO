@@ -1,0 +1,79 @@
+
+Buy something:
+- centralize the Install/Remove/Buy/etc/ functionality as a gtk.Action
+  and wire it to 1) the menu, 2) applist button and 3) appdetails
+  button (tremolux)
+- fetch the metadata as part of the update-software-center-agent-db
+- do screenshot by constructing screenshot urls from update_sc_agent
+  via entry.screenshot_url by using the archive_id
+
+Code:
+- make the order of "cache, db, datadir" identical 
+  accross the various widgets (e.g. AppDetailsView
+  and AppStore use different ordering)
+
+Webkit:
+- xpm images can not be loaded
+- only simple keyboard nagvigation in the widgets (tab, no
+  cursor keys)
+- make the description -> html processing better, use
+  code from g-a-i for this
+
+Missing functionality compared to g-a-i:
+- displaying EULA
+- enable of components (like universe)
+
+UI:
+- if a package is only available for a subset of the 
+  architectures, do the same as g-a-i and display that in 
+  the details UI (e.g. qlix not available on amd64)
+- add warning if a package is removed that causes the removal
+  of a unreleated meta-package (that is not ubuntu-desktop)
+- implement the removal dialog in the way the spec calls for
+  it (different ui design)
+- implement warning when a package contains of multiple apps
+  and show the apps in this case
+- CellRendererTextWithActivateArrow needs a mode for 
+  right-to-left languages and a button-pressed image
+- refresh app list when a package gets installed (some 
+  packages may no longer be installed/not installed)
+
+Database:
+- to extend to full axi 
+  * change set_data() from appname to pkgname
+  * make database.get_xapian_document() work with empty appname
+
+Missing:
+- when the xapian db is rebuilding (e.g. because app-center is 
+  upgraded) wait for that (just like with the apt cache)
+- pimping of apps (via tweaking the popcon values?)
+
+Missing (hard):
+- keep track of all pending transactions in the apt cache and when
+  a transaction finishes. 
+- when a package is marked for install, block its (and the other 
+  pkgs that get installed) action button in the app details view.
+- think more about all the possible cases with manipulating 
+  pkgs that are also in a queue of pending transactions and the
+  UI implications that have:
+  e.g.:
+  - A depends on B
+  - A is in the queue for install (but not installed now)
+  - B is installed now
+  - the user clicks on removal of B 
+  -> what should the UI say? 
+     "removal of B will result in the removal of A that will get "
+     "installed at some point in the future?"
+  -> what implications does cancel of transactions have? 
+     we need re-calculate the cache when a cancel happens
+  -> what about transactions that come from outside of 
+     software-store
+
+Missing but not so important:
+- searching for codecs (now done by gnome-codec-install)
+- searching for mime-types (?)
+
+- Provide terminal in transactions (?)
+
+
+

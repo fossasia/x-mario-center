@@ -1,0 +1,75 @@
+#!/usr/bin/python
+
+import dbus
+from dbus.mainloop.glib import DBusGMainLoop
+DBusGMainLoop(set_as_default=True)
+import logging
+import sys
+import xapian
+
+from gi.repository import GObject
+
+from softwarecenter.db.database import StoreDatabase
+from softwarecenter.backend import get_install_backend
+import softwarecenter.paths
+
+LOG = logging.getLogger("update-software-center-channels")
+
+def compare_channels_in_db_to_cache(db):
+    # the operation get_origins can take some time (~60s?)
+    cache_origins = set(db._aptcache.get_all_origins())
+    db_origins = set(db.get_origins_from_db())
+    # origins
+    LOG.debug("cache_origins: %s" % cache_origins)
+    LOG.debug("db_origins: %s" % db_origins)
+    # the db_origins will contain origins from the s-c-agent, so
+    # we don't need to rebuild if the db has more origins then
+    # the cache, but we need to rebuild if the cache has origins
+    # that a-x-i does not have
+    if not cache_origins.issubset(db_origins):
+        return True
+    return False
+
+def trigger_axi_update_and_wait():
+    def _axi_finished(res):
+        main.quit()
+    context = GObject.main_context_default()
+    main = GObject.MainLoop(context)
+    system_bus = dbus.SystemBus()
+    try:
+        axi = dbus.Interface(
+            system_bus.get_object("org.debian.AptXapianIndex","/"),
+            "org.debian.AptXapianIndex")
+        axi.connect_to_signal("UpdateFinished", _axi_finished)
+        # first arg is force, second update_only
+        axi.update_async(True, False)
+        main.run()
+    except Exception as e:
+        print e
+        LOG.warning("could not update axi")
+
+def check_for_channel_updates_and_trigger_axi():
+    db = StoreDatabase()
+    db._aptcache.open()
+    db.open()
+    if compare_channels_in_db_to_cache(db):
+        trigger_axi_update_and_wait()
+        return True
+    return False
+
+if __name__ == "__main__":
+    # poor mans argparse
+    if "--debug" in sys.argv:
+        logging.basicConfig(level=logging.DEBUG)
+
+    # do it
+    try:
+        res = check_for_channel_updates_and_trigger_axi()
+        # return "1" means xapian got updated
+        if res:
+            sys.exit(1)
+    except xapian.DatabaseOpeningError as e:
+        # this can happen if there is no a-x-i DB yet and we can ignore it
+        LOG.info("failed to open xapian db: '%s'" % e)
+    # return "0" nothing was done
+    sys.exit(0)

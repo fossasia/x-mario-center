@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="de">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Software-Center</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Ubuntu Documentation Project</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Wie man Software unter Ubuntu installiert und deinstalliert.</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Was ist das Ubuntu Software-Center?</title>
+    <para>
+      Das Software-Center ist ein virtueller Katalog tausender freier Anwendungen
+und anderer Software, um Ihren Ubuntu-Rechner nützlicher zu gestalten.
+    </para>
+    <para>
+      Sie können Software über Kategorien oder über die Suche finden und mit nur
+einem Mausklick installieren.
+    </para>
+    <para>
+      Außerdem können Sie feststellen, welche Anwendungen bereits auf dem Rechner
+installiert sind und alle nicht mehr benötigten entfernen.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Anwendungen installieren</title>
+    <para>
+      Um etwas mit dem Software-Center zu installieren, benötigen Sie
+Systemverwaltungsrechte und eine funktionierende Internetverbindung. (Wenn
+Sie Ubuntu selbst auf dem Rechner installiert haben, besitzen Sie bereits
+Systemverwaltungsrechte.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Suchen Sie im Bereich <guilabel>Anwendungen installieren</guilabel> nach der
+Anwendung, die Sie installieren möchten. Wenn Sie bereits deren Namen
+kennen, können Sie ihn in das Suchfeld eingeben. Oder Sie suchen nach dem
+gewünschten Anwendungstyp (wie zum Beispiel
+&#8220;Tabellenkalkulation&#8221;). Sie können jedoch auch die einzelnen
+Kategorien durchstöbern.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Wählen Sie die Anwendung aus der Liste und klicken Sie auf <guilabel>Weitere
+Informationen</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Klicken Sie auf <guilabel>Installieren</guilabel>. Sie müssen Ihr
+Ubuntu-Passwort eingeben, bevor die Installation beginnen kann.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Wie viel Zeit die Installation benötigt, hängt von der Größe der Anwendung,
+der Geschwindigkeit Ihres Rechners und Ihrer Internetverbindung ab.
+    </para>
+    <para>
+      Wenn auf dem Bildschirm &#8220;Installiert&#8221; zu lesen ist, ist die
+Anwendung bereit zur Verwendung.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Ein installiertes Programm benutzen</title>
+    <para>
+      Die meisten Anwendungen können nach der Installation über das Menü
+<guimenu>Anwendungen</guimenu> gestartet werden. (Hilfsprogramme zum Ändern
+von Einstellungen tauchen stattdessen unter
+<menuchoice><guimenu>System</guimenu>
+<guisubmenu>Einstellungen</guisubmenu></menuchoice> oder
+<menuchoice><guimenu>System</guimenu>
+<guisubmenu>Systemverwaltung</guisubmenu></menuchoice> auf).
+    </para>
+    <para>
+      Um herauszufinden, wo Sie eine neue Anwendung starten können, rufen Sie im
+Software-Center die Detailansicht für dieses Programm auf, falls diese nicht
+immer noch angezeigt wird. Dort sollte unter der farbigen Leiste der Fundort
+im Menü aufgeführt sein.
+    </para>
+    <para>
+      Falls Sie die Ubuntu Netbook Edition verwenden, erscheint eine Anwendung in
+der entsprechenden Kategorie auf dem Startbildschirm.
+    </para>
+    <para>
+      Manche Dinge, wie Media-Codecs oder Webbrowser-Erweiterungen erscheinen
+nicht in den Menüs. Sie werden automatisch benutzt wenn Ubuntu sie
+benötigt. Bei einer Webbrowser-Erweiterung müssen Sie den Browser erst
+schließen und wieder öffnen, bevor diese verwendet werden kann.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Anwendungen entfernen</title>
+    <para>
+      Um Anwendungen zu entfernen, benötigen Sie Systemverwaltungsrechte. (Wenn
+Sie selbst Ubuntu auf dem Rechner installiert haben, verfügen Sie bereits
+über Systemverwaltungsrechte.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Suchen Sie im Bereich <guilabel>Installierte Anwendungen</guilabel> die
+Anwendung, die Sie entfernen möchten.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Wählen Sie die Anwendung aus der Liste und klicken Sie auf
+<guilabel>Entfernen</guilabel>. Sie müssen anschließend Ihr Ubuntu-Passwort
+eingeben.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Wenn Sie ein Programm geöffnet haben, während Sie es entfernen, wird es
+normalerweise geöffnet bleiben, nachdem es entfernt wurde. Sobald Sie es
+schließen, wird es nicht weiter verfügbar sein.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Warum werde ich gefragt, viele verschiedene Programme zusammen zu entfernen?</title>
+    <para>
+      Manchmal werden Sie beim Entfernen eines Objekts vom Ubuntu Software-Center
+gewarnt, dass auch andere Objekte entfernt werden. Dafür gibt es
+hauptsächlich zwei Gründe.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Beim Entfernen einer Anwendung werden normalerweise auch die Erweiterungen
+für diese Anwendung entfernt.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Mehrere Anwendungen werden manchmal in einem Paket zusammengefasst. Wenn
+eine davon installiert ist, sind alle installiert und wenn eine davon
+entfernt wird, werden alle entfernt. Das Software-Center kann Sie nicht
+einzeln entfernen, da es nicht über die Möglichkeit verfügt, sie zu trennen.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Sie können die Einstellungsmöglichkeiten im <guilabel>Hauptmenü</guilabel>
+nutzen, um nicht benötigte Anwendungen zu verbergen, ohne sie vom Rechner zu
+entfernen. Unter Ubuntu finden Sie das <guilabel>Hauptmenü</guilabel> unter
+<menuchoice><guimenu>System</guimenu>
+<guisubmenu>Einstellungen</guisubmenu></menuchoice>. In der »Ubuntu Netbook
+Edition« befindet es sich unter <menuchoice><guimenu>Einstellungen</guimenu>
+<guisubmenu>Einstellungen</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >Die Menüleiste anpassen</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Was bedeutet &#8220;Von Canonical betreut&#8221;?</title>
+    <para>
+      Ein Teil der für Ubuntu verfügbaren Anwendungen wird von Canonical
+betreut. Entwickler von Canonical stellen sicher, dass
+Sicherheitsaktualisierungen oder andere wichtige Aktualisierungen für diese
+Anwendungen bereitgestellt werden.
+    </para>
+    <para>
+      Andere Software wird von der Ubuntu-Entwicklergemeinschaft betreut. Alle
+Aktualisierungen werden so gut es geht bereitgestellt.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Was bedeutet &#8220;Canonical-Partner&#8221;?</title>
+    <para>
+      <guilabel>Canonical-Partner</guilabel> enthält Software von Unternehmen, die
+mit Canonical zusammenarbeiten, um ihre Anwendungen für Ubuntu verfügbar zu
+machen.
+    </para>
+    <para>
+      Sie können diese Software genauso installieren, wie jede andere Software im
+Software-Center.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Muss ich irgendetwas bezahlen?</title>
+    <para>
+      Der überwiegende Teil der Software im Ubuntu Software-Center ist kostenlos.
+    </para>
+    <para>
+      Falls etwas Geld kostet, wird ein <guilabel>Kaufen</guilabel>-Knopf statt
+<guilabel>Installieren</guilabel> angezeigt und der Preis für das Objekt ist
+angegeben.
+    </para>
+    <para>
+      Um für kommerzielle Software zu bezahlen, benötigen Sie eine
+Internetverbindung und ein »Ubuntu Single Sign On«- oder
+Launchpad-Konto. Falls Sie keines besitzen, hilft Ihnen das Ubuntu
+Software-Center bei der Registrierung.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      Was kann ich tun, wenn ich für Anwendungen bezahlt und diese verloren habe?
+    </title>
+    <para>
+      Falls Sie bezahlte Anwendungen versehentlich entfernt haben und Sie erneut
+installieren möchten, wählen Sie <menuchoice><guimenu>Datei</guimenu>
+<guimenuitem>Vorherige Einkäufe neu installieren
+…</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Sobald Sie sich bei dem Konto angemeldet haben, das Sie auch zum Bezahlen
+verwendet haben, werden Ihnen Ihre Einkäufe zum erneuten Installieren
+angezeigt.
+    </para>
+    <para>
+      Dies funktioniert auch, wenn Sie Ubuntu neu installiert haben.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Was tun, wenn ein Programm nicht verfügbar ist?</title>
+    <para>
+      Stellen Sie zunächst sicher, dass <menuchoice><guimenu>Ansicht</guimenu>
+<guimenuitem>Alle Anwendungen</guimenuitem></menuchoice> ausgewählt ist.
+    </para>
+    <para>
+      Wenn die Anwendung immer noch nicht verfügbar ist, Sie jedoch mit Sicherheit
+wissen, dass Sie unter Ubuntu läuft, versuchen Sie ursprünglichen Entwickler
+des jeweiligen Programms zu kontaktieren, um sie zu fragen, ob sie dabei
+helfen können, die Anwendung verfügbar zu machen.
+    </para>
+    <para>
+      Wenn das Programm für andere Betriebssysteme, aber nicht Ubuntu verfügbar
+ist, teilen Sie den Entwicklern mit, dass Sie daran interessiert wären, es
+unter Ubuntu laufen zu haben.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Was, wenn ein Programm nicht funktioniert?</title>
+    <para>
+      Bei mehreren zehntausend Anwendungen im Software-Center besteht immer die
+kleine Chance, dass einige davon nicht richtig auf Ihrem Rechner laufen.
+    </para>
+    <para>
+      Wenn Sie wissen, wie man Fehlerberichte über Software erstellt, können Sie
+helfen indem Sie das Problem den Ubuntu-Entwicklern melden. Die meisten
+Anwendungen haben den Eintrag <guimenuitem>Einen Fehler melden</guimenuitem>
+in ihrem <guimenu>Hilfe</guimenu> Menü.
+    </para>
+    <para>
+      Suchen Sie andernfalls im Ubuntu Software-Center nach einer anderen
+Anwendung, welche die gewünschte Aufgabe erfüllt.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

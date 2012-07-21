@@ -1,0 +1,59 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  Estas permesate kopi, disdoni kaj/aŭ modifi ĉi tiun dokumenton laŭ la
+kondiĉoj de la permesilo GNU Free Documentation License (GFDL), Versio 1.1
+aŭ ajna posta versio publikigita de Free Software Foundation sen iu nevaria
+sekcio, sen iu antaŭakovrila teksto, kaj sen iu malantaŭakovrila
+teksto. Ekzemplero de la GFDL troviĝas ĉe ĉi tiu <ulink type="help"
+url="ghelp:fdl">ligilo</ulink> aŭ en la dosiero COPYING-DOCS, disdonita kun
+ĉi tiu manlibro.
+         </para>
+         <para> Ĉi tiu manlibro estas parto de kolekto de GNOME-manlibroj disdonitaj laŭ la
+GFDL. Se vi volas disdoni ĉi tiun manlibron aparte de la kolekto, vi povas
+fari tion se vi aldonas kopion de la permesilo al la manlibro, kiel
+priskribite en sekcio 6 de la permesilo.
+	</para>
+
+	<para>
+	  Multaj nomoj uzataj de kompanioj por distingi siajn produktojn kaj servojn
+estas alproprigitaj kiel varnomoj. Kie tiuj nomoj aperas en ajna
+GNOME-dokumento, kaj membroj de la Dokumentada Projekto de GNOME estas
+sciigitaj pri tiuj varnomoj, tie la nomoj estas majusklaj aŭ havas
+majusklajn komencliterojn.
+	</para>
+
+	<para>
+	  DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS
+OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT:
+<orderedlist>
+		<listitem>
+		  <para>DOCUMENT IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTY OF ANY KIND,
+EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT
+THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS
+MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE
+RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR
+MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR
+MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL
+WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY
+SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN
+ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION
+OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING
+NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY
+CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE
+DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON
+FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF
+ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL,
+WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES
+OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED
+VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+

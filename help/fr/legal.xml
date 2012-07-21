@@ -1,0 +1,60 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  Permission is granted to copy, distribute and/or modify this document under
+the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any
+later version published by the Free Software Foundation with no Invariant
+Sections, no Front-Cover Texts, and no Back-Cover Texts.  You can find a
+copy of the GFDL at this <ulink type="help" url="ghelp:fdl">link</ulink> or
+in the file COPYING-DOCS distributed with this manual.
+         </para>
+         <para> Ce manuel fait partie d'une collection de manuels GNOME distribués sous la
+licence GFDL. Si vous voulez le distribuer en dehors de la collection, vous
+pouvez le faire lui annexant une copie de la licence, comme décrit dans la
+section 6 de cette licence.
+	</para>
+
+	<para>
+	  La plupart des noms utilisés par les entreprises pour distinguer leurs
+produits et services sont des marques déposées. Lorsque ces noms
+apparaissent dans la documentation GNOME et que les membres du projet de
+Documentation GNOME sont informés de l'existence de ces marques déposées,
+soit ces noms entiers, soit leur première lettre est en majuscule.
+	</para>
+
+	<para>
+	  CE DOCUMENT ET SES VERSIONS MODIFIÉES SONT FOURNIS DANS LE CADRE DE LA
+LICENCE DE DOCUMENTATION LIBRE GNU ET SOUS LES CONDITIONS SUPPLÉMENTAIRES
+SUIVANTES : <orderedlist>
+		<listitem>
+		  <para>LE PRÉSENT DOCUMENT EST FOURNI « TEL QUEL », SANS AUCUNE GARANTIE, EXPRESSE
+OU IMPLICITE, Y COMPRIS, ET SANS LIMITATION, LES GARANTIES DE
+MARCHANDABILITÉ, D'ADÉQUATION À UN OBJECTIF PARTICULIER OU DE NON INFRACTION
+DU DOCUMENT OU DE SA VERSION MODIFIÉE. L'UTILISATEUR ASSUME TOUT RISQUE
+RELATIF À LA QUALITÉ, À LA PERTINENCE ET À LA PERFORMANCE DU DOCUMENT OU DE
+SA VERSION DE MISE À JOUR. SI LE DOCUMENT OU SA VERSION MODIFIÉE S'AVÉRAIT
+DÉFECTUEUSE, L'UTILISATEUR (ET NON LE RÉDACTEUR INITIAL, L'AUTEUR, NI TOUT
+AUTRE PARTICIPANT) ENDOSSERA LES COÛTS DE TOUTE INTERVENTION, RÉPARATION OU
+CORRECTION NÉCESSAIRE. CETTE DÉNÉGATION DE RESPONSABILITÉ CONSTITUE UNE
+PARTIE ESSENTIELLE DE CETTE LICENCE. AUCUNE UTILISATION DE CE DOCUMENT OU DE
+SA VERSION MODIFIÉE N'EST AUTORISÉE AUX TERMES DU PRÉSENT ACCORD, EXCEPTÉ
+SOUS CETTE DÉNÉGATION DE RESPONSABILITÉ ;
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>EN AUCUNE CIRCONSTANCE ET SOUS AUCUNE INTERPRÉTATION DE LA LOI, QU'IL
+S'AGISSE D'UN DÉLIT CIVIL (Y COMPRIS LA NÉGLIGENCE), CONTRACTUEL OU AUTRE,
+L'AUTEUR, LE RÉDACTEUR INITIAL, TOUT PARTICIPANT OU TOUT DISTRIBUTEUR DE CE
+DOCUMENT OU DE SA VERSION MODIFIÉE, OU TOUT FOURNISSEUR DE L'UNE DE CES
+PARTIES NE POURRA ÊTRE TENU RESPONSABLE À L'ÉGARD DE QUICONQUE POUR TOUT
+DOMMAGE DIRECT, INDIRECT, PARTICULIER, OU ACCIDENTEL DE TOUT TYPE Y COMPRIS,
+SANS LIMITATION, LES DOMMAGES LIÉS À LA PERTE DE CLIENTÈLE, À UN ARRÊT DE
+TRAVAIL, À UNE DÉFAILLANCE OU UN MAUVAIS FONCTIONNEMENT INFORMATIQUE, OU À
+TOUT AUTRE DOMMAGE OU PERTE LIÉE À L'UTILISATION DU DOCUMENT ET DE SES
+VERSIONS MODIFIÉES, MÊME SI LADITE PARTIE A ÉTÉ INFORMÉE DE L'ÉVENTUALITÉ DE
+TELS DOMMAGES.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+

@@ -1,0 +1,58 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  Udeľuje sa povolenie kopírovať, šíriť alebo meniť tento dokument za
+podmienok GNU Free Documentation License (GFDL), verzie 1.1 alebo
+ktorejkoľvek novšej verzie, ktorú publikovala Free Software Foundation, bez
+invariantných sekcií, bez textov predných obálok a bez textov zadných
+obálok. Kópiu GFDL nájdete na <ulink type="help" url="ghelp:fdl">tomto
+odkaze</ulink> alebo v súbore COPYING-DOCS, ktorý sa dodáva s touto
+príručkou.
+         </para>
+         <para> Táto príručka je súčasťou kolekcie príručiek GNOME šírených za podmienok
+GFDL. Ak chcete túto príručku šíriť samostatne mimo kolekcie, môžete tak
+učiniť pridaním kópie licencie k príručke ako je popísané v časti 6
+licencie.
+	</para>
+
+	<para>
+	  Mnohé z názvov, ktoré spoločnosti používajú na označenie svojich produktov a
+služieb sa považujú za obchodné značky. Kdekoľvek, kde sa tieto názvy
+nachádzajú v dokumentácii GNOME a členovia Dokumentačného projektu GNOME
+boli oboznámení, že sú to obchodné značky, sú uvedené veľkými písmenami
+alebo veľkým počiatočným písmenom.
+	</para>
+
+	<para>
+	  DOKUMENT A MODIFIKOVANÉ VERZIE DOKUMENTU SA POSKYTUJÚ ZA PODMIENOK GNU FREE
+DOCUMENTATION LICENSE S ĎALŠÍM UZROZUMENÍM, ŽE: <orderedlist>
+		<listitem>
+		  <para>DOKUMENT SA POSKYTUJE „TAK, AKO JE“ BEZ ZÁRUKY AKÉHOKOĽVEK DRUHU, VÝSLOVNEJ
+ALEBO IMPLICITNEJ, VRÁTANE ALE BEZ OBMEDZENIA NA ZÁRUKY, ŽE DOKUMENT ALEBO
+MODIFIKOVANÁ VERZIA DOKUMENTU JE BEZ PORÚCH PREDAJNÝ, VHODNÝ NA URČITÝ ÚČEL
+ALEBO NEPORUŠUJÚCI PRÁVA. CELÁ ZODPOVEDNOSŤ KVALITY, PRESNOSTI A VÝKONNOSTI
+DOKUMENTU ALEBO MODIFIKOVANEJ VERZIE DOKUMENTU LEŽÍ NA VÁS. AK SA
+KTORÝKOĽVEK DOKUMENT ALEBO MODIFIKOVANÁ VERZIA DOKUMENTU UKÁŽE AKO VADNÁ V
+AKOMKOĽVEK OHĽADE, VY (NIE PÔVODNÝ AUTOR ANI ŽIADEN Z PRISPIEVATEĽOV)
+PRIJÍMATE NÁKLADY AKÉHOKOĽVEK POTREBNÉHO SERVISU, OPRAVY ALEBO NÁPRAVY. TOTO
+ZRIEKNUTIE ZÁRUKY TVORÍ NEODDELITEĽNÚ SÚČASŤ TEJTO LICENCIE. ŽIADNE POUŽITIE
+AKÉHOKOĽVEK DOKUMENTU ALEBO MODIFIKOVANEJ VERZIE DOKUMENTU NIE JE
+AUTORIZOVANÉ, JE AUTORIZOVANÉ JEDINE ZA PODMIENOK TOHTO ZRIEKNUTIA ZÁRUKY; A
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>ZA ŽIADNYCH OKOLNOSTÍ A V ŽIADNEJ PRÁVNEJ TEÓRII, ČI Z UBLÍŽENIA (VRÁTANE
+NEDBALOSTI), ZMLUVY ALEBO INAK NEBUDE AUTOR, PÔVODNÝ AUTOR, ŽIADEN Z
+PRISPIEVATEĽOV ANI ŽIADEN Z DISTRIBÚTOROV DOKUMENTU ALEBO MODIFIKOVANEJ
+VERZIE DOKUMENTU ALEBO AKÝKOĽVEK DODÁVATEĽ KTOREJKOĽVEK Z TÝCHTO STRÁN
+ZODPOVEDNÝ KOMUKOĽVEK ZA AKÉKOĽVEK PRIAME, NEPRIAME, ŠPECIÁLNE, NÁHODNÉ
+ALEBO PRÍČINNÉ ŠKODY AKÉHOKOĽVEK CHARAKTERU VRÁTANE, ALE BEZ OBMEDZENIA NA
+ŠKODY ZA STRATU DOBRÉHO MENA, ZASTAVENIA PRÁCE, ZLYHANIA ALEBO PORUCHY
+POČÍTAČA ALEBO AKÉKOĽVEK INÉ ŠKODY ALEBO STRATY V DÔSLEDKU ALEBO V
+SÚVISLOSTI S POUŽITÍM TOHTO DOKUMENTU ALEBO MODIFIKOVANEJ VERZIE DOKUMENTU,
+AJ AK BY TAKÁTO STRANA BOLA INFORMOVANÁ O MOŽNOSTI TAKEJTO ŠKODY.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+

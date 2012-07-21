@@ -1,0 +1,422 @@
+# Arabic translation for software-store
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-store\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-09-25 17:10+0200\n"
+"PO-Revision-Date: 2009-09-28 17:55+0000\n"
+"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
+"Language-Team: Arabic <ar@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n % 100 >= "
+"3 && n % 100 <= 10 ? 3 : n % 100 >= 11 && n % 100 <= 99 ? 4 : 5;\n"
+"X-Launchpad-Export-Date: 2009-09-30 06:47+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../softwarecenter/app.py:349 ../softwarecenter/view/appdetailsview.py:404
+msgid "ERROR"
+msgstr "عطل"
+
+#: ../softwarecenter/apt/aptcache.py:173 ../softwarecenter/apt/aptcache.py:185
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+"لم تعد كانونيكال تُوفِر تحديثات ل %s في أوبونتو %s، لكن يحتمل توفر التحديثات "
+"في إصدار أحدث من أوبونتو."
+
+#: ../softwarecenter/apt/aptcache.py:178
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"تُوفِر كانونيكال التحديثات المهمة لـ %(appname)s حتى "
+"%(support_end_month_str)s ‏%(support_end_year)s."
+
+#: ../softwarecenter/apt/aptcache.py:190
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"تُوفِر كانونيكال التحديثات المهمة من مطوري %(appname)s حتى "
+"%(support_end_month_str)s ‏%(support_end_year)s."
+
+#: ../softwarecenter/apt/aptcache.py:200
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+"لا توفر كانونيكال تحديثات ل%s. قد تكون بعض التحديثات متاحة من مُنتِج آخر."
+
+#: ../softwarecenter/apt/aptcache.py:204
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr "توفر كانونيكال التحديثات المهمة ل%s."
+
+#: ../softwarecenter/apt/aptcache.py:206
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr "توفر كانونيكال التحديثات المهمة التي يوفرها مطوري %s."
+
+#: ../softwarecenter/apt/aptcache.py:209
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+"لا توفر كانونيكال تحديثات ل%s. قد تأتي بعض التحديثات من مجتمع أوبونتو."
+
+#: ../softwarecenter/apt/aptcache.py:212
+#, python-format
+msgid "Application %s has a unkown maintenance status."
+msgstr "حالة صيانة التطبيق %s غير معروفة."
+
+#: ../softwarecenter/view/appdetailsview.py:89
+msgid "Description"
+msgstr "الوصف"
+
+#: ../softwarecenter/view/appdetailsview.py:181
+#: ../softwarecenter/view/appdetailsview.py:186
+msgid "Not available in the current data"
+msgstr "غير متوفر في البيانات الحالية"
+
+#: ../softwarecenter/view/appdetailsview.py:184
+msgid "Not available for your hardware architecture."
+msgstr "غير متوفر لبُنية عتادك."
+
+#: ../softwarecenter/view/appdetailsview.py:211
+#: ../softwarecenter/view/appdetailsview.py:215
+msgid "Application Screenshot"
+msgstr "لقطة شاشة من التطبيق"
+
+#: ../softwarecenter/view/appdetailsview.py:239
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "الإصدارة: %s (%s)"
+
+#. generic message
+#: ../softwarecenter/view/appdetailsview.py:257
+#, python-format
+msgid "%s is installed on this computer."
+msgstr "‏%s مثبت على هذا الحاسوب."
+
+#: ../softwarecenter/view/appdetailsview.py:269
+#, python-format
+msgid "It is used by %s piece of installed software."
+msgid_plural "It is used by %s pieces of installed software."
+msgstr[0] "لا تستخدمه أي من البرمجيات المثبّتة."
+msgstr[1] "تستخدمه واحدة من البرمجيات المثبّتة."
+msgstr[2] "تستخدمه اثنتان من البرمجيات المثبّتة."
+msgstr[3] "تستخدمه %s من البرمجيات المثبّتة."
+msgstr[4] "تستخدمه %s من البرمجيات المثبّتة."
+msgstr[5] "تستخدمه %s من البرمجيات المثبّتة."
+
+#: ../softwarecenter/view/appdetailsview.py:274
+msgid "Website"
+msgstr "الموقع"
+
+#: ../softwarecenter/view/appdetailsview.py:277
+msgid "Unknown"
+msgstr "مجهول"
+
+#: ../softwarecenter/view/appdetailsview.py:279
+msgid "Open Source"
+msgstr "مفتوح المصدر"
+
+#: ../softwarecenter/view/appdetailsview.py:281
+msgid "Proprietary"
+msgstr "محتكر"
+
+#: ../softwarecenter/view/appdetailsview.py:282
+#, python-format
+msgid "License: %s"
+msgstr "الترخيص: %s"
+
+#. TRANSLATORS: This text will be showed as price of the software
+#: ../softwarecenter/view/appdetailsview.py:286
+msgid "Free"
+msgstr "حرّ"
+
+#: ../softwarecenter/view/appdetailsview.py:287
+#, python-format
+msgid "Price: %s"
+msgstr "السعر: %s"
+
+#: ../softwarecenter/view/appdetailsview.py:327
+#, python-format
+msgid "%s - Screenshot"
+msgstr "‏%s - لقطة شاشة"
+
+#. generic removal text
+#. FIXME: this text is not accurate, we look at recommends as
+#. well as part of the rdepends, but those do not need to
+#. be removed, they just may be limited in functionatlity
+#: ../softwarecenter/view/appdetailsview.py:346
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr "لإزالة %s، يجب أيضا إزالة العناصر التالية:"
+
+#: ../softwarecenter/view/appdetailsview.py:348
+msgid "Remove All"
+msgstr "أزل الكل"
+
+#: ../softwarecenter/view/appdetailsview.py:354
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+"إذا أزلت %s فلن تُضمّن العناصر الجديدة من طقم <b>%s</b> في التحديثات "
+"المستقبلية. أمتأكد أنك تريد الاستمرار؟"
+
+#: ../softwarecenter/view/appdetailsview.py:357
+#: ../softwarecenter/view/appdetailsview.py:368
+msgid "Remove Anyway"
+msgstr "أزل على كل حال"
+
+#: ../softwarecenter/view/appdetailsview.py:364
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"‏%s مكون أساسي في أوبونتو. قد تتسبب إزالته في أن تكون الترقيات المستقبلية "
+"ناقصة. أمتأكد أنك تريد المتابعة؟"
+
+#: ../softwarecenter/view/appdetailsview.py:427
+msgid "Upgrade"
+msgstr "رقِّ"
+
+#: ../softwarecenter/view/appdetailsview.py:430
+msgid "Remove"
+msgstr "أزل"
+
+#: ../softwarecenter/view/appdetailsview.py:433
+msgid "Install"
+msgstr "ثبّت"
+
+#. FIXME: deal with the EULA stuff
+#: ../softwarecenter/view/appdetailsview.py:442
+msgid "Enable channel"
+msgstr "فعّل القناة"
+
+#: ../softwarecenter/view/appdetailsview.py:469
+msgid "_Keep"
+msgstr "أب_ق"
+
+#: ../softwarecenter/view/appdetailsview.py:470
+msgid "_Replace"
+msgstr "ا_ستبدل"
+
+#: ../softwarecenter/view/appdetailsview.py:472
+#, python-format
+msgid "Configuration file '%s' changed"
+msgstr "تغيّر ملف التضبيط '%s'"
+
+#: ../softwarecenter/view/appdetailsview.py:473
+msgid "Do you want to use the new version?"
+msgstr "أتريد استخدام الإصدارة الجديدة؟"
+
+#. home button
+#: ../softwarecenter/view/availablepane.py:88
+#: ../softwarecenter/view/viewswitcher.py:128
+msgid "Get Free Software"
+msgstr "احصل على البرمجيات الحرة"
+
+#: ../softwarecenter/view/availablepane.py:138
+#: ../softwarecenter/view/installedpane.py:127
+#, python-format
+msgid "%s matching item"
+msgid_plural "%s matching items"
+msgstr[0] "لا عناصر مطابقة"
+msgstr[1] "عنصر واحد مطابق"
+msgstr[2] "عنصران مطابقان"
+msgstr[3] "%s عناصر مطابقة"
+msgstr[4] "%s عنصرا مطابقا"
+msgstr[5] "%s عنصر مطابق"
+
+#: ../softwarecenter/view/availablepane.py:142
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] "لا عناصر متوفرة"
+msgstr[1] "عنصر واحد متوفر"
+msgstr[2] "عنصران متوفران"
+msgstr[3] "%s عناصر متوفرة"
+msgstr[4] "%s عنصرا متوفرا"
+msgstr[5] "%s عنصر متوفر"
+
+#: ../softwarecenter/view/catview.py:71 ../softwarecenter/view/catview.py:106
+msgid "Departments"
+msgstr "الأقسام"
+
+#: ../softwarecenter/view/dialogs.py:45
+msgid "Details"
+msgstr "التفاصيل"
+
+#: ../softwarecenter/view/dialogs.py:80
+msgid "Cancel"
+msgstr "ألغِ"
+
+#. FIXME: make this a generic pkgview widget
+#: ../softwarecenter/view/dialogs.py:88
+msgid "Dependency"
+msgstr "الاعتمادية"
+
+#: ../softwarecenter/view/installedpane.py:74
+#: ../softwarecenter/view/viewswitcher.py:130
+msgid "Installed Software"
+msgstr "البرمجيات المثبتة"
+
+#: ../softwarecenter/view/installedpane.py:131
+#, python-format
+msgid "%s installed item"
+msgid_plural "%s installed items"
+msgstr[0] "لا عناصر مثبتة"
+msgstr[1] "عنصر واحد مثبت"
+msgstr[2] "عنصران مثبتان"
+msgstr[3] "%s عناصر مثبتة"
+msgstr[4] "%s عنصرا مثبتا"
+msgstr[5] "%s عنصر مثبت"
+
+#: ../softwarecenter/view/viewswitcher.py:160
+#: ../softwarecenter/view/viewswitcher.py:165
+#, python-format
+msgid "In Progress (%i)"
+msgstr "في تقدم (%i)"
+
+#: ../data/ui/SoftwareCenter.ui.h:1
+msgid "&#xA9;2009 Canonical"
+msgstr "&#xA9 كانونيكال 2009"
+
+#: ../data/ui/SoftwareCenter.ui.h:2
+msgid "Copy _Web Link"
+msgstr "انسخ _رابط الوِب"
+
+#: ../data/ui/SoftwareCenter.ui.h:3
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr "يمكنك أن تختار من بين آلاف التطبيقات الحرّة المتوفرة في أوبونتو."
+
+#: ../data/ui/SoftwareCenter.ui.h:4
+msgid "Rebuilding application catalog..."
+msgstr "يُعيد بناء دليل البرامج..."
+
+#: ../data/ui/SoftwareCenter.ui.h:5
+msgid "Search..."
+msgstr "ابحث..."
+
+#: ../data/ui/SoftwareCenter.ui.h:6
+msgid "Software Center _Help"
+msgstr "_مساعدة مركز البرمجيات"
+
+#: ../data/ui/SoftwareCenter.ui.h:7
+#: ../data/ubuntu-software-center.desktop.in.h:3
+msgid "Ubuntu Software Center"
+msgstr "مركز برمجيات أوبونتو"
+
+#: ../data/ui/SoftwareCenter.ui.h:8
+msgid "_All Applications"
+msgstr "جميع الت_طبيقات"
+
+#: ../data/ui/SoftwareCenter.ui.h:9
+msgid "_Canonical-Maintained Applications"
+msgstr "التطبيقات التي _تديرها كانونيكال"
+
+#: ../data/ui/SoftwareCenter.ui.h:10
+msgid "_Edit"
+msgstr "_تحرير"
+
+#: ../data/ui/SoftwareCenter.ui.h:11
+msgid "_File"
+msgstr "_ملف"
+
+#: ../data/ui/SoftwareCenter.ui.h:12
+msgid "_Help"
+msgstr "_مساعدة"
+
+#: ../data/ui/SoftwareCenter.ui.h:13
+msgid "_Install"
+msgstr "_ثبّت"
+
+#: ../data/ui/SoftwareCenter.ui.h:14
+msgid "_Software Sources..."
+msgstr "_مصادر البرمجيات..."
+
+#: ../data/ui/SoftwareCenter.ui.h:15
+msgid "_View"
+msgstr "_عرض"
+
+#: ../data/ui/SoftwareCenter.ui.h:16
+msgid "available"
+msgstr "متوفر"
+
+#: ../data/ui/SoftwareCenter.ui.h:17
+msgid "installed"
+msgstr "مثبت"
+
+#: ../data/ui/SoftwareCenter.ui.h:18
+msgid "pending"
+msgstr "ينتظر"
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr "يمكنك أن تختار من بين آلاف التطبيقات الحرّة المتوفرة في أوبونتو"
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+msgid "Software Center"
+msgstr "مركز البرمجيات"
+
+#, python-format
+#~ msgid "Search in %s"
+#~ msgstr "ابحث في %s"
+
+#~ msgid "Installed software"
+#~ msgstr "البرمجيات المثبتة"
+
+#~ msgid "Get Free software"
+#~ msgstr "احصل على برمجيات مجانية"
+
+#, python-format
+#~ msgid "%s items available"
+#~ msgstr "%s عناصر متوفرة"
+
+#~ msgid "Install and remove software"
+#~ msgstr "ثبّت و أزل برمجيات"
+
+#, python-format
+#~ msgid "Pending (%i)"
+#~ msgstr "ينتظِر (%i)"
+
+#~ msgid "Software Store"
+#~ msgstr "متجر البرمجيات"
+
+#~ msgid "Ubuntu Software Store"
+#~ msgstr "متجر برمجيات أوبونتو"
+
+#, python-format
+#~ msgid "%s is a core component"
+#~ msgstr "%s هو مكون أساسي"
+
+#, python-format
+#~ msgid "%s depends on other software on the system. "
+#~ msgstr "%s يعتمد على برمجيات أخرى في النظام "
+
+#~ msgid ""
+#~ "Uninstalling it means that the following additional software needs to be "
+#~ "removed."
+#~ msgstr "إلغاء تثبيته يعني أن البرمجيات الإضافية التالية يجب إزالتها."
+
+#~ msgid "All"
+#~ msgstr "الكل"

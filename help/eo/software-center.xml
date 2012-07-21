@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="eo">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Ubuntu-programarejo</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Dokumentad-projekto de Ubuntu</publishername>
+</publisher> &legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>VOGT</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>THOMAS</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>HIGGINSON</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Kiel instali kaj forigi programarojn en Ubuntu</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Kio estas Ubuntu-programarejo?</title>
+    <para>
+      Ubuntu-programarejo estas virtuala katalogo kun miloj da senkostaj aplikaĵoj
+kaj aliaj programaroj por pli-utilebligi vian Ubuntu-komputilon.
+    </para>
+    <para>
+      Vi povas trovi programaron laŭ kategorio aŭ serĉante, kaj vi povas instali
+eron simple alklakante butonon.
+    </para>
+    <para>
+      Vi povas ankaŭ eltrovi kiu programaro estas jam instalita sur la komputilo,
+kaj forigi ne plu bezonatan programaron.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Instalado de programaro</title>
+    <para>
+      Por instali ion per Ubuntu-programarejo, vi bezonas administrajn rajtojn kaj
+funkciantan interretan konekton. (Se vi memstare instalis Ubuntu sur tiu ĉi
+komputilo, vi aŭtomate havas administrajn rajtojn.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Serĉu la deziratan programaron en la sekcio <guilabel>Akiri
+programaron</guilabel>. Se vi jam scias ĝian nomon, provu entajpi la nomon
+en la serĉkampo. Aŭ provu serĉi la deziratan programspecon (ekzemple
+&#8220;kalkultabelon&#8221;). Vi povas ankaŭ simple trafoliumi la liston kun
+kategorioj.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Elektu la eron en la listo, kaj elektu <guilabel>Pliaj informoj</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Elektu <guilabel>Instali</guilabel>. Eble vi devos entajpi vian
+Ubuntu-pasvorton antaŭ ol la instalado povos komenciĝi.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Kiom longe daŭras instali ion dependas de ĝia grando kaj de la rapideco de
+via komputilo kaj interreta konekto.
+    </para>
+    <para>
+      Kiam la ekrano ŝanĝiĝas por diri &#8220;Instalita&#8221;, la programro estas
+uzebla.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Uzi programaron jam instalitan</title>
+    <para>
+      Post kiam ili estas instalitaj, vi povas lanĉi la plej multajn aplikaĵojn
+per la menuo <guimenu>Aplikaĵoj</guimenu>. (Aplikaĵojn por ŝanĝi agordojn vi
+eble trovas en <menuchoice><guimenu>Sistemo</guimenu>
+<guisubmenu>Agordoj</guisubmenu></menuchoice> aŭ en
+<menuchoice><guimenu>Sistemo</guimenu>
+<guisubmenu>Administrado</guisubmenu></menuchoice>).
+    </para>
+    <para>
+      Por eltrovi kie lanĉi novan programon, navigu al la ekrano por tiu programo
+en Ubuntu-Programarejo, se ĝi ne videblas. La menuloko devus esti videbla en
+tiu ekrano sub la kolora breto.
+    </para>
+    <para>
+      Se vi uzas je "Ubuntu Netbook Edition", aplikaĵo videblas en la rilata
+kategorio en la hejma ekrano.
+    </para>
+    <para>
+      Iuj eroj, ekzemple kromprogramoj por spektado aŭ foliumado, ne aperas en la
+menuoj. Ubuntu aŭtomate uzas ilin laŭ neceso. Por foliuma kromprogramo, vi
+eble devos fermi la foliumilon kaj reruli ĝin por ke ĝi uzu la
+kromprogramon.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Malinstali programaron</title>
+    <para>
+      Por malinstali programron, oni bozonas administrajn rajtojn. (Se vi mem
+instalis je Ubuntu en ĉi tiu komputilo, vi aŭtomate havas administrajn
+rajtojn.
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          En la sekcio <guilabel>Instalitaj programaroj</guilabel>, serĉu la eron
+forigotan.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Elektu la eron en la listo, kaj elektu <guilabel>Forigi</guilabel>.  Eble vi
+devos enigi vian Ubuntu-pasvorton.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Se programo estas rulata kiam vi malinstalas ĝin, ĝi restos rulata eĉ post
+forigo. Kiam vi haltos ĝin, ĝi tuj estos ne plu disponebla.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Kial ĝi postulas ke mi malinstalu kelkajn programojn kune?</title>
+    <para>
+      Kiam oni provas forigi eron, iam Ubuntu-Programarejo avertos ke aliaj eroj
+ankaŭ estos forigitaj. Ekzistas du ĉefaj kialoj por tio.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Se vi malinstalas aplikaĵon, eventualaj kromprogramoj por tiu aplikaĵo
+plejofte ankaŭ estos forigitaj.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Foje pluraj aplikaĵoj disponeblas kiel unuopa pakaĵo. Se oni instalas iun el
+ili, oni instalas ĉiujn. Kaj se oni forigas iun el ili, forigas
+ĉiujn. Ubuntu-Programarejo ne povas forigi ilin unuope, ĉar ĝi ne havas
+instrukciojn por apartigi ilin.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Oni povas uzi la agordojn <guilabel>Ĉefa menuo</guilabel> por kaŝi
+nebezonatajn erojn sen forigi ilin el la komputilo. En Ubuntu, oni povas
+trovi je <guilabel>Ĉefa menuo</guilabel> en
+<menuchoice><guimenu>Sistemo</guimenu>
+<guisubmenu>Preferoj</guisubmenu></menuchoice>.  En Ubuntu Netbook Edition,
+ĝi troviĝas en <menuchoice><guimenu>Agordoj</guimenu>
+<guisubmenu>Preferoj</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >Tajlori la menuan breton</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Kio estas &#8220;prizorgata de Canonical&#8221;?</title>
+    <para>
+      Iuj programaroj disponeblaj por Ubuntu estas prizorgataj de
+Canonical. Inĝenieroj ĉe Canonical certigas ke tiuj programaroj ricevas
+sekurecajn riparojn kaj aliajn kritajn aktualigojn.
+    </para>
+    <para>
+      Aliajn programarojn prizorgas la Ubuntu-komunumo. Eventualaj aktualigoj
+disponeblas laŭ plejeblo.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Kio estas &#8220;Partneroj de Canonical&#8221;?</title>
+    <para>
+      <guilabel>Partneroj de Canonical</guilabel> vidigas programarojn de
+vendistoj kiuj laboris kun Canonical por disponigi siajn programarojn por
+Ubuntu.
+    </para>
+    <para>
+      Oni povas instali tian programaron sammaniere al ajna programaro en
+Ubuntu-Programarejo.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Ĉu mi devas pagi?</title>
+    <para>
+      Plejmultaj programaroj en Ubuntu-Programarejo estas senpagaj.
+    </para>
+    <para>
+      Se io kostas, ĝi havas butonon <guilabel>Aĉeti</guilabel> anstataŭ butono
+<guilabel>Instali</guilabel>, kaj la prezo por tiu ero vidiĝas en la ekrano.
+    </para>
+    <para>
+      Por pagi por komerca programaro, oni bezonas interretan konekton, kaj konton
+Unufojan Ensalutan de Ubuntu (Ubuntu Single Sign On) aŭ konton de
+Launchpad. Se vi ne havas konton, Ubuntu-Programarejo helpos vin registri
+iun.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      Kio okazos se mi pagis por programaro kaj perdis ĝin?
+    </title>
+    <para>
+      Se vi akcidente malinstalis programaron aĉetitan de vi, kaj vi volas rehavi
+ĝin, elektu je <menuchoice><guimenu>Dosiero</guimenu> <guimenuitem>Reinstali
+antaŭe aĉetitajn</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Kiam vi estas ensalutinta al la konto kiun vi uzis por aĉeti la programaron,
+Ubuntu-Programarejo vidigos viajn aĉetitajn reinstaleblajn.
+    </para>
+    <para>
+      Tio okazos eĉ se vi reinstalis je Ubuntu en la komputilo.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Kio okazos se dezirata programaro ne disponeblas?</title>
+    <para>
+      Unue kontrolu ke <menuchoice><guimenu>Vidigi</guimenu> <guimenuitem>Ĉiuj
+Programaroj</guimenuitem></menuchoice> estas elektita.
+    </para>
+    <para>
+      Se la programaro dezirata ne vidiĝas, sed vi scias ke ĝi estas rulebla de
+Ubuntu, provu kontakti la evoluigantoj de la programaro por peti ke ili
+disponigu ĝin.
+    </para>
+    <para>
+      Se la programaro disponeblas por aliaj mastrumaj sistemo sed ne por Ubuntu,
+sciigu la evoluigantojn ke vin interesas ruli ĝin per Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Kio se la programo ne funkcias?</title>
+    <para>
+      En dekoj da miloj da programoj en Ubuntu-Programarejo, ĉiam eblas ke kelkaj
+ne funkcios en via komputilo.
+    </para>
+    <para>
+      Se vi scias kiel raporti cimojn, vi povas helpi raportante la problemon al
+la evoluigantoj de Ubuntu. Plejmultaj programoj havas eron
+<guimenuitem>Raporti problemon</guimenuitem> en sia menuo
+<guimenu>Helpo</guimenu>.
+    </para>
+    <para>
+      Alie, serĉu tra Ubuntu-Programarejo por alia programo por fari tion kion vi
+deziras.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

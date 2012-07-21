@@ -1,0 +1,178 @@
+#!/usr/bin/python
+# Copyright (C) 2009-2011 Canonical
+#
+# Authors:
+#  Michael Vogt
+#
+# This program is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; version 3.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+
+# take time stamp as early as python allows this
+import time
+time_entering_main = time.time()
+
+
+from gi.repository import Gtk, GObject
+
+import gettext
+import glob
+import logging
+import os
+import time
+import sys
+
+from softwarecenter.enums import *
+from softwarecenter.paths import XAPIAN_BASE_PATH
+from softwarecenter.utils import (
+    ExecutionTime, mangle_paths_if_running_in_local_checkout)
+from softwarecenter.version import *
+
+import softwarecenter.log
+import softwarecenter.paths
+
+from optparse import OptionParser
+
+# Enable Xapian's CJK tokenizer (see LP: #745243)
+os.environ['XAPIAN_CJK_NGRAM'] = '1'
+
+LOG = logging.getLogger("softwarecenter")
+
+if __name__ == "__main__":
+
+    parser = OptionParser("usage: %prog [options] [package-name | apturl | deb-file]", 
+                          version="%prog "+VERSION)
+    parser.add_option("--debug", action="store_true",
+                      help="enable debug mode", default=False)
+    parser.add_option("--debug-filter", 
+                      help="show only specific messages. supported currently: "
+                           "'softwarecenter.performance'")
+    parser.add_option("--force-rtl", action="store_true",
+                      help="force rtl mode (useful for debugging)", 
+                      default=False)
+    parser.add_option("--display-navlog", action="store_true",
+                      help="display a navigation history log (useful for debugging)", 
+                      default=False)
+    # FIXME:  REMOVE THIS option once launchpad integration is enabled
+    #         by default
+    parser.add_option("--enable-lp", action="store_true",
+                      help="enable launchpad integration (for development use)", 
+                      default=False)
+    parser.add_option("--disable-buy", action="store_true",
+                      help="disable support to buy software",
+                      default=False)
+    parser.add_option("--disable-apt-xapian-index", action="store_true",
+                      help="disable support for apt-xapian-index (technical items)",
+                      default=False)
+    parser.add_option("--measure-startup-time", action="store_true",
+                      help="open and wait until the window is visible, then close, only useful for profiling",
+                      default=False)
+    parser.add_option("--dummy-backend", action="store_true",
+                      help="run with a dummy backend, this will not actually install or remove anything and is useful for testing",
+                      default=False)
+    parser.add_option("--packagekit-backend", action="store_true",
+                      help="use PackageKit backend (experimental)", 
+                      default=False)
+
+    (options, args) = parser.parse_args()
+
+    # statup time measure implies "performance" in debug filters
+    if options.measure_startup_time:
+        options.debug_filter = "performance,traceback"
+    
+    if options.debug_filter:
+        softwarecenter.log.add_filters_from_string(options.debug_filter)
+        # implies general debug
+        options.debug = True
+        
+    if options.debug:
+        softwarecenter.log.root.setLevel(level=logging.DEBUG)
+    else:
+        softwarecenter.log.root.setLevel(level=logging.INFO)
+    
+    # packagekit
+    if options.packagekit_backend:
+        softwarecenter.enums.USE_PACKAGEKIT_BACKEND = True
+        logging.info("Using PackageKit backend")
+
+    # dummy backend
+    if options.dummy_backend:
+        import atexit
+        from softwarecenter.testutils import start_dummy_backend, stop_dummy_backend
+        start_dummy_backend()
+        atexit.register(stop_dummy_backend)
+
+    # override text direction for testing purposes
+    if options.force_rtl:
+        Gtk.Widget.set_default_direction(Gtk.TextDirection.RTL)
+
+    # check if running locally
+    (datadir, xapian_base_path) = mangle_paths_if_running_in_local_checkout()
+
+    # ensure we can actually run
+    Gtk.init_check(sys.argv)
+
+    # set default ssl-ca-file here because it needs only be set once, but
+    # it can not be set in the global context as this will cause segfaults
+    # on exit. However its IMPORTANT to set it as libsoup is *not* secure
+    # by default (see bugzilla #666280 and #666276)
+    from gi.repository import WebKit as webkit
+    # enable certificates validation in webkit views unless specified otherwise
+    if not "SOFTWARE_CENTER_FORCE_DISABLE_CERTS_CHECK" in os.environ:
+        session = webkit.get_default_session()
+        session.set_property("ssl-ca-file", "/etc/ssl/certs/ca-certificates.crt")
+    else:
+        # WARN the user!! Do not remove this
+        LOG.warning("SOFTWARE_CENTER_FORCE_DISABLE_CERTS_CHECK " +
+                    "has been specified, all purchase transactions " + 
+                    "are now INSECURE and UNENCRYPTED!!")
+
+    # create the app
+    from softwarecenter.ui.gtk3.app import SoftwareCenterAppGtk3
+    with ExecutionTime("create SoftwareCenterApp"):
+        app = SoftwareCenterAppGtk3(datadir, xapian_base_path, options, args)
+
+    # DEBUG/PROFILE mode 
+    if options.measure_startup_time:
+        logger = logging.getLogger("softwarecenter.performance")
+        with ExecutionTime("show() & gtk events until visible"):
+            def are_we_there_yet():
+                """ small helper that monitors the main window appearance """
+                global main_visible
+                # useful to check how often this is run - not often :/
+                print time.time()
+                if not main_visible and app.window_main.get_visible():
+                    logger.debug("** main window visible after: %s seconds" % (
+                            time.time() - time_entering_main))
+                    main_visible = True
+                    return False
+                return True
+
+            # run watcher for main window
+            main_visible = False
+            GObject.timeout_add(100, are_we_there_yet)
+            app.run(args)
+
+            # keep monitoring the loop
+            while not (app.available_pane.cat_view and
+                       app.available_pane.cat_view.get_visible()):
+                Gtk.main_iteration_do(True)
+
+        time_to_ready = time.time() - time_entering_main
+        print(time_to_ready)
+        logger.debug("** main window fully ready after: %s seconds" % time_to_ready)
+        sys.exit(0)
+
+    # run it normally
+    app.run(args)
+    Gtk.main()
+

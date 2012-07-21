@@ -1,0 +1,57 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  Tätä ohjetta saa vapaasti kopioida, levittää ja muokata GNU Free
+Documentation License (GFDL) -lisenssin ehtojen mukaisesti. Voit käyttää
+lisenssin versiota 1.1 tai mitä tahansa Free Software Foundationin
+julkaisemaa myöhempää versiota. Lisenssin ehtoja vakioluvuista ja etu- ja
+takakansiteksteistä ei sovelleta. Kopio GFDL-lisenssistä löytyy <ulink
+type="help" url="ghelp:fdl">täältä</ulink> tai tämän ohjeen mukana
+toimitetusta COPYING-DOCS-tiedostosta.
+         </para>
+         <para> Tämä ohje on osa Gnomen käyttöohjeiden kokoelmaa ja käytettävissä
+GFDL-lisenssillä. Voit levittää tätä ohjetta erillisenä ilman muita
+kokoelmaan kuuluvia ohjeita liittämällä mukaan kopioin ohjeen lisenssistä
+lisenssin osion 6 ehtojen mukaisesti.
+	</para>
+
+	<para>
+	  Monet tuotteiden ja palveluiden nimet ovat tuotemerkkejä. Gnomen
+dokumentointiprojektissa nämä nimet pyritään kirjoittamaan suuraakkosin tai
+isolla alkukirjaimella, sikäli kun projektin jäsenet tietävät kyseisistä
+tuotemerkeistä.
+	</para>
+
+	<para>
+	  TÄMÄ OHJE JA SEN MUOKATUT VERSIOT OVAT KÄYTETTÄVISSÄ GNU FREE DOCUMENTATION
+LICENSE -LISENSSIN EHTOJEN MUKAISESTI SEURAAVIN TARKENNUKSIN: <orderedlist>
+		<listitem>
+		  <para>ASIAKIRJA TARJOTAAN SELLAISENAAN, ILMAN MINKÄÄNLAISTA KIRJATTUA TAI
+KONKLUDENTTISTA RAJATONTA TAKUUTA ASIAKIRJAN TAI SEN MUOKATUN VERSION
+VIRHEETTÖMYYDESTÄ, SOPIVUUDESTA KAUPALLISEEN KÄYTTÖÖN TAI TIETTYYN
+KÄYTTÖTARKOITUKSEEN TAI LOUKKAAMATTOMUUDESTA. TÄYSI VASTUU ASIAKIRJAN TAI
+SEN MUOKATUN VERSION LAADUSTA, TARKKUUDESTA JA TOIMIVUUDESTA ON
+KÄYTTÄJÄLLÄ. JOS ASIAKIRJA TAI SEN MUOKATTU VERSIO OSOITTAUTUU JOLLAKIN
+TAVALLA VIRHEELLISEKSI, KÄYTTÄJÄ (EI ALKUPERÄINEN KIRJOITTAJA TAI MUU
+TEKIJÄ) VASTAA PALVELUJEN, KORJAUSTEN TAI OIKAISUJEN KUSTANNUKSISTA. TÄMÄ
+VASTUUVAPAUSLAUSEKE ON EROTTAMATON OSA LISENSSIÄ. ASIAKIRJAN TAI SEN
+MUOKATTUJEN VERSIOIDEN KÄYTTÖ ON SALLITTUA VAIN TÄMÄN VASTUUVAPAUSLAUSEKKEEN
+NOJALLA; SEKÄ
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>MISSÄÄN OLOSUHTEISSA TAI MINKÄÄN OIKEUSLAITOKSEN ALAISUUDESSA, NIIN
+OIKEUSLOUKKAUKSISSA (MUKAAN LUKIEN HUOLIMATTOMUUS), SOPIMUS TAI MUUTOIN,
+ASIAKIRJAN TAI SEN MUOKATUN VERSION TEKIJÄ, ALKUPERÄINEN KIRJOITTAJA, KUKAAN
+AVUSTAJISTA, KUKAAN LEVITTÄJÄ TAIKKA KUKAAN TARJOAJA EI OLE VASTUUSSA
+KENELLEKÄÄN SUORASTA, EPÄSUORASTA, ERITYISESTÄ, TAPATURMAISESTA TAI
+VÄLILLISESTÄ VAHINGOSTA SISÄLTÄEN RAJOITUKSETTA VAHINGOT LIIKEARVON
+MENETYKSESTÄ, TYÖN KESKEYTYMISESTÄ, TIETOKONEVIRHEESTÄ TAI -HÄIRIÖSTÄ TAIKKA
+MISTÄÄN MUUSTA VAHINGOSTA TAI MENETYKSESTÄ, JOKA ILMENEE TAI LIITTYY
+ASIAKIRJAN TAI SEN MUOKATUN VERSION KÄYTTÖÖN EDES SILLOIN KUN OSAPUOLTA ON
+OLLUT TIETOINEN TÄLLAISEN VAHINGON MAHDOLLISUUDESTA.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+

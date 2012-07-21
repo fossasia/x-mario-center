@@ -1,0 +1,59 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  Permissão para copiar, distribui e/ou modificar este documento sob os termos
+da Licença de Documentação Livre(GFDL - GNU Free Documentation License),
+Versão 1.1 ou qualquer outra versão mais recente publicada pela Free
+Software Foundation sem seções invariantes, texto de capa frontal e sem
+texto de quarta capa. Você pode encontrar uma cópia da GFDL através deste
+<ulink type="help" url="ghelp:fdl">link</ulink> ou no arquivo COPYING-DOCS
+distribuído com este manual.
+         </para>
+         <para> Este manual é parte de uma coleção de manuais para o GNOME distribuídos sob
+a GFDL. Se você deseja distribuir este manual separado da coleção, você pode
+fazê-lo, desde que adicione uma cópia da licença ao manual, conforme a seção
+6 da licença.
+	</para>
+
+	<para>
+	  Muitos dos nomes usados por companhias para distinguir seus produtos e
+serviços são marcas registradas. Quando esses nomes ocorrem em alguma parte
+da documentação do GNOME, e os membros do Projeto de documentação do GNOME
+estiverem cientes de serem marcas registradas, esses nomes estarão
+maiúsculas ou com as iniciais em maiúsculas.
+	</para>
+
+	<para>
+	  O DOCUMENTO E SUAS VERSÕES MODIFICADAS SÃO DISPONIBILIZADOS SOB OS TERMOS DA
+LICENÇA DE DOCUMENTAÇÃO LIVRE (GFDL) COM O ENTENDIMENTO DE QUE: <orderedlist>
+		<listitem>
+		  <para>O DOCUMENTO É FORNECIDO COMO UMA BASE "COMO ESTÁ", SEM GARANTIAS DE QUALQUER
+TIPO, TANTO EXPRESSA OU IMPLÍCITA, INCLUINDO, SEM LIMITAÇÃO, GARANTIAS DE
+QUE O DOCUMENTO OU VERSÃO MODIFICADA DO DOCUMENTO É COMERCIALIZÁVEL, LIVRE
+DE DEFEITOS, PRÓPRIO PARA UM PROPÓSITO ESPECÍFICO OU SEM INFRAÇÕES. TODO O
+RISCO A RESPEITO DA QUALIDADE, EXATIDÃO, E DESEMPENHO DO DOCUMENTO OU
+VERSÕES MODIFICADAS DO DOCUMENTO É SEU. SE ALGUM DOCUMENTO OU VERSÃO
+MODIFICADA SE PROVAR DEFEITUOSO EM QUALQUER ASPECTO, VOCÊ (NÃO O ESCRITOR
+INICIAL, AUTOR OU QUALQUER CONTRIBUIDOR) ASSUME O CUSTO DE QUALQUER SERVIÇO
+NECESSÁRIO, REPARO OU CORREÇÃO. ESTA RENÚNCIA DE GARANTIAS CONSTITUI UMA
+PARTE ESSENCIAL DESTA LICENÇA. NENHUM USO DESTE DOCUMENTO OU VERSÃO
+MODIFICADA DESTE DOCUMENTO É AUTORIZADO SE NÃO FOR SOB ESTA RENÚNCIA; E
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>SOB NENHUM CIRCUNSTÂNCIA E SOB NENHUMA TEORIA LEGAL, TANTO EM DADO
+(INCLUINDO NEGLIGÊNCIA), CONTRATO, OU OUTROS, DEVEM O AUTOR, ESCRITOR
+INICIAL, QUALQUER CONTRIBUIDOR, OU QUALQUER DISTRIBUIDOR DO DOCUMENTO OU
+VERSÃO MODIFICADA DO DOCUMENTO, OU QUALQUER FORNECEDOR DE ALGUMA DESSAS
+PARTES, SER CONSIDERADOS RESPONSÁVEIS A QUALQUER PESSOA POR QUALQUER DANO,
+SEJA DIRETO, INDIRETO, ESPECIAL, ACIDENTAL OU CONSEQUENCIAL DE QUALQUER
+INDIVÍDUO, INCLUINDO, SEM LIMITAÇÃO, DANOS POR PERDA DE BOA VONTADE,
+TRABALHO PARADO, FALHA NO COMPUTADOR OU MAL FUNCIONAMENTO, OU QUALQUER E
+TODOS OS OUTROS DANOS OU PERDAS RESULTANTES OU RELACIONADAS AO USO DO
+DOCUMENTO E VERSÕES MODIFICADAS, MESMO QUE TAL PARTE TENHA SIDO INFORMADA DA
+POSSIBILIDADE DE TAIS DANOS.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+

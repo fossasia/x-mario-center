@@ -1,0 +1,12 @@
+[
+ {
+    "application_name": "Ubiteme",
+    "description": "One of the best strategy games you will ever play!",
+    "price": "12.95",
+    "package_name": "hello",
+    "archive_root": "https://private-ppa.launchpad.net/", 
+    "archive_id": "mvo/private-test",
+    "series": {"10.10": ["i386"], "10.04": ["i386", "amd64"]},
+    "categories" : "Application;Games;"
+ }
+]

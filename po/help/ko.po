@@ -1,0 +1,649 @@
+# Korean translation for software-center
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the software-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-09 09:31+0700\n"
+"PO-Revision-Date: 2011-07-17 10:23+0000\n"
+"Last-Translator: Bundo <bundo@bundo.biz>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-12-10 13:12+0000\n"
+"X-Generator: Launchpad (build 14450)\n"
+
+#. type: Attribute 'lang' of: <book>
+#: help/C/software-center.xml:18
+msgid "en"
+msgstr "en"
+
+#. type: Content of: <book><bookinfo><title>
+#: help/C/software-center.xml:22
+msgid "Ubuntu Software Center"
+msgstr "우분투 소프트웨어 센터"
+
+#.  translators: uncomment this:
+#.   <copyright>
+#.    <year>2000</year>
+#.    <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+#.   </copyright>
+#.   
+#.  An address can be added to the publisher information.  If a role is
+#.      not specified, the publisher/author is the same for all versions of the
+#.      document.  
+#.  This file  contains link to license for the documentation (GNU FDL), and
+#.         other legal stuff such as "NO WARRANTY" statement. Please do not change
+#.         any of this. 
+#. type: Content of: <book><bookinfo>
+#: help/C/software-center.xml:34
+msgid ""
+"<publisher> <publishername>Ubuntu Documentation Project</publishername> </"
+"publisher> &legal;"
+msgstr ""
+"<publisher> <publishername>우분투 문서화 프로젝트</publishername> </"
+"publisher> &legal;"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><firstname>
+#: help/C/software-center.xml:43
+msgid "Michael"
+msgstr "Michael"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><surname>
+#: help/C/software-center.xml:44
+msgid "Vogt"
+msgstr "Vogt"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><email>
+#: help/C/software-center.xml:45
+msgid "mvo@ubuntu.com"
+msgstr "mvo@ubuntu.com"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><firstname>
+#: help/C/software-center.xml:48
+msgid "Matthew"
+msgstr "Matthew"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><firstname>
+#: help/C/software-center.xml:49
+msgid "Paul"
+msgstr "Paul"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><surname>
+#: help/C/software-center.xml:50
+msgid "Thomas"
+msgstr "Thomas"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><email>
+#: help/C/software-center.xml:51
+msgid "mpt@ubuntu.com"
+msgstr "mpt@ubuntu.com"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><firstname>
+#: help/C/software-center.xml:54
+msgid "Andrew"
+msgstr "Andrew"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><surname>
+#: help/C/software-center.xml:55
+msgid "Higginson"
+msgstr "Higginson"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><email>
+#: help/C/software-center.xml:56
+msgid "rugby471@gmail.com"
+msgstr "rugby471@gmail.com"
+
+#. type: Content of: <book><bookinfo><abstract><para>
+#: help/C/software-center.xml:60
+msgid "How to install and remove software in Ubuntu."
+msgstr "우분투에서 소프트웨어를 설치하고 제거하는 방법"
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:67
+msgid "What is Ubuntu Software Center?"
+msgstr "우분투 소프트웨어 센터란 무엇인가?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:69
+msgid ""
+"Ubuntu Software Center is a virtual catalog of thousands of free "
+"applications and other software to make your Ubuntu computer more useful."
+msgstr ""
+"우분투 소프트웨어 센터는 우분투 컴퓨터를 더욱 유용하게 만들어주는 수천개의 자"
+"유 응용 프로그램과 다른 소프트웨어를 시각적인 분류 목록을 제공합니다."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:73
+msgid ""
+"You can find software by category or by searching, and you can install an "
+"item with the click of a button."
+msgstr ""
+"소프트웨어를 분류별로 또는 검색을 통해 찾을 수 있고 버튼을 클릭하는 것만으로 "
+"설치할 수 있습니다."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:77
+msgid ""
+"You can also examine which software is installed on the computer already, "
+"and remove anything you no longer need."
+msgstr ""
+"컴퓨터에 설치되어 있는 소프트웨어를 확인할 수 있고 필요없는것은 제거할 수도 "
+"있습니다."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:83
+msgid "Installing software"
+msgstr "소프트웨어 설치 중"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:85
+msgid ""
+"To install something with Ubuntu Software Center, you need administrator "
+"access and a working Internet connection.  (If you set up Ubuntu on this "
+"computer yourself, you have administrator access automatically.)"
+msgstr ""
+"우분투 소프트웨어 센터를 통해 설치하시려면 인터넷 연결이 필요하며 관리자 권한"
+"이 있어야 합니다. (이 컴퓨터에서 우분투를 설정하시면 자동으로 관리자 권한을 "
+"가지게 됩니다.)"
+
+#. type: Content of: <book><chapter><orderedlist><listitem><para>
+#: help/C/software-center.xml:93
+msgid ""
+"In the <guilabel>Get Software</guilabel> section, find the thing you want to "
+"install.  If you already know its name, try typing the name in the search "
+"field.  Or try searching for the type of program you want (like &#8220;"
+"spreadsheet&#8221;).  Otherwise, browse the list of departments."
+msgstr ""
+"<guilabel>소프트웨어 설치</guilabel> 부분에서는, 설치를 원하는 소프트웨어를 "
+"검색하십시오.  이름을 알고 있다면 검색란에 이름을 입력하십시오.  또는 원하는 "
+"프로그램의 종류를 검색하십시오. (like &#8220;spreadsheet&#8221;).  다른 방볍"
+"으로는, 분류 목록을 찾아볼수도 있습니다."
+
+#. type: Content of: <book><chapter><orderedlist><listitem><para>
+#: help/C/software-center.xml:103
+msgid "Select the item in the list, and choose <guilabel>More Info</guilabel>."
+msgstr ""
+"목록에서 항목을 선택한 뒤 <guilabel>정보 더 보기</guilabel>를 선택하십시오."
+
+#. type: Content of: <book><chapter><orderedlist><listitem><para>
+#: help/C/software-center.xml:109
+msgid ""
+"Choose <guilabel>Install</guilabel>.  You may need to enter your Ubuntu "
+"password before the installation can begin."
+msgstr ""
+"<guilabel>설치</guilabel>를 선택하십시오.  설치를 시작하기 전에 당신의 우분"
+"투 암호 입력을 요청할 수도 있습니다."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:116
+msgid ""
+"How long something takes to install depends on how large it is, and the "
+"speed of your computer and Internet connection."
+msgstr "설치할 때에 소요되는 시간은 그 크기와 인터넷 연결 속도에 좌우됩니다."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:120
+msgid ""
+"When the screen changes to say &#8220;Installed&#8221;, the software is "
+"ready to use."
+msgstr ""
+"화면이 바뀌어서&#8220;설치됨&#8221;으로 나타나면, 이 소프트웨어는 사용할 준비"
+"가 된 것입니다."
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:124
+msgid "<xref linkend=\"launching\" endterm=\"launching-title\"/>"
+msgstr "<xref linkend=\"launching\" endterm=\"launching-title\"/>"
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:125
+msgid "<xref linkend=\"missing\" endterm=\"missing-title\"/>"
+msgstr "<xref linkend=\"missing\" endterm=\"missing-title\"/>"
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:130
+msgid "Using a program once it&#8217;s installed"
+msgstr "설치한 프로그램 사용법"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:132
+msgid ""
+"For most programs, once they are installed, you can launch them from the "
+"<guimenu>Applications</guimenu> menu.  (Utilities for changing settings may "
+"appear inside <menuchoice><guimenu>System</guimenu> <guisubmenu>Preferences</"
+"guisubmenu></menuchoice> or <menuchoice><guimenu>System</guimenu> "
+"<guisubmenu>Administration</guisubmenu></menuchoice> instead)."
+msgstr ""
+"대부분의 프로그램은 설치하자마자 <guimenu>프로그램</guimenu> 메뉴에서 실행할 "
+"수 있습니다.  (설정 변경을 위한 유틸리티는 <menuchoice><guimenu>시스템</"
+"guimenu> <guisubmenu>기본 설정</guisubmenu></menuchoice> 또는 "
+"<menuchoice><guimenu>시스템</guimenu> <guisubmenu>관리</guisubmenu></"
+"menuchoice>에 나타날 수도 있습니다. )."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:141
+msgid ""
+"To find out where to launch a new program, navigate to the screen for that "
+"program in Ubuntu Software Center, if it is not still being displayed.  The "
+"menu location should be displayed on that screen, below the colored bar."
+msgstr ""
+"새 프로그램을 어디서 실행할지 찾으려면, 해당 프로그램을 우분투 소프트웨어 센"
+"터에서 찾으십시오 . 색상바 아래에서 메뉴상의 위치를 볼 수 있습니다."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:148
+msgid ""
+"If you are using Ubuntu Netbook Edition, an application appears in the "
+"appropriate category on the home screen."
+msgstr ""
+"우분투 넷북 에디션을 사용한다면 어플리케이션은 홈 스크린의 해당 카테고리에 나"
+"타납니다."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:152
+msgid ""
+"Some items, such as media playback or Web browser plugins, do not appear in "
+"the menus.  They are used automatically when Ubuntu needs them.  For a Web "
+"browser plugin, you may need to close the browser and reopen it before the "
+"plugin will be used."
+msgstr ""
+"미디어 재생 또는 웹 브라우저 플러그인과 같은 몇몇 항목은 메뉴에 나타나지 않습"
+"니다. 이들은 우분투에서 필요할 때 자동으로 사용될 것입니다. 웹 브라우저 플러"
+"그인의 경우에는 브라우저를 닫고 다시 실행하면 플러그인을 사용할 수 있습니다."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:160
+msgid "Removing software"
+msgstr "소프트웨어 제거 중"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:162
+msgid ""
+"To remove software, you need administrator access.  (If you set up Ubuntu on "
+"this computer yourself, you have administrator access automatically.)"
+msgstr ""
+"소프트웨어를 제거하려면 관리 권한이 필요합니다. (이 컴퓨터에 우분투를 설정하"
+"면 관리자 권한을 자동으로 가지게 됩니다.)"
+
+#. type: Content of: <book><chapter><orderedlist><listitem><para>
+#: help/C/software-center.xml:169
+msgid ""
+"In the <guilabel>Installed Software</guilabel> section, find the item you "
+"want to remove."
+msgstr ""
+"<guilabel>설치된 소프트웨어</guilabel> 부분에서 제거하고자 하는 항목을 찾으십"
+"시오."
+
+#. type: Content of: <book><chapter><orderedlist><listitem><para>
+#: help/C/software-center.xml:175
+msgid ""
+"Select the item in the list, and choose <guilabel>Remove</guilabel>.  You "
+"may need to enter your Ubuntu password."
+msgstr ""
+"목록에서 항목을 고르고 <guilabel>제거</guilabel>를 선택합니다. 우분투 암호를 "
+"입력해야 할 수 있습니다."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:181
+msgid ""
+"If a program is open when you remove it, usually it will stay open even "
+"after it is removed.  As soon as you close it, it will no longer be "
+"available."
+msgstr ""
+"실행 중인 프로그램을 제거할 경우, 일반적으로 그 프로그램은 제거 후에도 실행되"
+"어 있을 것입니다. 해당 프로그램을 닫는 순간 더 이상 실행할 수 없게 됩니다."
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:186
+msgid "<xref linkend=\"metapackages\" endterm=\"metapackages-title\"/>"
+msgstr "<xref linkend=\"metapackages\" endterm=\"metapackages-title\"/>"
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:191
+msgid "Why is it asking me to remove several programs together?"
+msgstr "왜 여러 개의 프로그램을 함께 제거할 것인지 묻나요?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:193
+msgid ""
+"Sometimes if you try to remove one item, Ubuntu Software Center will warn "
+"you that other items will be removed too.  There are two main reasons this "
+"happens."
+msgstr ""
+"때때로 하나의 항목 제거 시에 우분투 소프트웨어 센터는 다른 항목도 제거할 것이"
+"라는 경고를 보여줍니다. 이러한 경우는 크게 두가지 이유가 있습니다."
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:200
+msgid ""
+"If you remove an application, any add-ons or plugins for that application "
+"usually will be removed too."
+msgstr ""
+"응용 프로그램을 제거하는 경우 그 응용 프로그램의 모든 애드온 및 플러그인도 함"
+"께 제거됩니다."
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:206
+msgid ""
+"Multiple applications are sometimes provided as a single package.  If any of "
+"them are installed, all of them are installed.  And if any of them are "
+"removed, all of them are removed.  Ubuntu Software Center cannot remove them "
+"individually, because it has no instructions on how to separate them."
+msgstr ""
+"때때로 여러개의 응용 프로그램이 하나의 패키지로 제공될 수도 있습니다. 그중 하"
+"나를 설치하면 패키지의 모든 프로그램을 설치합니다. 그중 하나를 삭제하면 모든 "
+"프로그램을 삭제합니다. 패키지를 분리할 방법을 알 수 없으므로 우분투 소프트웨"
+"어 센터는 패키지의 일부만 제거할 수 없습니다."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:215
+msgid ""
+"You can use the <guilabel>Main Menu</guilabel> settings to hide unwanted "
+"items without removing them from the computer.  In Ubuntu, you can find "
+"<guilabel>Main Menu</guilabel> inside <menuchoice><guimenu>System</guimenu> "
+"<guisubmenu>Preferences</guisubmenu></menuchoice>.  In Ubuntu Netbook "
+"Edition, it is in <menuchoice><guimenu>Settings</guimenu> "
+"<guisubmenu>Preferences</guisubmenu></menuchoice>."
+msgstr ""
+"원하지 않는 항목의 경우 <guilabel>주메뉴</guilabel>에서 제거하지 않고 숨기도"
+"록 설정할 수 있습니다.  우분투에서는 <guilabel>주메뉴</guilabel>는 "
+"<menuchoice><guimenu>시스템</guimenu> <guisubmenu>기본설정</guisubmenu></"
+"menuchoice>에서 찾을 수 있습니다.  우분투 넷북 에디션에서는 "
+"<menuchoice><guimenu>설정</guimenu> <guisubmenu>기본 설정</guisubmenu></"
+"menuchoice>에 있습니다.."
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:226
+msgid ""
+"<ulink url=\"ghelp:user-guide?menu-editor\" >Customizing the menu bar</ulink>"
+msgstr "<ulink url=\"ghelp:user-guide?menu-editor\" >메뉴 바 설정하기</ulink>"
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:232
+msgid "What is &#8220;Canonical-maintained&#8221;?"
+msgstr "&#8221;우분투에 의해서 제공됨&#8221;이란 무엇인가요?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:234
+msgid ""
+"Some of the software available for Ubuntu is maintained by Canonical.  "
+"Canonical engineers ensure that security fixes and other critical updates "
+"are provided for these programs."
+msgstr ""
+"우분투에서 사용가능한 몇몇의 소프트웨어는 캐노니컬에서 유지보수를 합니다. 캐"
+"노니컬 엔지니어는 이런 프로그램의 보안 업데이트와 다른 중대한 업데이트를 제공"
+"할 것을 보증합니다."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:240
+msgid ""
+"Other software is maintained by the Ubuntu developer community.  Any updates "
+"are provided on a best-effort basis."
+msgstr ""
+"다른 소프트웨어는 우분투 개발자 커뮤니티에서 유지보수합니다. 모든 업데이트는 "
+"최대한 노력한다는 원칙 하에 제공합니다."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:245
+msgid "What is &#8220;Canonical Partners&#8221;?"
+msgstr "&#8221;캐노니컬 파트너&#8221;란 무엇인가요?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:247
+msgid ""
+"<guilabel>Canonical Partners</guilabel> shows software from vendors who have "
+"worked with Canonical to make their software available for Ubuntu."
+msgstr ""
+"<guilabel>캐노니컬 파트너</guilabel>는 자신의 소프트웨어를 우분투에서 사용할 "
+"수 있도록 만들 위해 캐노니컬과 협력하는 제공자의 소프트웨어를 보여줍니다."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:251
+msgid ""
+"You can install this software in the same way as any other software in "
+"Ubuntu Software Center."
+msgstr ""
+"우분투 소프트웨어 센터의 다른 소프트웨어와 같은 방법으로 이 소프트웨어를 설치"
+"할 수 있습니다."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:256
+msgid "Do I need to pay anything?"
+msgstr "금액을 지불해야 합니까?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:258
+msgid "Most software in Ubuntu Software Center is free of charge."
+msgstr "우분투 소프트웨어 센터의 대부분의 소프트웨어는 무료입니다."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:261
+msgid ""
+"If something costs money, it has a <guilabel>Buy</guilabel> button instead "
+"of an <guilabel>Install</guilabel> button, and its price is shown on the "
+"screen for the individual item."
+msgstr ""
+"금액을 지불해야 하는 경우 <guilabel>설치</guilabel> 버튼대신 <guilabel>구매</"
+"guilabel> 버튼이 표시되고 각 항목의 화면마다 가격을 보여줍니다."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:267
+msgid ""
+"To pay for commercial software, you need an Internet connection, and an "
+"Ubuntu Single Sign On account or Launchpad account.  If you do not have an "
+"account, Ubuntu Software Center will help you register one."
+msgstr ""
+"상업용 소프트웨어에 금액을 지불하기 위해서는 인터넷에 연결되어 있어야 하며 "
+"Ubuntu Single Sign On 계정이나 런치패드 계정이 필요합니다. 계정이 없으시다면 "
+"우분투 소프트웨어 센터가 등록을 도와 드립니다."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:275
+msgid "What if I paid for software and then lost it?"
+msgstr "구매한 소프트웨어를 유실하였다면 어떻게 해야 하나요?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:278
+msgid ""
+"If you accidentally removed software that you purchased, and you want it "
+"back, choose <menuchoice><guimenu>File</guimenu> <guimenuitem>Reinstall "
+"Previous Purchases</guimenuitem></menuchoice>."
+msgstr ""
+"구매한 소프트웨어를 실수로 삭제하여서 원상태로 복귀하고 싶다면"
+"<menuchoice><guimenu>파일</guimenu> <guimenuitem>샀던 항목 다시 깔기</"
+"guimenuitem></menuchoice>를 선택하시면 됩니다."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:284
+msgid ""
+"Once you sign in to the account that you used to buy the software, Ubuntu "
+"Software Center will display your purchases for reinstalling."
+msgstr ""
+"소프트웨어를 구매할 때의 계정으로 로그인하면 우분투 소프트웨어 센터에서는 재"
+"설치할 수 있는 구매본을 보여줍니다."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:288
+msgid "This works even if you have reinstalled Ubuntu on the computer."
+msgstr "이 기능은 컴퓨터에 우분투를 재설치하더라도 동일하게 작동합니다."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:293
+msgid "What if a program I want isn&#8217;t available?"
+msgstr "내가 필요한 프로그램이 없다면 어떻게 해야 하나요?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:295
+msgid ""
+"First, check that <menuchoice><guimenu>View</guimenu> <guimenuitem>All "
+"Software</guimenuitem></menuchoice> is selected."
+msgstr ""
+"먼저, <menuchoice><guimenu>보기</guimenu> <guimenuitem>모든 소프트웨어</"
+"guimenuitem></menuchoice>를 선택하였는지 확인하십시오."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:299
+msgid ""
+"If the software you want still isn&#8217;t there, but you know that it runs "
+"on Ubuntu, try contacting the original developers of the program to ask if "
+"they can help make it available."
+msgstr ""
+"당신이 원하는 소프트웨어가 우분투에서 실행될 수 있다는 것을 알고 있지만 여전"
+"히 찾을 수 없다면 프로그램 개발자에게 연락하여 우분투 소프트웨어 센터에 등록"
+"될 수 있도록 도울 수 있는지 물어보십시오."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:305
+msgid ""
+"If a program is available for other operating systems but not for Ubuntu, "
+"let the developers know that you&#8217;re interested in running it on Ubuntu."
+msgstr ""
+"프로그램이 다른 운영 체제에서만 사용이 가능하다면 당신이 그 프로그램을 우분투"
+"에서 사용하고싶어한다는 것을 개발자에게 알리십시오."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:312
+msgid "What if a program doesn&#8217;t work?"
+msgstr "프로그램이 동작하지 않는다면 어떻게 해야 하나요?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:314
+msgid ""
+"With tens of thousands of programs in Ubuntu Software Center, there&#8217;s "
+"always the chance that a few of them won&#8217;t work properly on your "
+"computer."
+msgstr ""
+"우분투 소프트웨어 센터에는 수만개의 프로그램이 있습니다. 몇몇 개 정도는 올바"
+"르게 작동하지 않는 경우가 있을 수 있습니다."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:319
+msgid ""
+"If you are familiar with reporting bugs in software, you can help out by "
+"reporting the problem to the Ubuntu developers.  Most programs have a "
+"<guimenuitem>Report a Problem</guimenuitem> item in their <guimenu>Help</"
+"guimenu> menu."
+msgstr ""
+"소프트웨어의 버그 보고에 익숙하다면 우분투 개발자에게 문제점을 보고하셔서 도"
+"움을 주실 수 있습니다. 대부분의 프로그램은 <guimenu>도움말</guimenu> 메뉴에 "
+"<guimenuitem>문제점 보고</guimenuitem> 항목이 있습니다."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:325
+msgid ""
+"Otherwise, look through Ubuntu Software Center for another program to do "
+"what you want."
+msgstr ""
+"아니면, 우분투 소프트웨어 센터에서 당신이 원하는 다른 프로그램을 찾으십시오."
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:329
+msgid "<xref linkend=\"removing\" endterm=\"removing-title\"/>"
+msgstr "<xref linkend=\"removing\" endterm=\"removing-title\"/>"
+
+#. type: Content of: <legalnotice><para>
+#: help/C/legal.xml:3
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts.  You can find a "
+"copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> "
+"or in the file COPYING-DOCS distributed with this manual."
+msgstr ""
+"변경불가부분(變更不可部分, invariant section), 표지구절(表紙句節, cover "
+"texts, 문서가 본 사용 허가서에 의해서 배포된다는 사실이 문서의 앞 표지나 뒷 "
+"표지에 언급되는 짧은 문장을 의미)을 포함하지 않는, 자유 소프트웨어 재단이 공"
+"표한 GNU 자유 문서 허가서 (GFDL) 버전 1.1 또는 이후 버전의 약정하에 이 문서"
+"를 복사, 배포, 변경할 수 있음을 승인합니다.  GFDL의 복사본은 이 <ulink type="
+"\"help\" url=\"ghelp:fdl\">link</ulink> 또는 이 설명서와 함께 배포한 COPYING-"
+"DOCS에 있습니다."
+
+#. type: Content of: <legalnotice><para>
+#: help/C/legal.xml:12
+msgid ""
+"This manual is part of a collection of GNOME manuals distributed under the "
+"GFDL.  If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"section 6 of the license."
+msgstr ""
+"이 설명서는 GFDL의 약정하에서 배포하는 그놈 설명서 모음집의 일부입니다. 모음"
+"집과 따로 분리하여 배포하고 싶다면 6절에 서술되어는대로 설명서에 허가서의 복"
+"사본을 추가함으로써 가능합니다."
+
+#. type: Content of: <legalnotice><para>
+#: help/C/legal.xml:20
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and the members of the GNOME Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"기업의 제품과 서비스를 식별하기 위해 사용된 많은 이름은 상표로 간주됩니다. 그"
+"놈 문서에 사용된 이름과 그놈 문서 프로젝트의 구성원은 해당 상표로, 모두 대문"
+"자로 표시되거나 첫 글자가 대문자로 표시되어 있습니다."
+
+#. type: Content of: <legalnotice><para><orderedlist><listitem><para>
+#: help/C/legal.xml:35
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"문서는 \"있는 그대로\"로 제공되며 상품성, 특정 목적에의 적합성 또는 준수에 대"
+"한 보증을 비롯한 일체의 명시적 또는 암시적인 보증을 제한 없이 부인합니다. 문"
+"서 및 수정판의 품질, 정확성 및 성능에 대한 책임은 전적으로 사용자에게 있습니"
+"다. 문서 또는 수정판에 대한 오류를 입증하려면 사용자(원저작자, 저작자 또는 배"
+"포자 아님)는 필요한 서비스, 수리 및 수정 비용을 부담해야 합니다. 본 보증 부인"
+"은 라이센스의 필수 부분에 해당합니다. 본 보증 부인을 따르지 않는 모든 문서나 "
+"수정판은 사용할 수 없습니다."
+
+#. type: Content of: <legalnotice><para><orderedlist><listitem><para>
+#: help/C/legal.xml:55
+msgid ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+
+#. type: Content of: <legalnotice><para>
+#: help/C/legal.xml:29
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<placeholder type=\"orderedlist\" id=\"0\"/>"
+msgstr ""
+"문서와 수정한 버전의 문서는 GNU 자유 문서 허가서의 약정하에서 제공합니다. 더 "
+"자세한 사항은 다음에 있습니다.: <placeholder type=\"orderedlist\" id=\"0\"/>"

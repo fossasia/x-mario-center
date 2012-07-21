@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" 
+	"http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+]>
+
+
+
+<!--<?yelp:chunk-depth 4?>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 3.0
+  Last modified: Sep 8, 2010
+  Maintainers:
+               Michael Vogt <mvo@ubuntu.com>
+
+               
+  Translators:
+               (translators put your name and email here)
+-->
+<!-- =============Document Header ============================= -->
+<book id="index" lang="ru">
+  
+  
+  <!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<bookinfo>
+    <!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<title>Центр приложений Ubuntu</title>
+    
+    
+    <!-- translators: uncomment this:
+
+  <copyright>
+
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+<!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+<publisher> <publishername>Документация Ubuntu</publishername> </publisher>
+&legal;
+    
+    <authorgroup>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Vogt</surname>
+        <email>mvo@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Matthew</firstname>
+        <firstname>Paul</firstname>
+        <surname>Thomas</surname>
+        <email>mpt@ubuntu.com</email>
+      </author>
+      <author>
+        <firstname>Andrew</firstname>
+        <surname>Higginson</surname>
+        <email>rugby471@gmail.com</email>
+      </author>
+    </authorgroup>
+    <abstract>
+      <para>Как установить или удалить программы в Ubuntu.</para>
+    </abstract> 
+  </bookinfo> 
+  
+
+  
+  <chapter id="introduction">
+    <title>Что такое Центр приложений Ubuntu?</title>
+    <para>
+      Центр приложений Ubuntu — это виртуальный каталог тысяч бесплатных
+приложений и другого программного обеспечения для вашего компьютера.
+    </para>
+    <para>
+      Вы можете найти необходимое приложение по категории или через поиск и
+установить его одним кликом мыши.
+    </para>
+    <para>
+      Вы также можете просмотреть, какие программы установлены на компьютере и
+удалить те, которые уже не нужны.
+    </para>
+  </chapter>
+  <chapter id="installing">
+    <title>Установка программ</title>
+    <para>
+      Чтобы установить что-либо с помощью Центра приложений Ubuntu, у вас должны
+быть полномочия администратора и работающее соединение с интернетом. (Если
+вы установили Ubuntu на этом компьютере самостоятельно, у вас автоматически
+есть полномочия администратора.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          В разделе <guilabel>Установить приложения</guilabel> найдите то, что вы
+хотите установить.  Если вам известно название, попробуйте набрать его в
+поле поиска.  Или попробуйте поиск по типу желаемой прогрммы (например
+&#8220;Электронные таблицы&#8221;).  Ещё можете просмотреть список разделов.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Выберите позицию в списке и нажмите <guilabel>Подробнее</guilabel>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Нажмите <guilabel>Установить</guilabel>.  Возможно потребуется ввести ваш
+пароль к Ubuntu перед тем, как начнётся установка.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Время установки чего-либо зависит от его размера, а также от скорости вашего
+компьютера и скорости соединения с Интернетом.
+    </para>
+    <para>
+      Когда на экране появится &#8220;Установлено&#8221;, программное обеспечение
+готово к использованию.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="launching" endterm="launching-title"/></para></listitem>
+      <listitem><para><xref linkend="missing" endterm="missing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="launching">
+    <title id="launching-title"
+    >Использование программы после ее установки</title>
+    <para>
+      Большинство установленных программ находятся в
+меню<guimenu>Приложения</guimenu>.  (Инструменты для настройки системы
+находятся внутри меню <menuchoice><guimenu>Система</guimenu>
+<guisubmenu>Параметры</guisubmenu></menuchoice> или
+<menuchoice><guimenu>Система</guimenu>
+<guisubmenu>Адимнистрирование</guisubmenu></menuchoice>).
+    </para>
+    <para>
+      Чтобы узнать, откуда запускать новую программу, откройте страницу этой
+программы в центре приложений Ubuntu, если она ещё не отображается. Ниже
+цветной полосы должно отобразиться меню с местоположением программы.
+    </para>
+    <para>
+      Если вы используете версию Ubuntu для нетбуков, то приложение отображается в
+соответствующей категории на домашнем экране.
+    </para>
+    <para>
+      Некоторые элементы, такие как воспроизведение аудио/видео информации или
+плагины Веб-браузера, не представлены здесь. Они автоматически используются,
+когда в них есть необходимость. Для плагина Веб-браузера, Вам может
+понадобится перезапустить браузер, чтобы начать использовать плагин.
+    </para>
+  </chapter>
+  <chapter id="removing">
+    <title id="removing-title">Удаление программ</title>
+    <para>
+      Чтобы удалить программное обеспечение, у вас должны быть полномочия
+администратора. (Если вы установили Ubuntu на этом компьютере
+самостоятельно, у вас автоматически есть полномочия администратора.)
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          В разделе <guilabel>Установленное программное обеспечение</guilabel> найдите
+программу, которую вы хотите удалить.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Выберите пункт списка и нажмите <guilabel>Удалить</guilabel>. Вам может
+потребоваться ввести ваш пароль к Ubuntu.
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      Если программа была открыта, когда вы её удалили, она обычно остаётся
+открытой даже после удаления. Как только вы закроете её, она пропадёт
+окончательно.
+    </para>
+    <itemizedlist>
+      <listitem><para><xref linkend="metapackages" endterm="metapackages-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="metapackages">
+    <title id="metapackages-title"
+    >Почему меня просят удалить несколько программ одновременно?</title>
+    <para>
+      Иногда при попытке удалить один элемент, центр приложений Ubuntu предупредит
+вас, что будут удалены ещё и другие элементы. Это происходит по двум
+причинам.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Если вы удаляете приложение, все его дополнения и плагины обычно тоже
+удаляются.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Несколько приложений иногда поставляются в одном пакете. Если одно из них
+устанавливается, все остальные тоже устанавливаются. И если какое-либо из
+них удаляется, все остальные тоже удаляются. Центр приложений Ubuntu не
+может удалить из по отдельности потому, что неизвестно, как их отделить одно
+от другого.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Вы можете использовать настройки <guilabel>Главное меню</guilabel>, чтобы
+скрыть нежелательные элементы без удаления их с компьютера.  В Ubuntu пункт
+<guilabel>Главное меню</guilabel> можно найти внутри
+<menuchoice><guimenu>Система</guimenu>
+<guisubmenu>Параметры</guisubmenu></menuchoice>.  В Ubuntu Netbook Edition
+этот пункт в <menuchoice><guimenu>Настройки</guimenu>
+<guisubmenu>Параметры</guisubmenu></menuchoice>.
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="ghelp:user-guide?menu-editor" >Настройка панели меню</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </chapter>
+  <chapter id="canonical-maintained">
+    <title>Что такое &#8220;разрабатываемые Canonical&#8221;?</title>
+    <para>
+      Некоторые программы для Ubuntu поддерживаются Canonical. Инженеры Canonical
+обеспечивают исправление ошибок и устранение уязвимостей для этих программ.
+    </para>
+    <para>
+      Другие приложения поддерживаются сообществом разработчиков Ubuntu. Любые
+обновления предоставляются максимально быстро.
+    </para>
+  </chapter>
+  <chapter id="canonical-partners">
+    <title>Что такое &#8220;Партнёры Canonical&#8221;?</title>
+    <para>
+      <guilabel>Партнёры Canonical</guilabel> показывает программное обеспечение
+от производителей, работающих с Canonical, чтобы сделать их продукты
+доступными для Ubuntu.
+    </para>
+    <para>
+      Вы можете установить это программное обеспечение точно так же, как и любое
+другое в Центре приложений Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="commercial">
+    <title id="commercial-title">Нужно ли мне за что-нибудь платить?</title>
+    <para>
+      Большинство программного обеспечения в центре приложений Ubuntu — бесплатно.
+    </para>
+    <para>
+      Если приложение платное, то вместо кнопки <guilabel>Установить</guilabel>
+появится кнопка <guilabel>Купить</guilabel>, и будет указана стоимость для
+отдельного элемента.
+    </para>
+    <para>
+      Чтобы заплатить за коммерческое программное обеспечение, вам понадобится
+соединение с Интернетом и учётная запись Ubuntu Single Sign On или
+Launchpad. Если у вас нет учётной записи, центр приложений Ubuntu поможет её
+создать.
+    </para>
+  </chapter>
+  <chapter id="commercial-reinstalling">
+    <title id="commercial-reinstalling-title">
+      Что делать, если я заплатил за программу, а потом потерял её?
+    </title>
+    <para>
+      Если вы случайно удалили приобретённое программное обеспечение и хотите его
+вернуть обратно, выберите пункт меню <menuchoice><guimenu>Файл</guimenu>
+<guimenuitem>Переустановить приобретённые ранее
+приложения</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      После входа в учётную запись, используемую для покупки программного
+обеспечения, центр приложений Ubuntu покажет ваши покупки для переустановки.
+    </para>
+    <para>
+      Это работает, даже если вы переустановили Ubuntu на компьютере.
+    </para>
+  </chapter>
+  <chapter id="missing">
+    <title id="missing-title"
+    >Что делать, если желаемая программа недоступна?</title>
+    <para>
+      Вначале проверьте что выбрано <menuchoice><guimenu>Вид</guimenu>
+<guimenuitem>Все приложения</guimenuitem></menuchoice>.
+    </para>
+    <para>
+      Если желаемая программа отсутствует там, но вы знаете что она работает в
+Ubuntu, попробуйте связаться с разработчиками этой программы и попросите их
+сделать её доступной в Ubuntu.
+    </para>
+    <para>
+      Если программа доступна для других операционных систем, но не для Ubuntu,
+попробуйте сообщить разработчикам о том, что Вы хотите, чтобы программа
+работала под Ubuntu.
+    </para>
+  </chapter>
+  <chapter id="bugs">
+    <title id="bugs-title"
+    >Что делать, если программа не работает?</title>
+    <para>
+      Учитывая, что в Центре приложений Ubuntu находятся десятки тысяч программ,
+всегда есть шанс что некоторые из них будут плохо работать на вашем
+компьютере.
+    </para>
+    <para>
+      Если вы знакомы с Отчетами об ошибках в программном обеспечении, вы можете
+помочь, сообщив об этом проблеме разработчикам Ubuntu. Большинство программ
+имеет пункт меню <guimenuitem>Отчет об ошибке</guimenuitem> в меню
+<guimenu>Справка</guimenu>.
+    </para>
+    <para>
+      В противном случае, посмотрите в центре приложений Ubuntu другую программу
+для своих целей.
+    </para>
+    <itemizedlist>
+     <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>
+    </itemizedlist>
+  </chapter>
+</book>

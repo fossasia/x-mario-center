@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=zynjacku-fake
+X-AppInstall-Popcon=9
+X-AppInstall-Section=fake-component
+
+Type=Application
+Name=Zynjacku Test
+GenericName=LV2 synths host
+Comment=LV2 synths host for JACK, test edition
+Icon=zynjacku32x32
+Exec=zynjacku 
+Terminal=false
+Categories=AudioVideo;Audio;
+X-Ubuntu-Gettext-Domain=app-install-data
